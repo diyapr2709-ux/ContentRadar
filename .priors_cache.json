@@ -1,0 +1,46 @@
+{
+  "sciencedaily.com": {
+    "n": 36,
+    "mean_score": 0.8284
+  },
+  "medium.com": {
+    "n": 57,
+    "mean_score": 0.5686
+  },
+  "healthline.com": {
+    "n": 28,
+    "mean_score": 0.7754
+  },
+  "pubmed.ncbi.nlm.nih.gov": {
+    "n": 64,
+    "mean_score": 0.73
+  },
+  "statnews.com": {
+    "n": 9,
+    "mean_score": 0.7911
+  },
+  "youtube.com": {
+    "n": 68,
+    "mean_score": 0.5134
+  },
+  "towardsdatascience.com": {
+    "n": 2,
+    "mean_score": 0.717
+  },
+  "sulbhajain.medium.com": {
+    "n": 1,
+    "mean_score": 0.476
+  },
+  "huggingface.co": {
+    "n": 15,
+    "mean_score": 0.6814
+  },
+  "technologyreview.com": {
+    "n": 3,
+    "mean_score": 0.8433
+  },
+  "toobler.medium.com": {
+    "n": 1,
+    "mean_score": 0.497
+  }
+}

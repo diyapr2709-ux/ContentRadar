@@ -4,3 +4,13 @@ lxml>=4.9.0
 langdetect>=1.0.9
 youtube-transcript-api>=0.6.2
 python-dotenv>=1.0.0
+anthropic>=0.100.0
+
+# Optional. When installed, _is_relevant adds a cosine-similarity gate on top
+# of the keyword two-gate (catches articles that pass keywords but are
+# tangentially relevant). Falls back to keyword-only when absent.
+# Heavyweight (~800MB with torch); leave commented unless you want the gate.
+# sentence-transformers>=2.7.0
+
+# Optional. Test runner. `pytest tests/` once installed.
+# pytest>=8.0.0

@@ -1,0 +1,488 @@
+{
+  "stroke": {
+    "terms": [
+      "stroke",
+      "cerebrovascular accident",
+      "ischemic stroke",
+      "hemorrhagic stroke",
+      "transient ischemic attack",
+      "tia",
+      "brain attack",
+      "cerebral infarction",
+      "intracranial hemorrhage",
+      "stroke recovery"
+    ],
+    "slugs": [
+      "stroke-prevention-guide",
+      "ischemic-vs-hemorrhagic-stroke",
+      "stroke-recovery-rehabilitation",
+      "tia-transient-ischemic-attack",
+      "stroke-risk-factors-warning-signs"
+    ],
+    "is_technical": false,
+    "pubmed_filter": ""
+  },
+  "vector databases": {
+    "terms": [
+      "vector databases",
+      "embedding storage",
+      "semantic search",
+      "vector similarity search",
+      "approximate nearest neighbor",
+      "high-dimensional indexing",
+      "faiss",
+      "milvus",
+      "pinecone",
+      "weaviate"
+    ],
+    "slugs": [
+      "vector-databases-explained",
+      "semantic-search-embeddings",
+      "vector-similarity-search-guide",
+      "approximate-nearest-neighbor-search",
+      "ai-vector-database-tutorial"
+    ],
+    "is_technical": true,
+    "pubmed_filter": "vector database OR embedding vector OR semantic similarity OR approximate nearest neighbor OR vector indexing"
+  },
+  "vaccines": {
+    "terms": [
+      "vaccination",
+      "immunization",
+      "vaccine development",
+      "vaccine safety",
+      "vaccine efficacy",
+      "vaccine hesitancy",
+      "mrna vaccines",
+      "viral vector vaccines",
+      "herd immunity",
+      "adverse events"
+    ],
+    "slugs": [
+      "vaccine-development",
+      "vaccine-safety-efficacy",
+      "mrna-vaccines-explained",
+      "vaccine-hesitancy-misinformation",
+      "immunization-schedules",
+      "vaccine-adverse-events"
+    ],
+    "is_technical": false,
+    "pubmed_filter": ""
+  },
+  "prompt engineering": {
+    "terms": [
+      "prompt engineering",
+      "prompt design",
+      "prompt optimization",
+      "llm prompting",
+      "prompt injection",
+      "few-shot prompting",
+      "chain of thought prompting",
+      "prompt templates",
+      "instruction tuning"
+    ],
+    "slugs": [
+      "prompt-engineering-guide",
+      "how-to-write-better-prompts",
+      "llm-prompt-optimization",
+      "prompt-injection-security",
+      "ai-prompt-techniques"
+    ],
+    "is_technical": true,
+    "pubmed_filter": "prompt engineering OR prompt design OR (large language model AND prompt) OR instruction tuning OR few-shot learning"
+  },
+  "sleep science": {
+    "terms": [
+      "sleep science",
+      "sleep physiology",
+      "circadian rhythm",
+      "sleep architecture",
+      "sleep disorders",
+      "sleep quality",
+      "sleep research",
+      "sleep biology"
+    ],
+    "slugs": [
+      "sleep-science-guide",
+      "circadian-rhythm-sleep",
+      "sleep-disorders-treatment",
+      "sleep-quality-improvement",
+      "sleep-physiology-explained",
+      "sleep-stages-rem-nrem"
+    ],
+    "is_technical": false,
+    "pubmed_filter": ""
+  },
+  "crispr gene editing": {
+    "terms": [
+      "crispr cas9",
+      "gene editing",
+      "genome editing",
+      "crispr therapy",
+      "gene therapy",
+      "genetic engineering",
+      "off-target effects",
+      "crispr applications"
+    ],
+    "slugs": [
+      "crispr-gene-editing-guide",
+      "how-crispr-works",
+      "crispr-therapeutic-applications",
+      "crispr-ethics-future",
+      "gene-therapy-breakthroughs"
+    ],
+    "is_technical": false,
+    "pubmed_filter": ""
+  },
+  "kubernetes": {
+    "terms": [
+      "kubernetes",
+      "container orchestration",
+      "k8s",
+      "docker orchestration",
+      "microservices deployment",
+      "container management",
+      "kubernetes cluster",
+      "pod scheduling",
+      "containerized applications"
+    ],
+    "slugs": [
+      "kubernetes-guide",
+      "container-orchestration-basics",
+      "k8s-deployment",
+      "microservices-kubernetes",
+      "docker-kubernetes-setup"
+    ],
+    "is_technical": true,
+    "pubmed_filter": "kubernetes OR container orchestration OR containerization OR microservices OR DevOps automation"
+  },
+  "microbiome": {
+    "terms": [
+      "microbiome",
+      "gut microbiota",
+      "bacterial diversity",
+      "microbiome composition",
+      "dysbiosis",
+      "commensal bacteria",
+      "microbiome-gut-brain axis",
+      "metagenomics"
+    ],
+    "slugs": [
+      "gut-microbiome-health",
+      "microbiota-diversity-disease",
+      "microbiome-diet-nutrition",
+      "dysbiosis-treatment",
+      "microbiome-mental-health"
+    ],
+    "is_technical": false,
+    "pubmed_filter": ""
+  },
+  "ai safety": {
+    "terms": [
+      "ai safety",
+      "alignment problem",
+      "existential risk",
+      "ai robustness",
+      "adversarial attacks",
+      "interpretability",
+      "ai ethics",
+      "control problem",
+      "safe reinforcement learning"
+    ],
+    "slugs": [
+      "ai-safety-alignment",
+      "machine-learning-robustness",
+      "ai-existential-risk",
+      "neural-network-interpretability",
+      "adversarial-ai-security"
+    ],
+    "is_technical": true,
+    "pubmed_filter": "machine learning OR deep learning OR neural network OR artificial intelligence OR reinforcement learning"
+  },
+  "ozempic": {
+    "terms": [
+      "semaglutide",
+      "glp-1 receptor agonist",
+      "weight loss medication",
+      "diabetes treatment",
+      "tirzepatide",
+      "injectable diabetes drug",
+      "appetite suppressant",
+      "metabolic health"
+    ],
+    "slugs": [
+      "ozempic-weight-loss",
+      "semaglutide-diabetes-guide",
+      "glp-1-agonists-explained",
+      "ozempic-side-effects",
+      "diabetes-medication-comparison",
+      "ozempic-off-label-use"
+    ],
+    "is_technical": false,
+    "pubmed_filter": ""
+  },
+  "diabetes": {
+    "terms": [
+      "diabetes mellitus",
+      "type 2 diabetes",
+      "type 1 diabetes",
+      "gestational diabetes",
+      "blood glucose management",
+      "insulin resistance",
+      "prediabetes",
+      "diabetic complications",
+      "glycemic control"
+    ],
+    "slugs": [
+      "diabetes-prevention-diet",
+      "type-2-diabetes-management",
+      "blood-sugar-monitoring",
+      "insulin-therapy-guide",
+      "diabetes-complications-explained",
+      "prediabetes-reversal"
+    ],
+    "is_technical": false,
+    "pubmed_filter": ""
+  },
+  "climate change": {
+    "terms": [
+      "climate change",
+      "global warming",
+      "greenhouse gas emissions",
+      "carbon dioxide",
+      "climate crisis",
+      "environmental degradation",
+      "climate adaptation",
+      "net zero emissions"
+    ],
+    "slugs": [
+      "climate-change-health-impacts",
+      "global-warming-environment",
+      "carbon-emissions-reduction",
+      "climate-crisis-solutions",
+      "sustainable-living-guide"
+    ],
+    "is_technical": false,
+    "pubmed_filter": ""
+  },
+  "quantum computing": {
+    "terms": [
+      "quantum computing",
+      "quantum algorithms",
+      "quantum entanglement",
+      "quantum gates",
+      "quantum error correction",
+      "quantum supremacy",
+      "qubit",
+      "quantum hardware",
+      "quantum software",
+      "quantum machine learning"
+    ],
+    "slugs": [
+      "quantum-computing-basics",
+      "quantum-algorithms-explained",
+      "quantum-computers-future",
+      "quantum-computing-applications",
+      "quantum-hardware-development",
+      "quantum-machine-learning"
+    ],
+    "is_technical": true,
+    "pubmed_filter": "quantum computing OR quantum algorithm OR qubit OR quantum entanglement OR quantum error correction"
+  },
+  "parkinsons disease": {
+    "terms": [
+      "parkinsons disease",
+      "parkinson's",
+      "pd neurodegeneration",
+      "dopamine deficiency",
+      "lewy bodies",
+      "tremor rigidity bradykinesia",
+      "motor symptoms parkinson",
+      "non-motor symptoms parkinson",
+      "parkinson treatment",
+      "parkinsons progression"
+    ],
+    "slugs": [
+      "parkinsons-disease-guide",
+      "parkinsons-symptoms-treatment",
+      "living-with-parkinsons",
+      "parkinsons-research-breakthroughs",
+      "parkinsons-medication-management"
+    ],
+    "is_technical": false,
+    "pubmed_filter": ""
+  },
+  "cybersecurity": {
+    "terms": [
+      "cybersecurity",
+      "cyber threat",
+      "network security",
+      "data breach",
+      "information security",
+      "cyber attack",
+      "malware",
+      "encryption"
+    ],
+    "slugs": [
+      "cybersecurity-best-practices",
+      "data-breach-prevention",
+      "network-security-guide",
+      "cyber-attack-protection",
+      "encryption-security"
+    ],
+    "is_technical": true,
+    "pubmed_filter": "cybersecurity OR cyber threat OR network security OR data breach OR information security OR malware OR encryption"
+  },
+  "bitcoin": {
+    "terms": [
+      "bitcoin",
+      "cryptocurrency",
+      "blockchain",
+      "bitcoin mining",
+      "bitcoin price",
+      "bitcoin adoption",
+      "digital currency",
+      "bitcoin security",
+      "bitcoin regulation"
+    ],
+    "slugs": [
+      "bitcoin-guide",
+      "cryptocurrency-health-impacts",
+      "blockchain-technology",
+      "bitcoin-mining-explained",
+      "digital-currency-future"
+    ],
+    "is_technical": true,
+    "pubmed_filter": "blockchain OR bitcoin OR cryptocurrency OR distributed ledger OR consensus algorithm"
+  },
+  "tuberculosis": {
+    "terms": [
+      "tuberculosis",
+      "tb infection",
+      "mycobacterium tuberculosis",
+      "pulmonary tuberculosis",
+      "latent tuberculosis",
+      "drug-resistant tuberculosis",
+      "tb treatment",
+      "tb diagnosis",
+      "tb prevention"
+    ],
+    "slugs": [
+      "tuberculosis-treatment-guide",
+      "tb-diagnosis-screening",
+      "drug-resistant-tuberculosis",
+      "latent-tb-infection",
+      "tuberculosis-prevention-vaccine"
+    ],
+    "is_technical": false,
+    "pubmed_filter": ""
+  },
+  "react.js": {
+    "terms": [
+      "react.js",
+      "react javascript library",
+      "component-based ui",
+      "jsx syntax",
+      "virtual dom",
+      "react hooks",
+      "state management react",
+      "react frontend development"
+    ],
+    "slugs": [
+      "react-js-tutorial",
+      "react-components-guide",
+      "jsx-react-beginner",
+      "react-hooks-state-management",
+      "react-frontend-framework"
+    ],
+    "is_technical": true,
+    "pubmed_filter": "react javascript OR react framework OR react library OR component-based UI OR virtual DOM OR JSX OR react hooks"
+  },
+  "gene therapy": {
+    "terms": [
+      "gene therapy",
+      "genetic therapy",
+      "gene editing",
+      "crispr therapy",
+      "gene transfer",
+      "therapeutic gene",
+      "genetic medicine",
+      "gene replacement therapy"
+    ],
+    "slugs": [
+      "gene-therapy-treatment",
+      "crispr-gene-editing",
+      "gene-therapy-clinical-trials",
+      "genetic-disease-treatment",
+      "gene-therapy-breakthroughs"
+    ],
+    "is_technical": false,
+    "pubmed_filter": ""
+  },
+  "edge computing": {
+    "terms": [
+      "edge computing",
+      "fog computing",
+      "edge devices",
+      "distributed computing",
+      "iot edge processing",
+      "latency reduction",
+      "edge analytics",
+      "mobile edge computing"
+    ],
+    "slugs": [
+      "edge-computing-basics",
+      "edge-vs-cloud-computing",
+      "iot-edge-devices",
+      "edge-computing-healthcare",
+      "distributed-edge-architecture"
+    ],
+    "is_technical": true,
+    "pubmed_filter": "edge computing OR fog computing OR \"mobile edge computing\" OR edge analytics OR distributed edge processing"
+  },
+  "depression": {
+    "terms": [
+      "depression",
+      "major depressive disorder",
+      "clinical depression",
+      "depressive symptoms",
+      "mood disorder",
+      "treatment-resistant depression",
+      "postpartum depression",
+      "seasonal affective disorder"
+    ],
+    "slugs": [
+      "depression-symptoms-treatment",
+      "major-depressive-disorder-guide",
+      "managing-depression-recovery",
+      "antidepressant-medication-therapy",
+      "mental-health-depression-support"
+    ],
+    "is_technical": false,
+    "pubmed_filter": ""
+  },
+  "inflammation": {
+    "terms": [
+      "inflammation",
+      "inflammatory response",
+      "immune system activation",
+      "cytokine release",
+      "systemic inflammation",
+      "chronic inflammation",
+      "acute inflammation",
+      "inflammatory markers",
+      "anti-inflammatory",
+      "inflammation biomarkers"
+    ],
+    "slugs": [
+      "inflammation-guide",
+      "chronic-inflammation-disease",
+      "how-to-reduce-inflammation",
+      "inflammatory-markers-explained",
+      "acute-vs-chronic-inflammation",
+      "anti-inflammatory-diet"
+    ],
+    "is_technical": false,
+    "pubmed_filter": ""
+  }
+}
