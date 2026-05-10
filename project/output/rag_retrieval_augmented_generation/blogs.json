@@ -1,0 +1,394 @@
+[
+  {
+    "record_id": "871a4b148bd3dc1f",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:47:19Z",
+    "source_url": "https://towardsdatascience.com/rag-is-blind-to-time-i-built-a-temporal-layer-to-fix-it-in-production/",
+    "source_type": "blog",
+    "author": "Emmimal P Alexander",
+    "published_date": "Sat, 09 May 2026 13:00:00 +0000",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "RAG / retrieval"
+    ],
+    "trust_score": 0.677,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "Three weeks into testing, a learner told me my AI tutor gave her the wrong answer. Not obviously wrong — just outdated enough to mislead. That was the moment I realized something most RAG systems quietly ignore: they have no sense of time. My system retrieved the most similar document, not the most current one. And in a knowledge base that changes constantly, that’s a serious flaw. The fix wasn’t in the retriever or the model. It was in the gap between them. I built a temporal layer that filters expired facts, boosts time-sensitive signals, and makes the system prefer what’s still true — not just what matches. The post\n\nRAG Is Blind to Time — I Built a Temporal Layer to Fix It in Production\n\nappeared first on\n\nTowards Data Science\n\n.",
+        "chunk_index": 0,
+        "quality_score": 0.85,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 133
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.0,
+      "domain_authority": 0.62,
+      "recency": 0.95,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.565,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.55,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.6,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.688,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "reason": "blog_evidence_proxy",
+        "evidence_phrases": 0
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "towardsdatascience.com"
+      },
+      "recency": {
+        "age_days": 0,
+        "halflife": 90.0,
+        "published": "Sat, 09 May 2026 13:00:00 +0000"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "non_health_content"
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 133,
+        "ttr": 0.699,
+        "gini": 0.116,
+        "wc_score": 0.067
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.015,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": null
+  },
+  {
+    "record_id": "a5025c455065dfd5",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:47:19Z",
+    "source_url": "https://medium.com/@Web3R/unlocking-the-potential-of-alms-a-deep-dive-into-rewoos-breakthrough-method-cd288a7f50ee",
+    "source_type": "blog",
+    "author": "Web3 Research",
+    "published_date": "Mon, 04 Mar 2024 09:20:15 GMT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "AI / ML",
+      "large language models",
+      "research"
+    ],
+    "trust_score": 0.518,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "As the field of Artificial Intelligence (AI) continues to evolve, the focus on\n\nAugmented Language Models (ALMs)\n\nhas intensified. These powerful models combine the reasoning capabilities of Large Language Models (LLMs) with external tools for knowledge retrieval and action execution. However, traditional ALM approaches suffer from inefficiencies due to redundant prompts and repetitive interactions with external tools. Enter ReWOO (Reasoning WithOut Observation)\n\n, a groundbreaking method that tackles this challenge head-on, aiming to\n\nrevolutionize efficiency in ALMs\n\n. Developed by researchers at Genovia AI, ReWOO decouples reasoning from external observations, leading to significant improvements in speed, accuracy, and robustness. Decoupling the Dance: How ReWOO Works\n\nImagine a detective conducting an investigation. Traditionally, ALMs work like detectives constantly asking witnesses (external tools) questions one by one, leading to inefficiencies in time and resources. ReWOO, however, allows the detective to\n\nanticipate\n\nthe information needed and\n\nask all the questions in one go\n\nto the witnesses, drastically improving efficiency.",
+        "chunk_index": 0,
+        "quality_score": 0.872,
+        "has_overlap": false,
+        "total_chunks": 4,
+        "word_count": 156
+      },
+      {
+        "text": "resources. ReWOO, however, allows the detective to anticipate the information needed and ask all the questions in one go to the witnesses, drastically improving efficiency. Here’s a breakdown of ReWOO’s core components:\n\nStep-wise Reasoning:\n\nReWOO breaks down the reasoning process into individual steps, enabling the LLM to\n\nanticipate\n\nthe data required from external tools. Tool Calls:\n\nBased on the anticipated needs, ReWOO generates a\n\nsingle, consolidated set of calls\n\nto the external tools, fetching all necessary information at once. Summarization:\n\nOnce the information is retrieved, ReWOO\n\nsummarizes\n\nit and presents it to the LLM in a concise and easily digestible format. This\n\ndecoupling of reasoning and observation\n\nleads to several key advantages:\n\nIncreased Efficiency:\n\nBy minimizing redundant prompts and interactions with external tools, ReWOO\n\nsignificantly reduces token consumption\n\n, leading to faster and more resource-friendly processing. This is particularly crucial when dealing with large and complex tasks. Improved Performance:\n\nStudies have shown that ReWOO can achieve\n\nhigher accuracy\n\non specific tasks compared to traditional ALM approaches. This is due to a reduction in noise and redundancy within the reasoning process. Robustness:\n\nReWOO demonstrates remarkable\n\nrobustness\n\neven when external tools fail.",
+        "chunk_index": 1,
+        "quality_score": 0.85,
+        "has_overlap": true,
+        "total_chunks": 4,
+        "word_count": 190
+      },
+      {
+        "text": "approaches. This is due to a reduction in noise and redundancy within the reasoning process. Robustness: ReWOO demonstrates remarkable robustness even when external tools fail. In such scenarios, the LLM can still reason based on the previously retrieved information, offering a more reliable solution. Deep Dive into the Research: Exploring the Original Paper\n\nThe ReWOO method was first described in the research paper titled “\n\nReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models\n\n” published in 2023. This comprehensive paper not only delves into the limitations of existing ALM approaches but also meticulously details the ReWOO method and its implementation. It further showcases the effectiveness of ReWOO through extensive evaluations of various benchmarks, demonstrating its potential for real-world applications. Exploring the paper:\n\nhttps://arxiv.org/abs/2305.18323\n\nBeyond ReWOO: The Power of Frameworks like LLMFlow\n\nWhile ReWOO is not specifically tied to any particular framework, tools like\n\nLLMFlow\n\ncan be invaluable in building and deploying ReWOO-based ALMs. This open-source framework provides various functionalities essential for working with LLMs and ALMs, including model loading, prompt generation, and result processing. By leveraging the capabilities of frameworks like LLMFlow, developers can streamline the development and implementation of ReWOO-powered models.",
+        "chunk_index": 2,
+        "quality_score": 0.858,
+        "has_overlap": true,
+        "total_chunks": 4,
+        "word_count": 194
+      },
+      {
+        "text": "model loading, prompt generation, and result processing. By leveraging the capabilities of frameworks like LLMFlow, developers can streamline the development and implementation of ReWOO-powered models. The Future of ALMs: ReWOO Paving the Way\n\nReWOO represents a\n\nparadigm shift\n\nin the realm of ALMs. Decoupling reasoning and tool access pave the way for more\n\nefficient, accurate, and robust\n\nlanguage models. As research in this area continues, we can expect ReWOO to play a significant role in unlocking the true potential of ALMs and diverse applications across various domains.",
+        "chunk_index": 3,
+        "quality_score": 0.874,
+        "has_overlap": true,
+        "total_chunks": 4,
+        "word_count": 87
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.75,
+      "domain_authority": 0.62,
+      "recency": 0.05,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.54,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.55,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.6,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "reason": "blog_evidence_proxy",
+        "evidence_phrases": 6
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "medium.com"
+      },
+      "recency": {
+        "age_days": 796,
+        "halflife": 90.0,
+        "published": "Mon, 04 Mar 2024 09:20:15 GMT"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "non_health_content"
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 552,
+        "ttr": 0.582,
+        "gini": 0.252,
+        "wc_score": 0.276
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.6021
+  },
+  {
+    "record_id": "946cf1ec492d920b",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:47:19Z",
+    "source_url": "https://medium.com/@adeniyi221/kblam-vs-rag-the-quiet-death-of-the-retrieval-augmented-patchwork-442528061bd1",
+    "source_type": "blog",
+    "author": "YUSUFF ADENIYI GIWA",
+    "published_date": "Thu, 14 Aug 2025 16:41:50 GMT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "RAG / retrieval",
+      "large language models",
+      "AI / ML",
+      "research"
+    ],
+    "trust_score": 0.51,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "Retrieval-Augmented Patchwork\n\nLarge language models (LLMs) like GPT-4 and Claude-4 have brought amazing progress in generating text, but they often make up facts or details with confidence, which can be misleading. That’s a hallucination problem. That’s a problem solved using\n\nRetrieval Augmented Generation (RAG)\n\n. RAG works by fetching relevant information from external knowledge sources and then using it to generate responses. Yet, a key challenge persists: how to efficiently integrate external knowledge. To address that challenge, a new approach called\n\nKnowledge Base augmented Language Model (KBLaM)\n\nemerges. This method adds structured knowledge bases into pre-trained LLMs, instead of fetching them separately. This article will discuss what KBLaM is, how it differs from RAG, and the limitations and failures of RAG, as well as why RAG is being replaced. What Is Retrieval-Augmented Generation (RAG)? Retrieval augmented generation enhances an LLM’s responses by providing it with relevant, external information at the moment of a query. Instead of relying solely on the vast but static knowledge baked into its training data, a RAG-powered system can access up-to-date or private information sources.",
+        "chunk_index": 0,
+        "quality_score": 0.863,
+        "has_overlap": false,
+        "total_chunks": 7,
+        "word_count": 179
+      },
+      {
+        "text": "Instead of relying solely on the vast but static knowledge baked into its training data, a RAG-powered system can access up-to-date or private information sources. Here’s how it works:\n\nUser Input:\n\nA user submits a query to the system. Retrieve:\n\nThe system uses the query to search an external knowledge base (e.g., a collection of documents, a vector database of company policies, or a set of technical manuals). This “retriever” component identifies and pulls the most relevant snippets of information. Augment:\n\nThe retrieved context is then combined with the original user query into a new, more detailed prompt. Generate:\n\nThis augmented prompt is fed to the LLM, which uses the provided information to generate a grounded, contextually-aware answer. Existing Challenges and “Patchwork” Issues\n\nDespite its utility, RAG is fundamentally a “patchwork” system. It’s a retriever and a generator, each comes with its own possible points of failure and introduces challenges:\n\nDependency on Retrieval Quality\n\n: If the retriever fails to find the correct document or pulls irrelevant information. Then, the LLM will likely generate a flawed or completely incorrect answer, even if the model itself is powerful.",
+        "chunk_index": 1,
+        "quality_score": 0.834,
+        "has_overlap": true,
+        "total_chunks": 7,
+        "word_count": 187
+      },
+      {
+        "text": "correct document or pulls irrelevant information. Then, the LLM will likely generate a flawed or completely incorrect answer, even if the model itself is powerful. Latency and Resource Intensity\n\n: The retrieval step adds a noticeable delay to every single query, which might make RAG systems feel sluggish for real-time applications. Cost and Complexity\n\n: Maintaining a separate, high-performance retrieval system (often a vector database) alongside an LLM adds significant engineering overhead and operational cost. Quadratic Scaling Nightmare:\n\nThe attention mechanism in standard transformer models scales quadratically with the length of the input context. As RAG systems try to provide more context to the LLM to improve accuracy, the computational cost and memory usage explode. This makes it prohibitively expensive to use large context windows, forcing developers to be highly selective about the information they provide. Emergence and Fundamentals of KBLaM\n\nFrustration with RAG’s patchwork nature has driven research into better solutions. The most promising of these is the Knowledge Base augmented Language Model (KBLaM). The KBLaM architecture embeds structured knowledge directly into the LLM’s attention mechanism.",
+        "chunk_index": 2,
+        "quality_score": 0.879,
+        "has_overlap": true,
+        "total_chunks": 7,
+        "word_count": 177
+      },
+      {
+        "text": "The most promising of these is the Knowledge Base augmented Language Model (KBLaM). The KBLaM architecture embeds structured knowledge directly into the LLM’s attention mechanism. Instead of a separate retrieval step at inference time, the model has, in a sense, already “memorized” the knowledge base and can access it implicitly as part of its standard thought process. How KBLaM Works\n\nThe strength of KBLaM comes from its innovative method of representing knowledge and attention. Knowledge Encoding\n\n: The knowledge base, typically collections of facts structured as triples consisting of an entity, a property, and a value, is encoded into continuous vector pairs called\n\n“knowledge tokens.”\n\nThese tokens function as a new modality, similar to text or image tokens, that the model can directly interpret. Rectangular Attention\n\n: In a standard LLM, every token attends to every other token, leading to quadratic scaling (N x N). KBLaM uses\n\n“rectangular attention,”\n\nwhere the user’s query tokens can attend to all the knowledge tokens, but the knowledge tokens do not attend to each other. This breaks the quadratic bottleneck. The complexity scales linearly (N x M, where N is the query length and M is the knowledge base size), making it computationally feasible to integrate massive knowledge bases.",
+        "chunk_index": 3,
+        "quality_score": 0.812,
+        "has_overlap": true,
+        "total_chunks": 7,
+        "word_count": 205
+      },
+      {
+        "text": "(N x M, where N is the query length and M is the knowledge base size), making it computationally feasible to integrate massive knowledge bases. No Retriever Needed\n\n: At inference time, there is no external retriever. The model performs a “soft retrieval” internally by assigning higher attention weights to the most relevant knowledge tokens. This process is seamless, fast, and part of the model’s forward pass. Comparative Analysis: KBLaM vs. RAG\n\nThe differences highlight a shift from a pipeline-based to an integrated architecture. Real-World Implications and Use Cases\n\nWhile KBLaM presents a compelling vision for the future, RAG is not yet obsolete. Each architecture currently has its domain of strength. Where RAG Still Wins\n\nExtremely Dynamic Data:\n\nFor knowledge that changes by the minute (e.g., news feeds, social media), the ability to index new documents on the fly gives RAG an edge. Massive, Unstructured Corpora:\n\nRAG is well-suited for querying vast, unstructured document libraries like legal databases or scientific papers, where structuring the data into a knowledge base is impractical. Where KBLaM Excels\n\nStructured Knowledge Bases:\n\nKBLaM shines when dealing with structured or semi-structured data, such as product manuals, enterprise databases, company wikis, or compliance guidelines.",
+        "chunk_index": 4,
+        "quality_score": 0.871,
+        "has_overlap": true,
+        "total_chunks": 7,
+        "word_count": 197
+      },
+      {
+        "text": "KBLaM Excels Structured Knowledge Bases: KBLaM shines when dealing with structured or semi-structured data, such as product manuals, enterprise databases, company wikis, or compliance guidelines. Low-Latency Applications:\n\nFor time-critical use cases like live decision-support, interactive support, or internal dashboards, KBLaM’s removal of the retrieval step is a game-changer. High-Reliability Systems:\n\nIn environments where accuracy and reliability are crucial, KBLaM’s integrated design and enhanced interpretability make it a more dependable foundation. The Quiet Death of the Patchwork: Why RAG Is Being Superseded\n\nThe move from RAG to KBLaM is about a change in how to think about building AI systems. The industry is moving away from complicated, fragile systems toward simpler, more efficient, and more integrated solutions. RAG solves an immediate problem, but KBLaM, on the other hand, is a more future-proof system. It considers knowledge as an integral part of the model’s memory, rather than something external that needs to be fetched. Although hybrid systems that use RAG to update KBLaM’s knowledge base may serve as a bridge, they may become less necessary as LLM context windows grow and hardware improves. In such cases, methods like KBLaM, which store knowledge directly within the model, will become more efficient and elegant.",
+        "chunk_index": 5,
+        "quality_score": 0.853,
+        "has_overlap": true,
+        "total_chunks": 7,
+        "word_count": 200
+      },
+      {
+        "text": "context windows grow and hardware improves. In such cases, methods like KBLaM, which store knowledge directly within the model, will become more efficient and elegant. Open Questions and Challenges\n\nThe journey of KBLaM is only starting, and many open research questions still need to be addressed:\n\nContinual Knowledge Updates\n\n: How can a KBLaM be updated with new knowledge efficiently without retraining the adapters from scratch? Complex Reasoning\n\n: Can KBLaM perform complex, multi-hop reasoning (chain-of-thought) over its integrated knowledge base as effectively as it performs direct lookups? Imperfect Knowledge\n\n: How will the architecture handle massive, real-world knowledge bases that are inherently noisy, incomplete, or contradictory? Conclusion\n\nRetrieval-Augmented Generation ground LLMs in external knowledge. However, its identity as a complex, multi-stage process always creates challenges in scalability, latency, and reliability. KBLaM is a scalable and interpretable alternative that integrates knowledge at a base level. Its linear scaling, end-to-end simplicity, and enhanced transparency bring improvements. The “quiet death” of the retrieval-augmented patchwork is not a sign of RAG’s failure but of the field’s maturation. It signifies a crucial milestone in efforts to develop genuinely knowledge-based artificial intelligence.",
+        "chunk_index": 6,
+        "quality_score": 0.856,
+        "has_overlap": true,
+        "total_chunks": 7,
+        "word_count": 187
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.25,
+      "domain_authority": 0.62,
+      "recency": 0.121,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.577,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.55,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.6,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "reason": "blog_evidence_proxy",
+        "evidence_phrases": 2
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "medium.com"
+      },
+      "recency": {
+        "age_days": 268,
+        "halflife": 90.0,
+        "published": "Thu, 14 Aug 2025 16:41:50 GMT"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "non_health_content"
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1182,
+        "ttr": 0.494,
+        "gini": 0.328,
+        "wc_score": 0.591
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.004,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.6072
+  }
+]

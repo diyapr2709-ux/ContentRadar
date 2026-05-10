@@ -1,0 +1,110 @@
+[
+  {
+    "record_id": "3a434fbfc64b9938",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:06:38Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/30370538/",
+    "source_type": "pubmed",
+    "author": "Swe MT, Pongchaidecha A, Chatsudthipong V, Chattipakorn N, Lungkaphin A",
+    "published_date": "2019 Jun",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "diabetes",
+      "mental health"
+    ],
+    "trust_score": 0.709,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "The kidneys are as involved as the liver in gluconeogenesis which can significantly contribute to hyperglycemia in the diabetic condition. Substantial evidence has demonstrated the overexpression of rate-limiting gluconeogenic enzymes, especially phosphoenolpyruvate carboxykinase and glucose 6 phosphatase, and the accelerated glucose release both in the isolated proximal tubular cells and in the kidneys of diabetic animal models and diabetic patients. The aim of this review is to provide an insight into the mechanisms that accelerate renal gluconeogenesis in the diabetic conditions and the therapeutic approaches that could affect this process in the kidney. Increase in gluconeogenic substrates, reduced insulin concentration or insulin resistance, downregulation of insulin receptors and insulin signaling, oxidative stress, and inappropriate activation of the renin-angiotensin system are likely to participate in enhancing renal gluconeogenesis in the diabetic milieu. Several studies have suggested that controlling glucose metabolism at the renal level favors effective overall glycemic control in both type 1 and type 2 diabetes. Therefore, renal gluconeogenesis may be a promising target for effective glycemic control as a therapeutic strategy in diabetes.",
+        "chunk_index": 0,
+        "quality_score": 0.805,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 174
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.825,
+      "domain_authority": 0.95,
+      "recency": 0.135,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.504,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.65,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 5
+      },
+      "citation_count": {
+        "citations": 165
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 2533,
+        "halflife": 900.0,
+        "published": "2019 Jun"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 174,
+        "ttr": 0.609,
+        "gini": 0.22,
+        "wc_score": 0.087
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.012,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": null,
+    "pmid": "30370538",
+    "doi": "10.1002/jcp.27598",
+    "journal": "Journal of cellular physiology"
+  }
+]

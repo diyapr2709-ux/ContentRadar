@@ -1,0 +1,118 @@
+[
+  {
+    "record_id": "b1c842e508bcb60e",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:35Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/40663373/",
+    "source_type": "pubmed",
+    "author": "Kelters IR, Koop Y, Young ME, Daiber A, van Laake LW",
+    "published_date": "2025 Sep 22",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "cardiovascular",
+      "public health"
+    ],
+    "trust_score": 0.845,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Circadian rhythms, controlled by the suprachiasmatic nucleus and peripheral clocks, regulate 24-h cycles in biological processes such as the cardiovascular system. Circadian rhythms influence autonomic balance, with parasympathetic dominance during sleep supporting cardiac recovery and sympathetic activation during the day supporting circulatory demand. Congruent with systemic and cellular circadian rhythmicity, 24-h patterns arise in the pathophysiology of cardiovascular diseases, including ischaemic heart disease, heart failure, and arrhythmias. Daily variations influence the timing and outcome of myocardial infarction, with studies reporting patterns in infarct size depending on the time of onset. Similar daily patterns are observed in cardio- and cerebrovascular complications. In heart failure, circadian rhythms are dampened but remain intact, suggesting the potential for incorporating timing in diagnostics and therapies. Sudden cardiac death follows a distinct pattern, with a higher incidence in the morning. Atrial fibrillation onset, on the other hand, occurs more frequently at night. Risk factors and modifiers, such as physiological, psychological, lifestyle, and environmental factors and comorbidities interact with circadian rhythms, thereby impacting cellular pathomechanisms and development of cardiovascular health and disease.",
+        "chunk_index": 0,
+        "quality_score": 0.831,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 175
+      },
+      {
+        "text": "such as physiological, psychological, lifestyle, and environmental factors and comorbidities interact with circadian rhythms, thereby impacting cellular pathomechanisms and development of cardiovascular health and disease. Chronotherapy, which aligns treatments with circadian rhythms, has demonstrated potential for improving the efficacy of cardiovascular therapies. This review examines the influence of circadian rhythms on cardiovascular health in the context of specific cardiac diseases and risk factors, and it highlights the therapeutic opportunities informed by circadian patterns.",
+        "chunk_index": 1,
+        "quality_score": 0.67,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 73
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 1.0,
+      "domain_authority": 0.95,
+      "recency": 0.797,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.512,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.65,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 5
+      },
+      "citation_count": {
+        "citations": 247
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 228,
+        "halflife": 900.0,
+        "published": "2025 Sep 22"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 223,
+        "ttr": 0.614,
+        "gini": 0.223,
+        "wc_score": 0.112
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.8054,
+    "pmid": "40663373",
+    "doi": "10.1093/eurheartj/ehaf367",
+    "journal": "European heart journal"
+  }
+]

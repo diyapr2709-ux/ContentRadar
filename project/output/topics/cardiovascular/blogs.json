@@ -1,0 +1,518 @@
+[
+  {
+    "record_id": "bf4193400255b57a",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:09:04Z",
+    "source_url": "https://www.sciencedaily.com/releases/2026/05/260504211842.htm",
+    "source_type": "blog",
+    "author": "ScienceDaily",
+    "published_date": "Tue, 05 May 2026 14:20:47 EDT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "research",
+      "cardiovascular",
+      "healthcare",
+      "genomics",
+      "neurology"
+    ],
+    "trust_score": 0.786,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Science News\n\nfrom research organizations\n\nBreakthrough biomaterial heals tissue from the inside out\n\nA new IV-injected biomaterial could revolutionize healing by repairing damaged tissue from the inside out. Date:\n\nMay 5, 2026\n\nSource:\n\nUniversity of California - San Diego\n\nSummary:\n\nScientists have developed a breakthrough injectable biomaterial that travels through the bloodstream to repair damaged tissue from within, reducing inflammation and jumpstarting healing. In animal studies, it successfully treated heart attack damage and even showed promise for conditions like traumatic brain injury and pulmonary hypertension. Unlike earlier approaches that required direct injection into the heart, this new therapy can be delivered intravenously, allowing it to spread evenly and act quickly. Share:\n\nFacebook\n\nTwitter\n\nPinterest\n\nLinkedIN\n\nEmail\n\nFULL STORY\n\nA biomaterial designed to travel through the bloodstream could offer a less invasive way to calm inflammation and help injured tissue repair itself. In animal studies, the injectable material improved tissue damage caused by heart attacks in both rodents and large animals.",
+        "chunk_index": 0,
+        "quality_score": 0.859,
+        "has_overlap": false,
+        "total_chunks": 13,
+        "word_count": 160
+      },
+      {
+        "text": "and help injured tissue repair itself. In animal studies, the injectable material improved tissue damage caused by heart attacks in both rodents and large animals. Early proof of concept experiments also suggested that the same approach may one day be useful for other inflammation driven conditions, including traumatic brain injury and pulmonary arterial hypertension. \"This biomaterial allows for treating damaged tissue from the inside out,\" said Karen Christman, a professor of bioengineering at the University of California San Diego, and the lead researcher on the team that developed the material. \"It's a new approach to regenerative engineering.\"\n\nThe findings were reported in\n\nNature Biomedical Engineering\n\nin 2022 by a team of bioengineers and physicians. At the time, Christman said a human study testing the safety and effectiveness of the biomaterial could begin within one to two years. A New Route for Repairing Heart Damage\n\nHeart attacks remain one of the most serious medical emergencies in the United States, with an estimated 785,000 new cases each year. When blood flow to the heart is blocked, cardiac tissue can be injured or die. The body responds by forming scar tissue, but that scar does not contract like healthy heart muscle.",
+        "chunk_index": 1,
+        "quality_score": 0.846,
+        "has_overlap": true,
+        "total_chunks": 13,
+        "word_count": 198
+      },
+      {
+        "text": "blocked, cardiac tissue can be injured or die. The body responds by forming scar tissue, but that scar does not contract like healthy heart muscle. Over time, this can weaken the heart and contribute to congestive heart failure. There is currently no established therapy that directly repairs heart tissue after a heart attack. Existing care focuses on restoring blood flow, limiting further injury, and managing the risk of future heart problems. \"Coronary artery disease, acute myocardial infarction, and congestive heart failure continue to be the most burdensome public health problems affecting our society today,\" said Dr. Ryan R. Reeves, a physician in the UC San Diego Division of Cardiovascular Medicine. \"As an interventional cardiologist, who treats patients with coronary artery disease and congestive heart failure on a daily basis, I would love to have another therapy to improve patient outcomes and reduce debilitating symptoms.\"\n\nFrom Heart Hydrogel to Bloodstream Infusion\n\nThe work builds on earlier research from Christman's team involving a hydrogel made from the natural scaffolding of cardiac muscle tissue, also known as the extracellular matrix (ECM). That gel was designed to be delivered directly into damaged heart muscle through a catheter.",
+        "chunk_index": 2,
+        "quality_score": 0.865,
+        "has_overlap": true,
+        "total_chunks": 13,
+        "word_count": 193
+      },
+      {
+        "text": "cardiac muscle tissue, also known as the extracellular matrix (ECM). That gel was designed to be delivered directly into damaged heart muscle through a catheter. Once in place, it forms a supportive structure that encourages cell growth and tissue repair. Results from a successful phase 1 human clinical trial of that earlier hydrogel approach were reported in fall 2019. The trial found that transendocardial injection of VentriGel, a cardiac extracellular matrix hydrogel, was safe and feasible in post heart attack patients with left ventricular dysfunction, although larger randomized studies would be needed to test whether it improves outcomes. The direct injection method, however, has an important limitation. Because it requires a needle based injection into the heart muscle, it generally cannot be used immediately after a heart attack. Delivering it too soon could risk additional injury. That challenge pushed the researchers toward a different idea: a biomaterial that could be infused into a blood vessel in the heart during procedures such as angioplasty or stenting, or delivered through an IV.",
+        "chunk_index": 3,
+        "quality_score": 0.85,
+        "has_overlap": true,
+        "total_chunks": 13,
+        "word_count": 170
+      },
+      {
+        "text": "a biomaterial that could be infused into a blood vessel in the heart during procedures such as angioplasty or stenting, or delivered through an IV. \"We sought to design a biomaterial therapy that could be delivered to difficult-to-access organs and tissues, and we came up with the method to take advantage of the bloodstream -- the vessels that already supply blood to these organs and tissues,\" said Martin Spang, the paper's first author, who earned his Ph.D. in Christman's group in the Shu Chien-Gene Lay Department of Bioengineering. Why IV Delivery Matters\n\nThe bloodstream based approach gives the biomaterial a major practical advantage. Instead of staying in a few injection sites, it can spread more evenly through damaged tissue. That could make it especially valuable after a heart attack, when injured areas may be difficult to reach directly and time is critical. The\n\nNature Biomedical Engineering\n\nstudy described the material as an intravascularly infused extracellular matrix biomaterial made from decellularized, enzymatically digested, and fractionated ventricular myocardium. The material was designed to localize to injured tissue by binding to leaky microvasculature and was largely degraded within about three days.",
+        "chunk_index": 4,
+        "quality_score": 0.851,
+        "has_overlap": true,
+        "total_chunks": 13,
+        "word_count": 188
+      },
+      {
+        "text": "fractionated ventricular myocardium. The material was designed to localize to injured tissue by binding to leaky microvasculature and was largely degraded within about three days. How the Biomaterial Is Made\n\nTo create the injectable version, researchers in Christman's lab began with the hydrogel they had already developed and tested for compatibility with blood injections. The problem was particle size. The original hydrogel contained particles that were too large to effectively target damaged, leaky blood vessels. Spang solved this by processing the liquid precursor of the hydrogel in a centrifuge. This allowed the team to separate out larger particles and keep only nano sized particles. The material was then dialyzed, sterile filtered, and freeze dried. When sterile water is added to the final powder, it becomes a biomaterial that can be delivered intravenously or infused into a coronary artery in the heart. How It Finds Injured Tissue\n\nWhen the researchers tested the biomaterial in a rodent model of heart attack, they expected it to move through leaky blood vessels and into damaged tissue. After a heart attack, gaps can form between endothelial cells, which line the inside of blood vessels. Instead, the team saw something more surprising.",
+        "chunk_index": 5,
+        "quality_score": 0.821,
+        "has_overlap": true,
+        "total_chunks": 13,
+        "word_count": 196
+      },
+      {
+        "text": "tissue. After a heart attack, gaps can form between endothelial cells, which line the inside of blood vessels. Instead, the team saw something more surprising. The biomaterial attached to those endothelial cells, helped close the gaps, and appeared to speed up blood vessel healing. That process reduced inflammation, one of the major drivers of tissue damage after injury. The researchers then tested the treatment in a porcine model of heart attack and saw similar results. In rats and pigs with induced acute myocardial infarction followed by intracoronary infusion, the biomaterial was linked with reduced left ventricular volumes, improved wall motion scores, and gene expression changes associated with tissue repair and inflammation. Potential Beyond the Heart\n\nAlthough most of the work centered on heart attack damage, the researchers also tested whether the same biomaterial could target other inflamed tissues. In rat models, they found proof of concept that the approach could be useful for traumatic brain injury and pulmonary arterial hypertension. That broader potential is one of the most intriguing parts of the work. Many organs and tissues are difficult to access directly, but all are supplied by blood vessels.",
+        "chunk_index": 6,
+        "quality_score": 0.844,
+        "has_overlap": true,
+        "total_chunks": 13,
+        "word_count": 189
+      },
+      {
+        "text": "one of the most intriguing parts of the work. Many organs and tissues are difficult to access directly, but all are supplied by blood vessels. If a biomaterial can use those vessels as a delivery route, regenerative medicine may be able to reach injuries that are otherwise hard to treat. \"While the majority of work in this study involved the heart, the possibilities of treating other difficult-to-access organs and tissues can open up the field of biomaterials/tissue engineering into treating new diseases,\" Spang said. What Has Happened Since the 2022 Study\n\nSince the original study, related work has continued to explore how extracellular matrix based biomaterials influence repair after myocardial infarction. A 2025\n\nNature Communications\n\nstudy\n\nfrom researchers including Christman used spatial transcriptomics and single nucleus RNA sequencing to examine how injectable extracellular matrix biomaterials affect heart tissue after myocardial infarction. The study found pro repair signals involving immune modulation, blood vessel and lymphatic development, fibroblast activation, myocardial salvage, smooth muscle cell proliferation, and neurogenesis in rat models.",
+        "chunk_index": 7,
+        "quality_score": 0.866,
+        "has_overlap": true,
+        "total_chunks": 13,
+        "word_count": 168
+      },
+      {
+        "text": "found pro repair signals involving immune modulation, blood vessel and lymphatic development, fibroblast activation, myocardial salvage, smooth muscle cell proliferation, and neurogenesis in rat models. That later work did not replace the need for clinical testing of the intravascular biomaterial, but it added more detail about how this class of cardiac extracellular matrix therapies may influence healing at the cellular and regional level inside injured hearts. Ventrix Bio, Inc., the startup cofounded by Christman, has also continued advancing related cardiac extracellular matrix technology. A\n\nClinicalTrials.gov\n\nlisting for VentriGel describes a phase 1 open label study in children with hypoplastic left heart syndrome, sponsored by Emory University, to assess safety and feasibility of intramyocardial injection of the Ventrix Bio extracellular matrix material. The listing was not yet recruiting when accessed. Next Steps for Human Testing\n\nChristman and Ventrix Bio have planned to seek FDA authorization to study the newer intravascular biomaterial for heart conditions in humans. If cleared for clinical testing, the therapy would need to show that it is safe, practical to deliver, and effective enough to improve patient outcomes. For now, the treatment remains experimental.",
+        "chunk_index": 8,
+        "quality_score": 0.871,
+        "has_overlap": true,
+        "total_chunks": 13,
+        "word_count": 186
+      },
+      {
+        "text": "therapy would need to show that it is safe, practical to deliver, and effective enough to improve patient outcomes. For now, the treatment remains experimental. But its appeal is clear: rather than requiring direct injections into heart muscle, it could potentially be delivered through existing blood vessel based procedures or by IV, reaching injured tissue from within. \"One major reason we treat severe coronary artery disease and myocardial infarction is to prevent left ventricular dysfunction and progression to congestive heart failure,\" said Dr. Reeves. \"This easy-to-administer therapy has the potential to play a significant role in our treatment approach.\"\n\nRELATED TOPICS\n\nHealth & Medicine\n\nHeart Disease\n\nToday's Healthcare\n\nStroke Prevention\n\nDiseases and Conditions\n\nImmune System\n\nHypertension\n\nPregnancy and Childbirth\n\nPersonalized Medicine\n\nRELATED TERMS\n\nHeart\n\nBrain damage\n\nCentral nervous system\n\nCancer\n\nSpinal cord\n\nEncephalopathy\n\nCardiac arrest\n\nGene therapy\n\nStory Source:\n\nMaterials\n\nprovided by\n\nUniversity of California - San Diego\n\n. Note: Content may be edited for style and length. Journal Reference\n\n:\n\nMartin T. Spang, Ryan Middleton, Miranda Diaz, Jervaughn Hunter, Joshua Mesfin, Alison Banka, Holly Sullivan, Raymond Wang, Tori S. Lazerson, Saumya Bhatia, James Corbitt, Gavin DâElia, Gerardo Sandoval-Gomez, Rebecca Kandell, Maria A. Vratsanos, Karthikeyan Gnanasekaran, Takayuki Kato, Sachiyo Igata, Colin Luo, Kent G.",
+        "chunk_index": 9,
+        "quality_score": 0.934,
+        "has_overlap": true,
+        "total_chunks": 13,
+        "word_count": 204
+      },
+      {
+        "text": "S. Lazerson, Saumya Bhatia, James Corbitt, Gavin DâElia, Gerardo Sandoval-Gomez, Rebecca Kandell, Maria A. Vratsanos, Karthikeyan Gnanasekaran, Takayuki Kato, Sachiyo Igata, Colin Luo, Kent G. Osborn, Nathan C. Gianneschi, Omolola Eniola-Adefeso, Pedro Cabrales, Ester J. Kwon, Francisco Contijoch, Ryan R. Reeves, Anthony N. DeMaria, Karen L. Christman. Intravascularly infused extracellular matrix as a biomaterial for targeting and treating inflamed tissues\n\n. Nature Biomedical Engineering\n\n, 2022; 7 (2): 94 DOI:\n\n10.1038/s41551-022-00964-5\n\nCite This Page\n\n:\n\nMLA\n\nAPA\n\nChicago\n\nUniversity of California - San Diego. \"Breakthrough biomaterial heals tissue from the inside out.\" ScienceDaily. ScienceDaily, 5 May 2026. <www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260504211842.htm>. University of California - San Diego. (2026, May 5). Breakthrough biomaterial heals tissue from the inside out. ScienceDaily\n\n. Retrieved May 8, 2026 from www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260504211842.htm\n\nUniversity of California - San Diego. \"Breakthrough biomaterial heals tissue from the inside out.\" ScienceDaily. www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260504211842.htm (accessed May 8, 2026). Explore More\n\nfrom ScienceDaily\n\nRELATED STORIES\n\nThis Injected Protein-Like Polymer Helps Tissues Heal After a Heart Attack\n\nApr.",
+        "chunk_index": 10,
+        "quality_score": 0.841,
+        "has_overlap": true,
+        "total_chunks": 13,
+        "word_count": 185
+      },
+      {
+        "text": "05 / 260504211842.htm (accessed May 8, 2026). Explore More from ScienceDaily RELATED STORIES This Injected Protein-Like Polymer Helps Tissues Heal After a Heart Attack Apr. 25, 2025 Â\n\nResearchers have developed a new therapy that can be injected intravenously right after a heart attack to promote healing and prevent heart failure. The therapy both prompts the immune system to ... A Gentle Approach Offers New Hope for Inflammatory Lung Diseases\n\nApr. 7, 2025 Â\n\nPulmonary sarcoidosis is a lung disease characterized by granulomas -- tiny clumps of immune cells that form in response to inflammation. It's the most inflammatory of the interstitial lung ... Injectable Tissue Prosthesis to Aid in Damaged Muscle/nerve Regeneration\n\nNov. 1, 2023 Â\n\nResearchers have made significant strides in biomaterial technology and rehabilitation medicine. They've developed a novel approach to healing muscle injury by employing 'injectable tissue ... Neonatal Stem Cells from the Heart Could Treat Crohn's Disease\n\nJuly 28, 2023 Â\n\nResearch found that direct injection of neonatal mesenchymal stem cells, derived from heart tissue discarded during surgery, reduces intestinal inflammation and promotes wound healing in a mouse ... Surgical Sealing Made Better With Robust Thermosensitive Bioadhesives\n\nMar.",
+        "chunk_index": 11,
+        "quality_score": 0.842,
+        "has_overlap": true,
+        "total_chunks": 13,
+        "word_count": 193
+      },
+      {
+        "text": "heart tissue discarded during surgery, reduces intestinal inflammation and promotes wound healing in a mouse ... Surgical Sealing Made Better With Robust Thermosensitive Bioadhesives Mar. 29, 2023 Â\n\nScientists have employed inventive chemistry to produce an injectable biomaterial with significantly improved adhesive strength, stretchability, and toughness. This chemically modified, gelatin-based ... This Groundbreaking Biomaterial Heals Tissues from the Inside out\n\nJan. 30, 2023 Â\n\nA new biomaterial that can be injected intravenously, reduces inflammation in tissue and promotes cell and tissue repair. The biomaterial was tested and proven effective in treating tissue damage ... TRENDING AT\n\nSCITECHDAILY.com\n\nPhysicists Propose Strange Experiment Where Time Goes Quantum\n\nMagnesium Magic: New Drug Melts Fat Even on a High-Fat, High-Sugar Diet\n\nWeight-Loss Drugs Like Ozempic May Come With an Unexpected Cost\n\nMezcal âWormâ in a Bottle Mystery: DNA Testing Reveals a Surprise",
+        "chunk_index": 12,
+        "quality_score": 0.741,
+        "has_overlap": true,
+        "total_chunks": 13,
+        "word_count": 138
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.928,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.66,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "sciencedaily.com"
+      },
+      "recency": {
+        "age_days": 3,
+        "halflife": 90.0,
+        "published": "Tue, 05 May 2026 14:20:47 EDT"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 2068,
+        "ttr": 0.44,
+        "gini": 0.386,
+        "wc_score": 1.0
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.028,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7828
+  },
+  {
+    "record_id": "7f34f33c5448b16c",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:09:04Z",
+    "source_url": "https://www.healthline.com/health-news/ultra-processed-foods-heart-disease-healthy-swaps",
+    "source_type": "blog",
+    "author": "Healthline Editorial",
+    "published_date": "Unknown",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "healthcare",
+      "cardiovascular",
+      "research",
+      "diabetes",
+      "obesity"
+    ],
+    "trust_score": 0.702,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "European scientists are advocating for more education on the health harms of ultra-processed foods. Trinette Reed/Stocksy\n\nEuropean scientists say ultra-processed foods increase the risks of a variety of health ailments, particularly heart disease. They recommend that medical professionals discuss the health dangers of ultra-processed foods with their patients. Experts agree that doctors should advise their patients on how to identify ultra-processed foods and reduce them in their daily diets. European scientists say that medical professionals aren’t doing enough to warn the public about the health dangers of\n\nultra-processed foods\n\n. The scientists are urging doctors to talk with their patients about the amount of ultra-processed foods they eat and how to reduce them in their daily diets. They said those discussions should include an explanation that many foods marketed as “healthier” are often ultra-processed. The scientists said this guidance is particularly important for people at risk for heart disease. They further noted that most dietary guidelines prioritize nutrient-centered recommendations but don’t address food processing.",
+        "chunk_index": 0,
+        "quality_score": 0.787,
+        "has_overlap": false,
+        "total_chunks": 10,
+        "word_count": 164
+      },
+      {
+        "text": "is particularly important for people at risk for heart disease. They further noted that most dietary guidelines prioritize nutrient-centered recommendations but don’t address food processing. The scientists recommended that medical professionals promote better public understanding of\n\nfood labeling\n\n, food regulation, and updated guidelines. They reached their conclusions by reviewing all published research on ultra-processed foods and cardiovascular health. The findings were published in a\n\nclinical consensus statement\n\nin the European Heart Journal on May 6. The scientists are from the\n\nEuropean Society of Cardiology’s Council for Cardiology Practice\n\nand the\n\nEuropean Association of Preventive Cardiology\n\n, along with a group of topic experts. “[Ultra-processed foods], made from industrial ingredients and additives, have largely replaced traditional diets,”\n\nLuigina Guasti\n\n, MD, an associate professor at the University of Insubria in Italy and a co-author of the statement, said in a\n\npress release\n\n. “Research suggests these foods are linked to several risk factors for cardiovascular disease, such as\n\nobesity\n\n, diabetes, and high blood pressure, and to the risk of developing and dying from\n\nheart disease\n\n. However, this evidence has not yet made its way into the advice we give to patients on healthy eating,” Guasti continued.",
+        "chunk_index": 1,
+        "quality_score": 0.848,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 198
+      },
+      {
+        "text": "from heart disease . However, this evidence has not yet made its way into the advice we give to patients on healthy eating,” Guasti continued. Health dangers of ultra-processed foods\n\nUltra-processed foods\n\nare foods that have been altered from their original form and contain additives such as sugar and salt, as well as substances that aren’t typically used in culinary preparations. Those additional substances add flavor and texture to foods but can also increase the risk of several diseases. A\n\n2023 research review and analysis\n\nreported that there are associations between ultra-processed foods and an increased risk of several diseases. These include:\n\nhypertension\n\ndiabetes\n\nobesity\n\ndyslipidemia\n\nA\n\n2025 study\n\nconcluded that ultra-processed foods are tied to more than 120,000 preventable deaths in the United States every year. Recent\n\nresearch\n\nhas also linked ultra-processed foods to worse muscle health, weakened bones, and fertility issues in females. Further, research has linked ultra-processed foods to an increased risk of\n\ncancer mortality\n\nas well as a higher risk of\n\ncognitive decline\n\n.",
+        "chunk_index": 2,
+        "quality_score": 0.83,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 168
+      },
+      {
+        "text": "in females. Further, research has linked ultra-processed foods to an increased risk of cancer mortality as well as a higher risk of cognitive decline . The European scientists reported that adults with a high consumption of ultra-processed foods have a 19% higher risk of\n\ncoronary artery disease\n\n, a 13% higher risk of\n\natrial fibrillation (AFib)\n\n, and as much as a 65% higher risk of cardiovascular-related death compared with adults with a lower consumption of ultra-processed foods. They added that ultra-processed foods also worsen key risk factors for conditions such as obesity,\n\ntype 2 diabetes\n\n, high blood pressure, and the buildup of unhealthy fats in the bloodstream. They reported that the risk from ultra-processed foods seems to be consistent across large, diverse populations. Cheng-Han Chen\n\n, MD, an interventional cardiologist and medical director of the Structural Heart Program at MemorialCare Saddleback Medical Center in Laguna Hills, CA, wasn’t involved in the study, but agreed with the scientists’ recommendations. “This review of the current evidence regarding the health effects of ultra-processed foods makes it clear that consumption of ultra-processed foods is associated with increased risk of cardiovascular disease,” Chen told Healthline.",
+        "chunk_index": 3,
+        "quality_score": 0.802,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 192
+      },
+      {
+        "text": "the health effects of ultra-processed foods makes it clear that consumption of ultra-processed foods is associated with increased risk of cardiovascular disease,” Chen told Healthline. “We need to better educate the public on the risks of these foods and on the need to prioritize eating whole foods.”\n\nJennifer Wong\n\n, MD, a cardiologist and medical director of Non-Invasive Cardiology at MemorialCare Heart and Vascular Institute at Orange Coast Medical Center in Fountain Valley, CA, echoed this sentiment. Wong wasn’t involved in the study. “This [paper] highlights an important and increasingly relevant issue — the impact of ultra-processed foods on cardiovascular health,” she told Healthline. “Bringing attention to this topic is critical given how prevalent these foods are in modern diets.”\n\nHow ultra-processed foods affect the body\n\nConsuming ultra-processed foods may harm the body in several ways. “We think that ultra-processed foods increase risk of cardiovascular disease through many mechanisms,” Chen said.",
+        "chunk_index": 4,
+        "quality_score": 0.628,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 151
+      },
+      {
+        "text": "Consuming ultra-processed foods may harm the body in several ways. “We think that ultra-processed foods increase risk of cardiovascular disease through many mechanisms,” Chen said. “[These foods] are typically\n\nhigh in added sugars\n\n,\n\nunhealthy fats\n\n, and\n\nsodium\n\n, all of which lead to increased inflammation and increased risk of many cardiovascular risk factors such as high blood pressure,\n\nhigh cholesterol\n\n, and diabetes.”\n\n“These foods also seem to disrupt our natural gut bacteria, further worsening\n\nsystemic inflammation\n\n,” Chen added. “Also, increased intake of [ultra-processed foods] leads to less intake of heart-healthy foods such as fruits, vegetables, and whole grains.”\n\nAmit Khera\n\n, MD, director of preventive cardiology at UT Southwestern Medical Center, lists other ways ultra-processed food consumption contributes to health issues:\n\nmay lead to excess calorie intake\n\nmay contain high levels of saturated fat, added sugars, or sodium\n\nmay trigger the brain to stay hungry even after eating\n\nmay cause potential disruptions to blood sugar levels\n\n“Most [ultra-processed foods] are foods with poor nutritional quality, contributing to excessive calories, and are typically\n\nhigh in saturated fats\n\n, added sugars, and sodium,” Khera told Healthline.",
+        "chunk_index": 5,
+        "quality_score": 0.819,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 188
+      },
+      {
+        "text": "are foods with poor nutritional quality, contributing to excessive calories, and are typically high in saturated fats , added sugars, and sodium,” Khera told Healthline. Ultra-processed food consumption is widespread\n\nA\n\nFebruary review\n\nstated that ultra-processed foods may be as addictive as tobacco. The European scientists reported that\n\nconsumption of ultra-processed foods\n\nis increasing across Europe. They noted that the percentage of calories from ultra-processed foods ranges from 61% in the Netherlands to 57% in the United Kingdom, 25% in Spain, 22% in Portugal, and 18% in Italy. It’s estimated that\n\nover 50%\n\nof the adult diet in the United States comes from ultra-processed foods. A\n\n2025 review\n\non the rise of ultra-processed foods notes that the increase in consumption may be attributed to their convenience, lower cost, longer shelf life, and aggressive marketing. An\n\nexecutive summary\n\nof a three-paper series on ultra-processed foods notes that societal changes are needed to reverse these trends. “This rise in ultra-processed foods is driven by powerful global corporations who employ sophisticated political tactics to protect and maximize profits,” the authors wrote. “Education and relying on behavior change by individuals is insufficient.",
+        "chunk_index": 6,
+        "quality_score": 0.819,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 188
+      },
+      {
+        "text": "global corporations who employ sophisticated political tactics to protect and maximize profits,” the authors wrote. “Education and relying on behavior change by individuals is insufficient. Deteriorating diets are an urgent public health threat that requires coordinated policies and advocacy to regulate and reduce ultra-processed foods and improve access to fresh and minimally processed foods.”\n\nChristopher Gardner\n\n, PhD, a professor at Stanford Medicine, said the uncertainty about exactly what an ultra-processed food is can also add to the challenges. Gardner wasn’t involved in these studies. “If it were easy to point out exactly what an ultra-processed food was, that is different than junk food, or unhealthy food, it could be helpful,” Gardner told Healthline. “But the overlap is significant. And there are hundreds of cosmetic additives to be on the lookout for. And we don’t actually have great data or great science on each and every one of the cosmetic additives.”\n\nReducing your intake of ultra-processed foods\n\nEating fewer ultra-processed foods may start with better knowledge of unhealthy foods. “The first step is for people to better understand the types of foods they eat and which foods in their diet would be considered ultra-processed,” Chen said.",
+        "chunk_index": 7,
+        "quality_score": 0.852,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 196
+      },
+      {
+        "text": "step is for people to better understand the types of foods they eat and which foods in their diet would be considered ultra-processed,” Chen said. “They can then better replace those types of foods with healthier alternatives such as fruits and vegetables.”\n\nWong agreed. “Clear and informative food labeling can improve public awareness and help individuals make healthier dietary choices,” she said. “Individuals can reduce intake by reading ingredient labels carefully, choosing minimally processed or whole-food alternatives, and preparing meals at home using fresh, healthy ingredients.”\n\nKhera, who is also volunteer vice-chair of the\n\nAmerican Heart Association’s 2026 dietary guidance\n\nwriting committee, has a checklist for people to reduce consumption of ultra-processed foods. His advice includes:\n\nPrepare more foods at home. Be deliberate in food purchases at the grocery store. Make smart choices when ordering out. Snack smarter. Khera added that some “simple swaps” can also help. “Make your own simple vinaigrette instead of buying bottled salad dressing,” he said. “Add fruit to plain\n\noatmeal\n\n, cereal, and\n\nyogurt\n\ninstead of buying the sweetened or flavored kind.",
+        "chunk_index": 8,
+        "quality_score": 0.884,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 177
+      },
+      {
+        "text": "instead of buying bottled salad dressing,” he said. “Add fruit to plain oatmeal , cereal, and yogurt instead of buying the sweetened or flavored kind. Slice up leftover roasted chicken or make a light tuna salad for sandwiches instead of using processed deli meat.”\n\nGardner agreed that focusing on foods that we know are healthy is a simple way to eat more healthy. “Shift the approach to consuming more unprocessed or minimally processed foods,” he said. “Whole foods: Veggies, fruits, legumes, nuts, seeds, [and] whole grains. Those are easier to define. Eat more of the good foods and, hopefully, by the time you have eaten those, you will be full and satiated and no longer in the mood for eating the junk, unhealthy, ultra-processed foods.”",
+        "chunk_index": 9,
+        "quality_score": 0.726,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 125
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.592,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "healthline.com"
+      },
+      "recency": {
+        "reason": "missing_date",
+        "raw": "Unknown"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1522,
+        "ttr": 0.432,
+        "gini": 0.363,
+        "wc_score": 0.761
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.018,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7289
+  },
+  {
+    "record_id": "6bbc183c7e346228",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:09:04Z",
+    "source_url": "https://medium.com/@bristolpublishers/advancing-clinical-knowledge-cardiovascular-case-reports-3a2a1e068cca",
+    "source_type": "blog",
+    "author": "Case Reports and Case Series in Cardiology Journal",
+    "published_date": "Wed, 29 Apr 2026 17:43:36 GMT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "cardiovascular",
+      "healthcare",
+      "research"
+    ],
+    "trust_score": 0.631,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "Advancing Clinical Knowledge Cardiovascular Case Reports\n\nCase Reports and Case Series in Cardiology Journal\n\n3 min read\n\n·\n\nApr 29, 2026\n\n--\n\nThe importance of\n\nCardiovascular Case Reports\n\nin modern medicine continues to grow as clinicians and researchers seek to better understand complex heart conditions. These reports provide detailed documentation of individual patient cases, offering valuable insights into diagnosis, treatment, and clinical outcomes. Unlike large-scale studies, case reports focus on unique or rare scenarios, making them essential for expanding medical knowledge and improving patient care in the field of cardiology. Role of Cardiovascular Case Reports in Clinical Practice\n\nCardiovascular diseases encompass a wide range of conditions, including coronary artery disease, heart failure, arrhythmias, and congenital heart defects. Each patient may present differently, even with similar underlying conditions. Cardiovascular Case Reports\n\nallow healthcare professionals to share these variations, helping others recognize unusual presentations and refine their clinical approaches. Research contributions supported by\n\nBristol Publishers\n\nhighlight how case reports serve as a bridge between theoretical knowledge and real-world practice. Enhancing Diagnostic Accuracy\n\nAccurate diagnosis is crucial in managing cardiovascular diseases effectively.",
+        "chunk_index": 0,
+        "quality_score": 0.86,
+        "has_overlap": false,
+        "total_chunks": 4,
+        "word_count": 179
+      },
+      {
+        "text": "how case reports serve as a bridge between theoretical knowledge and real-world practice. Enhancing Diagnostic Accuracy Accurate diagnosis is crucial in managing cardiovascular diseases effectively. Many heart conditions present with overlapping symptoms, making it challenging to differentiate between them. Cardiovascular Case Reports\n\nprovide detailed clinical observations, imaging findings, and diagnostic pathways that help clinicians identify subtle differences and avoid misdiagnosis. Publications from\n\nBristol Publishers\n\nemphasize the value of these reports in improving diagnostic precision and clinical decision-making. Showcasing Innovative Treatment Approaches\n\nOne of the key benefits of\n\nCardiovascular Case Reports\n\nis their ability to highlight innovative treatment strategies. These may include new surgical techniques, advanced interventional procedures, or unique combinations of therapies tailored to individual patients. By documenting successful outcomes and challenges encountered during treatment, case reports contribute to the evolution of cardiovascular care and encourage the adoption of effective practices. Educational Value for Healthcare Professionals\n\nFor medical students, residents, and experienced clinicians, case reports serve as an essential educational tool. They provide real-life examples that enhance understanding of complex conditions and improve clinical reasoning skills. Cardiovascular Case Reports\n\noffer step-by-step insights into patient management, from initial presentation to follow-up care, making them highly valuable for training and professional development.",
+        "chunk_index": 1,
+        "quality_score": 0.857,
+        "has_overlap": true,
+        "total_chunks": 4,
+        "word_count": 200
+      },
+      {
+        "text": "skills. Cardiovascular Case Reports offer step-by-step insights into patient management, from initial presentation to follow-up care, making them highly valuable for training and professional development. Contribution to Research and Evidence-Based Medicine\n\nAlthough case reports are considered lower in the hierarchy of evidence, they play a critical role in identifying new trends, rare complications, and emerging treatment approaches. Many significant medical discoveries have originated from individual case observations. Cardiovascular Case Reports\n\noften serve as the foundation for further research, leading to larger studies and clinical trials that validate initial findings. Improving Patient Outcomes and Care\n\nThe ultimate goal of publishing case reports is to improve patient care. By sharing clinical experiences and outcomes, healthcare professionals can learn from each other and apply best practices in their own settings. Cardiovascular Case Reports\n\ncontribute to better patient outcomes by promoting early diagnosis, effective treatment strategies, and continuous learning within the medical community. Conclusion\n\nIn conclusion,\n\nCardiovascular Case Reports\n\nare a vital component of modern cardiology, offering detailed insights into complex clinical scenarios and advancing medical knowledge. They enhance diagnostic accuracy, support innovative treatments, and serve as an invaluable educational resource for healthcare professionals.",
+        "chunk_index": 2,
+        "quality_score": 0.847,
+        "has_overlap": true,
+        "total_chunks": 4,
+        "word_count": 190
+      },
+      {
+        "text": "into complex clinical scenarios and advancing medical knowledge. They enhance diagnostic accuracy, support innovative treatments, and serve as an invaluable educational resource for healthcare professionals. By encouraging the publication and dissemination of these reports, the medical community can continue to improve patient care and drive progress in cardiovascular medicine. Submit your case report today and become part of a growing network committed to innovation, research excellence, and the future of cardiovascular healthcare. Online Manuscript Submission Portal:\n\nhttps://www.casereportsincardiology.org/cardiovascular-case-reports.html",
+        "chunk_index": 3,
+        "quality_score": 0.772,
+        "has_overlap": true,
+        "total_chunks": 4,
+        "word_count": 77
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.35,
+      "domain_authority": 0.62,
+      "recency": 0.893,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.488,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "medium.com"
+      },
+      "recency": {
+        "age_days": 8,
+        "halflife": 90.0,
+        "published": "Wed, 29 Apr 2026 17:43:36 GMT"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 571,
+        "ttr": 0.531,
+        "gini": 0.365,
+        "wc_score": 0.285
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.009,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.6393
+  }
+]

@@ -1,0 +1,264 @@
+[
+  {
+    "record_id": "d1f65ac46cccdc96",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T16:17:36Z",
+    "source_url": "https://www.youtube.com/watch?v=rZRsqin3lwY",
+    "source_type": "youtube",
+    "author": "TEDx Talks",
+    "published_date": "2019-09-23",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "healthcare",
+      "cancer / oncology",
+      "research"
+    ],
+    "trust_score": 0.432,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "At the Malaghan Institute for Biomedical Reserach,researchers are developing third generation CAR-T immunotherapy treatments which aim to be more effective with less side effects than previous therapies. Using patients own modified T-cells, CAR-T therapy has the ability to vanquish cancer cells, vastly improving outcomes of once life threatening diseases. This year, 2019, Rob hopes to begin clinical trials for CAR-T therapy in New Zealand through the collaboration of scientists from the Malaghan Institute and international researchers. He is optimistic that this next generation treatment will present a new paradigm for treatment of lymphomas and possibly for other cancers in the future. Dr Robert Weinkove is Clinical Director of the Malaghan Institute, a biomedical research institute in Wellington, New Zealand. After studying medicine at the University of Cambridge and Kings College London, Rob trained in Haematology in London and Germany before moving to New Zealand in 2008 and gaining a doctorate with the University of Otago.",
+        "chunk_index": 0,
+        "quality_score": 0.839,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 155
+      },
+      {
+        "text": "London, Rob trained in Haematology in London and Germany before moving to New Zealand in 2008 and gaining a doctorate with the University of Otago. Rob is a key member of the Cancer Immunotherapy Programme to develop and manufacture ‘chimeric antigen receptor’ (CAR) T-cells for treatment of lymphoma and other blood cancers. He also holds a joint role as a Haematologist at Wellington Blood & Cancer Centre. https://www.malaghan.org.nz/our-history/our-people/dr-robert-weinkove/ \nLinkedIn: https://nz.linkedin.com/in/robert-weinkove-8a1b3842\n Dr Robert Weinkove is Clinical Director of the Malaghan Institute, a biomedical research institute in Wellington, New Zealand and holds a joint role as a Haematologist at Wellington Blood & Cancer Centre. After studying medicine at the University of Cambridge and Kings College London, Rob trained in Haematology in London and Germany before moving to New Zealand in 2008 and gaining a doctorate with the University of Otago. Rob is a key member of the Cancer Immunotherapy Programme at the Malaghan Institute, where he leads a programme to develop and manufacture ‘chimeric antigen receptor’ (CAR) T-cells for treatment of lymphoma and other blood cancers. This talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at https://www.ted.com/tedx",
+        "chunk_index": 1,
+        "quality_score": 0.585,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 198
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.881,
+      "domain_authority": 0.62,
+      "recency": 0.05,
+      "medical_disclaimer_presence": 0.35,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.443,
+      "engagement_authenticity": 0.681,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.65,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.55,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.75,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "views": 193411
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "youtube.com"
+      },
+      "recency": {
+        "age_days": 2421,
+        "halflife": 365.0,
+        "published": "2019-09-23"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false,
+        "implicit_editorial_review": "partial",
+        "domain": "youtube.com"
+      },
+      "metadata_completeness": {
+        "present": 5,
+        "required": 5,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 328,
+        "ttr": 0.451,
+        "gini": 0.289,
+        "wc_score": 0.164
+      },
+      "engagement_authenticity": {
+        "views": 193411,
+        "likes": 3665,
+        "like_view_ratio": 0.01895,
+        "z_score": -0.957,
+        "manipulation_flags": []
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.252,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.08,
+      "domain_authority": 0.15,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.04,
+      "content_depth": 0.06,
+      "engagement_authenticity": 0.12,
+      "adversarial_risk": 0.07
+    },
+    "abuse_penalty": 0.82,
+    "abuse_reasons": [
+      "outdated_health_content"
+    ],
+    "anomaly_flags": [],
+    "prior_used": 0.4867,
+    "view_count": 193411,
+    "like_count": 3665,
+    "duration_sec": 1113,
+    "has_transcript": false
+  },
+  {
+    "record_id": "df8785085f381929",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T16:17:36Z",
+    "source_url": "https://www.youtube.com/watch?v=XcdcfLfxsCA",
+    "source_type": "youtube",
+    "author": "Nucleus Medical Media",
+    "published_date": "2020-08-21",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "cancer / oncology",
+      "healthcare",
+      "research"
+    ],
+    "trust_score": 0.429,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "Visit our website to learn more about using Nucleus content for patient engagement and content marketing: http://www.nucleushealth.com/\n\n#CancerImmunotherapy #Immunotherapy #CancerTreatment\n\nMEDICAL ANIMATION TRANSCRIPT: \nThis video will show you what cancer immunotherapy is and how it works. Immuno-oncology is the study and development of certain treatments called immunotherapies for cancer. These treatments fight cancer by strengthening your immune system. Normally, the white blood cells of your immune system help fight infections and disease. They recognize substances on the surface of cells called antigens. Healthy cells have different antigens than damaged body cells or foreign invaders. Your immune cells usually ignore the antigens on healthy cells, but they do respond to antigens on damaged cells and foreign invaders. Some immune cells mark these antigens for destruction with a substance called an antibody. Then, other immune cells attack the cells that have these antibodies. Since cancer is made up of damaged cells, they may have antigens that your immune cells recognize and attack. But, some cancer cells have ways to avoid destruction by your immune cells.",
+        "chunk_index": 0,
+        "quality_score": 0.598,
+        "has_overlap": false,
+        "total_chunks": 3,
+        "word_count": 173
+      },
+      {
+        "text": "cells, they may have antigens that your immune cells recognize and attack. But, some cancer cells have ways to avoid destruction by your immune cells. For example, cancer cells may reduce the number of cancer antigens, allowing them to hide from your immune cells. A second way cancer cells avoid destruction is through checkpoint proteins. Both cancer and immune cells may have these proteins. When they attach, other immune cells won't attack the cancer cell. A third way cancer cells avoid destruction happens when the cancer cells are under attack from the immune system. During the attack, the cancer cells release certain substances that call in other types of immune cells, which slow down or stop the immune response. Immunotherapies have several ways they work to help your immune system fight cancer. One way is through special antibodies made in the lab. Some of these antibodies attach to cancer cells. They can kill the cancer cell directly. Others mark the cancer cells so that your immune cells destroy it. Another group of antibodies blocks the checkpoint proteins. This keeps them from attaching to each other. As a result, the immune cell can attack and kill the cancer cell.",
+        "chunk_index": 1,
+        "quality_score": 0.547,
+        "has_overlap": true,
+        "total_chunks": 3,
+        "word_count": 198
+      },
+      {
+        "text": "blocks the checkpoint proteins. This keeps them from attaching to each other. As a result, the immune cell can attack and kill the cancer cell. Still other antibodies prevent the growth of cancer cells. Some of them block the signals that cause new blood vessels to grow and feed the cancer. In another type of immunotherapy, some of the immune cells that best fight cancer are removed from the body. The cells are taken to a lab where many more of them are grown. Then, they're returned to the body to attack the cancer. To find out more about the ways immuno-oncology can help fight cancer, talk to your healthcare provider. ANH18211",
+        "chunk_index": 2,
+        "quality_score": 0.676,
+        "has_overlap": true,
+        "total_chunks": 3,
+        "word_count": 112
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.905,
+      "domain_authority": 0.62,
+      "recency": 0.05,
+      "medical_disclaimer_presence": 0.35,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.408,
+      "engagement_authenticity": 0.657,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.65,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.55,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.75,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "views": 270669
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "youtube.com"
+      },
+      "recency": {
+        "age_days": 2088,
+        "halflife": 365.0,
+        "published": "2020-08-21"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false,
+        "implicit_editorial_review": "partial",
+        "domain": "youtube.com"
+      },
+      "metadata_completeness": {
+        "present": 5,
+        "required": 5,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 433,
+        "ttr": 0.436,
+        "gini": 0.439,
+        "wc_score": 0.216
+      },
+      "engagement_authenticity": {
+        "views": 270669,
+        "likes": 4847,
+        "like_view_ratio": 0.01791,
+        "z_score": -1.028,
+        "manipulation_flags": []
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.007,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.08,
+      "domain_authority": 0.15,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.04,
+      "content_depth": 0.06,
+      "engagement_authenticity": 0.12,
+      "adversarial_risk": 0.07
+    },
+    "abuse_penalty": 0.82,
+    "abuse_reasons": [
+      "outdated_health_content"
+    ],
+    "anomaly_flags": [],
+    "prior_used": 0.4828,
+    "view_count": 270669,
+    "like_count": 4847,
+    "duration_sec": 215,
+    "has_transcript": false
+  }
+]

@@ -1,0 +1,134 @@
+[
+  {
+    "record_id": "861c42de9a12fdd6",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:34:55Z",
+    "source_url": "https://www.youtube.com/watch?v=Q_epStvzGyc",
+    "source_type": "youtube",
+    "author": "Stanford CME",
+    "published_date": "2024-05-17",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "diabetes",
+      "healthcare"
+    ],
+    "trust_score": 0.608,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "Explore the world of diabetes with our educational animated video, \"Understanding Diabetes: Type 1 vs Type 2 Explained,\" designed for Continuing Medical Education (CME). This animation clearly differentiates between Type 1 and Type 2 diabetes, starting from the autoimmune aspects of Type 1 to the insulin resistance seen in Type 2. It also covers treatment strategies for each type, such as insulin therapy and glucose monitoring, alongside preventive measures like lifestyle modifications. This video seamlessly integrates scientific explanations with practical guidance, making it an ideal resource for healthcare professionals seeking to enhance their understanding of diabetes management and patient education.",
+        "chunk_index": 0,
+        "quality_score": 0.69,
+        "has_overlap": false,
+        "total_chunks": 3,
+        "word_count": 100
+      },
+      {
+        "text": "integrates scientific explanations with practical guidance, making it an ideal resource for healthcare professionals seeking to enhance their understanding of diabetes management and patient education. diabetes is a chronic health condition that is characterized by sustained high blood sugar levels currently around 38 million adults in the United States are living with diabetes and one out of five of them don't know they have it it is important to understand the distinction between type 1 and type 2 diabetes as their causes and treatments differ significantly type 1 diabetes is an autoimmune condition where the immune system attacks the beta cells in the pancreas which leads to the pancreas being unable to produce insulin because the body lacks insulin glucose is unable to enter the body cells resulting in high blood sugar levels treatment for type 1 diabetes involves monitoring blood sugar and administering insulin therapy type 2 diabetes occurs when the body develops insulin resistance and cannot use insulin efficiently insulin resistance is often related to increased weight those who show increased blood glucose as a result of insulin resistance can develop pre-diabetes a condition where blood sugar is high but not enough to be classified as diabetes however unlike type 1 type 2",
+        "chunk_index": 1,
+        "quality_score": 0.64,
+        "has_overlap": true,
+        "total_chunks": 3,
+        "word_count": 205
+      },
+      {
+        "text": "resistance can develop pre-diabetes a condition where blood sugar is high but not enough to be classified as diabetes however unlike type 1 type 2 diabetes can sometimes be managed or even prevented with Lifestyle Changes managing type 2 diabetes IES may involve diet exercise and avoiding smoking which can prevent progression if initiated early understanding the difference between type 1 and type 2 diabetes encourages individuals to take control of their health by understanding the onset and treatment of these two types of diabetes people can make informed decisions about their Health Management and medical care and can Implement preventive measures tailored to their Lifest style recognizing the distinction between diabetes types can help decrease stigmas around diabetics it can help promote understanding and awareness of the disease within communities affected by diabetes",
+        "chunk_index": 2,
+        "quality_score": 0.693,
+        "has_overlap": true,
+        "total_chunks": 3,
+        "word_count": 134
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 1.0,
+      "citation_count": 0.87,
+      "domain_authority": 0.62,
+      "recency": 0.241,
+      "medical_disclaimer_presence": 0.35,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.479,
+      "engagement_authenticity": 0.282,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.95,
+      "citation_count": 0.65,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.55,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.75,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "credible_org_match",
+        "author": "Stanford CME"
+      },
+      "citation_count": {
+        "views": 165990
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "youtube.com"
+      },
+      "recency": {
+        "age_days": 723,
+        "halflife": 365.0,
+        "published": "2024-05-17"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false,
+        "implicit_editorial_review": "partial",
+        "domain": "youtube.com"
+      },
+      "metadata_completeness": {
+        "present": 5,
+        "required": 5,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 389,
+        "ttr": 0.535,
+        "gini": 0.311,
+        "wc_score": 0.195
+      },
+      "engagement_authenticity": {
+        "views": 165990,
+        "likes": 1207,
+        "like_view_ratio": 0.00727,
+        "z_score": -2.155,
+        "manipulation_flags": []
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.021,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.08,
+      "domain_authority": 0.15,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.04,
+      "content_depth": 0.06,
+      "engagement_authenticity": 0.12,
+      "adversarial_risk": 0.07
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.4632,
+    "view_count": 165990,
+    "like_count": 1207,
+    "duration_sec": 136,
+    "has_transcript": true
+  }
+]

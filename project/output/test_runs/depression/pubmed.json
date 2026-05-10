@@ -1,0 +1,113 @@
+[
+  {
+    "record_id": "863c4d2d186f557d",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T23:37:37Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/37263267/",
+    "source_type": "pubmed",
+    "author": "Han S, Li XX, Wei S, Zhao D, Ding J, Xu Y, Yu C, Chen Z, Zhou DS, Yuan TF",
+    "published_date": "2023 Jun 20",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "mental health",
+      "research",
+      "healthcare",
+      "sleep / circadian",
+      "neurology"
+    ],
+    "trust_score": 0.682,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "It has been 15 years since repetitive transcranial magnetic stimulation (rTMS) targeting the dorsolateral prefrontal cortex (DLPFC) was approved by the FDA for clinical depression treatment. Yet, the underlying mechanisms for rTMS-induced depression relief are not fully elucidated. This study analyzes TMS-electroencephalogram (EEG) data from 64 healthy control (HC) subjects and 53 patients with major depressive disorder (MDD) before and after rTMS treatment. Prior to treatment, patients with MDD have lower activity in the DLPFC, the hippocampus (HPC), the orbitofrontal cortex (OFC), and DLPFC-OFC connectivity compared with HCs. Following active rTMS treatment, patients with MDD show a significant increase in the DLPFC, HPC, and OFC. Notably, the increase in HPC activity is specifically associated with amelioration of depressive symptoms but not anxiety or sleep quality. The orbitofrontal-hippocampal pathway plays a crucial role in mediating depression relief following rTMS treatment. These findings suggest potential alternative targets for brain stimulation therapy against depression (chictr.org.cn: ChiCTR2100052007).",
+        "chunk_index": 0,
+        "quality_score": 0.866,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 153
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.55,
+      "domain_authority": 0.95,
+      "recency": 0.422,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.566,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.711,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 10
+      },
+      "citation_count": {
+        "citations": 110
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 1055,
+        "halflife": 900.0,
+        "published": "2023 Jun 20"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 153,
+        "ttr": 0.732,
+        "gini": 0.167,
+        "wc_score": 0.076
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.007,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7311,
+    "pmid": "37263267",
+    "doi": "10.1016/j.xcrm.2023.101060",
+    "journal": "Cell reports. Medicine"
+  }
+]

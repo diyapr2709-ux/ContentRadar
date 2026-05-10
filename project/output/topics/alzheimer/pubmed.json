@@ -1,0 +1,110 @@
+[
+  {
+    "record_id": "fe51af50f8aab5e6",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:17Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39485649/",
+    "source_type": "pubmed",
+    "author": "Testo AA, Roundy G, Dumas JA",
+    "published_date": "2025",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "neurology",
+      "mental health"
+    ],
+    "trust_score": 0.827,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Deficits in memory, language, and other cognitive domains that impact an individual's ability to perform necessary tasks of daily living are symptoms of dementia, which is a major cause of death and disability in older adults. As the global population continues to age, deepening our understanding of dementia is crucial. Alzheimer's disease is the leading cause of dementia and accounts for between 60% and 80% of total dementia cases. Declines in episodic memory are considered a hallmark of Alzheimer's disease and occur early in disease progression. The cognitive effects of Alzheimer's disease differ from the cognitive changes expected in nonpathological or normal aging. While some cognitive changes are expected as a part of the aging processes, the declines in cognition associated with Alzheimer's disease are to a degree that the individual diagnosed with the disease is unable to function independently in activities of daily living. In this review, we will discuss how cognition is impacted by both normal and pathological aging, with a focus on Alzheimer's disease.",
+        "chunk_index": 0,
+        "quality_score": 0.799,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 167
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 1.0,
+      "domain_authority": 0.95,
+      "recency": 0.65,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.502,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.65,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 3
+      },
+      "citation_count": {
+        "citations": 247
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 492,
+        "halflife": 900.0,
+        "published": "2025"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 167,
+        "ttr": 0.599,
+        "gini": 0.207,
+        "wc_score": 0.084
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.793,
+    "pmid": "39485649",
+    "doi": "10.1007/7854_2024_527",
+    "journal": "Current topics in behavioral neurosciences"
+  }
+]

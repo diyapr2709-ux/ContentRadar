@@ -1,0 +1,587 @@
+{
+  "meta": {
+    "topic": "public health",
+    "generated_at": "2026-05-08T15:09:07",
+    "ingested_at": "2026-05-08T19:09:07Z",
+    "pipeline": "ContentRadar v2",
+    "schema_version": "2.0",
+    "total_records": 4,
+    "avg_trust": 0.779,
+    "trust_tiers": {
+      "AUTHORITATIVE": 3,
+      "CREDIBLE": 1
+    },
+    "sources": {
+      "pubmed": 1,
+      "blog": 3
+    },
+    "sorted_by": "trust_score_desc"
+  },
+  "records": [
+    {
+      "record_id": "cd5734b2666be96b",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:09:07Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38926611/",
+      "source_type": "pubmed",
+      "author": "Khan MS, Shahid I, Bennis A, Rakisheva A, Metra M, Butler J",
+      "published_date": "2024 Oct",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "public health",
+        "healthcare",
+        "cardiovascular"
+      ],
+      "trust_score": 0.827,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Heart failure (HF) is a heterogeneous clinical syndrome marked by substantial morbidity and mortality. The natural history of HF is well established; however, epidemiological data are continually evolving owing to demographic shifts, advances in treatment and variations in access to health care. Although the incidence of HF has stabilized or declined in high-income countries over the past decade, its prevalence continues to increase, driven by an ageing population, an increase in risk factors, the effectiveness of novel therapies and improved survival. This rise in prevalence is increasingly noted among younger adults and is accompanied by a shift towards HF with preserved ejection fraction. However, disparities exist in our epidemiological understanding of HF burden and progression in low-income and middle-income countries owing to the lack of comprehensive data in these regions. Therefore, the current epidemiological landscape of HF highlights the need for periodic surveillance and resource allocation tailored to geographically vulnerable areas. In this Review, we highlight global trends in the burden of HF, focusing on the variations across the spectrum of left ventricular ejection fraction.",
+          "chunk_index": 0,
+          "quality_score": 0.834,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 175
+        },
+        {
+          "text": "areas. In this Review, we highlight global trends in the burden of HF, focusing on the variations across the spectrum of left ventricular ejection fraction. We also discuss evolving population-based estimates of HF incidence and prevalence, the risk factors for and aetiologies of this disease, and outcomes in different geographical regions and populations.",
+          "chunk_index": 1,
+          "quality_score": 0.877,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 53
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.606,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.541,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 6
+        },
+        "citation_count": {
+          "citations": 233
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 584,
+          "halflife": 900.0,
+          "published": "2024 Oct"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 203,
+          "ttr": 0.64,
+          "gini": 0.151,
+          "wc_score": 0.102
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8205,
+      "pmid": "38926611",
+      "doi": "10.1038/s41569-024-01046-6",
+      "journal": "Nature reviews. Cardiology"
+    },
+    {
+      "record_id": "7f5658639e11e37e",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:09:07Z",
+      "source_url": "https://www.healthline.com/health-news/fda-blocks-publication-covid-shingles-vaccine-safety-studies",
+      "source_type": "blog",
+      "author": "Healthline Editorial",
+      "published_date": "Unknown",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "healthcare",
+        "research",
+        "public health"
+      ],
+      "trust_score": 0.796,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "The FDA has blocked the publication of COVID-19 and shingles vaccine safety studies. What does this mean for public health? Image credit: Gerardo Vieyra/NurPhoto via Getty Images\n\nThe Food and Drug Administration (FDA) has blocked the publication of COVID-19 and shingles vaccine safety studies, citing concerns over their conclusions. Experts question the decision to withdraw the studies, since both vaccines have substantial evidence supporting their safety and effectiveness. Some experts say the decision may be influenced by HHS Health Secretary Robert F. Kennedy Jr.’s anti-vaccine agenda. The Food and Drug Administration (FDA) has pulled back the publication of several studies on the safety and efficacy of broadly used COVID-19 and shingles vaccines. The Department of Health and Human Services (HHS), which oversees the FDA, confirmed the decision, which was first reported by\n\nThe New York Times\n\n. The studies, which involved millions of patient records and taxpayer dollars, were conducted by FDA scientists and data contractors before they were blocked from publication.",
+          "chunk_index": 0,
+          "quality_score": 0.821,
+          "has_overlap": false,
+          "total_chunks": 10,
+          "word_count": 162
+        },
+        {
+          "text": "The studies, which involved millions of patient records and taxpayer dollars, were conducted by FDA scientists and data contractors before they were blocked from publication. Two studies on COVID-19 vaccines that were accepted by medical journals were withdrawn in October 2025 before they were published. The FDA also failed to sign off on two safety studies on the shingles vaccine, Shingrex, which required the federal agency’s approval prior to their submission to a drug safety conference. The Department of Health and Human Services couldn’t be reached for comment, but an HHS spokesperson told The New York Times that the studies were blocked due to concerns about their conclusions. “Scientists and physicians aren’t buying that explanation,” said\n\nRobert Glatter\n\n, MD, attending physician in the Department of Emergency Medicine at Lenox Hill Hospital in New York City, and assistant professor of Emergency Medicine at Zucker School of Medicine at Hofstra/ Northwell. “The public health implications of blocking such studies are serious … secrecy can backfire. People who are already distrustful may see suppression where officials see caution,” Glatter told Healthline.",
+          "chunk_index": 1,
+          "quality_score": 0.846,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 179
+        },
+        {
+          "text": "of blocking such studies are serious … secrecy can backfire. People who are already distrustful may see suppression where officials see caution,” Glatter told Healthline. A robust body of evidence supports the safety and effectiveness of both\n\nCOVID-19\n\nand\n\nshingles\n\nvaccines, which has experts concerned about the FDA’s decision to pull the recent studies. Monica Gandhi\n\n, MD, MPH, a professor of medicine at the University of California, San Francisco, echoed Glatter’s remarks. “The COVID-19 vaccine safety studies had been peer reviewed and would have been extremely important to be published for reassurance of the public of the safety of these vaccines,” she said. William Schaffner\n\n, MD, professor of preventive medicine and infectious diseases in the Department of Health Policy at Vanderbilt University Medical Center in Nashville, agreed. “Both vaccines are in widespread use, not only here in the United States, but around the world. Having these data available so that professional people can look at them and make their own assessments when they see the data is very important.”\n\nWe spoke with infectious disease experts unaffiliated with the studies to find out why scientific research might be barred from publication, and why it’s potentially problematic to block it from public view.",
+          "chunk_index": 2,
+          "quality_score": 0.855,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 203
+        },
+        {
+          "text": "with the studies to find out why scientific research might be barred from publication, and why it’s potentially problematic to block it from public view. These interviews have been lightly edited and condensed for clarity and length. The opinions expressed in this article do not necessarily reflect the views of Healthline Media. Why is the FDA’s decision to pull the publication of two studies a concern? Gandhi:\n\nI am extremely concerned about the FDA’s decision to pull publications of well-conducted studies documenting the safety of COVID-19 vaccines, as well as a study showing the effectiveness of the Shingrix vaccine in preventing shingles. The COVID-19 safety studies reviewed side effects of these vaccines among millions of people with data collected by FDA scientists from Medicare and other insurance databases, and found the vaccine to be safe among those who are 65 and older and those between the ages of 6 and 64 years. The FDA’s decision suggests a political rather than a scientific motivation and aligns with the anti-vaccine views of the Secretary of the Department of Health and Human Services, Robert F. Kennedy Jr.",
+          "chunk_index": 3,
+          "quality_score": 0.821,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 184
+        },
+        {
+          "text": "than a scientific motivation and aligns with the anti-vaccine views of the Secretary of the Department of Health and Human Services, Robert F. Kennedy Jr. Glatter:\n\nThe broad reaction from my colleagues and myself is skepticism and outrage toward the decision itself, not because every study is beyond criticism, but more to the point that withholding research is viewed as unethical and irresponsible. In science, disagreement is normally handled through peer review, editorial commentary, replication, and publication of rebuttals, not by stopping publication of a research paper altogether. That is especially true for vaccines, where confidence depends on showing the public both the evidence and the process. Federal health agencies themselves routinely argue that transparency is essential to trust, and the FDA has recently emphasized the importance of making trial results public to avoid distorted perceptions of safety and efficacy. What concerns might warrant blocking the publication of studies like these? Gandhi:\n\nThere are no concerns that I could see which would block these COVID-19 vaccine safety publications given that the design of looking at large datasets of people who receive the vaccine before and after vaccine receipt is a sound one and can be accomplished in millions of people using large insurance-based databases.",
+          "chunk_index": 4,
+          "quality_score": 0.853,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 204
+        },
+        {
+          "text": "who receive the vaccine before and after vaccine receipt is a sound one and can be accomplished in millions of people using large insurance-based databases. FDA scientists conduct such studies after a new vaccine is approved, and these studies are peer reviewed and nearing publication. Their blockage suggests a political, rather than a scientific, motivation. Schaffner:\n\nWe should realize that no single study or method is perfect; it’s the assemblage of many different studies done by different investigators using methods that are sometimes slightly different, but that nonetheless have a long track record of reliability. That’s how we come to a consensus on effectiveness and safety. The studies in question were done by highly experienced investigators using well-established methods. Are they the single and only and perfect answer, no, but they do reflect a real-life experience that goes beyond the constrained experience you get from prospective, controlled clinical trials. The methods used by these investigators are well established and well recognized. They cannot be published unless they are peer-reviewed first, so they undergo careful critical analysis before publication. Glatter:\n\nCould there ever be legitimate reasons to delay publication of a government-funded study? In principle, yes.",
+          "chunk_index": 5,
+          "quality_score": 0.838,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 195
+        },
+        {
+          "text": "so they undergo careful critical analysis before publication. Glatter: Could there ever be legitimate reasons to delay publication of a government-funded study? In principle, yes. Methodological flaws or errors, premature conclusions, or conflicts with stronger evidence are valid grounds for internal review. But such conversations should happen in the open. Scientists revise, resubmit, respond to peer critique and review. What allegedly happened here — leadership halting accepted research without transparent scientific justification — falls well outside normal regulatory conduct. What are the public health implications of blocking studies about vaccine effectiveness? Gandhi:\n\nThe public health implications are to erode trust in vaccines such as those used for COVID-19 and shingles prevention. The public can be reassured by large database-based studies such as these on the safety and effectiveness of vaccines. Schaffner:\n\nOver the last several years, there’s been a great deal of controversy and concern about the effectiveness and the safety of vaccines. Having data from very large real-life experiences assembled, analyzed, and then published is very important. That information goes out to medical care practitioners of all kinds — physicians, nurses, pharmacists — so that they can honestly and clearly represent the effectiveness and safety of vaccines to their patients.",
+          "chunk_index": 6,
+          "quality_score": 0.853,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 201
+        },
+        {
+          "text": "of all kinds — physicians, nurses, pharmacists — so that they can honestly and clearly represent the effectiveness and safety of vaccines to their patients. Not having this information readily available and published in the scientific literature is, therefore, very unfortunate, as it impedes the appreciation of the safety and effectiveness of the vaccines now being recommended for use. Glatter:\n\nCritically, COVID vaccines are among the most studied in history, with large clinical trials and post-market surveillance consistently showing clear and substantial population benefits that outweigh any noted rare risks. Blocking confirmatory safety data doesn’t strengthen the science — it simply removes it from view. The public health stakes are real. Vaccine confidence is not a fixed quantity; it erodes incrementally, and it erodes fastest when people sense that information is being managed rather than shared. Under HHS Secretary Robert F. Kennedy Jr., federal agencies have already softened COVID vaccine recommendations, cut vaccine research funding, and attempted to overhaul the childhood immunization schedule. Each of these steps, individually, might be debated on policy grounds. Together, and now compounded by the suppression of internally favorable safety data, they form a pattern that the public is right to scrutinize.",
+          "chunk_index": 7,
+          "quality_score": 0.86,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 197
+        },
+        {
+          "text": "policy grounds. Together, and now compounded by the suppression of internally favorable safety data, they form a pattern that the public is right to scrutinize. Do you hope the FDA will reverse its decision and publish the studies? Schaffner:\n\nI hope these studies are published as quickly as possible, because the information is important. They both reinforce the effectiveness and the safety of one of the COVID vaccines and also the shingles vaccine. Gandhi:\n\nI very much hope the FDA will reverse its decision and publish the studies. This matters deeply to public perception that the agency is upholding its formerly high standard of scientific integrity and is not compromised by the HHS Secretary’s ideological views. Glatter:\n\nThe bottom line is that these studies should be published. Not because we need more evidence that COVID and shingles vaccines are safe (we already have it), but because the act of suppression is itself the problem. Science earns public trust through transparency, including the willingness to publish findings that challenge assumptions. When the government funds research and then buries its own reassuring conclusions, it doesn’t protect scientific integrity — it damages it.",
+          "chunk_index": 8,
+          "quality_score": 0.816,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 190
+        },
+        {
+          "text": "findings that challenge assumptions. When the government funds research and then buries its own reassuring conclusions, it doesn’t protect scientific integrity — it damages it. And in a moment when vaccine hesitancy is already elevated, that damage doesn’t stay within the walls of a federal agency. It spreads like wildfire in 2026, amplified by social media and influencers. The FDA should reverse course, release these findings through normal peer review, and let the data speak for itself. That is, after all, what the data was intended to do.",
+          "chunk_index": 9,
+          "quality_score": 0.903,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 88
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.35,
+        "domain_authority": 0.95,
+        "recency": 0.3,
+        "medical_disclaimer_presence": 1.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.595,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.92,
+        "recency": 0.3,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": true
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "healthline.com"
+        },
+        "recency": {
+          "reason": "missing_date",
+          "raw": "Unknown"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": true
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 1578,
+          "ttr": 0.42,
+          "gini": 0.366,
+          "wc_score": 0.789
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.03,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.7267
+    },
+    {
+      "record_id": "e6b0506beba5c3b3",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:09:07Z",
+      "source_url": "https://www.sciencedaily.com/releases/2026/05/260501234707.htm",
+      "source_type": "blog",
+      "author": "ScienceDaily",
+      "published_date": "Sat, 02 May 2026 07:35:28 EDT",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "research",
+        "healthcare",
+        "neurology",
+        "public health",
+        "genomics"
+      ],
+      "trust_score": 0.777,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Science News\n\nfrom research organizations\n\nScientists sound alarm as dangerous amoebas spread globally\n\nDate:\n\nMay 2, 2026\n\nSource:\n\nShenyang Agricultural University\n\nSummary:\n\nFree-living amoebae are emerging as a global health concern, fueled by warming temperatures and outdated water systems. While many are harmless, some can cause deadly infections and even protect other dangerous microbes. Their ability to survive heat and disinfectants makes them especially hard to control. Scientists say improved surveillance and water treatment are urgently needed. Share:\n\nFacebook\n\nTwitter\n\nPinterest\n\nLinkedIN\n\nEmail\n\nFULL STORY\n\nA team of environmental and public health scientists is raising concerns about a largely overlooked group of microscopic organisms that may pose a growing danger worldwide: free living amoebae. In a recent perspective article published in\n\nBiocontaminant\n\n, researchers explain that these tiny life forms are becoming an emerging global health risk. Their spread is being driven by rising temperatures, aging water infrastructure, and limited systems for detecting and tracking them. Although most people have never heard of free living amoebae, scientists say they deserve far more attention.",
+          "chunk_index": 0,
+          "quality_score": 0.893,
+          "has_overlap": false,
+          "total_chunks": 8,
+          "word_count": 173
+        },
+        {
+          "text": "and limited systems for detecting and tracking them. Although most people have never heard of free living amoebae, scientists say they deserve far more attention. What Are Free Living Amoebae\n\nAmoebae are single celled organisms that live naturally in soil, freshwater, and even some man made water systems. They move and feed by extending parts of their cell body, a process that gives them their distinctive shape. Most amoebae are harmless and play a role in natural ecosystems. However, a small number of species can infect humans and cause severe illness. These infections are rare, but when they do occur, they can be extremely serious. One of the most well known examples is\n\nNaegleria fowleri\n\n(often called the brain eating amoeba). This organism can enter the body when contaminated water goes up the nose, such as during swimming in warm lakes or poorly treated water. Once inside, it can travel to the brain and cause a fast moving infection that is almost always fatal. Why These Microbes Are So Hard to Eliminate\n\nScientists say one of the most concerning features of these amoebae is their ability to survive harsh conditions that would normally kill other microorganisms.",
+          "chunk_index": 1,
+          "quality_score": 0.855,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 196
+        },
+        {
+          "text": "Eliminate Scientists say one of the most concerning features of these amoebae is their ability to survive harsh conditions that would normally kill other microorganisms. \"What makes these organisms particularly dangerous is their ability to survive conditions that kill many other microbes,\" said corresponding author Longfei Shu of Sun Yat sen University. \"They can tolerate high temperatures, strong disinfectants like chlorine, and even live inside water distribution systems that people assume are safe.\"\n\nThis resilience means that standard water treatment methods may not always be enough to eliminate them, especially in older or poorly maintained systems. The Hidden Role of Amoebae in Spreading Other Pathogens\n\nThe risks go beyond the amoebae themselves. Researchers highlight that these organisms can act as protective hosts for other harmful microbes, including bacteria and viruses. Inside the amoeba, these pathogens can survive in a kind of safe shelter, shielded from disinfectants that would normally destroy them. This process is often described as a so called Trojan horse effect. It allows dangerous microbes to persist in drinking water systems and potentially spread more easily. Scientists are also concerned that this protective environment could help promote antibiotic resistance, making infections harder to treat over time.",
+          "chunk_index": 2,
+          "quality_score": 0.851,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 198
+        },
+        {
+          "text": "and potentially spread more easily. Scientists are also concerned that this protective environment could help promote antibiotic resistance, making infections harder to treat over time. Climate Change Is Expanding Their Reach\n\nRising global temperatures are expected to make the problem worse. Many of these amoebae thrive in warm conditions, so as water temperatures increase, they are likely to expand into new regions where they were once uncommon. In recent years, several outbreaks linked to recreational water use have already heightened public concern in different parts of the world. These incidents suggest that the risk is no longer limited to a few isolated areas. Calls for Better Monitoring and Safer Water Systems\n\nTo address the growing threat, researchers are calling for a broader, more coordinated response. They recommend a One Health approach, which brings together experts in human health, environmental science, and water management to tackle the issue from multiple angles. Improving surveillance systems is a key priority, along with developing faster and more accurate diagnostic tools. The team also emphasizes the need for advanced water treatment technologies that can better target these resilient organisms before they pose a risk to the public.",
+          "chunk_index": 3,
+          "quality_score": 0.87,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 192
+        },
+        {
+          "text": "team also emphasizes the need for advanced water treatment technologies that can better target these resilient organisms before they pose a risk to the public. A Problem That Crosses Boundaries\n\n\"Amoebae are not just a medical issue or an environmental issue,\" Shu said. \"They sit at the intersection of both, and addressing them requires integrated solutions that protect public health at its source.\"\n\nAs scientists continue to learn more about these microscopic organisms, one message is becoming clear: something largely invisible to the naked eye could have a much bigger impact on global health than previously thought. RELATED TOPICS\n\nHealth & Medicine\n\nEye Care\n\nToday's Healthcare\n\nHealthy Aging\n\nDiseases and Conditions\n\nInfectious Diseases\n\nFoodborne Illness\n\nDisability\n\nPatient Education and Counseling\n\nRELATED TERMS\n\nMicroorganism\n\nAntibiotic resistance\n\nPublic health\n\nAdult stem cell\n\nWater purification\n\nHeadache\n\nFungus\n\nImmune system\n\nStory Source:\n\nMaterials provided by\n\nShenyang Agricultural University\n\n. Note: Content may be edited for style and length. Journal Reference\n\n:\n\nJianyi Zheng, Ruiwen Hu, Yijing Shi, Zhenzhen He, Longfei Shu. The rising threat of amoebae: a global public health challenge\n\n. Biocontaminant\n\n, 2025; 1 (1): 0 DOI:\n\n10.48130/biocontam-0025-0019\n\nCite This Page\n\n:\n\nMLA\n\nAPA\n\nChicago\n\nShenyang Agricultural University. \"Scientists sound alarm as dangerous amoebas spread globally.\" ScienceDaily.",
+          "chunk_index": 4,
+          "quality_score": 0.915,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 205
+        },
+        {
+          "text": "2025; 1 (1): 0 DOI: 10.48130/biocontam-0025-0019 Cite This Page : MLA APA Chicago Shenyang Agricultural University. \"Scientists sound alarm as dangerous amoebas spread globally.\" ScienceDaily. ScienceDaily, 2 May 2026. <www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260501234707.htm>. Shenyang Agricultural University. (2026, May 2). Scientists sound alarm as dangerous amoebas spread globally. ScienceDaily\n\n. Retrieved May 8, 2026 from www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260501234707.htm\n\nShenyang Agricultural University. \"Scientists sound alarm as dangerous amoebas spread globally.\" ScienceDaily. www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260501234707.htm (accessed May 8, 2026). Explore More\n\nfrom ScienceDaily\n\nRELATED STORIES\n\nScientists Call for Urgent Action as Dangerous Amoebas Spread Globally\n\nJan. 24, 2026 Â\n\nScientists are warning that a little-known group of microbes called free-living amoebae may pose a growing global health threat. Found in soil and water, some species can survive extreme heat, ... Most Existing Heat Wave Indices Fail to Capture Heat Wave Severity\n\nAug. 7, 2024 Â\n\nEven though climate change is bringing more frequent and severe heat waves, there is no standard, global way to measure heat-wave severity, and existing indices have different thresholds for defining ...",
+          "chunk_index": 5,
+          "quality_score": 0.816,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 190
+        },
+        {
+          "text": "more frequent and severe heat waves, there is no standard, global way to measure heat-wave severity, and existing indices have different thresholds for defining ... Monkeypox Viruses Relatively Stable on Surfaces\n\nMay 15, 2023 Â\n\nSmallpox viruses are notorious for their ability to remain infectious in the environment for a very long time. A study has now shown that temperature is a major factor in this process: at room ... Viruses Could Reshuffle the Carbon Cycle in a Warming World\n\nMay 8, 2023 Â\n\nThe roles microbes play in ecosystems are changing with global warming. Microbes are also affected by infection by viruses, but scientists know relatively little about how these viral infections ... WHO-Recommended Hand Disinfectants Inactivate Monkeypox Viruses, Study Finds\n\nNov. 22, 2022 Â\n\nResearchers have investigated whether the monkeypox virus can be inactivated by two disinfectants recommended by the World Health Organization. They found that both disinfectants efficiently ... 'Dangerous' and 'Extremely Dangerous' Heat Stress to Become More Common by 2100\n\nAug. 25, 2022 Â\n\nEven if countries manage to meet the Paris Agreement goal of keeping global warming to 2 degrees Celsius, combinations of heat and humidity that are dangerous to humans will become more frequent by ...",
+          "chunk_index": 6,
+          "quality_score": 0.842,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 202
+        },
+        {
+          "text": "goal of keeping global warming to 2 degrees Celsius, combinations of heat and humidity that are dangerous to humans will become more frequent by ... TRENDING AT\n\nSCITECHDAILY.com\n\nPhysicists Propose Strange Experiment Where Time Goes Quantum\n\nMagnesium Magic: New Drug Melts Fat Even on a High-Fat, High-Sugar Diet\n\nWeight-Loss Drugs Like Ozempic May Come With an Unexpected Cost\n\nMezcal âWormâ in a Bottle Mystery: DNA Testing Reveals a Surprise",
+          "chunk_index": 7,
+          "quality_score": 0.821,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 69
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.35,
+        "domain_authority": 0.95,
+        "recency": 0.907,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.601,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": true
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "sciencedaily.com"
+        },
+        "recency": {
+          "age_days": 6,
+          "halflife": 90.0,
+          "published": "Sat, 02 May 2026 07:35:28 EDT"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 1250,
+          "ttr": 0.51,
+          "gini": 0.302,
+          "wc_score": 0.625
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.026,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.783
+    },
+    {
+      "record_id": "40960599c174ea1d",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:09:07Z",
+      "source_url": "https://www.statnews.com/2026/05/08/hantavirus-outbreak-misinformation-spreads-faster-than-virus/",
+      "source_type": "blog",
+      "author": "Katrine Wallace",
+      "published_date": "Fri, 08 May 2026 15:34:07 +0000",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "general"
+      ],
+      "trust_score": 0.717,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "I learned about hantavirus misinformation this week in the same way I now learn about most public health misinformation: My\n\nfollowers\n\nsent it to me. Within hours of the first headlines about a\n\nhantavirus outbreak linked to the expedition cruise ship MV Hondius\n\n, my DMs started filling with screenshots. One was from the account of a\n\nTexas doctor\n\nwho became well known during Covid for promoting ivermectin. She was already telling followers that ivermectin would work against hantavirus, too. Read the rest…",
+          "chunk_index": 0,
+          "quality_score": 0.766,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 83
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.35,
+        "domain_authority": 0.95,
+        "recency": 0.3,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.631,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.92,
+        "recency": 0.3,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.4,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": true
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "statnews.com"
+        },
+        "recency": {
+          "reason": "future_date",
+          "raw": "Fri, 08 May 2026 15:34:07 +0000",
+          "age_days": -1
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 83,
+          "ttr": 0.831,
+          "gini": 0.045,
+          "wc_score": 0.042
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.786
+    }
+  ]
+}

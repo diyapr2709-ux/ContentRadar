@@ -1,0 +1,450 @@
+[
+  {
+    "record_id": "aaf5659bb9ff0881",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:59Z",
+    "source_url": "https://www.statnews.com/2026/05/07/lancet-study-finds-steep-rise-fraudulent-citations-academic-papers/",
+    "source_type": "blog",
+    "author": "Anil Oza",
+    "published_date": "Thu, 07 May 2026 22:30:00 +0000",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "research"
+    ],
+    "trust_score": 0.844,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Citations in academic papers are intended to ground research in the work that preceded it, over time creating something of a family tree explaining the roots of ideas, protocols, and studies. But a growing number of these citations lead to dead ends. “Fabricated” citations that do not reference real papers are spreading in the literature, polluting the public record of science, a new study\n\npublished Thursday\n\nin the Lancet shows. Tools using generative AI are likely to blame, say the Columbia University researchers who authored the paper. Read the rest…",
+        "chunk_index": 0,
+        "quality_score": 0.722,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 90
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.95,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.592,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.6,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.4,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "statnews.com"
+      },
+      "recency": {
+        "age_days": 0,
+        "halflife": 90.0,
+        "published": "Thu, 07 May 2026 22:30:00 +0000"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "non_health_content"
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 90,
+        "ttr": 0.744,
+        "gini": 0.065,
+        "wc_score": 0.045
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7715
+  },
+  {
+    "record_id": "d2d7ad8ce9b95da7",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:59Z",
+    "source_url": "https://www.sciencedaily.com/releases/2026/05/260506225428.htm",
+    "source_type": "blog",
+    "author": "ScienceDaily",
+    "published_date": "Thu, 07 May 2026 06:37:46 EDT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "research",
+      "obesity",
+      "healthcare",
+      "diabetes",
+      "cancer / oncology"
+    ],
+    "trust_score": 0.787,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Science News\n\nfrom research organizations\n\nNew âTrojan horseâ obesity drug supercharges weight loss in early tests\n\nDate:\n\nMay 7, 2026\n\nSource:\n\nHelmholtz Munich (GmbH)\n\nSummary:\n\nResearchers have created a next-generation obesity drug that works like a âTrojan horse,â using GLP-1/GIP signals to slip a powerful metabolic enhancer directly into target cells. In mice, it outperformed existing treatmentsâcurbing appetite, increasing weight loss, and improving blood sugar levels. Because the extra drug acts only where itâs needed, it can be used at much lower doses, potentially reducing side effects. Share:\n\nFacebook\n\nTwitter\n\nPinterest\n\nLinkedIN\n\nEmail\n\nFULL STORY\n\nResearchers led by metabolism expert Prof Timo D. Müller at Helmholtz Munich have developed a new strategy to treat obesity and type 2 diabetes. Their approach uses a specially designed hybrid molecule that takes advantage of the well-known GLP-1/GIP signalling pathway as a kind of entry point into cells. Once inside, it delivers an additional metabolic compound directly where it is needed.",
+        "chunk_index": 0,
+        "quality_score": 0.898,
+        "has_overlap": false,
+        "total_chunks": 9,
+        "word_count": 157
+      },
+      {
+        "text": "well-known GLP-1/GIP signalling pathway as a kind of entry point into cells. Once inside, it delivers an additional metabolic compound directly where it is needed. In laboratory tests, mice treated with this compound ate less food, lost more weight, and showed better blood-glucose control than those given standard comparison treatments. The findings were published as a preclinical study in the journal\n\nNature\n\n. Limits of Current GLP-1-Based Therapies\n\nModern incretin therapies, which mimic natural satiety and blood sugar signals (GLP-1/GIP), have significantly improved treatment options for obesity and type 2 diabetes. Still, researchers are looking for ways to enhance these therapies further. One goal is to add drugs that improve how cells respond to insulin, helping glucose move more efficiently from the bloodstream into tissues. The challenge is that many of these additional drugs affect the entire body rather than specific target cells, raising the likelihood of side effects. \"Our guiding question was: how can we enhance incretin activity without creating a second, systemically active source of side effects?\" says the study lead Timo D.",
+        "chunk_index": 1,
+        "quality_score": 0.897,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 175
+      },
+      {
+        "text": "guiding question was: how can we enhance incretin activity without creating a second, systemically active source of side effects?\" says the study lead Timo D. Müller, Director of the Institute for Diabetes and Obesity (IDO) at Helmholtz Munich, Professor at the Ludwig Maximilian University of Munich (LMU) and researcher at the German Center for Diabetes Research (DZD). \"Address Label With Cargo\" Design\n\nTo solve this problem, the team designed what they describe as an \"address label with cargo.\" They chemically combined a known incretin-based compound with a second drug called lanifibranor, a pan-PPAR agonist. The incretin portion binds to GLP-1 or GIP receptors on the surface of cells, allowing the hybrid molecule to enter. Once inside, the second component activates PPARs, which act as \"switches\" in the cell nucleus that control genes involved in fat and sugar metabolism. This design is intended to concentrate the added metabolic effect in GLP-1R/GIPR- expressing cells instead of distributing it throughout the body. A \"Trojan Horse\" Delivers a Low Dose\n\nFunctionally, the molecule targets five pathways at once. It activates two receptors on the cell surface (GLP-1R and GIPR) and also engages three PPAR \"switches\" within the cell.",
+        "chunk_index": 2,
+        "quality_score": 0.858,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 194
+      },
+      {
+        "text": "targets five pathways at once. It activates two receptors on the cell surface (GLP-1R and GIPR) and also engages three PPAR \"switches\" within the cell. Müller compares the concept to a \"Trojan horse\": the incretin component opens the door, and the additional drug acts only after entering the cell. \"A major advantage is the amount,\" says Müller. \"Because the second component is not administered separately and systemically, but 'travels along' with the incretin part, it can be used at a dose that is orders of magnitude lower.\" This targeted delivery may improve effectiveness while limiting side effects linked to widespread drug exposure. Strong Weight Loss and Blood Sugar Effects in Mice\n\nIn mice with diet-induced obesity, the hybrid drug produced clear benefits. \"The animals ate less and lost more weight than under a GLP-1/GIP co-agonist without cargo,\" says Dr. Daniela Liskiewicz, group leader at IDO and co-first author together with Dr. Aaron Novikoff. \"In the head-to-head comparisons shown, the effect was in part even stronger than with a GLP-1-only drug.\"\n\nThese results suggest the approach does more than simply add another mechanism. Instead, it appears to enhance the overall effect of incretin therapy, at least in animal models.",
+        "chunk_index": 3,
+        "quality_score": 0.864,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 198
+      },
+      {
+        "text": "the approach does more than simply add another mechanism. Instead, it appears to enhance the overall effect of incretin therapy, at least in animal models. Improved Metabolism and Safety Signals\n\nThe treatment did more than reduce body weight. Mice also showed improved blood-glucose levels and signs of better insulin function. In simple terms, insulin was more effective at moving glucose from the bloodstream into tissues, and the liver released less glucose into circulation. The researchers also observed that common gastrointestinal side effects were similar to those seen with current incretin drugs. Importantly, they did not detect signs of fluid retention or anemia, which are known concerns with the added drug component. Early Findings With Potential Beyond Weight Loss\n\nThe data also hinted at possible benefits for heart and liver health. However, the researchers stress that these findings come from a preclinical study. It remains uncertain whether the same results will occur in humans, especially since the GIP receptor differs between mice and people. \"We see a principle with strong effects in the animal model -- now the task is to optimise the approach for humans and move it towards the clinic,\" says Müller. He notes that advancing this work will require collaboration with industry partners.",
+        "chunk_index": 4,
+        "quality_score": 0.856,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 205
+      },
+      {
+        "text": "optimise the approach for humans and move it towards the clinic,\" says Müller. He notes that advancing this work will require collaboration with industry partners. About the Researcher\n\nProf. Timo D. Müller is Director of the Institute for Diabetes and Obesity (IDO) at Helmholtz Munich, Professor at the Ludwig Maximilian University of Munich (LMU), and a researcher at the German Center for Diabetes Research (DZD). RELATED TOPICS\n\nHealth & Medicine\n\nDiet and Weight Loss\n\nDiabetes\n\nHeart Disease\n\nLiver Disease\n\nObesity\n\nDiseases and Conditions\n\nWorkplace Health\n\nNutrition\n\nRELATED TERMS\n\nAnti-obesity drug\n\nAdult stem cell\n\nGene therapy\n\nEmbryonic stem cell\n\nAntibiotic resistance\n\nMonoclonal antibody therapy\n\nHypothalamus\n\nGinkgo\n\nStory Source:\n\nMaterials provided by\n\nHelmholtz Munich (GmbH)\n\n. Note: Content may be edited for style and length. Journal Reference\n\n:\n\nDaniela Liskiewicz, Aaron Novikoff, Ahmed Khalil, Seun Akindehin, Jonathan E. Campbell, Pietra Candela, Russell L. Castelino, Callum Coupland, Maxime Culot, W. Scott Dodson, Jonathan D. Douros, Hannes Embring, Annette Feuchtinger, Brian Finan, Cristina Garcia-Caceres, Xiao-Bing Gao, Fabien Gosselet, Gerald Grandl, Robert M. Gutgesell, Daniel T. Haas, Martin Jastroch, Ezgi Karaoglu, Pamela Kakimoto, Anna Cristina Kaltenbach, Michaela Keuper, Christine M. Kusminski, Danielle C. Leander, Arkadiusz Liskiewicz, Xue Liu, Gandhari Maity-Kumar, Sara Martinez Martinez, Stephanie A.",
+        "chunk_index": 5,
+        "quality_score": 0.917,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 200
+      },
+      {
+        "text": "Karaoglu, Pamela Kakimoto, Anna Cristina Kaltenbach, Michaela Keuper, Christine M. Kusminski, Danielle C. Leander, Arkadiusz Liskiewicz, Xue Liu, Gandhari Maity-Kumar, Sara Martinez Martinez, Stephanie A. Mowery, Ruben Nogueiras, Marshall Paisley, Diego Perez-Tilve, Patricia S. S. Petersen, Paul T. Pfluger, Sneha Prakash, Sabine Steffens, Alberto Cebrian-Serrano, Monica Tost, Jordan Wean, Christian Weber, Junichi Yoshida, Zachary Gerhart-Hines, Tamas L. Horvath, Philipp E. Scherer, Randy J. Seeley, Richard D. DiMarchi, Matthias H. TschÃ¶p, Natalie Krahmer, Patrick J. Knerr, Timo D. MÃ¼ller. GLP-1RâGIPRâPPARÎ±/Î³/Î´ quintuple agonism corrects obesity and diabetes in mice\n\n. Nature\n\n, 2026; DOI:\n\n10.1038/s41586-026-10427-5\n\nCite This Page\n\n:\n\nMLA\n\nAPA\n\nChicago\n\nHelmholtz Munich (GmbH). \"New âTrojan horseâ obesity drug supercharges weight loss in early tests.\" ScienceDaily. ScienceDaily, 7 May 2026. <www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225428.htm>. Helmholtz Munich (GmbH). (2026, May 7). New âTrojan horseâ obesity drug supercharges weight loss in early tests. ScienceDaily\n\n. Retrieved May 8, 2026 from www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225428.htm\n\nHelmholtz Munich (GmbH). \"New âTrojan horseâ obesity drug supercharges weight loss in early tests.\" ScienceDaily. www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225428.htm (accessed May 8, 2026). Explore More\n\nfrom ScienceDaily\n\nRELATED STORIES\n\nNew Fat-Burning Diabetes Pill Protects Muscle and Appetite\n\nDec.",
+        "chunk_index": 6,
+        "quality_score": 0.848,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 204
+      },
+      {
+        "text": "/ 2026 / 05 / 260506225428.htm (accessed May 8, 2026). Explore More from ScienceDaily RELATED STORIES New Fat-Burning Diabetes Pill Protects Muscle and Appetite Dec. 7, 2025 Â\n\nResearchers have developed a new oral drug that boosts metabolic activity in muscle rather than altering appetite like GLP-1 drugs. Early trials suggest it improves blood sugar control and fat ... The Next Ozempic: A 4-in-1 Breakthrough for Lasting Weight Loss\n\nSep. 1, 2025 Â\n\nScientists are racing to improve weight loss treatments beyond drugs like Ozempic and Wegovy, which are effective but plagued by nausea, bone loss, and weight regain. Tufts University chemists have ... Weight-Loss Wonder Drug Mounjaro/Zepbound Shrinks Breast Cancer Tumors\n\nJuly 15, 2025 Â\n\nA cutting-edge mouse study reveals that tirzepatide, the dual GLP-1/GIP drug already hailed for impressive weight loss, does more than trim fat: it slashes the growth of obesity-linked breast tumors. ... Genetic Evidence That Diabetes Drug GLP-1 Receptor Agonists Achieve Weight Loss Primarily by Reducing Fat Mass More Than Muscle\n\nFeb. 24, 2025 Â\n\nDiabetes and obesity have become pressing health issues worldwide. Glucagon-like peptide-1 (GLP-1) receptor agonists, a class of medications widely used in the treatment of type 2 diabetes (T2D), ...",
+        "chunk_index": 7,
+        "quality_score": 0.854,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 199
+      },
+      {
+        "text": "become pressing health issues worldwide. Glucagon-like peptide-1 (GLP-1) receptor agonists, a class of medications widely used in the treatment of type 2 diabetes (T2D), ... Gut Hormones Could Hold the Key to Fighting Fatty Liver Disease\n\nOct. 7, 2024 Â\n\nFatty liver disease is a growing global health concern. Proglucagon-derived peptides (PGDPs), including glucagon, GLP-1, and GLP-2, are known to regulate lipid metabolism in the liver. However, the ... Do Sweeteners Increase Your Appetite? New Evidence from Randomised Controlled Trial Says No\n\nMar. 28, 2024 Â\n\nReplacing sugar with artificial and natural sweeteners in foods does not make people hungrier -- and also helps to reduce blood sugar levels, a significant new study has found. The double blind ... TRENDING AT\n\nSCITECHDAILY.com\n\nPhysicists Propose Strange Experiment Where Time Goes Quantum\n\nMagnesium Magic: New Drug Melts Fat Even on a High-Fat, High-Sugar Diet\n\nWeight-Loss Drugs Like Ozempic May Come With an Unexpected Cost\n\nMezcal âWormâ in a Bottle Mystery: DNA Testing Reveals a Surprise",
+        "chunk_index": 8,
+        "quality_score": 0.758,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 163
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.943,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.637,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "sciencedaily.com"
+      },
+      "recency": {
+        "age_days": 1,
+        "halflife": 90.0,
+        "published": "Thu, 07 May 2026 06:37:46 EDT"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1495,
+        "ttr": 0.522,
+        "gini": 0.32,
+        "wc_score": 0.748
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.043,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7824
+  },
+  {
+    "record_id": "a4feb1666a840955",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:59Z",
+    "source_url": "https://www.healthline.com/health-news/hantavirus-outbreak-atlantic-cruise-ship",
+    "source_type": "blog",
+    "author": "Healthline Editorial",
+    "published_date": "Unknown",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "healthcare",
+      "public health",
+      "neurology",
+      "research"
+    ],
+    "trust_score": 0.704,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "Three passengers have died and several others have fallen ill aboard a cruise ship in a deadly hantavirus outbreak. AFP via Getty Images\n\nA cluster of three deaths among passengers aboard a cruise ship in the Atlantic Ocean has been linked to a deadly hantavirus outbreak. Human-to-human transmission of hantavirus is rare, but it appears to have spread among passengers, according to the World Health Organization (WHO). A suspected total of 7 cases has been identified, and investigators are working to manage the outbreak. As the ship prepares to dock in the Canary Islands in Spain, the WHO maintains that the risk to the general public is low. Three people have died and several others have fallen ill aboard a Dutch cruise ship in a deadly hantavirus outbreak. Hantavirus\n\n, which typically spreads after exposure to rodent urine, feces, or saliva, may have spread between passengers on a cruise ship, the World Health Organization (WHO)\n\nsaid in a briefing\n\non May 6.",
+        "chunk_index": 0,
+        "quality_score": 0.775,
+        "has_overlap": false,
+        "total_chunks": 9,
+        "word_count": 162
+      },
+      {
+        "text": "urine, feces, or saliva, may have spread between passengers on a cruise ship, the World Health Organization (WHO) said in a briefing on May 6. The specific hantavirus associated with human-to-human transmission, known as\n\nAndes Virus\n\n, is present in Argentina, where the MV Hondius, a cruise liner operated by Oceanwide Expeditions, began its voyage. The MV Hondius, currently anchored off the coast of Cape Verde, is expected to dock in the Canary Islands, Spain, in the coming days, sowing fear around the risk of further transmission among locals. Roughly 150 people, including passengers and crew, from more than 20 nations, still remain aboard the ship. The WHO reports that\n\nseven cases of hantavirus\n\nhave been identified — two confirmed “laboratory cases” and five suspected cases. At this time, two of the three deaths have been linked to hantavirus. A married Dutch couple and a German national who were passengers on the ship have died. A British national aboard the ship was evacuated and is being treated in South Africa. That passenger was the first to be diagnosed with hantavirus infection. According to Oceanwide Expeditions,\n\nevacuations\n\nof sick passengers requiring medical assistance began on May 5.",
+        "chunk_index": 1,
+        "quality_score": 0.842,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 196
+      },
+      {
+        "text": "passenger was the first to be diagnosed with hantavirus infection. According to Oceanwide Expeditions, evacuations of sick passengers requiring medical assistance began on May 5. “[We are] working closely with local and international authorities,” said Oceanwide Expeditions in a\n\nstatement on May 4\n\n. “Strict precautionary measures are in process on board, including isolation measures, hygiene protocols and medical monitoring. All passengers have been informed and are being supported. Oceanwide Expeditions is in close contact with those directly involved and their families, and is providing support where possible.”\n\nHuman-to-human\n\ntransmission\n\nof hantavirus is exceptionally rare. The WHO, which is managing the outbreak, maintains that the risk to the general public is low. “It’s possible someone got the infection in Argentina, got on the boat, and it spread from person to person. It’s also possible that passengers on the boat got it from the rodents that were already present on the ship,” said\n\nSteven Bradfute\n\n, PhD, an associate professor at the University of New Mexico Health Sciences Center who specializes in hantavirus research. Bradfute described the situation aboard the cruise ship as unusual.",
+        "chunk_index": 2,
+        "quality_score": 0.847,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 183
+      },
+      {
+        "text": "professor at the University of New Mexico Health Sciences Center who specializes in hantavirus research. Bradfute described the situation aboard the cruise ship as unusual. “Usually you have isolated cases, so to hear about a cruise ship with multiple people being infected was definitely not something on our radar,” he told Healthline. Timeline of the hantavirus outbreak at sea\n\nThe incubation period for hantavirus ranges from\n\n1 to 8 weeks\n\nafter exposure. This may have complicated investigations aboard the ship and public health risk assessments. The Dutch-flagged MV Hondius, operated by Oceanwide Expeditions, left Ushuaia, southern Argentina, in March, roughly three weeks ago, on a long expedition cruise. Its route included several stops in the Atlantic Ocean, including Antarctica, the Falkland Islands, and Cape Verde. A 70-year-old Dutch man died on April 11 after reportedly developing fever, headache, and\n\nabdominal pain\n\n. On April 24, his body was removed in Saint Helena, a British territory in the South Atlantic. His wife, a 69-year-old Dutch woman, also disembarked, accompanying his body for repatriation. After disembarking, the woman began showing signs of illness during her journey home. She later died in South Africa at O. R. Tambo International Airport while attempting to return to the Netherlands.",
+        "chunk_index": 3,
+        "quality_score": 0.873,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 204
+      },
+      {
+        "text": "of illness during her journey home. She later died in South Africa at O. R. Tambo International Airport while attempting to return to the Netherlands. On April 27, the same day that the Dutch woman died, a British national aboard the MV Hondius became seriously ill after the ship left St. Helena. The passenger was subsequently transferred to South Africa and treated in Johannesburg. The patient is in critical but stable condition. This case was the first laboratory-confirmed hantavirus infection linked to the incident. Onboard the ship, the situation continued to escalate. A German national died on May 2; details are sparse and the cause of death has not yet been established by Oceanwide Expeditions or the World Health Organization (WHO). Two crew members, one British and one Dutch, have also reported symptoms consistent with possible hantavirus illness. One was described as mild, and the other as severe; both reportedly require urgent medical care. No other passengers with symptoms have been identified at this time. Hantavirus signs and symptoms\n\nHantavirus\n\nis part of a group of related viruses that can cause serious illness in humans. It is most commonly transmitted through exposure to the urine, droppings, or saliva of wild rodents, including mice and rats.",
+        "chunk_index": 4,
+        "quality_score": 0.851,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 205
+      },
+      {
+        "text": "cause serious illness in humans. It is most commonly transmitted through exposure to the urine, droppings, or saliva of wild rodents, including mice and rats. The virus can also spread through inhalation of contaminated dust or aerosolized particles stirred into the air, particularly in enclosed or poorly ventilated spaces. Symptoms of hantavirus infection vary by geographic region and virus type. The onset typically begins with nonspecific, flu-like symptoms. Hantavirus infection is often fatal. ‘New World’ hantavirus\n\nIn North and South America, so-called “New World” hantaviruses are most common. Early symptoms typically resemble the flu — fever, body aches, and vomiting — but can progress to a severe respiratory illness known as\n\nhantavirus pulmonary syndrome (HPS)\n\n. In early 2024, a\n\nspate of deaths linked to HPS\n\nmade headlines in the United States. Three individuals died in the rural area of Mammoth Lakes, CA. Additionally, Betsy Arakawa, the wife of acclaimed actor Gene Hackman, was\n\ndiscovered dead\n\nin their New Mexico home in April 2024. While Arakawa’s cause of death was attributed to hantavirus, Hackman died of Alzheimer’s.",
+        "chunk_index": 5,
+        "quality_score": 0.867,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 177
+      },
+      {
+        "text": "Hackman, was discovered dead in their New Mexico home in April 2024. While Arakawa’s cause of death was attributed to hantavirus, Hackman died of Alzheimer’s. “In the United States, the principal\n\npathogen\n\nis Sin Nombre virus, the most common cause of hantavirus pulmonary syndrome (HPS),” said\n\nRobert Glatter\n\n, MD, attending physician in the Department of Emergency Medicine at Lenox Hill Hospital in New York City, and assistant professor of Emergency Medicine at Zucker School of Medicine at Hofstra/ Northwell. “Exposure is classically linked to infected deer mice and to aerosolized rodent urine, droppings, saliva, or nesting material. U.S. cases remain concentrated in the western states, especially west of the Mississippi River, although sporadic cases occur elsewhere,” Glatter told Healthline. HPS affects the lungs, causing fluid buildup that makes breathing difficult. As oxygen levels drop, other organ systems can begin to fail. HPS is often fatal, with about\n\n40% of infected individuals\n\ndying. Some estimates place the mortality rate\n\nas high as 50-60%. “The clinical presentation of HPS is deceptive at onset,” Glatter said. “Patients usually begin with a short febrile prodrome marked by fever, myalgias,\n\nmalaise\n\n, headache, and often gastrointestinal symptoms.",
+        "chunk_index": 6,
+        "quality_score": 0.873,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 193
+      },
+      {
+        "text": "is deceptive at onset,” Glatter said. “Patients usually begin with a short febrile prodrome marked by fever, myalgias, malaise , headache, and often gastrointestinal symptoms. What makes hantavirus dangerous is the potential for abrupt progression over the next several days to cough,\n\nshortness of breath\n\n, noncardiogenic\n\npulmonary edema\n\n, shock, and rapid\n\nrespiratory failure\n\n,” he continued. Early warning signs of hantavirus may include\n\nlow platelet counts\n\n,\n\ndehydration\n\n, high white blood counts, and mild elevation of liver enzymes, Glatter explained. ‘Old World’ hantavirus\n\n“Old World” hantaviruses are found primarily in Europe and Asia. Unlike their New World counterparts, these viruses can cause a different severe disease known as\n\nhemorrhagic fever with renal syndrome (HFRS)\n\n. HFRS can cause\n\ninternal bleeding\n\n,\n\nlow blood pressure\n\n, and\n\nacute kidney failure\n\n. The mortality rate for HFRS can range from\n\nless than 1% to about 15%\n\n, depending on the specific virus strain. “Severe ‘Old World’ viruses such as Hantaan and Dobrava can carry materially higher fatality than milder viruses such as Puumala or often Seoul virus, whereas New World HPS viruses in the Americas can have fatality in the 30–40% range, and sometimes higher in specific South American outbreaks,” Glatter said.",
+        "chunk_index": 7,
+        "quality_score": 0.857,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 203
+      },
+      {
+        "text": "whereas New World HPS viruses in the Americas can have fatality in the 30–40% range, and sometimes higher in specific South American outbreaks,” Glatter said. How is hantavirus treated? There are no approved vaccines or therapeutics available to treat HPS. Instead, the disease is treated through supportive care, primarily supplying the blood with oxygen. In extreme cases, patients may need to be connected to an\n\nextracorporeal membrane oxygenation (ECMO)\n\nmachine to pump and oxygenate the blood. Despite the alarming reputation of hantavirus, Bradfute emphasizes that infection is both preventable and rare. “Panicking is not a good thing to do. We haven’t had huge hantavirus outbreaks like flu or COVID because these viruses just don’t transmit well,” Bradfute said. “Most hantaviruses are not spread person-to-person,” Glatter said. “CDC cruise guidance and reporting materials support that cruise-related public health reporting focuses mainly on gastrointestinal and respiratory illness and death reporting, not hantavirus as a typical onboard transmissible risk,” he noted.",
+        "chunk_index": 8,
+        "quality_score": 0.892,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 158
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.608,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "healthline.com"
+      },
+      "recency": {
+        "reason": "missing_date",
+        "raw": "Unknown"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1481,
+        "ttr": 0.467,
+        "gini": 0.338,
+        "wc_score": 0.741
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.022,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7314
+  }
+]

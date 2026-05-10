@@ -1,0 +1,571 @@
+{
+  "meta": {
+    "topic": "alzheimer",
+    "generated_at": "2026-05-08T15:08:17",
+    "ingested_at": "2026-05-08T19:08:17Z",
+    "pipeline": "ContentRadar v2",
+    "schema_version": "2.0",
+    "total_records": 4,
+    "avg_trust": 0.727,
+    "trust_tiers": {
+      "AUTHORITATIVE": 2,
+      "CREDIBLE": 2
+    },
+    "sources": {
+      "pubmed": 1,
+      "blog": 3
+    },
+    "sorted_by": "trust_score_desc"
+  },
+  "records": [
+    {
+      "record_id": "fe51af50f8aab5e6",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:17Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39485649/",
+      "source_type": "pubmed",
+      "author": "Testo AA, Roundy G, Dumas JA",
+      "published_date": "2025",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "neurology",
+        "mental health"
+      ],
+      "trust_score": 0.827,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Deficits in memory, language, and other cognitive domains that impact an individual's ability to perform necessary tasks of daily living are symptoms of dementia, which is a major cause of death and disability in older adults. As the global population continues to age, deepening our understanding of dementia is crucial. Alzheimer's disease is the leading cause of dementia and accounts for between 60% and 80% of total dementia cases. Declines in episodic memory are considered a hallmark of Alzheimer's disease and occur early in disease progression. The cognitive effects of Alzheimer's disease differ from the cognitive changes expected in nonpathological or normal aging. While some cognitive changes are expected as a part of the aging processes, the declines in cognition associated with Alzheimer's disease are to a degree that the individual diagnosed with the disease is unable to function independently in activities of daily living. In this review, we will discuss how cognition is impacted by both normal and pathological aging, with a focus on Alzheimer's disease.",
+          "chunk_index": 0,
+          "quality_score": 0.799,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 167
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.65,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.502,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 3
+        },
+        "citation_count": {
+          "citations": 247
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 492,
+          "halflife": 900.0,
+          "published": "2025"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 167,
+          "ttr": 0.599,
+          "gini": 0.207,
+          "wc_score": 0.084
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.793,
+      "pmid": "39485649",
+      "doi": "10.1007/7854_2024_527",
+      "journal": "Current topics in behavioral neurosciences"
+    },
+    {
+      "record_id": "ef0ac540f7d518af",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:17Z",
+      "source_url": "https://www.sciencedaily.com/releases/2026/05/260506225214.htm",
+      "source_type": "blog",
+      "author": "ScienceDaily",
+      "published_date": "Thu, 07 May 2026 18:22:41 EDT",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "research",
+        "neurology",
+        "mental health",
+        "public health",
+        "obesity"
+      ],
+      "trust_score": 0.782,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Science News\n\nfrom research organizations\n\nEating eggs could cut Alzheimerâs risk by 27%\n\nA simple habit like eating eggs could be quietly helping protect your brain from Alzheimerâs. Date:\n\nMay 7, 2026\n\nSource:\n\nLoma Linda University Adventist Health Sciences Center\n\nSummary:\n\nEating eggs might do more than just start your dayâit could help protect your brain. Researchers found that people 65 and older who eat eggs regularly have a significantly lower risk of developing Alzheimerâs disease, with daily or near-daily consumption linked to up to a 27% reduction. Even modest egg intake showed benefits, suggesting that small dietary changes could make a meaningful difference over time. Share:\n\nFacebook\n\nTwitter\n\nPinterest\n\nLinkedIN\n\nEmail\n\nFULL STORY\n\nResearchers at Loma Linda University Health report that eating eggs may be linked to a lower risk of developing Alzheimer's disease in adults age 65 and older. Their findings suggest that regular egg consumption could play a role in supporting long-term brain health.",
+          "chunk_index": 0,
+          "quality_score": 0.854,
+          "has_overlap": false,
+          "total_chunks": 8,
+          "word_count": 157
+        },
+        {
+          "text": "developing Alzheimer's disease in adults age 65 and older. Their findings suggest that regular egg consumption could play a role in supporting long-term brain health. The study found that people who ate at least one egg per day for five or more days each week had up to a 27% lower risk of being diagnosed with Alzheimer's disease. \"Compared to never eating eggs, eating at least five eggs per week can decrease risk of Alzheimer's,\" said Joan Sabaté, MD, DrPH, a professor at Loma Linda University School of Public Health and the study's principal investigator. Even smaller amounts of egg consumption were associated with benefits. Eating eggs just 1 to 3 times per month was linked to a 17% reduction in risk, while those who ate eggs 2 to 4 times per week saw about a 20% lower risk, Sabaté said. The research, titled Egg intake and the incidence of Alzheimer's disease in the Adventist Health Study-2 cohort linked with Medicare data, was published in the\n\nJournal of Nutrition\n\n. Scientists conducted the study to better understand how diet, a factor people can change, might influence the likelihood of developing Alzheimer's disease.",
+          "chunk_index": 1,
+          "quality_score": 0.826,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 192
+        },
+        {
+          "text": "of Nutrition . Scientists conducted the study to better understand how diet, a factor people can change, might influence the likelihood of developing Alzheimer's disease. Nutrients in Eggs May Support Brain Health\n\nEggs contain several nutrients that are important for the brain, Sabaté said. They are a rich source of choline, which the body uses to produce compounds such as acetylcholine and phosphatidylcholine that are essential for memory and communication between brain cells. Eggs also provide lutein and zeaxanthin, which are carotenoids that build up in brain tissue and have been linked to better cognitive performance and lower levels of oxidative stress. In addition, eggs contain omega-3 fatty acids, and the yolk is especially high in phospholipids, making up nearly 30% of total egg lipids. These compounds play a key role in how neurotransmitter receptors function. Large Study Tracks Egg Intake and Alzheimer's Diagnoses\n\nTo assess egg consumption, researchers considered both direct and indirect sources. This included eggs eaten on their own in forms such as scrambled, fried, or boiled, as well as eggs found in foods like baked goods and packaged products. The study followed about 40,000 participants in the Adventist Health Study 2 cohort.",
+          "chunk_index": 2,
+          "quality_score": 0.844,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 196
+        },
+        {
+          "text": "well as eggs found in foods like baked goods and packaged products. The study followed about 40,000 participants in the Adventist Health Study 2 cohort. Alzheimer's cases were identified through physician diagnoses recorded in Medicare data. Eligibility was determined using the Medicare Master Beneficiary Summary Files, and participants were followed for an average of 15.3 years. Balanced Diet Still Key, Researchers Say\n\nThe research team stressed that eggs should be part of an overall healthy eating pattern rather than viewed in isolation. \"Research supports eggs as part of a healthy diet,\" said Jisoo Oh, DrPH, MPH, an associate professor of epidemiology at Loma Linda University School of Public Health and the study's lead author. \"Seventh-day Adventists do eat a healthier diet than the general public, and we want people to focus on overall health along with this knowledge about the benefit of eggs.\"\n\nSome funding for the study came from the American Egg Board. Support for establishing the original cohort and its data was provided by the National Institutes of Health.",
+          "chunk_index": 3,
+          "quality_score": 0.865,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 171
+        },
+        {
+          "text": "the study came from the American Egg Board. Support for establishing the original cohort and its data was provided by the National Institutes of Health. RELATED TOPICS\n\nHealth & Medicine\n\nDiet and Weight Loss\n\nCholesterol\n\nNutrition\n\nHealthy Aging\n\nMind & Brain\n\nDieting and Weight Control\n\nIntelligence\n\nNutrition Research\n\nInfant and Preschool Learning\n\nRELATED TERMS\n\nAlzheimer's disease\n\nNutrition\n\nHuman brain\n\nSomatic cell nuclear transfer\n\nLimbic system\n\nEncephalopathy\n\nAntibiotic resistance\n\nCalorie restricted diet\n\nStory Source:\n\nMaterials\n\nprovided by\n\nLoma Linda University Adventist Health Sciences Center\n\n. Note: Content may be edited for style and length. Journal Reference\n\n:\n\nJisoo Oh, Keiji Oda, Gabriela Chiriac, Gary E Fraser, Rawiwan Sirirat, Joan SabatÃ©. Egg Intake and the Incidence of Alzheimerâs Disease in the Adventist Health Study-2 Cohort Linked with Medicare Data\n\n. The Journal of Nutrition\n\n, 2026; 101541 DOI:\n\n10.1016/j.tjnut.2026.101541\n\nCite This Page\n\n:\n\nMLA\n\nAPA\n\nChicago\n\nLoma Linda University Adventist Health Sciences Center. \"Eating eggs could cut Alzheimerâs risk by 27%.\" ScienceDaily. ScienceDaily, 7 May 2026. <www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225214.htm>. Loma Linda University Adventist Health Sciences Center. (2026, May 7). Eating eggs could cut Alzheimerâs risk by 27%. ScienceDaily\n\n.",
+          "chunk_index": 4,
+          "quality_score": 0.842,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 193
+        },
+        {
+          "text": "2026 / 05 / 260506225214.htm>. Loma Linda University Adventist Health Sciences Center. (2026, May 7). Eating eggs could cut Alzheimerâs risk by 27%. ScienceDaily . Retrieved May 8, 2026 from www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225214.htm\n\nLoma Linda University Adventist Health Sciences Center. \"Eating eggs could cut Alzheimerâs risk by 27%.\" ScienceDaily. www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225214.htm (accessed May 8, 2026). Explore More\n\nfrom ScienceDaily\n\nRELATED STORIES\n\nWhat Teens Eat Could Be Affecting Their Mental Health More Than We Thought\n\nMar. 29, 2026 Â\n\nWhat teens eat might matter more for their mental health than previously thought. A sweeping review of nearly 20 studies found that healthier diets are often linked to fewer depressive symptoms, ... Tea May Strengthen Bones in Older Women While Heavy Coffee Weakens Them\n\nDec. 13, 2025 Â\n\nA decade-long study of older women found that tea drinkers had slightly stronger bones, while moderate coffee drinking caused no harm. Heavy coffee intakeâover five cups a dayâwas linked to lower ... Could a Genetic Flaw Be the Key to Stopping People Craving Sugary Treats? Nov.",
+          "chunk_index": 5,
+          "quality_score": 0.816,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 185
+        },
+        {
+          "text": "Heavy coffee intakeâover five cups a dayâwas linked to lower ... Could a Genetic Flaw Be the Key to Stopping People Craving Sugary Treats? Nov. 12, 2024 Â\n\nNew research has found that people with a genetic defect in their ability to digest sucrose eat less cake, sweets and chocolate, which could hold the key to helping the wider population to eat less ... Extreme Dietary Habits for Carbohydrates and Fats Affect Life Expectancy\n\nAug. 30, 2023 Â\n\nA new study suggests that extreme dietary habits involving carbohydrates and fats affect life expectancy. Researchers found that a low carbohydrate intake in men and a high carbohydrate intake in ... Why a High Fat Diet Could Reduce the Brain's Ability to Regulate Food Intake\n\nJan. 26, 2023 Â\n\nRegularly eating a high fat/calorie diet could reduce the brain's ability to regulate calorie intake. New research in rats found that after short periods of being fed a high fat/high calorie ... Large Study Challenges the Theory That Light Alcohol Consumption Benefits Heart Health\n\nMar. 25, 2022 Â\n\nIn an observational analysis of UK Biobank participants, light to moderate drinkers had the lowest heart disease risk, followed by people who abstained from drinking; however, light to moderate ...",
+          "chunk_index": 6,
+          "quality_score": 0.802,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 205
+        },
+        {
+          "text": "UK Biobank participants, light to moderate drinkers had the lowest heart disease risk, followed by people who abstained from drinking; however, light to moderate ... TRENDING AT\n\nSCITECHDAILY.com\n\nPhysicists Propose Strange Experiment Where Time Goes Quantum\n\nMagnesium Magic: New Drug Melts Fat Even on a High-Fat, High-Sugar Diet\n\nWeight-Loss Drugs Like Ozempic May Come With an Unexpected Cost\n\nMezcal âWormâ in a Bottle Mystery: DNA Testing Reveals a Surprise",
+          "chunk_index": 7,
+          "quality_score": 0.814,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 69
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.35,
+        "domain_authority": 0.95,
+        "recency": 0.95,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.557,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": true
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "sciencedaily.com"
+        },
+        "recency": {
+          "age_days": 0,
+          "halflife": 90.0,
+          "published": "Thu, 07 May 2026 18:22:41 EDT"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 1193,
+          "ttr": 0.474,
+          "gini": 0.372,
+          "wc_score": 0.597
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.06,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.7855
+    },
+    {
+      "record_id": "50ba7143dd38ea75",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:17Z",
+      "source_url": "https://medium.com/@annalaurazecca9/my-mothers-alzheimer-s-changed-the-way-i-understand-being-human-5430dfac6a67",
+      "source_type": "blog",
+      "author": "Annalaura Zecca Piacentini",
+      "published_date": "Thu, 07 May 2026 17:07:26 GMT",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "neurology",
+        "mental health"
+      ],
+      "trust_score": 0.649,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "My Mother’s Alzheimer’s Changed the Way I Understand Being Human\n\nOn memory, identity, and what remains of us when recognition begins to fade\n\nAnnalaura Zecca Piacentini\n\n4 min read\n\n·\n\n1 day ago\n\n--\n\nMy mother used to read six books in a week. Today, when I ask her a simple question, she sometimes loses the thread of the conversation before answering. She begins speaking about something distant, disconnected from the question itself, as if language were slowly slipping away from her. Her name is Lucia. She studied literature and philosophy, loved traveling, practiced Buddhism, and possessed a rare form of kindness — one free of judgment. She is also the person who interrupted the transmission of generational trauma between herself and me, between herself and my twin brother. A few months ago, my brother asked her to draw a clock for a cognitive test often used to identify early signs of Alzheimer’s disease and other forms of dementia. She could not do it. Then she started crying.",
+          "chunk_index": 0,
+          "quality_score": 0.869,
+          "has_overlap": false,
+          "total_chunks": 5,
+          "word_count": 168
+        },
+        {
+          "text": "cognitive test often used to identify early signs of Alzheimer’s disease and other forms of dementia. She could not do it. Then she started crying. I think that was one of the moments when the illness became real for all of us. I am not trying to write “content,” nor simply an article about Alzheimer’s. I am trying to write a human text — one rooted in my experience, but also in the philosophical questions this illness forces me to confront. I have always been fascinated by the etymology of words. The word\n\nphilosophy\n\ncomes from the Greek\n\nphilo\n\n(love) and\n\nsophia\n\n(wisdom or profound knowledge). Philosophy is not simply the accumulation of information; it is the desire to understand more deeply what it means to exist. This desire has also shaped the way I try to understand my mother’s illness. Medically, Alzheimer’s is defined as a progressive and irreversible neurodegenerative disease. Socially, in many Latin American contexts, it is sometimes called\n\nel largo adiós\n\n— “the long goodbye” — because the person seems to disappear long before physical death arrives.",
+          "chunk_index": 1,
+          "quality_score": 0.851,
+          "has_overlap": true,
+          "total_chunks": 5,
+          "word_count": 181
+        },
+        {
+          "text": "American contexts, it is sometimes called el largo adiós — “the long goodbye” — because the person seems to disappear long before physical death arrives. It is also described as an\n\nenfermedad familiar\n\n, a family illness, because it transforms not only the life of the person affected, but the emotional structure of everyone around them. Alzheimer’s is often associated with memory loss, but memory is not an isolated function. It shapes orientation, language, behavior, perception, and emotional connection. It participates in the way we recognize ourselves over time — in the fragile continuity between who we were, who we are, and who we will be. This is perhaps what makes the illness so disturbing philosophically. When memory begins to fade, it is not only information that disappears. Something deeper is reconfigured: our relationship to the world, to others, and to ourselves. The philosopher Paul Ricoeur wrote that we construct our identity by weaving together the story of who we have been and who we project ourselves to become. We exist narratively. We become ourselves through the ability to tell our own story. But what happens when this story begins to fragment? What happens when someone can no longer narrate themselves?",
+          "chunk_index": 2,
+          "quality_score": 0.818,
+          "has_overlap": true,
+          "total_chunks": 5,
+          "word_count": 201
+        },
+        {
+          "text": "the ability to tell our own story. But what happens when this story begins to fragment? What happens when someone can no longer narrate themselves? Sometimes I feel that I am becoming the deposit of my mother’s memory. I recently started keeping a journal in which I write the most important moments of her life. And when she has lucid moments, I ask her new questions, trying to preserve fragments before they disappear. At times, it feels as though I am writing her memories for her. My greatest fear is that one day she will no longer remember me. Or worse, that she will stand in front of a mirror and fail to recognize herself. And yet, another part of me wonders whether memory is more complex than recollection alone. Neuroscience suggests that emotional memory often survives longer than factual memory. My mother may forget my name while still retaining the feeling of love associated with my presence. Even when words disappear, emotions continue to express themselves through gestures, reactions, and forms of attachment. Perhaps this is why certain things remain. The philosopher Henri Bergson distinguished between intellectual memory and habitual memory — the memory stored in the body through repetition.",
+          "chunk_index": 3,
+          "quality_score": 0.856,
+          "has_overlap": true,
+          "total_chunks": 5,
+          "word_count": 201
+        },
+        {
+          "text": "is why certain things remain. The philosopher Henri Bergson distinguished between intellectual memory and habitual memory — the memory stored in the body through repetition. Actions such as making a bed, setting a table, or repeating familiar gestures can persist even when conscious memory deteriorates. In this sense, the body remembers. And perhaps identity itself is not a static archive of information, but something more fragile, embodied, and relational. Maybe being human is not only the ability to remember, but also the ability to continue recognizing one another when memory begins to disappear. If one day this text can no longer remain in my mother’s memory, I will still remain ready to recognize her. Annalaura Zecca Piacentini\n\nFor my mother, Lucia.",
+          "chunk_index": 4,
+          "quality_score": 0.876,
+          "has_overlap": true,
+          "total_chunks": 5,
+          "word_count": 121
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.52,
+        "citation_count": 0.35,
+        "domain_authority": 0.62,
+        "recency": 0.95,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.55,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": false
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "medium.com"
+        },
+        "recency": {
+          "age_days": 0,
+          "halflife": 90.0,
+          "published": "Thu, 07 May 2026 17:07:26 GMT"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 772,
+          "ttr": 0.506,
+          "gini": 0.228,
+          "wc_score": 0.386
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.001,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": null
+    },
+    {
+      "record_id": "f1bc11e728f40ede",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:17Z",
+      "source_url": "https://medium.com/dementia-in-practice/staying-strong-for-your-loved-one-4-practical-tools-for-caregivers-aaae3ab11cc6",
+      "source_type": "blog",
+      "author": "Suzanne Sandwiese",
+      "published_date": "Wed, 06 May 2026 15:10:42 GMT",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "neurology",
+        "mental health"
+      ],
+      "trust_score": 0.648,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "Staying Strong for Your Loved One: 4 Practical Tools for Caregivers\n\nSuzanne Sandwiese\n\n4 min read\n\n·\n\n1 day ago\n\n--\n\nWhen you are caring for a\n\nloved one with dementia\n\n, the emotional toll can often be even more taxing than the physical exhaustion. There are moments when you might feel like your patience and strength have reached their absolute limit. This is where emotional resilience comes into play. Emotional resilience is not a superpower we are born with. It is a skill, a form of “mental muscle”, that anyone can develop. It is the ability to face stress, setbacks, or the daily burdens of caregiving without breaking, allowing you to regain your inner balance even after the hardest days. Why Do We React Differently? You may have noticed that two people can face the exact same difficult situation and react in completely different ways. While one person might feel utterly overwhelmed by stress, another though they feel the same pain and fatigue finds the strength to move forward.",
+          "chunk_index": 0,
+          "quality_score": 0.856,
+          "has_overlap": false,
+          "total_chunks": 5,
+          "word_count": 170
+        },
+        {
+          "text": "ways. While one person might feel utterly overwhelmed by stress, another though they feel the same pain and fatigue finds the strength to move forward. The difference often lies not in luck, but in how developed\n\nsomeone’s emotional resilience\n\nis. Being resilient doesn’t mean you never feel sad, angry, or frustrated. It means ensuring these feelings do not dominate you permanently and staying flexible enough to adapt when circumstances change. 1. The Power of Gratitude: Journaling Through the Hard Days\n\nOne of the simplest yet most effective ways to build resilience is journaling. You don’t need to write a novel; just a few minutes a day focusing on positive highlights can shift your entire perspective. As caregivers, it is easy to focus only on the problems. A journal helps you notice the “invisible” victories:\n\n· A peaceful moment where there was no conflict with\n\nyour loved one with dementia\n\n. · A half-smile or a brief, clear moment shared during a conversation. · The fact that\n\nsomeone with dementia\n\nyou are caring for understood what you said a bit better today. · A quieter night or a warm cup of coffee enjoyed in silence.",
+          "chunk_index": 1,
+          "quality_score": 0.869,
+          "has_overlap": true,
+          "total_chunks": 5,
+          "word_count": 194
+        },
+        {
+          "text": "you are caring for understood what you said a bit better today. · A quieter night or a warm cup of coffee enjoyed in silence. Noticing these small positives provides a mental anchor that keeps you steady during the stormier seasons. 2. Mindfulness: Staying in the Present Moment\n\nAnxiety is often fueled by pain from the past or fear of the future. Mindfulness helps you detach from those heavy thoughts by focusing your attention on the “now.”\n\nThe beauty of mindfulness is that you can practice it anywhere, even during chores:\n\n·\n\nWhile washing dishes:\n\nNotice the temperature of the water, the scent of the soap, and the rhythm of your movements. ·\n\nWhile having coffee:\n\nFocus on the warmth of the mug and the taste of the drink instead of mentally racing through your to-do list. ·\n\nBreathing:\n\nIf you feel an emotional wave rising, simply observe the air flowing in and out for a few seconds. By connecting with the moment using all your senses, you quiet the mind and build the emotional strength needed to handle the day. 3.",
+          "chunk_index": 2,
+          "quality_score": 0.832,
+          "has_overlap": true,
+          "total_chunks": 5,
+          "word_count": 182
+        },
+        {
+          "text": "seconds. By connecting with the moment using all your senses, you quiet the mind and build the emotional strength needed to handle the day. 3. Realistic Goals: Let Go of Perfection\n\nAs a caregiver, it is easy to set expectations that are no longer in line with the reality of\n\nsomeone with dementia\n\n. We often want things to work the way they used to, but clinging to unrealistic standards only creates tension for everyone. For example, you might set a goal for\n\nyour loved one with dementia\n\nto drink two liters of water a day. If they refuse, the day feels like a failure. Shift your perspective:\n\nSet a goal of three or four glasses. This is achievable, provides a sense of success, and reduces unnecessary stress. Setting realistic goals isn’t about giving up; it’s about adapting intelligently to the current situation. 4. Self-Care: A Responsibility, Not a Luxury\n\nA resilient person recognizes their own limits. They pay attention to their own needs and know when they need to rest or recharge. Don’t wait until you are completely burned out to seek a break. Self-care is not selfish; if you are not well, you cannot effectively care for\n\nsomeone with dementia\n\n.",
+          "chunk_index": 3,
+          "quality_score": 0.837,
+          "has_overlap": true,
+          "total_chunks": 5,
+          "word_count": 203
+        },
+        {
+          "text": "completely burned out to seek a break. Self-care is not selfish; if you are not well, you cannot effectively care for someone with dementia . Final Thoughts\n\nEmotional resilience is built through regular practice and awareness. By journaling, staying present, setting achievable goals, and noticing the small joys, you not only make your daily life easier but also bring more dignity to the caregiving process. Remember: your strength isn’t measured by never getting tired, but by your ability to find your balance and keep moving forward. My books\n\nSuzanne Sandwiese: books, biography, latest update\n\nFollow Suzanne Sandwiese and explore their bibliography from Amazon's Suzanne Sandwiese Author Page. www.amazon.com",
+          "chunk_index": 4,
+          "quality_score": 0.757,
+          "has_overlap": true,
+          "total_chunks": 5,
+          "word_count": 108
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.52,
+        "citation_count": 0.35,
+        "domain_authority": 0.62,
+        "recency": 0.943,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.553,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": false
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "medium.com"
+        },
+        "recency": {
+          "age_days": 1,
+          "halflife": 90.0,
+          "published": "Wed, 06 May 2026 15:10:42 GMT"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 757,
+          "ttr": 0.522,
+          "gini": 0.229,
+          "wc_score": 0.379
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.008,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": null
+    }
+  ]
+}

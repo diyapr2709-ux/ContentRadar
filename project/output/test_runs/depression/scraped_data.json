@@ -1,0 +1,317 @@
+{
+  "meta": {
+    "topic": "depression",
+    "generated_at": "2026-05-10T23:37:37Z",
+    "ingested_at": "2026-05-10T23:37:37Z",
+    "pipeline": "ContentRadar v2",
+    "schema_version": "2.0",
+    "total_records": 2,
+    "avg_trust": 0.772,
+    "trust_tiers": {
+      "AUTHORITATIVE": 1,
+      "CREDIBLE": 1
+    },
+    "sources": {
+      "blog": 1,
+      "pubmed": 1
+    },
+    "sorted_by": "trust_score_desc"
+  },
+  "records": [
+    {
+      "record_id": "7347a5de0fe31560",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-10T23:37:37Z",
+      "source_url": "https://www.sciencedaily.com/releases/2026/05/260504023827.htm",
+      "source_type": "blog",
+      "author": "ScienceDaily",
+      "published_date": "Mon, 04 May 2026 03:17:17 EDT",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "mental health",
+        "research",
+        "healthcare",
+        "neurology",
+        "cancer / oncology"
+      ],
+      "trust_score": 0.861,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Science News\n\nfrom research organizations\n\nThis simple blood test might detect depression before symptoms appear\n\nA simple blood test tracking immune cell aging might finally unlock an objective way to detect depression. Date:\n\nMay 4, 2026\n\nSource:\n\nNew York University\n\nSummary:\n\nA new study suggests depression may soon be detectable through a simple blood testâby tracking how certain immune cells age. Researchers found that accelerated aging in monocytes, a type of white blood cell, is closely tied to the emotional and cognitive symptoms of depression, like hopelessness and loss of pleasure, rather than physical symptoms such as fatigue. Share:\n\nFacebook\n\nTwitter\n\nPinterest\n\nLinkedIN\n\nEmail\n\nFULL STORY\n\nBlood tests that track how certain white blood cells age may help identify depression by focusing on emotional and cognitive symptoms rather than physical ones. The research, published in\n\nThe Journals of Gerontology, Series A: Biological Sciences and Medical Sciences\n\n, moves scientists closer to finding a reliable biological marker for depression, a condition that affects nearly one in five adults in the United States.",
+          "chunk_index": 0,
+          "quality_score": 0.842,
+          "has_overlap": false,
+          "total_chunks": 10,
+          "word_count": 171
+        },
+        {
+          "text": ", moves scientists closer to finding a reliable biological marker for depression, a condition that affects nearly one in five adults in the United States. Blood-Based Clues Could Improve Depression Diagnosis\n\nToday, depression is diagnosed based on what patients report about their symptoms. Doctors may order lab tests to rule out other illnesses, but there is still no objective biological test that can confirm depression or detect it early. Part of the challenge is that depression does not look the same for everyone. While some people experience physical (or somatic) symptoms such as fatigue, appetite changes, or restlessness, others mainly struggle with emotional and cognitive effects. These can include hopelessness, difficulty thinking clearly, or anhedonia -- the inability to feel pleasure and loss of interest in previously enjoyed activities. \"Depression is not a one-size-fits-all disorder -- it can look really different from person to person, which is why it's so important to consider varied presentations and not just a clinical label,\" said study author Nicole Beaulieu Perez, assistant professor at NYU Rory Meyers College of Nursing.",
+          "chunk_index": 1,
+          "quality_score": 0.898,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 176
+        },
+        {
+          "text": "to consider varied presentations and not just a clinical label,\" said study author Nicole Beaulieu Perez, assistant professor at NYU Rory Meyers College of Nursing. \"Our study reveals unique biological underpinnings of mental health that are often obscured by broad diagnostic categories.\"\n\nDepression, Immune Health, and HIV\n\nDepression is especially common among people with immune-related conditions such as HIV. This higher risk may stem from a combination of chronic inflammation, social stigma, and economic challenges. Women living with HIV are particularly affected, and depression can interfere with their ability to stay engaged in care and consistently take antiretroviral medications. \"For women with HIV who may be experiencing depression, we want to better understand what's going on and catch it earlier so that it doesn't harm their whole overall health,\" said Perez. Studying Biological Aging With Epigenetic Clocks\n\nTo better understand the biology behind depression, researchers examined signs of accelerated aging in the body. Biological age, which does not always match a person's chronological age, can be estimated using \"epigenetic clocks.\" These tools measure chemical changes to DNA that occur over time. The study included 440 women -- 261 living with HIV and 179 without HIV -- from the Women's Interagency HIV Study.",
+          "chunk_index": 2,
+          "quality_score": 0.864,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 202
+        },
+        {
+          "text": "that occur over time. The study included 440 women -- 261 living with HIV and 179 without HIV -- from the Women's Interagency HIV Study. Depression symptoms were assessed using the Center for Epidemiologic Studies Depression Scale (CES-D), a 20-item questionnaire that evaluates both somatic and non-somatic symptoms. Blood samples were also analyzed to measure biological aging using two types of epigenetic clocks. One assessed aging across multiple cell types and tissues, while the other focused specifically on monocytes, a type of white blood cell involved in immune responses. Monocytes play an important role in HIV infection and are often elevated in people with depression. Aging Immune Cells Linked to Emotional Symptoms\n\nThe findings showed that aging in monocytes was strongly associated with non-somatic symptoms of depression. These included anhedonia, feelings of hopelessness, and a sense of failure, in both women with and without HIV. \"This is particularly interesting because people with HIV often have physical symptoms like fatigue that are attributed to their chronic illness rather than a depression diagnosis. But this flips that on its head because we found that these measures are associated with mood and cognitive symptoms, not somatic symptoms,\" said Perez.",
+          "chunk_index": 3,
+          "quality_score": 0.824,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 196
+        },
+        {
+          "text": "But this flips that on its head because we found that these measures are associated with mood and cognitive symptoms, not somatic symptoms,\" said Perez. In contrast, the broader epigenetic clock that measured multiple cell types did not show a link to depression symptoms. Toward Earlier Detection and Personalized Treatment\n\nPerez emphasized that more research is needed before these findings can be used in clinical care. Still, the results point to a future where depression could be detected earlier and more precisely through biological testing. Such advances could eventually support more personalized treatment approaches, including identifying which medications are most likely to work for a specific individual. \"I think about the adage, 'What gets measured gets managed.' An aspirational goal in mental health would be to combine subjective experience with objective biological testing,\" said Perez.",
+          "chunk_index": 4,
+          "quality_score": 0.881,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 135
+        },
+        {
+          "text": "the adage, 'What gets measured gets managed.' An aspirational goal in mental health would be to combine subjective experience with objective biological testing,\" said Perez. \"Our findings bring us a step closer to this goal of precision mental health care, especially for high-risk populations, by providing a biological framework that could guide future diagnosis and treatment.\"\n\nAdditional study authors include Ke Xu of Yale University; Yanxun Xu, Lang Lang, Gypsyamber D'Souza, and Leah Rubin of Johns Hopkins University; Kathryn Anastos of Albert Einstein College of Medicine; Maria Alcaide of the University of Miami Miller School of Medicine; Mardge Cohen of Stroger Hospital of Cook County Health System; Sadeep Shrestha of the University of Alabama at Birmingham; Andrew Edmonds of UNC Chapel Hill; Jacquelyn Meyers of Downstate Health Sciences University; Seble Kassaye of Georgetown University; Igho Ofotokun of Emory University; and Bradley Aouizerat of NYU. The research was supported by the National Institute of Mental Health (F32MH129151, P30MH075673) and the National Institute on Minority Health and Health Disparities (K08MD019998).",
+          "chunk_index": 5,
+          "quality_score": 0.857,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 168
+        },
+        {
+          "text": "NYU. The research was supported by the National Institute of Mental Health (F32MH129151, P30MH075673) and the National Institute on Minority Health and Health Disparities (K08MD019998). RELATED TOPICS\n\nHealth & Medicine\n\nToday's Healthcare\n\nPersonalized Medicine\n\nDiseases and Conditions\n\nMental Health Research\n\nMind & Brain\n\nMental Health\n\nEducational Psychology\n\nIntelligence\n\nSpirituality\n\nRELATED TERMS\n\nAdult stem cell\n\nCancer\n\nEmbryonic stem cell\n\nLimbic system\n\nStem cell\n\nMonoclonal antibody therapy\n\nImmune system\n\nBone marrow\n\nStory Source:\n\nMaterials provided by\n\nNew York University\n\n. Note: Content may be edited for style and length. Journal Reference\n\n:\n\nNicole Beaulieu Perez, Ke Xu, Yanxun Xu, Lang Lang, Kathryn Anastos, Maria L Alcaide, Mardge Cohen, Sadeep Shrestha, Andrew Edmonds, Jacquelyn Meyers, Seble Kassaye, Igho Ofotokun, Gypsyamber DâSouza, Bradley Aouizerat, Leah H Rubin. Monocyte Epigenetic Age Acceleration is Linked to Non-Somatic Depressive Symptoms in Women with and Without HIV\n\n. The Journals of Gerontology, Series A: Biological Sciences and Medical Sciences\n\n, 2026; DOI:\n\n10.1093/gerona/glag083\n\nCite This Page\n\n:\n\nMLA\n\nAPA\n\nChicago\n\nNew York University. \"This simple blood test might detect depression before symptoms appear.\" ScienceDaily. ScienceDaily, 4 May 2026. <www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260504023827.htm>. New York University. (2026, May 4). This simple blood test might detect depression before symptoms appear.",
+          "chunk_index": 6,
+          "quality_score": 0.873,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 205
+        },
+        {
+          "text": "<www.sciencedaily.com / releases / 2026 / 05 / 260504023827.htm>. New York University. (2026, May 4). This simple blood test might detect depression before symptoms appear. ScienceDaily\n\n. Retrieved May 10, 2026 from www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260504023827.htm\n\nNew York University. \"This simple blood test might detect depression before symptoms appear.\" ScienceDaily. www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260504023827.htm (accessed May 10, 2026). Explore More\n\nfrom ScienceDaily\n\nRELATED STORIES\n\nThis Hidden Kind of Stress May Be Damaging Your Memory as You Age\n\nApr. 27, 2026 Â\n\nA new study reveals that internalizing stressâespecially feelings of hopelessnessâmay significantly speed up memory decline in older Chinese Americans. Surprisingly, factors like community ... Menopause Linked to Grey Matter Loss in Key Brain Regions\n\nFeb. 7, 2026 Â\n\nA major study suggests menopause is linked to changes in brain structure, mental health, and sleep. Brain scans revealed grey matter loss in areas tied to memory and emotional regulation, while many ... Music Makes Us Move Even When We Don't Like It\n\nFeb.",
+          "chunk_index": 7,
+          "quality_score": 0.818,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 173
+        },
+        {
+          "text": "grey matter loss in areas tied to memory and emotional regulation, while many ... Music Makes Us Move Even When We Don't Like It Feb. 11, 2025 Â\n\nThe pleasurable urge to move to music -- to groove -- appears to be a physiological response independent of how much we generally enjoy music, according to a new article. That groove response is so ... Depression, Anxiety Common Among College Students\n\nOct. 17, 2023 Â\n\nDepression and anxiety among college students is a growing public health problem. And new research suggests the problem may be worse for students who aren't the same race as most of their peers. ... Close Up on Aging Reveals How Different Cell Types in the Body Age at Different Pace\n\nJune 15, 2023 Â\n\nA team or researchers reports the first Aging Fly Cell Atlas (AFCA), a detailed characterization of the aging process in 163 distinct cell types in the laboratory fruit fly. Their in-depth analysis ... Study Finds Centenarians Possess Unique Immunity That Helps Them Achieve Exceptional Longevity\n\nMar.",
+          "chunk_index": 8,
+          "quality_score": 0.853,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 174
+        },
+        {
+          "text": "distinct cell types in the laboratory fruit fly. Their in-depth analysis ... Study Finds Centenarians Possess Unique Immunity That Helps Them Achieve Exceptional Longevity Mar. 31, 2023 Â\n\nThere are approximately 30 trillion cells in a human body and our health is predicated on them properly interacting with and supporting each other, with the immune system playing a particularly ... TRENDING AT\n\nSCITECHDAILY.com\n\nScientists Think the Real Fountain of Youth May Be Hiding in Your Gut\n\nThis Common Knee Surgery May Be Doing More Harm Than Good\n\nNew Pill Lowers Stubborn Blood Pressure and Protects the Kidneys\n\nHumans May Have Hidden Regenerative Powers, New Study Suggests",
+          "chunk_index": 9,
+          "quality_score": 0.775,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 106
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.907,
+        "medical_disclaimer_presence": 0.7,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.608,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.55,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.75,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": true
+        },
+        "citation_count": {
+          "reason": "blog_evidence_proxy",
+          "evidence_phrases": 35
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "sciencedaily.com"
+        },
+        "recency": {
+          "age_days": 6,
+          "halflife": 90.0,
+          "published": "Mon, 04 May 2026 03:17:17 EDT"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false,
+          "implicit_editorial_review": true,
+          "domain": "sciencedaily.com"
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 1481,
+          "ttr": 0.475,
+          "gini": 0.346,
+          "wc_score": 0.741
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.034,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8264
+    },
+    {
+      "record_id": "863c4d2d186f557d",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-10T23:37:37Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37263267/",
+      "source_type": "pubmed",
+      "author": "Han S, Li XX, Wei S, Zhao D, Ding J, Xu Y, Yu C, Chen Z, Zhou DS, Yuan TF",
+      "published_date": "2023 Jun 20",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "mental health",
+        "research",
+        "healthcare",
+        "sleep / circadian",
+        "neurology"
+      ],
+      "trust_score": 0.682,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "It has been 15 years since repetitive transcranial magnetic stimulation (rTMS) targeting the dorsolateral prefrontal cortex (DLPFC) was approved by the FDA for clinical depression treatment. Yet, the underlying mechanisms for rTMS-induced depression relief are not fully elucidated. This study analyzes TMS-electroencephalogram (EEG) data from 64 healthy control (HC) subjects and 53 patients with major depressive disorder (MDD) before and after rTMS treatment. Prior to treatment, patients with MDD have lower activity in the DLPFC, the hippocampus (HPC), the orbitofrontal cortex (OFC), and DLPFC-OFC connectivity compared with HCs. Following active rTMS treatment, patients with MDD show a significant increase in the DLPFC, HPC, and OFC. Notably, the increase in HPC activity is specifically associated with amelioration of depressive symptoms but not anxiety or sleep quality. The orbitofrontal-hippocampal pathway plays a crucial role in mediating depression relief following rTMS treatment. These findings suggest potential alternative targets for brain stimulation therapy against depression (chictr.org.cn: ChiCTR2100052007).",
+          "chunk_index": 0,
+          "quality_score": 0.866,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 153
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.55,
+        "domain_authority": 0.95,
+        "recency": 0.422,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.566,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.711,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 10
+        },
+        "citation_count": {
+          "citations": 110
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 1055,
+          "halflife": 900.0,
+          "published": "2023 Jun 20"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 153,
+          "ttr": 0.732,
+          "gini": 0.167,
+          "wc_score": 0.076
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.007,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.7311,
+      "pmid": "37263267",
+      "doi": "10.1016/j.xcrm.2023.101060",
+      "journal": "Cell reports. Medicine"
+    }
+  ]
+}

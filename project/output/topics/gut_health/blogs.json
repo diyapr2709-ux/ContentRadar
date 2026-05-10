@@ -1,0 +1,446 @@
+[
+  {
+    "record_id": "c94afd885d9fbd9d",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:27Z",
+    "source_url": "https://www.sciencedaily.com/releases/2026/05/260508024740.htm",
+    "source_type": "blog",
+    "author": "ScienceDaily",
+    "published_date": "Fri, 08 May 2026 06:44:49 EDT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "research",
+      "healthcare",
+      "gut health",
+      "neurology",
+      "diabetes"
+    ],
+    "trust_score": 0.786,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Science News\n\nfrom research organizations\n\nA common constipation drug shows surprising power to protect kidneys\n\nDate:\n\nMay 8, 2026\n\nSource:\n\nTohoku University\n\nSummary:\n\nA common constipation drug may have unexpectedly unlocked a new way to slow chronic kidney disease â a condition that affects millions and often leads to dialysis. In a clinical trial involving 150 patients, researchers found that lubiprostone, a medication normally used to treat constipation, helped preserve kidney function in people with moderate CKD. Scientists traced the effect to changes in gut bacteria that boosted production of spermidine, a compound linked to healthier mitochondria and reduced kidney damage. Share:\n\nFacebook\n\nTwitter\n\nPinterest\n\nLinkedIN\n\nEmail\n\nFULL STORY\n\nChronic kidney disease (CKD) affects hundreds of millions of people worldwide and is one of the leading causes of kidney failure. As the disease progresses, many patients eventually need dialysis to survive. While current treatments can help slow damage, there are still no approved medications that directly restore kidney function.",
+        "chunk_index": 0,
+        "quality_score": 0.871,
+        "has_overlap": false,
+        "total_chunks": 8,
+        "word_count": 159
+      },
+      {
+        "text": "many patients eventually need dialysis to survive. While current treatments can help slow damage, there are still no approved medications that directly restore kidney function. Researchers at Tohoku University Graduate School of Medicine uncovered an unexpected possibility involving a drug that has long been used to treat constipation. In a clinical trial, the medication lubiprostone appeared to slow the decline of kidney function in patients with moderate CKD, raising hopes for an entirely new approach to kidney disease treatment. \"We noticed that constipation is a symptom that often accompanies CKD, and decided to investigate this link further,\" explains Abe. \"Essentially, constipation disrupts the intestinal microbiota, which worsens kidney function. Working backwards, we hypothesized that we could improve kidney function by treating constipation.\"\n\nThe Surprising Gut Kidney Connection\n\nDoctors have increasingly focused on what researchers call the \"gut kidney axis,\" the complex relationship between intestinal bacteria and kidney health. People with CKD often experience constipation and imbalances in gut microbes, which can contribute to inflammation and the buildup of harmful compounds in the body. Earlier research had hinted that improving gut health might help protect the kidneys, but evidence in humans remained limited.",
+        "chunk_index": 1,
+        "quality_score": 0.859,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 192
+      },
+      {
+        "text": "of harmful compounds in the body. Earlier research had hinted that improving gut health might help protect the kidneys, but evidence in humans remained limited. To explore the idea further, researchers launched the multicenter Phase II clinical trial known as the LUBI-CKD TRIAL across nine medical institutions in Japan. The study enrolled 150 patients with moderate chronic kidney disease. Participants received either lubiprostone or a placebo, allowing scientists to compare how the treatment affected kidney function over time. The results surprised the researchers. Patients who received either 8 µg or 16 µg doses of lubiprostone showed a slower decline in kidney function compared with those in the placebo group. Kidney performance was measured using estimated glomerular filtration rate (eGFR), one of the most widely used indicators of kidney health. Researchers reported that the protective effect appeared dose dependent, meaning higher doses were linked to greater benefits. The 16 µg group showed particularly promising preservation of kidney function signals during the 24 week trial period. How a Constipation Drug May Protect the Kidneys\n\nScientists then investigated why the drug appeared to help the kidneys. Their analysis pointed to changes in the gut microbiome.",
+        "chunk_index": 2,
+        "quality_score": 0.841,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 192
+      },
+      {
+        "text": "Drug May Protect the Kidneys Scientists then investigated why the drug appeared to help the kidneys. Their analysis pointed to changes in the gut microbiome. Lubiprostone increased the production of spermidine, a naturally occurring compound tied to healthier mitochondrial activity. Mitochondria are often described as the power plants of cells because they generate the energy cells need to function properly. The researchers found that improved mitochondrial function may help shield kidney tissue from further damage. They also identified changes in bacterial pathways connected to polyamine production, adding more evidence that gut microbes may directly influence kidney health. Interestingly, the treatment did not significantly reduce certain uremic toxins that scientists originally expected to change. Instead, the kidney benefits seemed tied more closely to microbiome remodeling and mitochondrial support. That finding could reshape how researchers think about treating CKD in the future. Why Researchers Are Excited About the Findings\n\nThe study has drawn attention because lubiprostone is already an approved medication for chronic constipation, potentially making future clinical use faster than developing a completely new drug from scratch. Researchers also believe the discovery may have implications beyond kidney disease.",
+        "chunk_index": 3,
+        "quality_score": 0.853,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 187
+      },
+      {
+        "text": "potentially making future clinical use faster than developing a completely new drug from scratch. Researchers also believe the discovery may have implications beyond kidney disease. Because mitochondrial dysfunction is involved in many chronic illnesses, scientists are exploring whether similar gut targeted approaches could eventually help other disorders as well. The research team is now planning larger Phase 3 trials to confirm whether the benefits hold up in broader patient populations. Scientists are also searching for biomarkers that could predict which patients are most likely to respond to treatment. Although more research is still needed, the findings have added momentum to a rapidly growing area of medicine focused on the connection between gut bacteria, cellular energy production, and chronic disease progression. For people living with CKD, even modest slowing of kidney decline could potentially delay dialysis and improve quality of life. RELATED TOPICS\n\nHealth & Medicine\n\nKidney Disease\n\nToday's Healthcare\n\nPersonalized Medicine\n\nPharmacology\n\nFitness\n\nPatient Education and Counseling\n\nHealthy Aging\n\nAlternative Medicine\n\nRELATED TERMS\n\nAntibiotic resistance\n\nAlzheimer's disease\n\nEncephalopathy\n\nNocebo - Placebo\n\nNeurology\n\nEpilepsy\n\nNarcotic\n\nConstipation\n\nStory Source:\n\nMaterials\n\nprovided by\n\nTohoku University\n\n. Note: Content may be edited for style and length.",
+        "chunk_index": 4,
+        "quality_score": 0.896,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 192
+      },
+      {
+        "text": "Encephalopathy Nocebo - Placebo Neurology Epilepsy Narcotic Constipation Story Source: Materials provided by Tohoku University . Note: Content may be edited for style and length. Journal Reference\n\n:\n\nShun Watanabe, Masaaki Nakayama, Takashi Yokoo, Satoru Sanada, Yoshifumi Ubara, Atsushi Komatsuda, Katsuhiko Asanuma, Yusuke Suzuki, Tsuneo Konta, Junichiro J. Kazama, Takehiro Suzuki, Shinji Fukuda, Tomoyoshi Soga, Takuji Yamada, Sayaka Mizutani, Mitsuharu Matsumoto, Yuji Naito, Kensei Taguchi, Kei Fukami, Hitomi Kashiwagi, Koichi Kikuchi, Chitose Suzuki, Hidetaka Tokuno, Marina Urasato, Ryota Kujirai, Yotaro Matsumoto, Yasutoshi Akiyama, Yoshihisa Tomioka, Shun Itai, Yoshiyasu Tongu, Eikan Mishima, Chiharu Kawabe, Tomoko Kasahara, Yoshiaki Ogata, Takafumi Toyohara, Takeya Sato, Tetsuhiro Tanaka, Takaaki Abe. Lubiprostone in chronic kidney disease: Insights into mitochondrial function and polyamines from a randomized phase 2 clinical trial\n\n. Science Advances\n\n, 2025; 11 (35) DOI:\n\n10.1126/sciadv.adw3934\n\nCite This Page\n\n:\n\nMLA\n\nAPA\n\nChicago\n\nTohoku University. \"A common constipation drug shows surprising power to protect kidneys.\" ScienceDaily. ScienceDaily, 8 May 2026. <www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260508024740.htm>. Tohoku University. (2026, May 8). A common constipation drug shows surprising power to protect kidneys. ScienceDaily\n\n. Retrieved May 8, 2026 from www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260508024740.htm\n\nTohoku University.",
+        "chunk_index": 5,
+        "quality_score": 0.904,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 198
+      },
+      {
+        "text": "drug shows surprising power to protect kidneys. ScienceDaily . Retrieved May 8, 2026 from www.sciencedaily.com / releases / 2026 / 05 / 260508024740.htm Tohoku University. \"A common constipation drug shows surprising power to protect kidneys.\" ScienceDaily. www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260508024740.htm (accessed May 8, 2026). Explore More\n\nfrom ScienceDaily\n\nRELATED STORIES\n\nScientists Finally Explain Why Chronic Constipation Treatments Often Fail\n\nFeb. 19, 2026 Â\n\nA newly discovered bacterial duo may be the hidden cause of chronic constipation. The two microbes break down the colonâs protective mucus layer, leaving stool dry and hard â a problem ... A Common Constipation Drug Shows a Surprising Ability to Protect Kidneys\n\nDec. 3, 2025 Â\n\nA surprising link between constipation and kidney decline led researchers to test lubiprostone, revealing that it can protect kidney function. The results point toward gut-based, ... Common Supplement Reverses Premature Aging in Landmark Human Trial\n\nJune 9, 2025 Â\n\nA rare genetic disorder called Werner syndrome causes premature aging and devastating health complications from an early age, yet treatment options have been lacking. New hope emerges from Chiba ... Semaglutide Treats Liver Disease in Two Thirds of Patients\n\nApr.",
+        "chunk_index": 6,
+        "quality_score": 0.84,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 194
+      },
+      {
+        "text": "an early age, yet treatment options have been lacking. New hope emerges from Chiba ... Semaglutide Treats Liver Disease in Two Thirds of Patients Apr. 30, 2025 Â\n\nA groundbreaking international trial has found that semaglutide, a drug best known for treating diabetes and obesity, can also reverse a dangerous liver disease called MASH in nearly two-thirds of ... Researchers Identify Pathway Responsible for Calciphylaxis, a Rare and Serious Condition\n\nApr. 23, 2025 Â\n\nThe global burden of chronic kidney disease (CKD) is rising, with more than 800 million people affected worldwide. Vascular diseases in patients with CKD are unique and grouped as uremic vascular ... New Drug-Like Molecule Extends Lifespan, Ameliorates Pathology in Worms and Boosts Function in Mammalian Muscle Cells\n\nNov. 13, 2023 Â\n\nHaving healthy mitochondria, the organelles that produce energy in all our cells, usually portends a long healthy life whether in humans or in C. elegans, a tiny, short-lived nematode worm often used ... TRENDING AT\n\nSCITECHDAILY.com\n\nPhysicists Propose Strange Experiment Where Time Goes Quantum\n\nMagnesium Magic: New Drug Melts Fat Even on a High-Fat, High-Sugar Diet\n\nWeight-Loss Drugs Like Ozempic May Come With an Unexpected Cost\n\nMezcal âWormâ in a Bottle Mystery: DNA Testing Reveals a Surprise",
+        "chunk_index": 7,
+        "quality_score": 0.744,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 203
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.95,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.605,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "sciencedaily.com"
+      },
+      "recency": {
+        "age_days": 0,
+        "halflife": 90.0,
+        "published": "Fri, 08 May 2026 06:44:49 EDT"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1342,
+        "ttr": 0.516,
+        "gini": 0.345,
+        "wc_score": 0.671
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.027,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7838
+  },
+  {
+    "record_id": "f5e94f62a7323d6e",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:27Z",
+    "source_url": "https://www.healthline.com/health-news/coffee-reshapes-gut-brain-reduce-stress",
+    "source_type": "blog",
+    "author": "Healthline Editorial",
+    "published_date": "Unknown",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "neurology",
+      "mental health",
+      "gut health",
+      "research",
+      "healthcare"
+    ],
+    "trust_score": 0.702,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "Coffee, even without caffeine, can reduce stress, improve learning, and boost mood by influencing your gut-brain axis. Oleg Breslavtsev/Getty Images\n\nNew research suggests both caffeinated and decaffeinated coffee can improve mood and reduce stress by influencing the gut–brain axis. Coffee may alter the gut microbiome, increasing bacteria linked to digestion, immunity, and emotional regulation. Decaf coffee was associated with improved learning and memory, while caffeinated coffee enhanced attention and reduced anxiety and inflammation. Experts say coffee’s polyphenols and other compounds may support mental well-being by lowering inflammation and strengthening communication between the gut and brain. Your morning cup of coffee may be more than just an energizing ritual. New\n\nresearch\n\nfrom APC Microbiome Ireland suggests that both caffeinated and decaffeinated coffee can improve mood and reduce stress by acting on the gut–brain axis. Researchers analyzed 62 adults, including 31 regular coffee drinkers and 31 non-drinkers, using psychological assessments, diet tracking, and stool and urine samples to examine changes in the gut microbiome and mood.",
+        "chunk_index": 0,
+        "quality_score": 0.829,
+        "has_overlap": false,
+        "total_chunks": 6,
+        "word_count": 164
+      },
+      {
+        "text": "regular coffee drinkers and 31 non-drinkers, using psychological assessments, diet tracking, and stool and urine samples to examine changes in the gut microbiome and mood. Coffee drinkers, defined as those consuming 3 to 5 cups daily, first abstained for two weeks, which led to notable shifts in gut metabolite profiles. When coffee was reintroduced in a blinded trial, half consumed caffeinated and half decaffeinated. Both groups reported reduced stress, depression, and impulsivity, suggesting benefits beyond caffeine. Researchers also observed increases in specific gut bacteria linked to\n\ndigestion\n\nand immune function. Decaffeinated coffee was associated with improved learning and memory, while caffeinated coffee was linked to reduced anxiety, better attention, and lower inflammation, highlighting distinct but complementary effects. How coffee affects the gut-brain axis\n\nCoco Pierrel\n\n, is a certified integrative nutritionist and founder of Eat Shed Glow, who was not involved in the research. She told Healthline that this study is the first to confirm what\n\ngut health\n\nspecialists have seen in clinical practice for years: that coffee is a functional beverage. “Coffee feeds your gut microbes through plant compounds called\n\npolyphenols\n\nand fiber-like molecules called melanoidins,” Pierrel explained.",
+        "chunk_index": 1,
+        "quality_score": 0.87,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 189
+      },
+      {
+        "text": "for years: that coffee is a functional beverage. “Coffee feeds your gut microbes through plant compounds called polyphenols and fiber-like molecules called melanoidins,” Pierrel explained. “Your\n\ngut bacteria\n\nferment these into short-chain fatty acids, which send signals directly to the brain through the vagus nerve.”\n\nPierrel recommended thinking of your gut as a second brain that is in constant communication with your first brain, and coffee is one of the loudest messages you send it every morning. “Caffeine blocks adenosine receptors in the brain to sharpen alertness, while stimulating gastric acid and motility in the gut,” she explained. “Coffee is one of the few daily habits that synchronizes your metabolism with your mental clarity, which is exactly what makes it such a powerful player on the gut-brain axis.”\n\nCaffeinated and decaffeinated coffee have health benefits\n\nPeople often associate the mental benefits of coffee with caffeine. However, this study shows that when it comes to lowering stress, boosting learning, and improving memory,\n\ndecaf coffee\n\nhas merit too. “The polyphenols in coffee, whether caffeinated or decaffeinated, lower inflammation, and chronic low-grade inflammation is one of the most underrated drivers of low mood and\n\nanxiety\n\n,” Pierrel pointed out.",
+        "chunk_index": 2,
+        "quality_score": 0.837,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 196
+      },
+      {
+        "text": "caffeinated or decaffeinated, lower inflammation, and chronic low-grade inflammation is one of the most underrated drivers of low mood and anxiety ,” Pierrel pointed out. “Those same polyphenols get fermented by gut bacteria into short-chain fatty acids like butyrate, which strengthens the gut barrier and quiets inflammatory signaling to the brain.”\n\nCoffee polyphenols also help regulate the HPA axis, the body’s central stress response system, which is likely why both caffeinated and decaf drinkers in this study reported feeling less stressed. “A healthy brain is often the byproduct of\n\na healthy gut\n\n,” Pierrel said. Caffeine can boost mental health\n\nStill, the study noted some differences between caffeinated and decaffeinated coffee. Caffeinated coffee, in particular, was associated with reduced anxiety and improved vigilance and attention. Why is this the case? “Caffeine blocks adenosine, the molecule that tells your brain it is tired, which is why you feel sharper within 30 minutes of your first cup,” Pierrel explained. “What most people miss is that habitual coffee drinkers develop a blunted\n\ncortisol\n\nresponse over time, meaning daily coffee may actually train your nervous system to handle pressure with less reactivity,” she noted. The study also found caffeine specifically reduced inflammation.",
+        "chunk_index": 3,
+        "quality_score": 0.851,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 198
+      },
+      {
+        "text": "meaning daily coffee may actually train your nervous system to handle pressure with less reactivity,” she noted. The study also found caffeine specifically reduced inflammation. “When you lower the noise of inflammation in the brain, you naturally raise the signal of focus and vigilance. That is why moderate daily coffee tends to leave habitual drinkers composed rather than just jittery,” Pierrel pointed out. Ways to optimize your coffee intake\n\nOf course, you can have too much of a good thing, and how you take your coffee matters, too. “Two to three cups a day is the sweet spot for gut and brain benefits, while more can disrupt sleep and undo the very benefits you are drinking it for,” Pierrel warned. “Sensitivity varies widely based on genetics and metabolism, so some people do best with one cup while others handle three comfortably. I generally recommend a caffeine curfew by 2 pm to protect\n\nsleep quality\n\n, too.”\n\nThe real problem is rarely the coffee itself; it is what most people pour into it. Pierrel warned against routinely using flavored syrups,\n\nartificial sweeteners\n\n, and conventional creamers and milks loaded with seed oils and gut-disrupting gums or additives like carrageenan.",
+        "chunk_index": 4,
+        "quality_score": 0.874,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 198
+      },
+      {
+        "text": "warned against routinely using flavored syrups, artificial sweeteners , and conventional creamers and milks loaded with seed oils and gut-disrupting gums or additives like carrageenan. “These can compromise the gut lining and cancel the anti-inflammatory benefits the study just demonstrated,” she noted. “The simplest path is\n\nblack coffee\n\n, ideally organic to avoid pesticides and mold. If you take milk, go for grass-fed whole milk or an unsweetened\n\nplant milk\n\nwith a short ingredient list, like Malk or Elmhurst,” Pierrel advised. And if you like sweetness? “Reach for unprocessed\n\nmaple syrup\n\n, raw honey, or zero-calorie natural options like pure stevia or\n\nmonk fruit extract\n\n,” she recommended.",
+        "chunk_index": 5,
+        "quality_score": 0.898,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 108
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.544,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "healthline.com"
+      },
+      "recency": {
+        "reason": "missing_date",
+        "raw": "Unknown"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 928,
+        "ttr": 0.505,
+        "gini": 0.325,
+        "wc_score": 0.464
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.022,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7608
+  },
+  {
+    "record_id": "76f8d6b2392775b0",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:27Z",
+    "source_url": "https://medium.com/@mverdi788/i-thought-i-had-a-motivation-problem-it-turned-out-to-be-my-gut-6f1ef8f53547",
+    "source_type": "blog",
+    "author": "Emma Hart",
+    "published_date": "Fri, 08 May 2026 13:52:48 GMT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "neurology",
+      "mental health",
+      "gut health"
+    ],
+    "trust_score": 0.646,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "I Thought I Had a Motivation Problem. It Turned Out to Be My Gut\n\nEmma Hart\n\n3 min read\n\n·\n\n3 hours ago\n\n--\n\nFor years, I thought my afternoon brain fog was a personality flaw. Every day around 2 or 3 PM, I would hit the same wall. My focus disappeared. I reread the same paragraph over and over. Small tasks felt mentally exhausting. I felt anxious for no clear reason, tired but restless at the same time. I blamed everything except my digestion. I blamed stress. Burnout. Sleep. My work environment. The weather. I drank more coffee, experimented with productivity systems, tried supplements, and convinced myself I just needed more discipline. Nothing really fixed it. The strange part is that the biggest improvement came from something I wasn’t even connecting to mental health at the time: my gut. The Change Started With Digestion\n\nAt first, I only wanted to stop feeling bloated all the time. My digestion was inconsistent, my stomach constantly felt irritated, and certain meals left me sluggish for hours.",
+        "chunk_index": 0,
+        "quality_score": 0.862,
+        "has_overlap": false,
+        "total_chunks": 4,
+        "word_count": 174
+      },
+      {
+        "text": "wanted to stop feeling bloated all the time. My digestion was inconsistent, my stomach constantly felt irritated, and certain meals left me sluggish for hours. So I started making simple changes to support gut health — eating less processed food, adding more fiber and fermented foods, and paying attention to how different meals affected my energy. Within the first couple of weeks, the digestive symptoms improved. But then something unexpected happened. The brain fog started lifting too. I stopped crashing every afternoon. My mood felt more stable. I could focus longer without feeling mentally drained. That heavy “wired but exhausted” feeling that had become normal for me slowly faded. It honestly caught me off guard. The Gut-Brain Connection Is Real\n\nOnce I noticed the difference, I started reading more about the connection between digestion and mental health. What surprised me most was learning that the gut and brain are constantly communicating through something called the gut-brain axis. The vagus nerve acts like a direct communication highway between the digestive system and the brain — and most of the signals actually travel upward from the gut to the brain.",
+        "chunk_index": 1,
+        "quality_score": 0.84,
+        "has_overlap": true,
+        "total_chunks": 4,
+        "word_count": 188
+      },
+      {
+        "text": "direct communication highway between the digestive system and the brain — and most of the signals actually travel upward from the gut to the brain. I also learned that around 90% of the body’s serotonin is produced in the gut, not the brain. That changed the way I looked at things completely. When your gut is inflamed or your microbiome is disrupted, it doesn’t just affect digestion. It can affect mood, energy, focus, stress levels, and even the feeling of mental clarity. Looking back, I think I had been stuck in a loop for years:\n\nStress disrupted digestion. Poor digestion increased inflammation. Inflammation worsened anxiety and fatigue. And the anxiety created even more digestive problems. I kept trying to fix the symptoms from the “brain side” without realizing part of the problem was starting in my gut. It Wasn’t an Overnight Transformation\n\nThis wasn’t some magical overnight cure. The first changes were physical: less bloating, more stable digestion, fewer energy crashes after meals. The mental changes came after that. Over time, I noticed I felt calmer. More focused. Less reactive. I woke up with more energy instead of feeling exhausted before the day even started.",
+        "chunk_index": 2,
+        "quality_score": 0.844,
+        "has_overlap": true,
+        "total_chunks": 4,
+        "word_count": 195
+      },
+      {
+        "text": "time, I noticed I felt calmer. More focused. Less reactive. I woke up with more energy instead of feeling exhausted before the day even started. The biggest surprise was realizing that what I thought was a motivation problem might have actually been chronic inflammation and poor gut health. And honestly, I think a lot more people are dealing with this than they realize. Why I Started the 30-Day Gut Reset\n\nAfter going through this myself, I put together a simple guide based on the things that actually helped me improve my digestion, energy, and mental clarity without extreme diets or complicated protocols. It’s called the\n\n30-Day Gut Reset\n\n. The guide covers:\n\nHow gut inflammation affects mood and energy\n\nThe connection between the microbiome and brain fog\n\nFoods that support gut repair\n\nSimple daily habits that improve digestion naturally\n\nA step-by-step 30-day reset plan\n\nIf you’ve been struggling with bloating, fatigue, anxiety, brain fog, or that constant “off” feeling you can’t explain, it might be worth looking at your gut health more closely. You can learn more here:\n\n30daygut.com",
+        "chunk_index": 3,
+        "quality_score": 0.702,
+        "has_overlap": true,
+        "total_chunks": 4,
+        "word_count": 179
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.35,
+      "domain_authority": 0.62,
+      "recency": 0.95,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.524,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "medium.com"
+      },
+      "recency": {
+        "age_days": 0,
+        "halflife": 90.0,
+        "published": "Fri, 08 May 2026 13:52:48 GMT"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 661,
+        "ttr": 0.525,
+        "gini": 0.285,
+        "wc_score": 0.331
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.002,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.6382
+  }
+]

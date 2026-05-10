@@ -1,0 +1,110 @@
+[
+  {
+    "record_id": "f05e1194ee9bc1ba",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:55Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/40536983/",
+    "source_type": "pubmed",
+    "author": "Shi FD, Yong VW",
+    "published_date": "2025 Jun 19",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "neurology",
+      "cardiovascular"
+    ],
+    "trust_score": 0.849,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "The brain's response to injury includes the activation of intrinsic microglia and the influx of leukocytes, collectively constituting neuroinflammation, the \"flame\" of the brain. Although details differ and matter, neuroinflammation exacerbating neurodegeneration has similarities across multiple sclerosis and other neurological disorders, such as stroke and neurodegenerative diseases. Thus, lessons from successful disease-modifying therapies in multiple sclerosis may provide insights into strategies for modulating neuroinflammation and reducing neural injury in other neurological conditions. In this Review, we discuss these lessons and potential strategies for counteracting neuroinflammation, including taming the microglia-orchestrated brain immune responses that contribute to progressing neuropathology.",
+        "chunk_index": 0,
+        "quality_score": 0.871,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 97
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 1.0,
+      "domain_authority": 0.95,
+      "recency": 0.741,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.575,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.4,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 2
+      },
+      "citation_count": {
+        "citations": 247
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 323,
+        "halflife": 900.0,
+        "published": "2025 Jun 19"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 97,
+        "ttr": 0.742,
+        "gini": 0.121,
+        "wc_score": 0.049
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.8125,
+    "pmid": "40536983",
+    "doi": "10.1126/science.adx0043",
+    "journal": "Science (New York, N.Y.)"
+  }
+]

@@ -1,0 +1,464 @@
+[
+  {
+    "record_id": "7f34f33c5448b16c",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:43:01Z",
+    "source_url": "https://www.healthline.com/health-news/ultra-processed-foods-heart-disease-healthy-swaps",
+    "source_type": "blog",
+    "author": "Healthline Editorial",
+    "published_date": "Unknown",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "healthcare",
+      "cardiovascular",
+      "research",
+      "diabetes",
+      "obesity"
+    ],
+    "trust_score": 0.796,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "European scientists are advocating for more education on the health harms of ultra-processed foods. Trinette Reed/Stocksy\n\nEuropean scientists say ultra-processed foods increase the risks of a variety of health ailments, particularly heart disease. They recommend that medical professionals discuss the health dangers of ultra-processed foods with their patients. Experts agree that doctors should advise their patients on how to identify ultra-processed foods and reduce them in their daily diets. European scientists say that medical professionals aren’t doing enough to warn the public about the health dangers of\n\nultra-processed foods\n\n. The scientists are urging doctors to talk with their patients about the amount of ultra-processed foods they eat and how to reduce them in their daily diets. They said those discussions should include an explanation that many foods marketed as “healthier” are often ultra-processed. The scientists said this guidance is particularly important for people at risk for heart disease. They further noted that most dietary guidelines prioritize nutrient-centered recommendations but don’t address food processing.",
+        "chunk_index": 0,
+        "quality_score": 0.787,
+        "has_overlap": false,
+        "total_chunks": 10,
+        "word_count": 164
+      },
+      {
+        "text": "is particularly important for people at risk for heart disease. They further noted that most dietary guidelines prioritize nutrient-centered recommendations but don’t address food processing. The scientists recommended that medical professionals promote better public understanding of\n\nfood labeling\n\n, food regulation, and updated guidelines. They reached their conclusions by reviewing all published research on ultra-processed foods and cardiovascular health. The findings were published in a\n\nclinical consensus statement\n\nin the European Heart Journal on May 6. The scientists are from the\n\nEuropean Society of Cardiology’s Council for Cardiology Practice\n\nand the\n\nEuropean Association of Preventive Cardiology\n\n, along with a group of topic experts. “[Ultra-processed foods], made from industrial ingredients and additives, have largely replaced traditional diets,”\n\nLuigina Guasti\n\n, MD, an associate professor at the University of Insubria in Italy and a co-author of the statement, said in a\n\npress release\n\n. “Research suggests these foods are linked to several risk factors for cardiovascular disease, such as\n\nobesity\n\n, diabetes, and high blood pressure, and to the risk of developing and dying from\n\nheart disease\n\n. However, this evidence has not yet made its way into the advice we give to patients on healthy eating,” Guasti continued.",
+        "chunk_index": 1,
+        "quality_score": 0.848,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 198
+      },
+      {
+        "text": "from heart disease . However, this evidence has not yet made its way into the advice we give to patients on healthy eating,” Guasti continued. Health dangers of ultra-processed foods\n\nUltra-processed foods\n\nare foods that have been altered from their original form and contain additives such as sugar and salt, as well as substances that aren’t typically used in culinary preparations. Those additional substances add flavor and texture to foods but can also increase the risk of several diseases. A\n\n2023 research review and analysis\n\nreported that there are associations between ultra-processed foods and an increased risk of several diseases. These include:\n\nhypertension\n\ndiabetes\n\nobesity\n\ndyslipidemia\n\nA\n\n2025 study\n\nconcluded that ultra-processed foods are tied to more than 120,000 preventable deaths in the United States every year. Recent\n\nresearch\n\nhas also linked ultra-processed foods to worse muscle health, weakened bones, and fertility issues in females. Further, research has linked ultra-processed foods to an increased risk of\n\ncancer mortality\n\nas well as a higher risk of\n\ncognitive decline\n\n.",
+        "chunk_index": 2,
+        "quality_score": 0.83,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 168
+      },
+      {
+        "text": "in females. Further, research has linked ultra-processed foods to an increased risk of cancer mortality as well as a higher risk of cognitive decline . The European scientists reported that adults with a high consumption of ultra-processed foods have a 19% higher risk of\n\ncoronary artery disease\n\n, a 13% higher risk of\n\natrial fibrillation (AFib)\n\n, and as much as a 65% higher risk of cardiovascular-related death compared with adults with a lower consumption of ultra-processed foods. They added that ultra-processed foods also worsen key risk factors for conditions such as obesity,\n\ntype 2 diabetes\n\n, high blood pressure, and the buildup of unhealthy fats in the bloodstream. They reported that the risk from ultra-processed foods seems to be consistent across large, diverse populations. Cheng-Han Chen\n\n, MD, an interventional cardiologist and medical director of the Structural Heart Program at MemorialCare Saddleback Medical Center in Laguna Hills, CA, wasn’t involved in the study, but agreed with the scientists’ recommendations. “This review of the current evidence regarding the health effects of ultra-processed foods makes it clear that consumption of ultra-processed foods is associated with increased risk of cardiovascular disease,” Chen told Healthline.",
+        "chunk_index": 3,
+        "quality_score": 0.802,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 192
+      },
+      {
+        "text": "the health effects of ultra-processed foods makes it clear that consumption of ultra-processed foods is associated with increased risk of cardiovascular disease,” Chen told Healthline. “We need to better educate the public on the risks of these foods and on the need to prioritize eating whole foods.”\n\nJennifer Wong\n\n, MD, a cardiologist and medical director of Non-Invasive Cardiology at MemorialCare Heart and Vascular Institute at Orange Coast Medical Center in Fountain Valley, CA, echoed this sentiment. Wong wasn’t involved in the study. “This [paper] highlights an important and increasingly relevant issue — the impact of ultra-processed foods on cardiovascular health,” she told Healthline. “Bringing attention to this topic is critical given how prevalent these foods are in modern diets.”\n\nHow ultra-processed foods affect the body\n\nConsuming ultra-processed foods may harm the body in several ways. “We think that ultra-processed foods increase risk of cardiovascular disease through many mechanisms,” Chen said.",
+        "chunk_index": 4,
+        "quality_score": 0.628,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 151
+      },
+      {
+        "text": "Consuming ultra-processed foods may harm the body in several ways. “We think that ultra-processed foods increase risk of cardiovascular disease through many mechanisms,” Chen said. “[These foods] are typically\n\nhigh in added sugars\n\n,\n\nunhealthy fats\n\n, and\n\nsodium\n\n, all of which lead to increased inflammation and increased risk of many cardiovascular risk factors such as high blood pressure,\n\nhigh cholesterol\n\n, and diabetes.”\n\n“These foods also seem to disrupt our natural gut bacteria, further worsening\n\nsystemic inflammation\n\n,” Chen added. “Also, increased intake of [ultra-processed foods] leads to less intake of heart-healthy foods such as fruits, vegetables, and whole grains.”\n\nAmit Khera\n\n, MD, director of preventive cardiology at UT Southwestern Medical Center, lists other ways ultra-processed food consumption contributes to health issues:\n\nmay lead to excess calorie intake\n\nmay contain high levels of saturated fat, added sugars, or sodium\n\nmay trigger the brain to stay hungry even after eating\n\nmay cause potential disruptions to blood sugar levels\n\n“Most [ultra-processed foods] are foods with poor nutritional quality, contributing to excessive calories, and are typically\n\nhigh in saturated fats\n\n, added sugars, and sodium,” Khera told Healthline.",
+        "chunk_index": 5,
+        "quality_score": 0.819,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 188
+      },
+      {
+        "text": "are foods with poor nutritional quality, contributing to excessive calories, and are typically high in saturated fats , added sugars, and sodium,” Khera told Healthline. Ultra-processed food consumption is widespread\n\nA\n\nFebruary review\n\nstated that ultra-processed foods may be as addictive as tobacco. The European scientists reported that\n\nconsumption of ultra-processed foods\n\nis increasing across Europe. They noted that the percentage of calories from ultra-processed foods ranges from 61% in the Netherlands to 57% in the United Kingdom, 25% in Spain, 22% in Portugal, and 18% in Italy. It’s estimated that\n\nover 50%\n\nof the adult diet in the United States comes from ultra-processed foods. A\n\n2025 review\n\non the rise of ultra-processed foods notes that the increase in consumption may be attributed to their convenience, lower cost, longer shelf life, and aggressive marketing. An\n\nexecutive summary\n\nof a three-paper series on ultra-processed foods notes that societal changes are needed to reverse these trends. “This rise in ultra-processed foods is driven by powerful global corporations who employ sophisticated political tactics to protect and maximize profits,” the authors wrote. “Education and relying on behavior change by individuals is insufficient.",
+        "chunk_index": 6,
+        "quality_score": 0.819,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 188
+      },
+      {
+        "text": "global corporations who employ sophisticated political tactics to protect and maximize profits,” the authors wrote. “Education and relying on behavior change by individuals is insufficient. Deteriorating diets are an urgent public health threat that requires coordinated policies and advocacy to regulate and reduce ultra-processed foods and improve access to fresh and minimally processed foods.”\n\nChristopher Gardner\n\n, PhD, a professor at Stanford Medicine, said the uncertainty about exactly what an ultra-processed food is can also add to the challenges. Gardner wasn’t involved in these studies. “If it were easy to point out exactly what an ultra-processed food was, that is different than junk food, or unhealthy food, it could be helpful,” Gardner told Healthline. “But the overlap is significant. And there are hundreds of cosmetic additives to be on the lookout for. And we don’t actually have great data or great science on each and every one of the cosmetic additives.”\n\nReducing your intake of ultra-processed foods\n\nEating fewer ultra-processed foods may start with better knowledge of unhealthy foods. “The first step is for people to better understand the types of foods they eat and which foods in their diet would be considered ultra-processed,” Chen said.",
+        "chunk_index": 7,
+        "quality_score": 0.852,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 196
+      },
+      {
+        "text": "step is for people to better understand the types of foods they eat and which foods in their diet would be considered ultra-processed,” Chen said. “They can then better replace those types of foods with healthier alternatives such as fruits and vegetables.”\n\nWong agreed. “Clear and informative food labeling can improve public awareness and help individuals make healthier dietary choices,” she said. “Individuals can reduce intake by reading ingredient labels carefully, choosing minimally processed or whole-food alternatives, and preparing meals at home using fresh, healthy ingredients.”\n\nKhera, who is also volunteer vice-chair of the\n\nAmerican Heart Association’s 2026 dietary guidance\n\nwriting committee, has a checklist for people to reduce consumption of ultra-processed foods. His advice includes:\n\nPrepare more foods at home. Be deliberate in food purchases at the grocery store. Make smart choices when ordering out. Snack smarter. Khera added that some “simple swaps” can also help. “Make your own simple vinaigrette instead of buying bottled salad dressing,” he said. “Add fruit to plain\n\noatmeal\n\n, cereal, and\n\nyogurt\n\ninstead of buying the sweetened or flavored kind.",
+        "chunk_index": 8,
+        "quality_score": 0.884,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 177
+      },
+      {
+        "text": "instead of buying bottled salad dressing,” he said. “Add fruit to plain oatmeal , cereal, and yogurt instead of buying the sweetened or flavored kind. Slice up leftover roasted chicken or make a light tuna salad for sandwiches instead of using processed deli meat.”\n\nGardner agreed that focusing on foods that we know are healthy is a simple way to eat more healthy. “Shift the approach to consuming more unprocessed or minimally processed foods,” he said. “Whole foods: Veggies, fruits, legumes, nuts, seeds, [and] whole grains. Those are easier to define. Eat more of the good foods and, hopefully, by the time you have eaten those, you will be full and satiated and no longer in the mood for eating the junk, unhealthy, ultra-processed foods.”",
+        "chunk_index": 9,
+        "quality_score": 0.726,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 125
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 1.0,
+      "domain_authority": 0.95,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.7,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.592,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.55,
+      "domain_authority": 0.92,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.75,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "blog_evidence_proxy",
+        "evidence_phrases": 25
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "healthline.com"
+      },
+      "recency": {
+        "reason": "missing_date",
+        "raw": "Unknown"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false,
+        "implicit_editorial_review": true,
+        "domain": "healthline.com"
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1522,
+        "ttr": 0.432,
+        "gini": 0.363,
+        "wc_score": 0.761
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.018,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.732
+  },
+  {
+    "record_id": "2820506eabe6b78d",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:43:01Z",
+    "source_url": "https://medium.com/@saisams27.madap/week-3-prevention-of-heart-disease-in-adolescents-3d4a6e512cf0",
+    "source_type": "blog",
+    "author": "Sam Madap",
+    "published_date": "Fri, 20 Mar 2026 21:47:29 GMT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "cardiovascular",
+      "mental health",
+      "obesity"
+    ],
+    "trust_score": 0.598,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "3/20/2026\n\nThis week, I read an article on PubMed about the prevention of heart disease in adolescents. I noticed that doctors mentioned lifestyle a lot in this article. While very few adolescents have cardiovascular diseases, many are prone to them due to their lifestyle. Prevention can include many things, such as exercising regularly, nourishing your body with a proper diet, and maintaining a healthy weight. Staying away from addictive nicotine products like vapes and cigarettes can be another way of showing love towards the organ that works hard to keep you alive. Many teenagers in this generation are at risk of heart disease. This can be proven by looking at the statistics, which clearly support the claim. About 40% of teens are overweight or obese. A staggering 90% of teens are reported as struggling with stress. 10% of teens are identified as using harmful nicotine products. More than 80% of teens don’t follow healthy dietary regulations.",
+        "chunk_index": 0,
+        "quality_score": 0.862,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 156
+      },
+      {
+        "text": "reported as struggling with stress. 10% of teens are identified as using harmful nicotine products. More than 80% of teens don’t follow healthy dietary regulations. Taking care of your heart should be one of your most important concerns, and many teens neglect heart health, which leads to cardiovascular diseases as they age. It is essential to take care of your heart through regular exercise, diet, and management of stress, so that you can lead a happy and healthy life.",
+        "chunk_index": 1,
+        "quality_score": 0.886,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 79
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.0,
+      "domain_authority": 0.62,
+      "recency": 0.646,
+      "medical_disclaimer_presence": 0.35,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.542,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.55,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.55,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.776,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "reason": "blog_evidence_proxy",
+        "evidence_phrases": 0
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "medium.com"
+      },
+      "recency": {
+        "age_days": 50,
+        "halflife": 90.0,
+        "published": "Fri, 20 Mar 2026 21:47:29 GMT"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false,
+        "implicit_editorial_review": "partial",
+        "domain": "medium.com"
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 210,
+        "ttr": 0.662,
+        "gini": 0.18,
+        "wc_score": 0.105
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.005,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.6227
+  },
+  {
+    "record_id": "24ecc36913923470",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:43:01Z",
+    "source_url": "https://medium.com/@drsanulcorrielus/10-daily-habits-to-keep-your-heart-healthy-e1999dbf1d42",
+    "source_type": "blog",
+    "author": "Dr. Sanul Corrielus -Cardiologist in Philadelphia",
+    "published_date": "Mon, 30 Mar 2026 12:14:29 GMT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "cardiovascular",
+      "mental health"
+    ],
+    "trust_score": 0.494,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "Your heart works every second, even when you are resting. Taking care of it does not have to be hard. Small actions every day can build strong heart-healthy habits and support your overall well-being. Many people think they need big changes, but simple daily heart care can make a real difference. By following easy heart health tips, you can slowly build a healthy heart lifestyle that supports long-term cardiovascular health. Let’s talk about how your everyday choices can improve heart wellness and help you feel better each day. Why Daily Care Matters More Than You Think\n\nYour heart does not need sudden changes. It needs steady care. When you follow a consistent heart care routine, you support your body in a natural way. These daily wellness habits help improve heart fitness and create a strong base for heart disease prevention. Ignoring small signs can lead to problems later. That is why simple cardio health tips and heart protection tips should be part of your daily life.",
+        "chunk_index": 0,
+        "quality_score": 0.622,
+        "has_overlap": false,
+        "total_chunks": 7,
+        "word_count": 166
+      },
+      {
+        "text": "small signs can lead to problems later. That is why simple cardio health tips and heart protection tips should be part of your daily life. When you follow a healthy lifestyle heart approach, you give your body the support it needs to grow stronger. Small Steps That Lead to Big Heart Benefits\n\nA healthy habits heart approach is not about perfection. It is about staying consistent. When you follow heart-friendly habits, you reduce risks and improve heart health over time. These habits also support your energy, mood, and overall balance. By focusing on daily heart care and simple heart health tips, you can build a routine that supports heart wellness without feeling overwhelmed. Simple Daily Actions for a Stronger Heart\n\nStart your day with light movement\n\nWaking up and moving your body helps improve heart fitness and boosts your energy. Even a short walk or gentle stretch supports cardiovascular health and builds heart-healthy habits. This kind of daily heart care helps your body stay active and balanced. It also improves blood flow and supports heart wellness in a simple way. When you follow this as part of your heart care routine, you create a strong start to your day.",
+        "chunk_index": 1,
+        "quality_score": 0.586,
+        "has_overlap": true,
+        "total_chunks": 7,
+        "word_count": 199
+      },
+      {
+        "text": "heart wellness in a simple way. When you follow this as part of your heart care routine, you create a strong start to your day. These daily wellness habits also support heart disease prevention over time. Adding movement in the morning is one of the easiest cardio health tips to follow. It is a simple step toward a healthy heart lifestyle. Choose balanced and simple meals\n\nWhat you eat every day affects your heart. Fresh and simple food choices support a healthy lifestyle heart and reduce risks. These heart-friendly habits help improve heart health without needing strict rules. Eating balanced meals supports cardiovascular health and builds strong heart-healthy habits. It also helps maintain steady energy and better digestion. This daily heart care approach reduces chances of future problems. Following these heart protection tips can make your meals more meaningful. Over time, these daily wellness habits support heart disease prevention and long-term heart wellness. Stay active throughout the day\n\nSitting for too long can affect your body. Taking small breaks to move helps improve heart fitness and keeps your body active. These actions support cardiovascular health and build heart-healthy habits. Even small steps like walking or stretching add to your daily heart care.",
+        "chunk_index": 2,
+        "quality_score": 0.802,
+        "has_overlap": true,
+        "total_chunks": 7,
+        "word_count": 202
+      },
+      {
+        "text": "your body active. These actions support cardiovascular health and build heart-healthy habits. Even small steps like walking or stretching add to your daily heart care. Staying active also supports heart wellness and keeps your mind fresh. This is one of the simplest heart health tips that anyone can follow. These daily wellness habits also help reduce stress and support heart disease prevention. A steady heart care routine makes a big difference over time. Drink enough water daily\n\nWater plays an important role in keeping your body balanced. Staying hydrated supports cardiovascular health and helps improve heart health naturally. This is a key part of daily heart care and heart-friendly habits. Drinking enough water also supports heart wellness and keeps your body functioning smoothly. It helps maintain energy levels and supports heart fitness. These simple heart protection tips are easy to follow every day. Adding hydration to your heart care routine strengthens your healthy lifestyle heart. It is one of the most basic yet powerful daily wellness habits. Get enough rest every night\n\nSleep is important for your heart. Proper rest supports cardiovascular health and helps improve heart health over time. When you sleep well, your body repairs and resets.",
+        "chunk_index": 3,
+        "quality_score": 0.779,
+        "has_overlap": true,
+        "total_chunks": 7,
+        "word_count": 199
+      },
+      {
+        "text": "important for your heart. Proper rest supports cardiovascular health and helps improve heart health over time. When you sleep well, your body repairs and resets. This builds strong heart-healthy habits and supports heart wellness. A good sleep routine is a key part of daily heart care. It also improves heart fitness and reduces stress. These heart health tips are simple but very effective. Good sleep supports heart disease prevention and builds a healthy lifestyle heart. Making rest part of your heart care routine is essential. Manage stress in simple ways\n\nStress can affect your heart more than you realize. Taking time to relax supports heart wellness and improves heart fitness. Simple activities like deep breathing or quiet time can help. These heart-friendly habits are important for daily heart care. Managing stress supports cardiovascular health and builds heart-healthy habits. It also reduces risks and supports heart disease prevention. These cardio health tips are easy to include in your routine. A calm mind supports a strong healthy lifestyle heart. These daily wellness habits help you feel balanced and steady. Building a Routine That Works for You\n\nThe key to a healthy heart is consistency. You do not need to follow everything at once.",
+        "chunk_index": 4,
+        "quality_score": 0.564,
+        "has_overlap": true,
+        "total_chunks": 7,
+        "word_count": 201
+      },
+      {
+        "text": "steady. Building a Routine That Works for You The key to a healthy heart is consistency. You do not need to follow everything at once. Start small and build your heart care routine step by step. These daily wellness habits will slowly become part of your lifestyle. When you follow heart-healthy habits regularly, you support heart wellness and improve heart fitness naturally. Over time, these actions strengthen your cardiovascular health and help with heart disease prevention. A word from the Doctor —\n\nTaking care of your heart is a daily choice. Simple actions like moving more, eating well, and resting properly can improve heart health in a natural way. By following heart-friendly habits and staying consistent, you build a healthy lifestyle heart that supports your future. Remember, small steps matter. With the right heart protection tips and a steady heart care routine, you can enjoy better energy, balance, and long-term heart wellness. Schedule a consultation with\n\nDr. Sanul Corrielus\n\nright away if you have questions about your heart health! FAQs\n\nQ1. What are heart-healthy habits? A1. Heart-healthy habits are simple daily actions like eating well, staying active, and resting enough to support heart health. Q2. How can I improve my heart health daily? A2.",
+        "chunk_index": 5,
+        "quality_score": 0.601,
+        "has_overlap": true,
+        "total_chunks": 7,
+        "word_count": 204
+      },
+      {
+        "text": "simple daily actions like eating well, staying active, and resting enough to support heart health. Q2. How can I improve my heart health daily? A2. You can improve heart health by following daily heart care, staying active, eating balanced meals, and managing stress. Q3. Why is cardiovascular health important? A3. Cardiovascular health supports proper blood flow and keeps your heart strong, helping you stay active and healthy. Q4. What is a good heart care routine? A4. A good heart care routine includes exercise, healthy eating, hydration, proper sleep, and stress control. Q5. Can daily wellness habits prevent heart problems? A5. Yes, daily wellness habits support heart disease prevention and help reduce risks over time.",
+        "chunk_index": 6,
+        "quality_score": 0.646,
+        "has_overlap": true,
+        "total_chunks": 7,
+        "word_count": 114
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.0,
+      "domain_authority": 0.62,
+      "recency": 0.698,
+      "medical_disclaimer_presence": 0.35,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.421,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.55,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.55,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "reason": "blog_evidence_proxy",
+        "evidence_phrases": 0
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "medium.com"
+      },
+      "recency": {
+        "age_days": 40,
+        "halflife": 90.0,
+        "published": "Mon, 30 Mar 2026 12:14:29 GMT"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false,
+        "implicit_editorial_review": "partial",
+        "domain": "medium.com"
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1135,
+        "ttr": 0.293,
+        "gini": 0.556,
+        "wc_score": 0.568
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.058,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 0.8,
+    "abuse_reasons": [
+      "keyword_stuffing:heart:0.118:threshold:0.115"
+    ],
+    "anomaly_flags": [
+      "keyword_stuffing:heart:0.118"
+    ],
+    "prior_used": 0.6319
+  }
+]

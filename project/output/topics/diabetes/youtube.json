@@ -1,0 +1,252 @@
+[
+  {
+    "record_id": "238497805690ba2f",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:06:38Z",
+    "source_url": "https://www.youtube.com/watch?v=-B-RVybvffU",
+    "source_type": "youtube",
+    "author": "Osmosis from Elsevier",
+    "published_date": "2019-09-10",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "diabetes",
+      "healthcare"
+    ],
+    "trust_score": 0.556,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "What is diabetes mellitus? Diabetes mellitus is when there's too much glucose, a type of sugar, in the blood. Diabetes mellitus can be split into type 1, type 2, as well as a couple other subtypes, including gestational diabetes and drug-induced diabetes. Find our full video library here: https://osms.it/find-more. Join millions of current and future clinicians who learn by Osmosis, along with hundreds of universities around the world who partner with Osmosis from Elsevier to make medical and health education more engaging and efficient. We have unparalleled tools and materials to prepare you for success in school, on your board exams, and as a future clinician. Sign up for a free trial at https://osms.it/free-trial. If you're interested in exploring an institutional partnership, visit osmosis.org/educators to request a personalized demo. Follow us on social:\nFacebook: http://osms.it/facebook\nTwitter: http://osms.it/twitter\nInstagram for med: http://osms.it/instagram\nInstagram for nursing: https://osms.it/ignursing\nTikTok: https://osms.it/tiktok\nLinkedIn: https://osms.it/linkedin\n\nOur Vision: Everyone who cares for someone will learn by Osmosis. Our Mission: To empower the world’s clinicians and caregivers with the best learning experience possible.",
+        "chunk_index": 0,
+        "quality_score": 0.871,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 175
+      },
+      {
+        "text": "Vision: Everyone who cares for someone will learn by Osmosis. Our Mission: To empower the world’s clinicians and caregivers with the best learning experience possible. Learn more here: http://osms.it/mission\n\nMedical disclaimer: Osmosis from Elsevier does not provide medical advice. Osmosis from Elsevier and the content available on the Osmosis from Elsevier properties (Osmosis.org, YouTube, and other channels) do not provide a diagnosis or other recommendation for treatment and are not a substitute for the professional judgment of a healthcare professional in diagnosis and treatment of any person or animal. The determination of the need for medical services and the types of healthcare to be provided to a patient are decisions that should be made only by a physician or other licensed healthcare provider. Always seek the advice of a physician or other qualified healthcare professional with any questions you have regarding a medical condition. © 2024 Elsevier. All rights reserved.",
+        "chunk_index": 1,
+        "quality_score": 0.8,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 150
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 1.0,
+      "citation_count": 1.0,
+      "domain_authority": 0.62,
+      "recency": 0.05,
+      "medical_disclaimer_presence": 1.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.521,
+      "engagement_authenticity": 0.601,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.95,
+      "citation_count": 0.65,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.75,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "credible_org_match",
+        "author": "Osmosis from Elsevier"
+      },
+      "citation_count": {
+        "views": 3514022
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "youtube.com"
+      },
+      "recency": {
+        "age_days": 2432,
+        "halflife": 150.0,
+        "published": "2019-09-10"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": true
+      },
+      "metadata_completeness": {
+        "present": 5,
+        "required": 5,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 300,
+        "ttr": 0.607,
+        "gini": 0.222,
+        "wc_score": 0.15
+      },
+      "engagement_authenticity": {
+        "views": 3514022,
+        "likes": 54963,
+        "like_view_ratio": 0.01564,
+        "z_score": -1.197,
+        "manipulation_flags": []
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.003,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.08,
+      "domain_authority": 0.15,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.04,
+      "content_depth": 0.06,
+      "engagement_authenticity": 0.12,
+      "adversarial_risk": 0.07
+    },
+    "abuse_penalty": 0.82,
+    "abuse_reasons": [
+      "outdated_health_content"
+    ],
+    "anomaly_flags": [],
+    "prior_used": null,
+    "view_count": 3514022,
+    "like_count": 54963,
+    "duration_sec": 1163,
+    "has_transcript": false
+  },
+  {
+    "record_id": "1e4952d1b060029b",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:06:38Z",
+    "source_url": "https://www.youtube.com/watch?v=da1vvigy5tQ",
+    "source_type": "youtube",
+    "author": "TEDx Talks",
+    "published_date": "2015-05-04",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "healthcare",
+      "obesity",
+      "diabetes",
+      "AI / ML"
+    ],
+    "trust_score": 0.478,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "NOTE FROM TED: Do not look to this talk for medical advice. Significantly restricting dietary carbohydrates can have adverse health consequences if not carefully monitored. Always consult a medical professional before modifying diet or medication. We've flagged this talk because it falls outside the content guidelines TED gives TEDx organizers. TEDx events are independently organized by volunteers. The guidelines we give TEDx organizers are described in more detail here: http://storage.ted.com/tedx/manuals/tedx_content_guidelines.pdff\n\nCan a person be \"cured\" of Type 2 Diabetes? Dr. Sarah Hallberg provides compelling evidence that it can, and the solution is simpler than you might think. Dr. Sarah Hallberg is the Medical Director of the Medically Supervised Weight Loss Program at IU Health Arnett, a program she created. She is board certified in both obesity medicine and internal medicine and has a Master’s Degree in Exercise Physiology. She has recently created what is only the second non-surgical weight loss rotation in the country for medical students. Her program has consistently exceeded national benchmarks for weight loss, and has been highly successful in reversing diabetes and other metabolic diseases. Dr.",
+        "chunk_index": 0,
+        "quality_score": 0.858,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 180
+      },
+      {
+        "text": "medical students. Her program has consistently exceeded national benchmarks for weight loss, and has been highly successful in reversing diabetes and other metabolic diseases. Dr. Hallberg is also the co-author of www.fitteru.us, a blog about health and wellness. B.S., Kinesiology & Exercise Science, Illinois State University, 1994\r\n\r\nM.S., Kinesiology & Exercise Science, Illinois State University, 1996\r\n\r\nM.D., Des Moines University, 2002\n\nThis talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at http://ted.com/tedx",
+        "chunk_index": 1,
+        "quality_score": 0.762,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 85
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 1.0,
+      "domain_authority": 0.62,
+      "recency": 0.05,
+      "medical_disclaimer_presence": 1.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.539,
+      "engagement_authenticity": 0.647,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.65,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.65,
+      "engagement_authenticity": 0.75,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "views": 11887776
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "youtube.com"
+      },
+      "recency": {
+        "age_days": 4022,
+        "halflife": 150.0,
+        "published": "2015-05-04"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": true
+      },
+      "metadata_completeness": {
+        "present": 5,
+        "required": 5,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 240,
+        "ttr": 0.667,
+        "gini": 0.211,
+        "wc_score": 0.12
+      },
+      "engagement_authenticity": {
+        "views": 11887776,
+        "likes": 207670,
+        "like_view_ratio": 0.01747,
+        "z_score": -1.059,
+        "manipulation_flags": []
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.017,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.08,
+      "domain_authority": 0.15,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.04,
+      "content_depth": 0.06,
+      "engagement_authenticity": 0.12,
+      "adversarial_risk": 0.07
+    },
+    "abuse_penalty": 0.82,
+    "abuse_reasons": [
+      "outdated_health_content"
+    ],
+    "anomaly_flags": [],
+    "prior_used": null,
+    "view_count": 11887776,
+    "like_count": 207670,
+    "duration_sec": 1092,
+    "has_transcript": false
+  }
+]

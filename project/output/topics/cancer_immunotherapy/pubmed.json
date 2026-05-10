@@ -1,0 +1,110 @@
+[
+  {
+    "record_id": "98e5615c088ad57b",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T16:17:36Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/40780215/",
+    "source_type": "pubmed",
+    "author": "Shi T, Liu W, Luo Y, Liang K, Ren S, Song X, Liu F, Lu C, Hirschhorn D, Wang H, Zhang Y, Cai Y, Wang Y, Pan Y, Liu W, Nie Y, Zhang Z, Yu L, Ding S, Liu B, Merghoub T, Li Y, Wei J",
+    "published_date": "2025 Oct 13",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "cancer / oncology",
+      "healthcare"
+    ],
+    "trust_score": 0.742,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "Bone metastases remain incurable and respond poorly to immune checkpoint blockade (ICB) therapy. The impact of neutrophil maturation in cancer, particularly in refractory tumors including bone metastases, is not well understood. Here, we observed the predominance of immature neutrophils in the bone metastasis microenvironment of both mouse models and cancer patients. Dickkopf1 (DKK1) induces an immature-like functional state in neutrophils, which exhibit robust immunosuppressive capabilities to inhibit anti-tumor response of CD8",
+        "chunk_index": 0,
+        "quality_score": 0.765,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 71
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.55,
+      "domain_authority": 0.95,
+      "recency": 0.809,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.627,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.546,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 23
+      },
+      "citation_count": {
+        "citations": 110
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 209,
+        "halflife": 900.0,
+        "published": "2025 Oct 13"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 71,
+        "ttr": 0.831,
+        "gini": 0.053,
+        "wc_score": 0.035
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7911,
+    "pmid": "40780215",
+    "doi": "10.1016/j.ccell.2025.07.007",
+    "journal": "Cancer cell"
+  }
+]

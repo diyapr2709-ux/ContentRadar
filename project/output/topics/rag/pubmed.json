@@ -1,0 +1,119 @@
+[
+  {
+    "record_id": "2872c8ffb10bf835",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:47Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39250472/",
+    "source_type": "pubmed",
+    "author": "Lee D, Kim W",
+    "published_date": "2024",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "RAG / retrieval",
+      "research",
+      "technology"
+    ],
+    "trust_score": 0.813,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Conditional image retrieval (CIR), which involves retrieving images by a query image along with user-specified conditions, is essential in computer vision research for efficient image search and automated image analysis. The existing approaches, such as composed image retrieval (CoIR) methods, have been actively studied. However, these methods face challenges as they require either a triplet dataset or richly annotated image-text pairs, which are expensive to obtain. In this work, we demonstrate that CIR at the image-level concept can be achieved using an inverse mapping approach that explores the model's inductive knowledge. Our proposed CIR method, called Backward Search, updates the query embedding to conform to the condition. Specifically, the embedding of the query image is updated by predicting the probability of the label and minimizing the difference from the condition label. This enables CIR with image-level concepts while preserving the context of the query. In this paper, we introduce the Backward Search method that enables single and multi-conditional image retrieval. Moreover, we efficiently reduce the computation time by distilling the knowledge.",
+        "chunk_index": 0,
+        "quality_score": 0.845,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 171
+      },
+      {
+        "text": "paper, we introduce the Backward Search method that enables single and multi-conditional image retrieval. Moreover, we efficiently reduce the computation time by distilling the knowledge. We conduct experiments using the WikiArt, aPY, and CUB benchmark datasets. The proposed method achieves an average mAP@10 of 0.541 on the datasets, demonstrating a marked improvement compared to the CoIR methods in our comparative experiments. Furthermore, by employing knowledge distillation with the Backward Search model as the teacher, the student model achieves a significant reduction in computation time, up to 160 times faster with only a slight decrease in performance. The implementation of our method is available at the following URL: https://github.com/dhlee-work/BackwardSearch.",
+        "chunk_index": 1,
+        "quality_score": 0.861,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 108
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 1.0,
+      "domain_authority": 0.95,
+      "recency": 0.491,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.533,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.65,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 2
+      },
+      "citation_count": {
+        "citations": 233
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 858,
+        "halflife": 900.0,
+        "published": "2024"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 254,
+        "ttr": 0.634,
+        "gini": 0.195,
+        "wc_score": 0.127
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.8126,
+    "pmid": "39250472",
+    "doi": "10.1371/journal.pone.0310098",
+    "journal": "PloS one"
+  }
+]

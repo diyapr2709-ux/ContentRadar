@@ -1,0 +1,435 @@
+[
+  {
+    "record_id": "0c3e749e9bbf4a88",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T23:37:35Z",
+    "source_url": "https://huggingface.co/blog/tiiuae/falcon-edge",
+    "source_type": "blog",
+    "author": "HuggingFace",
+    "published_date": "Thu, 15 May 2025 13:13:45 GMT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "large language models",
+      "research",
+      "technology"
+    ],
+    "trust_score": 0.642,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "Back to Articles\n\nFalcon-Edge: A series of powerful, universal, fine-tunable 1.58bit language models. Community Article\n\nPublished\n May 15, 2025\n\nUpvote\n\n36\n\nYounes B\n\nybelkada\n\ntiiuae\n\nQiyang Zhao\n\nqiyang-zhao\n\ntiiuae\n\nHang Zou\n\nhangzou\n\ntiiuae\n\nRhaiem\n\nDhiyaEddine\n\ntiiuae\n\nIlyas Chahed\n\nIChahed\n\ntiiuae\n\nMaksim Velikanov\n\nyellowvm\n\ntiiuae\n\nJingwei Zuo\n\nJingweiZuo\n\ntiiuae\n\nMike Lubinets\n\nmersinvald\n\ntiiuae\n\nHakim Hacid\n\nHakimHacid\n\ntiiuae\n\nFalcon LLM TII UAE\n\nFalconLLM\n\ntiiuae\n\nIn this blogpost, we present the key highlights and rationales about the Falcon-Edge series - a collection of powerful, universal, and fine-tunable language models available in ternary format, based on the BitNet architecture. Drawing from our experience with BitNet, Falcon-Edge introduces and validates an new pre-training paradigm that delivers a full-scope output from a single training process, simultaneously yielding both non-quantized and quantized model variants. This comprehensive approach produces a non-BitNet model in bfloat16 format, the native BitNet model, and a pre-quantized BitNet variant specifically engineered for effortless fine-tuning, enabling users and developers to precisely tailor these models to their specific applications and needs.",
+        "chunk_index": 0,
+        "quality_score": 0.677,
+        "has_overlap": false,
+        "total_chunks": 14,
+        "word_count": 166
+      },
+      {
+        "text": "and a pre-quantized BitNet variant specifically engineered for effortless fine-tuning, enabling users and developers to precisely tailor these models to their specific applications and needs. Available now in two sizes—1 Billion and 3 Billion parameters—each size comes in both base and instruction-tuned models. Discover the Falcon-Edge series on\n\nour dedicated Hugging Face collection\n\n. Introduction\n\nLarge Language Models (LLMs), by design, are inherently large and resource-intensive. As demand grows to deploy these models efficiently on edge devices, research into model compression has accelerated. Recent efforts, such as those by DeepSeek and Llama 4, explore training with reduced precision formats—down to FP8—to improve deployment scalability. On the other hand, many state-of-the-art methods emphasize post-training quantization. In contrast to these approaches, BitNet introduces a fundamentally different paradigm: unlike reduced-precision training which still relies on floating-point formats, and post-training quantization which adjusts weights after full-precision training, BitNet operates with the lowest possible precision — ternary weights ({-1, 0, 1}) — directly during training, enabling an end-to-end ultra-efficient model design. These ternary weights are paving the way for a “matmul-free” LLM design that is notably faster and remarkably memory-efficient in practice.",
+        "chunk_index": 1,
+        "quality_score": 0.872,
+        "has_overlap": true,
+        "total_chunks": 14,
+        "word_count": 187
+      },
+      {
+        "text": "end-to-end ultra-efficient model design. These ternary weights are paving the way for a “matmul-free” LLM design that is notably faster and remarkably memory-efficient in practice. The primary challenge of this innovative approach is the necessity for pre-training BitNet models, which can be computationally demanding and costly for typical users. Falcon-Edge, a series of powerful models\n\nLeveraging the learnings from pre-training data strategies from our center, we pre-train our model on an internal data mixture for approximately 1.5 Tera Tokens. We use the classic WSD learning rate scheduler for pre-training. We evaluate our models (base and instruct versions) on the former Hugging Face leaderboard v2 benchmark and report the normalized results below in comparison with other models of similar size:\n\nAdditional results (leaderboard v1) on comparing our instructed models with Microsoft’s new BitNet model:\n\nFalcon-Edge demonstrates on-par and better performances than models of comparable sizes on the leaderboard v2 tasks, demonstrating that it is possible to train powerful BitNet models on desired domains while being competitive enough on other tasks. Falcon-Edge, a series of universal models\n\nIf we look closer at the formula of the BitNet linear layer for inference (in terms of Python code):\n\ndef\n\nactivation_norm_quant\n\n(\n\nx\n\n):\n scale =\n\n127.0\n\n/ x.",
+        "chunk_index": 2,
+        "quality_score": 0.848,
+        "has_overlap": true,
+        "total_chunks": 14,
+        "word_count": 204
+      },
+      {
+        "text": "at the formula of the BitNet linear layer for inference (in terms of Python code): def activation_norm_quant ( x ): scale = 127.0 / x. abs\n\n(). max\n\n(dim=-\n\n1\n\n, keepdim=\n\nTrue\n\n).values.clamp_(\n\nmin\n\n=\n\n1e-5\n\n)\n y = (x * scale). round\n\n().clamp_(-\n\n128\n\n,\n\n127\n\n)\n\nreturn\n\ny, scale\n\nclass\n\nBitLinear\n\n(nn.Linear):\n\ndef\n\npost_quant_process\n\n(\n\nself,\n\ninput\n\n, input_scale, weight_scale\n\n):\n out =\n\ninput\n\n/ (input_scale * weight_scale)\n\nreturn\n\nout\n\ndef\n\nforward\n\n(\n\nself,\n\ninput\n\n):\n w = self.weight\n w_quant = unpack_weights(w, dtype=self.dtype)\n input_quant, input_scale = self.activation_quant(\n\ninput\n\n)\n y = F.linear(input_quant.to(self.dtype), w_quant)\n y = self.post_quant_process(y, self.weight_scale, input_scale)\n\nif\n\nself.bias\n\nis\n\nnot\n\nNone\n\n:\n y += self.bias.view(\n\n1\n\n, -\n\n1\n\n).expand_as(y)\n\nreturn\n\ny\n\nThe normalization activation_norm_quant quantizes the activations in int8 format, then the activation is computed back in half precision by diving it by x_scale.",
+        "chunk_index": 3,
+        "quality_score": 0.643,
+        "has_overlap": true,
+        "total_chunks": 14,
+        "word_count": 140
+      },
+      {
+        "text": "return y The normalization activation_norm_quant quantizes the activations in int8 format, then the activation is computed back in half precision by diving it by x_scale. Since the model has been trained with fake 8-bit activation quantization, we argue that it is possible to approximate that:\n\nx_quant, x_scale = activation_norm_quant(x)\nx ~= (x_quant / x_scale)\n\nTherefore, instead of quantizing the model post-training, injecting the weight scale after quantizing the weights should lead to a good enough “approximation” of the non-BitNet version of the model:\n\ndef\n\n_weight_quant\n\n(\n\nw\n\n):\n scale =\n\n1.0\n\n/ w. abs\n\n().mean().clamp_(\n\nmin\n\n=\n\n1e-05\n\n)\n u = (w * scale).",
+        "chunk_index": 4,
+        "quality_score": 0.889,
+        "has_overlap": true,
+        "total_chunks": 14,
+        "word_count": 104
+      },
+      {
+        "text": "version of the model: def _weight_quant ( w ): scale = 1.0 / w. abs ().mean().clamp_( min = 1e-05 ) u = (w * scale). round\n\n().clamp_(-\n\n1\n\n,\n\n1\n\n)\n\nreturn\n\nu, scale\n\nfor\n\nparam_name, param_value\n\nin\n\nstate_dict.items():\n\nif\n\n_is_param_to_not_quantize(param_name):\n\ncontinue\n\nparam_value, param_scale = _weight_quant(param_value)\n param_value = param_value / param_scale\n\n state_dict_quant[param_name] = param_value\n\nWe confirm this by running end-to-end evaluations on the bfloat16 variant of our 1B and 3B base models and below are the results:\n\nThe\n\nbfloat16\n\ncounterparts of the models can be loaded directly via Hugging Face transformers by passing\n\nrevision=\"bfloat16\"\n\nin the\n\nfrom_pretrained\n\nfunction:\n\nimport\n\ntorch\n\nfrom\n\ntransformers\n\nimport\n\nAutoModelForCausalLM, AutoTokenizer\n\nfrom\n\ntrl\n\nimport\n\nSFTTrainer\n\nmodel_id =\n\n\"tiiuae/Falcon-E-1B-Base\"\n\ntokenizer = AutoTokenizer.from_pretrained(model_id, revision=\n\n\"prequantized\"\n\n)\nmodel = AutoModelForCausalLM.from_pretrained(\n model_id,\n torch_dtype=torch.bfloat16,\n revision=\n\n\"bfloat16\"\n\n)\n\nFalcon-Edge, a series of fine-tunable Bitnet models\n\nTo the best of our knowledge,\n\nexcept from the most recent release from Microsoft\n\nprevious BitNet releases only focus on releasing the final quantized model, making it usable only for inference. Similarly to the release from Microsoft, we propose to extend the accessibility of research and application of BitNet models by releasing their pre-quantized weights.",
+        "chunk_index": 5,
+        "quality_score": 0.835,
+        "has_overlap": true,
+        "total_chunks": 14,
+        "word_count": 188
+      },
+      {
+        "text": "inference. Similarly to the release from Microsoft, we propose to extend the accessibility of research and application of BitNet models by releasing their pre-quantized weights. That way, users can either perform fine-tuning on their target domain, or do continuous pre-training of the BitNet checkpoint as long as\n\nnn.Linear\n\nlayers are replaced by\n\nBitnetLinear\n\nlayers, and by making sure to quantize the model post training in BitNet format. Since the weights corresponds to the pre-quantized weights, performing text generation without replacing the\n\nnn.Linear\n\nlayers with\n\nBitnetLinear\n\nlayers will produce gibberish output. The pre-quantized weights can be downloaded via Hugging Face's transformers library by specifying the\n\nrevision\n\nargument to be\n\nprequantized\n\n:\n\nimport\n\ntorch\n\nfrom\n\ntransformers\n\nimport\n\nAutoModelForCausalLM, AutoTokenizer\n\nmodel_id =\n\n\"tiiuae/Falcon-E-1B-Base\"\n\ntokenizer = AutoTokenizer.from_pretrained(model_id, revision=\n\n\"prequantized\"\n\n)\nmodel = AutoModelForCausalLM.from_pretrained(\n model_id,\n torch_dtype=torch.bfloat16,\n revision=\n\n\"prequantized\"\n\n)\n\nThis way, we will help fostering an ecosystem around first powerful 1-bit fine-tunes by the community. We provide to community the tools to get easily started and fine-tune their own version of powerful BitNet models by packaging all needed utility methods for performing fine-tuning on the pre-quantized weights on a Python package called\n\nonebitllms\n\nthat we will cover in the next section.",
+        "chunk_index": 6,
+        "quality_score": 0.827,
+        "has_overlap": true,
+        "total_chunks": 14,
+        "word_count": 196
+      },
+      {
+        "text": "all needed utility methods for performing fine-tuning on the pre-quantized weights on a Python package called onebitllms that we will cover in the next section. Introducing\n\nonebitllms\n\n- a lightweight python package for 1-bit LLMs training toolkit\n\nIn this release, we also introduce\n\nonebitllms\n\n- a lightweight Python package that can be plugged into your favorite LLM fine-tuning tools in order to fine-tune any pre-quantized BitNet model. At this time of writing\n\nonebitllms\n\nexposes these main functionalities:\n\nUtility method to convert the prequantized model checkpoints into BitNet training format in order to pass it to any of your favorite LLM fine-tuning framework. We currently tested our library with Hugging Face's\n\ntrl\n\nlibrary. Utility method to quantize the trained checkpoint in BitNet format as well as in usual\n\nbfloat16\n\nformat. Fore more fine-grained control: Bare\n\nBitnetLinear\n\nand triton kernels that be injected and used for your pre-training framework. Currently, only full-finetuning is supported through this framework, while in this release the model sizes are relatively small, supporting Parameter-Efficient Fine-tuning (PEFT) methods for BitNet models remains an exciting and impactful open question for upcoming BitNet models.",
+        "chunk_index": 7,
+        "quality_score": 0.823,
+        "has_overlap": true,
+        "total_chunks": 14,
+        "word_count": 184
+      },
+      {
+        "text": "the model sizes are relatively small, supporting Parameter-Efficient Fine-tuning (PEFT) methods for BitNet models remains an exciting and impactful open question for upcoming BitNet models. To get started, simply install the package directly through\n\npip\n\nor from source, and take a look at\n\nexamples/\n\nfolders inside the\n\nsource code\n\n. import\n\ntorch\n\nfrom\n\ntransformers\n\nimport\n\nAutoModelForCausalLM, AutoTokenizer\n\nfrom\n\ntrl\n\nimport\n\nSFTTrainer\n\nfrom\n\nonebitllms\n\nimport\n\nreplace_linear_with_bitnet_linear, quantize_to_1bit\n\nmodel_id =\n\n\"tiiuae/Falcon-E-1B-Base\"\n\ntokenizer = AutoTokenizer.from_pretrained(model_id, revision=\n\n\"prequantized\"\n\n)\nmodel = AutoModelForCausalLM.from_pretrained(\n model_id,\n torch_dtype=torch.bfloat16,\n revision=\n\n\"prequantized\"\n\n)\nmodel = replace_linear_with_bitnet_linear(model)\n\ntrainer = SFTTrainer(\n model,\n ... )\n\ntrainer.train()\n\nquantize_to_1bit(output_directory)\n\nWith this package, we hope to accelerate research and development around ternary format LLMs, and hope to see many derivations of\n\nFalcon-Edge\n\nand other future powerful BitNet models developed by the community.",
+        "chunk_index": 8,
+        "quality_score": 0.881,
+        "has_overlap": true,
+        "total_chunks": 14,
+        "word_count": 126
+      },
+      {
+        "text": "research and development around ternary format LLMs, and hope to see many derivations of Falcon-Edge and other future powerful BitNet models developed by the community. Going further\n\nWe believe this release opens up multiple interesting directions - among all the possible follow up directions, we currently think that the following open questions will make BitNet models much more impactful in the near future:\n\nWriting more powerful GPU inference kernels for BitNet architecture\n\n: leveraging the same core ideas behind\n\nbitnet.cpp\n\n, we hope that this release will convince the research community to focus on developping powerful BitNet inference kernels for faster inference on GPUs - thus making them faster than native models on GPUs. Support PEFT methods for BitNet fine-tuning\n\n: This remains an unexplored research question that can open up multiple new possibilities for BitNet models. More rigourous investigation on the universality of Bitnet checkpoints\n\n: While we observe that simply injecting the weight scale leads to having a descent non-Bitnet checkpoint, we believe that more research can be done to minimize the performance degradation between the Bitnet checkpoint and its\n\nbfloat16\n\ncounterpart, thus making it fully performance degradation-free.",
+        "chunk_index": 9,
+        "quality_score": 0.821,
+        "has_overlap": true,
+        "total_chunks": 14,
+        "word_count": 190
+      },
+      {
+        "text": "that more research can be done to minimize the performance degradation between the Bitnet checkpoint and its bfloat16 counterpart, thus making it fully performance degradation-free. On multi-modal Bitnet models\n\n: We hope these Bitnet foundational models together with\n\nonebitllms\n\npackage can serve a as a foundational work for creating first multi-modal Bitnet VLM (Vision Language Model) etc. More optimized Bitnet training kernels\n\n: To write our kernels, we decided to take a two stages approach to first compute the global maximum to later use it block-wise for normalization. This approach can be revised to write more efficient kernels. In our tests, we estimate the overhead to be around ~20% between non-Bitnet pre-training against Bitnet pre-training. We will release soon more extensive numbers on the overhead introduced by Bitnet for training.",
+        "chunk_index": 10,
+        "quality_score": 0.635,
+        "has_overlap": true,
+        "total_chunks": 14,
+        "word_count": 130
+      },
+      {
+        "text": "to be around ~20% between non-Bitnet pre-training against Bitnet pre-training. We will release soon more extensive numbers on the overhead introduced by Bitnet for training. Citation If you find this work useful for your research and work, please consider citing our work, as well as citing all the foundational work behind BitNet models: @misc{tiionebitllms, title = {Falcon-E, a series of powerful, universal and fine-tunable 1.58bit language models.}, author = {Falcon-LLM Team}, month = {May}, url = {https://falcon-lm.github.io/blog/falcon-edge}, year = {2025} } More References @misc{ma2025bitnetb1582b4ttechnical, title={BitNet b1.58 2B4T Technical Report}, author={Shuming Ma and Hongyu Wang and Shaohan Huang and Xingxing Zhang and Ying Hu and Ting Song and Yan Xia and Furu Wei}, year={2025}, eprint={2504.12285}, archivePrefix={arXiv}, primaryClass={cs.CL}, url={https://arxiv.org/abs/2504.12285}, } @misc{wang2025bitnetcppefficientedgeinference, title={Bitnet.cpp: Efficient Edge Inference for Ternary LLMs}, author={Jinheng Wang and Hansong Zhou and Ting Song and Shijie Cao and Yan Xia and Ting Cao and Jianyu Wei and Shuming Ma and Hongyu Wang and Furu Wei}, year={2025}, eprint={2502.11880}, archivePrefix={arXiv}, primaryClass={cs.LG}, url={https://arxiv.org/abs/2502.11880}, } @misc{, title={1.58-Bit LLM: A New Era of Extreme Quantization}, author={Mohamed Mekkouri and Marc Sun and Leandro von Werra and Thomas Wolf}, year={2024}, } @misc{ma2024era1bitllmslarge, title={The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits}, author={Shuming Ma and Hongyu Wang and Lingxiao",
+        "chunk_index": 11,
+        "quality_score": 0.696,
+        "has_overlap": true,
+        "total_chunks": 14,
+        "word_count": 205
+      },
+      {
+        "text": "Thomas Wolf}, year={2024}, } @misc{ma2024era1bitllmslarge, title={The Era of 1-bit LLMs: All Large Language Models are in 1.58 Bits}, author={Shuming Ma and Hongyu Wang and Lingxiao Ma and Lei Wang and Wenhui Wang and Shaohan Huang and Li Dong and Ruiping Wang and Jilong Xue and Furu Wei}, year={2024}, eprint={2402.17764}, archivePrefix={arXiv}, primaryClass={cs.CL}, url={https://arxiv.org/abs/2402.17764}, } @misc{wang2023bitnetscaling1bittransformers, title={BitNet: Scaling 1-bit Transformers for Large Language Models}, author={Hongyu Wang and Shuming Ma and Li Dong and Shaohan Huang and Huaijie Wang and Lingxiao Ma and Fan Yang and Ruiping Wang and Yi Wu and Furu Wei}, year={2023}, eprint={2310.11453}, archivePrefix={arXiv}, primaryClass={cs.CL}, url={https://arxiv.org/abs/2310.11453}, } Collections mentioned in this article 2 More from this author QIMMA قِمّة ⛰: A Quality-First Arabic LLM Leaderboard 12 April 21, 2026 Falcon Perception 67 April 1, 2026 Community mishig May 15, 2025 lets go ThomasTheMaker May 15, 2025 Awesome stuff!",
+        "chunk_index": 12,
+        "quality_score": 0.622,
+        "has_overlap": true,
+        "total_chunks": 14,
+        "word_count": 138
+      },
+      {
+        "text": "LLM Leaderboard 12 April 21, 2026 Falcon Perception 67 April 1, 2026 Community mishig May 15, 2025 lets go ThomasTheMaker May 15, 2025 Awesome stuff! Can't wait to try this with llama.cpp\n\n·\n\nybelkada\n\nArticle author\n\nMay 15, 2025\n\nThank you\n\n@\n\nThomasTheMaker\n\n! You can actually already try it on bitnet.cpp (you need to use:\n\nhttps://github.com/microsoft/BitNet/pull/268\n\nto use it until it gets merged)\n\nuhlo\n\nMay 16, 2025\n\nCongratulations, these results look really promising. However, I really don't think the comparison with FP-16 versions of other small models is fair. At least use the 8-bit or even 4-bit quantized version to give a more accurate performance and to reflect the versions people actually use. Upload images, audio, and videos by dragging in the text input, pasting, or\n\nclicking here\n\n. Tap or paste here to upload images\n\n·\n\nSign up\n\nor\n\nlog in\n\nto comment\n\nUpvote\n\n36\n\nCollections mentioned in this article\n\n2",
+        "chunk_index": 13,
+        "quality_score": 0.719,
+        "has_overlap": true,
+        "total_chunks": 14,
+        "word_count": 153
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 1.0,
+      "citation_count": 1.0,
+      "domain_authority": 0.62,
+      "recency": 0.059,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.671,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.95,
+      "citation_count": 0.55,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.6,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "credible_org_match",
+        "author": "HuggingFace"
+      },
+      "citation_count": {
+        "reason": "blog_evidence_proxy",
+        "evidence_phrases": 8
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "huggingface.co"
+      },
+      "recency": {
+        "age_days": 360,
+        "halflife": 90.0,
+        "published": "Thu, 15 May 2025 13:13:45 GMT"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "non_health_content"
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1986,
+        "ttr": 0.449,
+        "gini": 0.355,
+        "wc_score": 0.993
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.035,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.6842
+  },
+  {
+    "record_id": "00e7f159f644ba02",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T23:37:35Z",
+    "source_url": "https://medium.com/@lightontech/edge-computing-basics-481c70203cae",
+    "source_type": "blog",
+    "author": "lightontech",
+    "published_date": "Wed, 16 Feb 2022 14:40:15 GMT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "technology"
+    ],
+    "trust_score": 0.47,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "Edge computing is a type of data processing where data is distributed through decentralized information centres while some information is kept locally at the “edge”. Local devices can use less bandwidth to deploy data offline. Are we able to make a difference with\n\nCloud Computing\n\n? Edge Computing will be able to make a difference in the industry. Edge computing basics\n\nEdge computing is a type of distributed architecture in which data processing occurs near the data source or at the system’s “edge”. This eliminates the need for data to be transferred between the cloud and device, while still ensuring consistent performance. In terms of infrastructure, edge computing is a network of local data centers used for processing and storage. The central data centre monitors everything and can learn a lot about the local processing of data. Network diagrams are the source of the term “edge”. An “edge” in network diagrams is the point at which traffic enters or exits the system. Its name refers to its location at the diagram’s margins. Tips:-\n\nBest Online Plagiarism Checker Tools — 1.",
+        "chunk_index": 0,
+        "quality_score": 0.775,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 180
+      },
+      {
+        "text": "which traffic enters or exits the system. Its name refers to its location at the diagram’s margins. Tips:- Best Online Plagiarism Checker Tools — 1. Plagiarism Detector 2. Dupli checker 3. Que text 4. PapersOwl 5. Check Plagiarism 6. Small SEO tools\n\nEdge Computing Uses\n\nThere are many possible edge applications, but each setup is unique. Some sectors are at the forefront of edge computing. See more here……\n\nEdge Computing Uses\n\nOriginally published at\n\nhttps://lightontech.com\n\non February 16, 2022.",
+        "chunk_index": 1,
+        "quality_score": 0.905,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 79
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.0,
+      "domain_authority": 0.62,
+      "recency": 0.05,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.47,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.55,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.6,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.804,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "reason": "blog_evidence_proxy",
+        "evidence_phrases": 0
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "medium.com"
+      },
+      "recency": {
+        "age_days": 1544,
+        "halflife": 90.0,
+        "published": "Wed, 16 Feb 2022 14:40:15 GMT"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "non_health_content"
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 234,
+        "ttr": 0.573,
+        "gini": 0.314,
+        "wc_score": 0.117
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.026,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.5722
+  },
+  {
+    "record_id": "faf06e073601bda3",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T23:37:35Z",
+    "source_url": "https://medium.com/@webhex/the-rise-of-edge-computing-why-it-matters-more-than-ever-in-a-5g-world-dbfc58698661",
+    "source_type": "blog",
+    "author": "Arun",
+    "published_date": "Fri, 30 May 2025 06:21:40 GMT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "technology",
+      "healthcare"
+    ],
+    "trust_score": 0.47,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "Introduction\n\nThe digital world is transforming faster than ever. With the explosion of IoT devices and the arrival of 5G, data isn’t just growing — it’s moving faster, closer, and smarter. One of the major technological revolutions fueling this change is\n\nedge computing\n\n. But what exactly is it, and why is everyone — from startups to Fortune 500s — talking about it? What is Edge Computing? At its core,\n\nedge computing\n\nmeans processing data\n\ncloser to where it’s generated\n\n— instead of sending it all to distant cloud servers. It brings computation and storage near the devices and sensors, enabling faster response times and more efficient data handling. The Role of 5G in Accelerating Edge Adoption\n\n5G is the turbocharger edge computing didn’t know it needed. With\n\nultra-low latency and high-speed connections\n\n, 5G makes edge computing not only possible but essential. When you mix real-time data with real-time connectivity, magic happens — whether it’s an autonomous car avoiding an accident or a doctor monitoring a patient remotely. Understanding the Edge\n\nEdge vs. Cloud vs. Fog: What’s the Difference?",
+        "chunk_index": 0,
+        "quality_score": 0.836,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 180
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.0,
+      "domain_authority": 0.62,
+      "recency": 0.067,
+      "medical_disclaimer_presence": 0.35,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.539,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.55,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.55,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.742,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "reason": "blog_evidence_proxy",
+        "evidence_phrases": 0
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "medium.com"
+      },
+      "recency": {
+        "age_days": 345,
+        "halflife": 90.0,
+        "published": "Fri, 30 May 2025 06:21:40 GMT"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false,
+        "implicit_editorial_review": "partial",
+        "domain": "medium.com"
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 180,
+        "ttr": 0.672,
+        "gini": 0.189,
+        "wc_score": 0.09
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.5704
+  }
+]

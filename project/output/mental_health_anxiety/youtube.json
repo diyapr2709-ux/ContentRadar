@@ -1,0 +1,245 @@
+[
+  {
+    "record_id": "ffdc05c062107c81",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:44:04Z",
+    "source_url": "https://www.youtube.com/watch?v=YxELZyA2bJs",
+    "source_type": "youtube",
+    "author": "Osmosis from Elsevier",
+    "published_date": "2016-03-01",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "healthcare"
+    ],
+    "trust_score": 0.543,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "What is panic disorder? Panic disorder is characterized by having recurrent and unexpected panic attacks. This video covers the clinical definition of panic disorder, including the signs and symptoms of a panic attack. It also covers several complications and treatment methods. Find our full video library only on Osmosis: http://osms.it/more. Join millions of current and future clinicians who learn by Osmosis, along with hundreds of universities around the world who partner with Osmosis from Elseiver to make medical and health education more engaging and efficient. We have unparalleled tools and materials to prepare you for success in school, on your board exams, and as a future clinician. Sign up for a free trial at http://osms.it/more. If you're interested in exploring an institutional partnership, visit osmosis.org/educators to request a personalized demo. Follow us on social:\nFacebook: http://osms.it/facebook\nTwitter: http://osms.it/twitter\nInstagram for med: http://osms.it/instagram\nInstagram for nursing: https://osms.it/ignursing\nTikTok: https://osms.it/tiktok\nLinkedin: https://osms.it/linkedin\n\nOur Vision: Everyone who cares for someone will learn by Osmosis. Our Mission: To empower the world’s clinicians and caregivers with the best learning experience possible.",
+        "chunk_index": 0,
+        "quality_score": 0.864,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 176
+      },
+      {
+        "text": "Vision: Everyone who cares for someone will learn by Osmosis. Our Mission: To empower the world’s clinicians and caregivers with the best learning experience possible. Learn more here: http://osms.it/mission\n\nMedical disclaimer: Osmosis from Elsevier does not provide medical advice. Osmosis from Elsevier and the content available on the Osmosis from Elsevier properties (Osmosis.org, YouTube, and other channels) do not provide a diagnosis or other recommendation for treatment and are not a substitute for the professional judgment of a healthcare professional in diagnosis and treatment of any person or animal. The determination of the need for medical services and the types of healthcare to be provided to a patient are decisions that should be made only by a physician or other licensed healthcare provider. Always seek the advice of a physician or other qualified healthcare professional with any questions you have regarding a medical condition. © 2024 Elsevier. All rights reserved.",
+        "chunk_index": 1,
+        "quality_score": 0.8,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 150
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 1.0,
+      "citation_count": 1.0,
+      "domain_authority": 0.62,
+      "recency": 0.05,
+      "medical_disclaimer_presence": 1.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.523,
+      "engagement_authenticity": 0.577,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.95,
+      "citation_count": 0.65,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.75,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "credible_org_match",
+        "author": "Osmosis from Elsevier"
+      },
+      "citation_count": {
+        "views": 1414247
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "youtube.com"
+      },
+      "recency": {
+        "age_days": 3722,
+        "halflife": 365.0,
+        "published": "2016-03-01"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": true
+      },
+      "metadata_completeness": {
+        "present": 5,
+        "required": 5,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 301,
+        "ttr": 0.605,
+        "gini": 0.214,
+        "wc_score": 0.15
+      },
+      "engagement_authenticity": {
+        "views": 1414247,
+        "likes": 20868,
+        "like_view_ratio": 0.01476,
+        "z_score": -1.27,
+        "manipulation_flags": []
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.003,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.08,
+      "domain_authority": 0.15,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.04,
+      "content_depth": 0.06,
+      "engagement_authenticity": 0.12,
+      "adversarial_risk": 0.07
+    },
+    "abuse_penalty": 0.82,
+    "abuse_reasons": [
+      "outdated_health_content"
+    ],
+    "anomaly_flags": [],
+    "prior_used": 0.4606,
+    "view_count": 1414247,
+    "like_count": 20868,
+    "duration_sec": 321,
+    "has_transcript": false
+  },
+  {
+    "record_id": "4928957563067940",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:44:04Z",
+    "source_url": "https://www.youtube.com/watch?v=aX7jnVXXG5o",
+    "source_type": "youtube",
+    "author": "CrashCourse",
+    "published_date": "2014-09-01",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "mental health"
+    ],
+    "trust_score": 0.402,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "In this episode of Crash Course Psychology, Hank talks about OCD and anxiety disorders in the hope we'll understand what people with actual OCD have to deal with as well as how torturous anxiety disorders and panic attacks can actually be. Want more videos about psychology? Check out our sister channel SciShow Psych at https://www.youtube.com/scishowpsych\n--\nChapters:\nIntroduction: Social Stigma of Psychological Disorders 00:00 \nWhat Defines an Anxiety Disorder? 1:55\nObsessive-Compulsive Disorder (OCD) 2:35\nGeneralized Anxiety Disorder (GAD) 4:17\nPanic Disorder & Panic Attacks 4:48\nPhobias & Avoidance Behaviors 6:06\nThe Learning Perspective 7:38\nThe Biological Perspective 9:14\nReview & Credits 10:38\n--\nCrash Course is on Patreon! You can support us directly by signing up at http://www.patreon.com/crashcourse\n\nWant to find Crash Course elsewhere on the internet? Facebook - http://www.facebook.com/YouTubeCrashCourse\nTwitter - http://www.twitter.com/TheCrashCourse\nInstagram - https://www.instagram.com/thecrashcourse/\n\nCC Kids: http://www.youtube.com/crashcoursekids",
+        "chunk_index": 0,
+        "quality_score": 0.721,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 139
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 1.0,
+      "domain_authority": 0.62,
+      "recency": 0.05,
+      "medical_disclaimer_presence": 0.35,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.553,
+      "engagement_authenticity": 0.671,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.65,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.55,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.695,
+      "engagement_authenticity": 0.75,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "views": 6773799
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "youtube.com"
+      },
+      "recency": {
+        "age_days": 4269,
+        "halflife": 365.0,
+        "published": "2014-09-01"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false,
+        "implicit_editorial_review": "partial",
+        "domain": "youtube.com"
+      },
+      "metadata_completeness": {
+        "present": 5,
+        "required": 5,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 139,
+        "ttr": 0.741,
+        "gini": 0.215,
+        "wc_score": 0.07
+      },
+      "engagement_authenticity": {
+        "views": 6773799,
+        "likes": 125242,
+        "like_view_ratio": 0.01849,
+        "z_score": -0.988,
+        "manipulation_flags": []
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.08,
+      "domain_authority": 0.15,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.04,
+      "content_depth": 0.06,
+      "engagement_authenticity": 0.12,
+      "adversarial_risk": 0.07
+    },
+    "abuse_penalty": 0.738,
+    "abuse_reasons": [
+      "outdated_health_content",
+      "anomaly:high_link_density"
+    ],
+    "anomaly_flags": [
+      "high_link_density"
+    ],
+    "prior_used": 0.4671,
+    "view_count": 6773799,
+    "like_count": 125242,
+    "duration_sec": 692,
+    "has_transcript": false
+  }
+]

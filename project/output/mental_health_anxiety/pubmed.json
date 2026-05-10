@@ -1,0 +1,119 @@
+[
+  {
+    "record_id": "8d34a09ed29690bd",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:44:04Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/38365951/",
+    "source_type": "pubmed",
+    "author": "Surkan PJ, Malik A, Perin J, Atif N, Rowther A, Zaidi A, Rahman A",
+    "published_date": "2024 Mar",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "mental health",
+      "healthcare",
+      "research"
+    ],
+    "trust_score": 0.696,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "Anxiety experienced by women during pregnancy is highly prevalent, especially in resource-poor settings and strongly predicts postnatal common mental disorders (CMDs), anxiety and depression. We evaluated the effectiveness of an anxiety-focused early prenatal intervention on preventing postnatal CMDs. This study was a phase 3, two-arm, single-blind, randomized controlled trial conducted in Pakistan with women who were ≤22 weeks pregnant and had at least mild anxiety without clinical depression. Participants were randomized to the Happy Mother-Healthy Baby program, based on cognitive behavioral therapy, consisting of six one-on-one intervention sessions in pregnancy delivered by non-specialist providers, or to enhanced care alone. The primary outcome was major depression, generalized anxiety disorder or both at 6 weeks after delivery. Overall, 755 women completed postnatal assessments (380 (50.3%), intervention arm; 375 (49.7%) enhanced-care arm). The primary outcomes were met. Examined jointly, we found 81% reduced odds of having either a major depressive episode (MDE) or moderate-to-severe anxiety for women randomized to the intervention (adjusted odds ratio (aOR) = 0.19, 95% CI 0.14-0.28).",
+        "chunk_index": 0,
+        "quality_score": 0.874,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 167
+      },
+      {
+        "text": "having either a major depressive episode (MDE) or moderate-to-severe anxiety for women randomized to the intervention (adjusted odds ratio (aOR) = 0.19, 95% CI 0.14-0.28). Overall, 12% of women in the intervention group developed MDE at 6 weeks postpartum, versus 41% in the control group. We found reductions of 81% and 74% in the odds of postnatal MDE (aOR = 0.19, 95% CI 0.13-0.28) and of moderate-to-severe anxiety (aOR = 0.26, 95% CI 0.17-0.40), respectively. The Happy Mother-Healthy Baby program early prenatal intervention focusing on anxiety symptoms reduced postpartum CMDs. ClinicalTrials.gov identifier NCT03880032 .",
+        "chunk_index": 1,
+        "quality_score": 0.862,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 94
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.55,
+      "domain_authority": 0.95,
+      "recency": 0.513,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.504,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.806,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 7
+      },
+      "citation_count": {
+        "citations": 110
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 800,
+        "halflife": 900.0,
+        "published": "2024 Mar"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 236,
+        "ttr": 0.631,
+        "gini": 0.28,
+        "wc_score": 0.118
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.009,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.8002,
+    "pmid": "38365951",
+    "doi": "10.1038/s41591-024-02809-x",
+    "journal": "Nature medicine"
+  }
+]

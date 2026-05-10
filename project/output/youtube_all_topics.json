@@ -1,0 +1,1047 @@
+{
+  "meta": {
+    "type": "youtube",
+    "schema_version": "2.0",
+    "total_records": 8,
+    "avg_trust": 0.455,
+    "trust_tiers": {
+      "CREDIBLE": 2,
+      "UNCERTAIN": 6
+    },
+    "topics_covered": [
+      "ai",
+      "alzheimer",
+      "cancer",
+      "cancer_immunotherapy",
+      "cardiovascular",
+      "covid",
+      "diabetes",
+      "genomics",
+      "gut_health",
+      "heart_disease",
+      "hypertension",
+      "mental_health",
+      "neurology",
+      "nutrition",
+      "obesity",
+      "public_health",
+      "rag"
+    ],
+    "sorted_by": "trust_score_desc"
+  },
+  "records": [
+    {
+      "record_id": "238497805690ba2f",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:06:38Z",
+      "source_url": "https://www.youtube.com/watch?v=-B-RVybvffU",
+      "source_type": "youtube",
+      "author": "Osmosis from Elsevier",
+      "published_date": "2019-09-10",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "diabetes",
+        "healthcare"
+      ],
+      "trust_score": 0.556,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "What is diabetes mellitus? Diabetes mellitus is when there's too much glucose, a type of sugar, in the blood. Diabetes mellitus can be split into type 1, type 2, as well as a couple other subtypes, including gestational diabetes and drug-induced diabetes. Find our full video library here: https://osms.it/find-more. Join millions of current and future clinicians who learn by Osmosis, along with hundreds of universities around the world who partner with Osmosis from Elsevier to make medical and health education more engaging and efficient. We have unparalleled tools and materials to prepare you for success in school, on your board exams, and as a future clinician. Sign up for a free trial at https://osms.it/free-trial. If you're interested in exploring an institutional partnership, visit osmosis.org/educators to request a personalized demo. Follow us on social:\nFacebook: http://osms.it/facebook\nTwitter: http://osms.it/twitter\nInstagram for med: http://osms.it/instagram\nInstagram for nursing: https://osms.it/ignursing\nTikTok: https://osms.it/tiktok\nLinkedIn: https://osms.it/linkedin\n\nOur Vision: Everyone who cares for someone will learn by Osmosis. Our Mission: To empower the world’s clinicians and caregivers with the best learning experience possible.",
+          "chunk_index": 0,
+          "quality_score": 0.871,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 175
+        },
+        {
+          "text": "Vision: Everyone who cares for someone will learn by Osmosis. Our Mission: To empower the world’s clinicians and caregivers with the best learning experience possible. Learn more here: http://osms.it/mission\n\nMedical disclaimer: Osmosis from Elsevier does not provide medical advice. Osmosis from Elsevier and the content available on the Osmosis from Elsevier properties (Osmosis.org, YouTube, and other channels) do not provide a diagnosis or other recommendation for treatment and are not a substitute for the professional judgment of a healthcare professional in diagnosis and treatment of any person or animal. The determination of the need for medical services and the types of healthcare to be provided to a patient are decisions that should be made only by a physician or other licensed healthcare provider. Always seek the advice of a physician or other qualified healthcare professional with any questions you have regarding a medical condition. © 2024 Elsevier. All rights reserved.",
+          "chunk_index": 1,
+          "quality_score": 0.8,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 150
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 1.0,
+        "citation_count": 1.0,
+        "domain_authority": 0.62,
+        "recency": 0.05,
+        "medical_disclaimer_presence": 1.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.521,
+        "engagement_authenticity": 0.601,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.95,
+        "citation_count": 0.65,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.75,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "credible_org_match",
+          "author": "Osmosis from Elsevier"
+        },
+        "citation_count": {
+          "views": 3514022
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "youtube.com"
+        },
+        "recency": {
+          "age_days": 2432,
+          "halflife": 150.0,
+          "published": "2019-09-10"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": true
+        },
+        "metadata_completeness": {
+          "present": 5,
+          "required": 5,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 300,
+          "ttr": 0.607,
+          "gini": 0.222,
+          "wc_score": 0.15
+        },
+        "engagement_authenticity": {
+          "views": 3514022,
+          "likes": 54963,
+          "like_view_ratio": 0.01564,
+          "z_score": -1.197,
+          "manipulation_flags": []
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.003,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.08,
+        "domain_authority": 0.15,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.04,
+        "content_depth": 0.06,
+        "engagement_authenticity": 0.12,
+        "adversarial_risk": 0.07
+      },
+      "abuse_penalty": 0.82,
+      "abuse_reasons": [
+        "outdated_health_content"
+      ],
+      "anomaly_flags": [],
+      "prior_used": null,
+      "view_count": 3514022,
+      "like_count": 54963,
+      "duration_sec": 1163,
+      "has_transcript": false
+    },
+    {
+      "record_id": "055ba3991b6f2344",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:07:29Z",
+      "source_url": "https://www.youtube.com/watch?v=yBvJXMduo8k",
+      "source_type": "youtube",
+      "author": "Doctor Mike",
+      "published_date": "2024-09-18",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "healthcare"
+      ],
+      "trust_score": 0.556,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "I'll teach you how to become the media's go-to expert in your field. Enroll in The Professional's Media Academy now: https://www.professionalsmediaacademy.com/\n\nListen to my podcast, The Checkup with Doctor Mike, here:\nSpotify: https://go.doctormikemedia.com/spotify/CheckUpSpotify\nApple Podcasts: https://go.doctormikemedia.com/applepodcast/ApplePodcasts\n\nHelp us continue the fight against medical misinformation and change the world through charity by becoming a Doctor Mike Resident on Patreon where every month I donate 100% of the proceeds to the charity, organization, or cause of your choice! Residents get access to bonus content, exclusive live streams, and many other perks for just $10 a month Become a Resident today:\n\nhttps://www.patreon.com/doctormike\n\nLet’s connect:\n\nIG: https://go.doctormikemedia.com/instagram/DMinstagram\nTwitter: https://go.doctormikemedia.com/twitter/DMTwitter\nFB: https://go.doctormikemedia.com/facebook/DMFacebook\nTikTok: https://go.doctormikemedia.com/tiktok/DMTikTok\nReddit: https://go.doctormikemedia.com/reddit/DMReddit\n\nContact Email: DoctorMikeMedia@Gmail.com\nExecutive Producer: Doctor Mike\nProduction Director and Editor: Dan Owens\nManaging Editor and Producer: Sam Bowers\nEditor and Designer: Caroline Weigum\nEditor: Juan Carlos Zuniga\n\n* Select photos/videos provided by Getty Images *\n\n** The information in this video is not intended nor implied to be a substitute for professional medical advice, diagnosis or treatment.",
+          "chunk_index": 0,
+          "quality_score": 0.893,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 169
+        },
+        {
+          "text": "Getty Images * ** The information in this video is not intended nor implied to be a substitute for professional medical advice, diagnosis or treatment. All content, including text, graphics, images, and information, contained in this video is for general information purposes only and does not replace a consultation with your own doctor/health professional **",
+          "chunk_index": 1,
+          "quality_score": 0.75,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 55
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.52,
+        "citation_count": 1.0,
+        "domain_authority": 0.62,
+        "recency": 0.06,
+        "medical_disclaimer_presence": 1.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.592,
+        "engagement_authenticity": 0.905,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.65,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.75,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": false
+        },
+        "citation_count": {
+          "views": 1658376
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "youtube.com"
+        },
+        "recency": {
+          "age_days": 597,
+          "halflife": 150.0,
+          "published": "2024-09-18"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": true
+        },
+        "metadata_completeness": {
+          "present": 5,
+          "required": 5,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 199,
+          "ttr": 0.744,
+          "gini": 0.118,
+          "wc_score": 0.1
+        },
+        "engagement_authenticity": {
+          "views": 1658376,
+          "likes": 53763,
+          "like_view_ratio": 0.03242,
+          "z_score": -0.286,
+          "manipulation_flags": []
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.005,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.08,
+        "domain_authority": 0.15,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.04,
+        "content_depth": 0.06,
+        "engagement_authenticity": 0.12,
+        "adversarial_risk": 0.07
+      },
+      "abuse_penalty": 0.9,
+      "abuse_reasons": [
+        "anomaly:high_link_density"
+      ],
+      "anomaly_flags": [
+        "high_link_density"
+      ],
+      "prior_used": null,
+      "view_count": 1658376,
+      "like_count": 53763,
+      "duration_sec": 698,
+      "has_transcript": false
+    },
+    {
+      "record_id": "1e4952d1b060029b",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:06:38Z",
+      "source_url": "https://www.youtube.com/watch?v=da1vvigy5tQ",
+      "source_type": "youtube",
+      "author": "TEDx Talks",
+      "published_date": "2015-05-04",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "healthcare",
+        "obesity",
+        "diabetes",
+        "AI / ML"
+      ],
+      "trust_score": 0.478,
+      "trust_tier": "UNCERTAIN",
+      "content_chunks": [
+        {
+          "text": "NOTE FROM TED: Do not look to this talk for medical advice. Significantly restricting dietary carbohydrates can have adverse health consequences if not carefully monitored. Always consult a medical professional before modifying diet or medication. We've flagged this talk because it falls outside the content guidelines TED gives TEDx organizers. TEDx events are independently organized by volunteers. The guidelines we give TEDx organizers are described in more detail here: http://storage.ted.com/tedx/manuals/tedx_content_guidelines.pdff\n\nCan a person be \"cured\" of Type 2 Diabetes? Dr. Sarah Hallberg provides compelling evidence that it can, and the solution is simpler than you might think. Dr. Sarah Hallberg is the Medical Director of the Medically Supervised Weight Loss Program at IU Health Arnett, a program she created. She is board certified in both obesity medicine and internal medicine and has a Master’s Degree in Exercise Physiology. She has recently created what is only the second non-surgical weight loss rotation in the country for medical students. Her program has consistently exceeded national benchmarks for weight loss, and has been highly successful in reversing diabetes and other metabolic diseases. Dr.",
+          "chunk_index": 0,
+          "quality_score": 0.858,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 180
+        },
+        {
+          "text": "medical students. Her program has consistently exceeded national benchmarks for weight loss, and has been highly successful in reversing diabetes and other metabolic diseases. Dr. Hallberg is also the co-author of www.fitteru.us, a blog about health and wellness. B.S., Kinesiology & Exercise Science, Illinois State University, 1994\r\n\r\nM.S., Kinesiology & Exercise Science, Illinois State University, 1996\r\n\r\nM.D., Des Moines University, 2002\n\nThis talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at http://ted.com/tedx",
+          "chunk_index": 1,
+          "quality_score": 0.762,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 85
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.52,
+        "citation_count": 1.0,
+        "domain_authority": 0.62,
+        "recency": 0.05,
+        "medical_disclaimer_presence": 1.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.539,
+        "engagement_authenticity": 0.647,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.65,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.75,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": false
+        },
+        "citation_count": {
+          "views": 11887776
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "youtube.com"
+        },
+        "recency": {
+          "age_days": 4022,
+          "halflife": 150.0,
+          "published": "2015-05-04"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": true
+        },
+        "metadata_completeness": {
+          "present": 5,
+          "required": 5,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 240,
+          "ttr": 0.667,
+          "gini": 0.211,
+          "wc_score": 0.12
+        },
+        "engagement_authenticity": {
+          "views": 11887776,
+          "likes": 207670,
+          "like_view_ratio": 0.01747,
+          "z_score": -1.059,
+          "manipulation_flags": []
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.017,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.08,
+        "domain_authority": 0.15,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.04,
+        "content_depth": 0.06,
+        "engagement_authenticity": 0.12,
+        "adversarial_risk": 0.07
+      },
+      "abuse_penalty": 0.82,
+      "abuse_reasons": [
+        "outdated_health_content"
+      ],
+      "anomaly_flags": [],
+      "prior_used": null,
+      "view_count": 11887776,
+      "like_count": 207670,
+      "duration_sec": 1092,
+      "has_transcript": false
+    },
+    {
+      "record_id": "d1f65ac46cccdc96",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-10T16:17:36Z",
+      "source_url": "https://www.youtube.com/watch?v=rZRsqin3lwY",
+      "source_type": "youtube",
+      "author": "TEDx Talks",
+      "published_date": "2019-09-23",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "healthcare",
+        "cancer / oncology",
+        "research"
+      ],
+      "trust_score": 0.432,
+      "trust_tier": "UNCERTAIN",
+      "content_chunks": [
+        {
+          "text": "At the Malaghan Institute for Biomedical Reserach,researchers are developing third generation CAR-T immunotherapy treatments which aim to be more effective with less side effects than previous therapies. Using patients own modified T-cells, CAR-T therapy has the ability to vanquish cancer cells, vastly improving outcomes of once life threatening diseases. This year, 2019, Rob hopes to begin clinical trials for CAR-T therapy in New Zealand through the collaboration of scientists from the Malaghan Institute and international researchers. He is optimistic that this next generation treatment will present a new paradigm for treatment of lymphomas and possibly for other cancers in the future. Dr Robert Weinkove is Clinical Director of the Malaghan Institute, a biomedical research institute in Wellington, New Zealand. After studying medicine at the University of Cambridge and Kings College London, Rob trained in Haematology in London and Germany before moving to New Zealand in 2008 and gaining a doctorate with the University of Otago.",
+          "chunk_index": 0,
+          "quality_score": 0.839,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 155
+        },
+        {
+          "text": "London, Rob trained in Haematology in London and Germany before moving to New Zealand in 2008 and gaining a doctorate with the University of Otago. Rob is a key member of the Cancer Immunotherapy Programme to develop and manufacture ‘chimeric antigen receptor’ (CAR) T-cells for treatment of lymphoma and other blood cancers. He also holds a joint role as a Haematologist at Wellington Blood & Cancer Centre. https://www.malaghan.org.nz/our-history/our-people/dr-robert-weinkove/ \nLinkedIn: https://nz.linkedin.com/in/robert-weinkove-8a1b3842\n Dr Robert Weinkove is Clinical Director of the Malaghan Institute, a biomedical research institute in Wellington, New Zealand and holds a joint role as a Haematologist at Wellington Blood & Cancer Centre. After studying medicine at the University of Cambridge and Kings College London, Rob trained in Haematology in London and Germany before moving to New Zealand in 2008 and gaining a doctorate with the University of Otago. Rob is a key member of the Cancer Immunotherapy Programme at the Malaghan Institute, where he leads a programme to develop and manufacture ‘chimeric antigen receptor’ (CAR) T-cells for treatment of lymphoma and other blood cancers. This talk was given at a TEDx event using the TED conference format but independently organized by a local community. Learn more at https://www.ted.com/tedx",
+          "chunk_index": 1,
+          "quality_score": 0.585,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 198
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.52,
+        "citation_count": 0.881,
+        "domain_authority": 0.62,
+        "recency": 0.05,
+        "medical_disclaimer_presence": 0.35,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.443,
+        "engagement_authenticity": 0.681,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.65,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.55,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.75,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": false
+        },
+        "citation_count": {
+          "views": 193411
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "youtube.com"
+        },
+        "recency": {
+          "age_days": 2421,
+          "halflife": 365.0,
+          "published": "2019-09-23"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false,
+          "implicit_editorial_review": "partial",
+          "domain": "youtube.com"
+        },
+        "metadata_completeness": {
+          "present": 5,
+          "required": 5,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 328,
+          "ttr": 0.451,
+          "gini": 0.289,
+          "wc_score": 0.164
+        },
+        "engagement_authenticity": {
+          "views": 193411,
+          "likes": 3665,
+          "like_view_ratio": 0.01895,
+          "z_score": -0.957,
+          "manipulation_flags": []
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.252,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.08,
+        "domain_authority": 0.15,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.04,
+        "content_depth": 0.06,
+        "engagement_authenticity": 0.12,
+        "adversarial_risk": 0.07
+      },
+      "abuse_penalty": 0.82,
+      "abuse_reasons": [
+        "outdated_health_content"
+      ],
+      "anomaly_flags": [],
+      "prior_used": 0.4867,
+      "view_count": 193411,
+      "like_count": 3665,
+      "duration_sec": 1113,
+      "has_transcript": false
+    },
+    {
+      "record_id": "df8785085f381929",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-10T16:17:36Z",
+      "source_url": "https://www.youtube.com/watch?v=XcdcfLfxsCA",
+      "source_type": "youtube",
+      "author": "Nucleus Medical Media",
+      "published_date": "2020-08-21",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "cancer / oncology",
+        "healthcare",
+        "research"
+      ],
+      "trust_score": 0.429,
+      "trust_tier": "UNCERTAIN",
+      "content_chunks": [
+        {
+          "text": "Visit our website to learn more about using Nucleus content for patient engagement and content marketing: http://www.nucleushealth.com/\n\n#CancerImmunotherapy #Immunotherapy #CancerTreatment\n\nMEDICAL ANIMATION TRANSCRIPT: \nThis video will show you what cancer immunotherapy is and how it works. Immuno-oncology is the study and development of certain treatments called immunotherapies for cancer. These treatments fight cancer by strengthening your immune system. Normally, the white blood cells of your immune system help fight infections and disease. They recognize substances on the surface of cells called antigens. Healthy cells have different antigens than damaged body cells or foreign invaders. Your immune cells usually ignore the antigens on healthy cells, but they do respond to antigens on damaged cells and foreign invaders. Some immune cells mark these antigens for destruction with a substance called an antibody. Then, other immune cells attack the cells that have these antibodies. Since cancer is made up of damaged cells, they may have antigens that your immune cells recognize and attack. But, some cancer cells have ways to avoid destruction by your immune cells.",
+          "chunk_index": 0,
+          "quality_score": 0.598,
+          "has_overlap": false,
+          "total_chunks": 3,
+          "word_count": 173
+        },
+        {
+          "text": "cells, they may have antigens that your immune cells recognize and attack. But, some cancer cells have ways to avoid destruction by your immune cells. For example, cancer cells may reduce the number of cancer antigens, allowing them to hide from your immune cells. A second way cancer cells avoid destruction is through checkpoint proteins. Both cancer and immune cells may have these proteins. When they attach, other immune cells won't attack the cancer cell. A third way cancer cells avoid destruction happens when the cancer cells are under attack from the immune system. During the attack, the cancer cells release certain substances that call in other types of immune cells, which slow down or stop the immune response. Immunotherapies have several ways they work to help your immune system fight cancer. One way is through special antibodies made in the lab. Some of these antibodies attach to cancer cells. They can kill the cancer cell directly. Others mark the cancer cells so that your immune cells destroy it. Another group of antibodies blocks the checkpoint proteins. This keeps them from attaching to each other. As a result, the immune cell can attack and kill the cancer cell.",
+          "chunk_index": 1,
+          "quality_score": 0.547,
+          "has_overlap": true,
+          "total_chunks": 3,
+          "word_count": 198
+        },
+        {
+          "text": "blocks the checkpoint proteins. This keeps them from attaching to each other. As a result, the immune cell can attack and kill the cancer cell. Still other antibodies prevent the growth of cancer cells. Some of them block the signals that cause new blood vessels to grow and feed the cancer. In another type of immunotherapy, some of the immune cells that best fight cancer are removed from the body. The cells are taken to a lab where many more of them are grown. Then, they're returned to the body to attack the cancer. To find out more about the ways immuno-oncology can help fight cancer, talk to your healthcare provider. ANH18211",
+          "chunk_index": 2,
+          "quality_score": 0.676,
+          "has_overlap": true,
+          "total_chunks": 3,
+          "word_count": 112
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.52,
+        "citation_count": 0.905,
+        "domain_authority": 0.62,
+        "recency": 0.05,
+        "medical_disclaimer_presence": 0.35,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.408,
+        "engagement_authenticity": 0.657,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.65,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.55,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.75,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": false
+        },
+        "citation_count": {
+          "views": 270669
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "youtube.com"
+        },
+        "recency": {
+          "age_days": 2088,
+          "halflife": 365.0,
+          "published": "2020-08-21"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false,
+          "implicit_editorial_review": "partial",
+          "domain": "youtube.com"
+        },
+        "metadata_completeness": {
+          "present": 5,
+          "required": 5,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 433,
+          "ttr": 0.436,
+          "gini": 0.439,
+          "wc_score": 0.216
+        },
+        "engagement_authenticity": {
+          "views": 270669,
+          "likes": 4847,
+          "like_view_ratio": 0.01791,
+          "z_score": -1.028,
+          "manipulation_flags": []
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.007,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.08,
+        "domain_authority": 0.15,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.04,
+        "content_depth": 0.06,
+        "engagement_authenticity": 0.12,
+        "adversarial_risk": 0.07
+      },
+      "abuse_penalty": 0.82,
+      "abuse_reasons": [
+        "outdated_health_content"
+      ],
+      "anomaly_flags": [],
+      "prior_used": 0.4828,
+      "view_count": 270669,
+      "like_count": 4847,
+      "duration_sec": 215,
+      "has_transcript": false
+    },
+    {
+      "record_id": "e69332d24c013a0b",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:07:29Z",
+      "source_url": "https://www.youtube.com/watch?v=-vNVG7XJpVE",
+      "source_type": "youtube",
+      "author": "TED-Ed",
+      "published_date": "2016-06-30",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "obesity",
+        "cardiovascular",
+        "diabetes",
+        "cancer / oncology"
+      ],
+      "trust_score": 0.408,
+      "trust_tier": "UNCERTAIN",
+      "content_chunks": [
+        {
+          "text": "View full lesson: http://ed.ted.com/lessons/what-is-obesity-mia-nacamulli\n\nObesity is an escalating global epidemic. It substantially raises the probability of diseases like diabetes, heart disease, stroke, high blood pressure, and cancer. But what is the distinction between being overweight and being obese? And how does a person become obese? Mia Nacamulli explores obesity. Lesson by Mia Nacamulli, animation by Kozmonot Animation Studio.",
+          "chunk_index": 0,
+          "quality_score": 0.922,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 58
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.52,
+        "citation_count": 1.0,
+        "domain_authority": 0.62,
+        "recency": 0.05,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.625,
+        "engagement_authenticity": 0.523,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.65,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.4,
+        "engagement_authenticity": 0.75,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": false
+        },
+        "citation_count": {
+          "views": 1210129
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "youtube.com"
+        },
+        "recency": {
+          "age_days": 3599,
+          "halflife": 150.0,
+          "published": "2016-06-30"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 5,
+          "required": 5,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 58,
+          "ttr": 0.845,
+          "gini": 0.073,
+          "wc_score": 0.029
+        },
+        "engagement_authenticity": {
+          "views": 1210129,
+          "likes": 15706,
+          "like_view_ratio": 0.01298,
+          "z_score": -1.431,
+          "manipulation_flags": []
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.08,
+        "domain_authority": 0.15,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.04,
+        "content_depth": 0.06,
+        "engagement_authenticity": 0.12,
+        "adversarial_risk": 0.07
+      },
+      "abuse_penalty": 0.82,
+      "abuse_reasons": [
+        "outdated_health_content"
+      ],
+      "anomaly_flags": [],
+      "prior_used": 0.53,
+      "view_count": 1210129,
+      "like_count": 15706,
+      "duration_sec": 311,
+      "has_transcript": false
+    },
+    {
+      "record_id": "c957412a27bef653",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:09Z",
+      "source_url": "https://www.youtube.com/watch?v=zFhYJRqz_xk",
+      "source_type": "youtube",
+      "author": "Kurzgesagt – In a Nutshell",
+      "published_date": "2023-05-09",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "cancer / oncology"
+      ],
+      "trust_score": 0.404,
+      "trust_tier": "UNCERTAIN",
+      "content_chunks": [
+        {
+          "text": "Sources & further reading: https://sites.google.com/view/sources-cancervsimmune/\nThis video was partially financed by Gates Ventures. If you want to support this channel and get something nice in return check out our shop: https://kgs.link/shop-176\n\nSomewhere in your body, your immune system just quietly killed one of your own cells, stopping it from becoming cancer, and saving your life. It does that all the time. The vast majority of cancer cells you develop will be killed without you ever noticing. Which is an incredibly hard job because of what cancer cells are: parts of yourself that start to behave as individuals even if it hurts you. What is cancer and how does your body kill it all the time? OUR CHANNELS\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nGerman: https://kgs.link/youtubeDE\nSpanish: https://kgs.link/youtubeES\nFrench: https://kgs.link/youtubeFR\nPortuguese: https://kgs.link/youtubePT\nArabic: https://kgs.link/youtubeAR\nHindi: https://kgs.link/youtubeHI\nJapanese: https://kgs.link/youtubeJA\nKorean: https://kgs.link/youtubeKO\n\nHOW CAN YOU SUPPORT US? ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThis is how we make our living and it would be a pleasure if you support us!",
+          "chunk_index": 0,
+          "quality_score": 0.86,
+          "has_overlap": false,
+          "total_chunks": 4,
+          "word_count": 157
+        },
+        {
+          "text": "Korean: https://kgs.link/youtubeKO HOW CAN YOU SUPPORT US? ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ This is how we make our living and it would be a pleasure if you support us! Get Products designed with ❤ https://kgs.link/shop-176 \nJoin the Patreon Bird Army 🐧 https://kgs.link/patreon \n\nDISCUSSIONS & SOCIAL MEDIA\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nTikTok: https://kgs.link/tiktok\nReddit: https://kgs.link/reddit\nInstagram: https://kgs.link/instagram\nTwitter: https://kgs.link/twitter\nFacebook: https://kgs.link/facebook\nDiscord: https://kgs.link/discord\nNewsletter: https://kgs.link/newsletter\n\nOUR VOICE\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\nThe Kurzgesagt voice is from \nSteve Taylor: https://kgs.link/youtube-voice\n\nOUR MUSIC ♬♪\n▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀\n700+ minutes of Kurzgesagt Soundtracks by Epic Mountain:\n\nSpotify: https://kgs.link/music-spotify\nSoundcloud: https://kgs.link/music-soundcloud\nBandcamp: https://kgs.link/music-bandcamp\nYoutube: https://kgs.link/music-youtube\nFacebook: https://kgs.link/music-facebook\n\nThe Soundtrack of this video:\nSoundcloud: https://bit.ly/3MaUV6u\nBandcamp: https://bit.ly/42BOSwT\n\nIf you want to help us caption this video, please send subtitles to subtitle@kurzgesagt.org\nYou can find info on what subtitle files work on YouTube here:\nhttps://support.google.com/youtube/answer/2734698?hl=en-GB&ref_topic=7296214\nThank you!",
+          "chunk_index": 1,
+          "quality_score": 0.902,
+          "has_overlap": true,
+          "total_chunks": 4,
+          "word_count": 128
+        },
+        {
+          "text": "help us caption this video, please send subtitles to subtitle@kurzgesagt.org You can find info on what subtitle files work on YouTube here: https://support.google.com/youtube/answer/2734698?hl=en-GB&ref_topic=7296214 Thank you! 🐦🐧🐤 PATREON BIRD ARMY 🐤🐧🐦 ▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀ Many Thanks to our wonderful Patreons (from http://kgs.link/patreon) who support us every month and made this video possible: Sean H., Thanatos, Cameron Ladd, Suprafraction, Qassam Musallam, Bleamehuaba, Juri, Junsung Cho, yellyace, Felix, Gary Virta, Imprfct, Jerome Machens, Roz Heiko, Thomas Franke, Johannes Korner, lucaswu, Marcel Scharmann, Lee Redden, Morten, RBRedstone, Becilio Espinola, Don Philly, LangBeni, aycaramba, David Kunushevci, Aaron Elliott, Florian Stucki, Reegge, Florian Freund, WEX071, Teo X796, Atomicnitrogen, sage callisto, 王佳琪, Tómas Aron Jónsson, Geoff Mathis, Charles Morman, XXspartarguruX X, Mar, Jihun Kim, Yerin Kim, Timothy Lee, Hannes Ott, Tom, Nicholas Lee, Teffi Snow, Batman1997, Brett Butler, Yannik, Jacob Woods, Jeffery Niemuth, Henry Liu, Sol Sun, Mau Maria, Znarnof, Max, Jorgen Slings, Ezequiel Petrocelli, CptSpikes, Gabriel Fierros, Jasra, Yacine, Pavel Plotnikov, E berhard Burlet, Patrick Mann, Alex, SupAwesomeHere, Iván Luis Tapia Pérez, Oscar Guillén Mateu, Dongting Cai, Jeremy Dunham, Dwayne Scherini, Nemo, Ashish Srivastava, Nikolay Karashtranov, TheToCraft, Thomas Curran, Selwyn, ManTheDuck, tristan diamond, Joseph Bell, Antony, Molowitz, Todd Muller, Nicolas Pouillard, Neil Tavares, Brandon_H, Henry Swanson, GandalfBabbano, Janet Kang, Giovanni Machado, Nathan, Plopsi,",
+          "chunk_index": 2,
+          "quality_score": 0.828,
+          "has_overlap": true,
+          "total_chunks": 4,
+          "word_count": 205
+        },
+        {
+          "text": "Curran, Selwyn, ManTheDuck, tristan diamond, Joseph Bell, Antony, Molowitz, Todd Muller, Nicolas Pouillard, Neil Tavares, Brandon_H, Henry Swanson, GandalfBabbano, Janet Kang, Giovanni Machado, Nathan, Plopsi, Musicus Magnus, OshriMakk, Key7, Daniel Hassan, Justin Ruddock, Mr_President_White, Mitch Burke, Henry Liu, How long can a profile name be..., Josh Jones, Hannah White, Feef Anthony, Quim Gil, Stefano Brondi, Ursin Fill",
+          "chunk_index": 3,
+          "quality_score": 0.841,
+          "has_overlap": true,
+          "total_chunks": 4,
+          "word_count": 57
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.52,
+        "citation_count": 1.0,
+        "domain_authority": 0.62,
+        "recency": 0.05,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.658,
+        "engagement_authenticity": 0.925,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.65,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.75,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": false
+        },
+        "citation_count": {
+          "views": 9002571
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "youtube.com"
+        },
+        "recency": {
+          "age_days": 1095,
+          "halflife": 150.0,
+          "published": "2023-05-09"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 5,
+          "required": 5,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 472,
+          "ttr": 0.794,
+          "gini": 0.103,
+          "wc_score": 0.236
+        },
+        "engagement_authenticity": {
+          "views": 9002571,
+          "likes": 306264,
+          "like_view_ratio": 0.03402,
+          "z_score": -0.226,
+          "manipulation_flags": []
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.002,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.08,
+        "domain_authority": 0.15,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.04,
+        "content_depth": 0.06,
+        "engagement_authenticity": 0.12,
+        "adversarial_risk": 0.07
+      },
+      "abuse_penalty": 0.738,
+      "abuse_reasons": [
+        "outdated_health_content",
+        "anomaly:high_link_density"
+      ],
+      "anomaly_flags": [
+        "high_link_density"
+      ],
+      "prior_used": 0.4995,
+      "view_count": 9002571,
+      "like_count": 306264,
+      "duration_sec": 554,
+      "has_transcript": false
+    },
+    {
+      "record_id": "43a1061fe0b48e91",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:09Z",
+      "source_url": "https://www.youtube.com/watch?v=SGaQ0WwZ_0I",
+      "source_type": "youtube",
+      "author": "Cancer Center",
+      "published_date": "2013-10-31",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "cancer / oncology",
+        "healthcare"
+      ],
+      "trust_score": 0.377,
+      "trust_tier": "UNCERTAIN",
+      "content_chunks": [
+        {
+          "text": "What is cancer? Our experts answer this question, explain what causes cancer and share how cancer treatments work. See our updated video on this topic at https://youtu.be/_N1Sk3aiSCE. Chapters\n00:00 - Cancer Statistics\n0:19 - What Is Cancer? 2:01 - Cancer Treatment\n3:18 - Integrative Oncology",
+          "chunk_index": 0,
+          "quality_score": 0.517,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 45
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.52,
+        "citation_count": 1.0,
+        "domain_authority": 0.62,
+        "recency": 0.05,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.556,
+        "engagement_authenticity": 0.248,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.65,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.4,
+        "engagement_authenticity": 0.75,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": false
+        },
+        "citation_count": {
+          "views": 5327637
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "youtube.com"
+        },
+        "recency": {
+          "age_days": 4572,
+          "halflife": 150.0,
+          "published": "2013-10-31"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 5,
+          "required": 5,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 45,
+          "ttr": 0.733,
+          "gini": 0.148,
+          "wc_score": 0.022
+        },
+        "engagement_authenticity": {
+          "views": 5327637,
+          "likes": 35719,
+          "like_view_ratio": 0.0067,
+          "z_score": -2.256,
+          "manipulation_flags": []
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.08,
+        "domain_authority": 0.15,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.04,
+        "content_depth": 0.06,
+        "engagement_authenticity": 0.12,
+        "adversarial_risk": 0.07
+      },
+      "abuse_penalty": 0.82,
+      "abuse_reasons": [
+        "outdated_health_content"
+      ],
+      "anomaly_flags": [],
+      "prior_used": 0.4804,
+      "view_count": 5327637,
+      "like_count": 35719,
+      "duration_sec": 305,
+      "has_transcript": false
+    }
+  ]
+}

@@ -1,0 +1,479 @@
+[
+  {
+    "record_id": "05bd2ef02425b625",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:09Z",
+    "source_url": "https://www.statnews.com/pharmalot/2026/05/07/sanofi-diabetes-drug-voucher-fda-rethinking-rare-disease-rejection/",
+    "source_type": "blog",
+    "author": "Ed Silverman",
+    "published_date": "Thu, 07 May 2026 13:47:21 +0000",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "diabetes",
+      "healthcare",
+      "cancer / oncology",
+      "research"
+    ],
+    "trust_score": 0.866,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Top of the morning to you, and a fine one it is. Sunny skies and mild breezes are enveloping the Pharmalot campus once again. And to celebrate, we are brewing still more cups of stimulation and inviting you to join us. Our choice today is Jack Daniel’s. Yes, this is a real thing. And remember, a prescription is not required. So no need to mess with rebates, coupons, or TrumpRx. Meanwhile, here are a few items of interest. Hope you have a smashing day and conquer the world. And of course, do stay in touch. We appreciate feedback, criticism and tips. …\n\nSanofi asked the U.S. Food and Drug Administration to pull its type 1 diabetes drug, teplizumab, out of FDA Commissioner Marty Makary’s new speedy review program\n\n,\n\nSTAT\n\nreports. The move comes after acting Center for Drug Evaluation and Research Director Tracy Beth Høeg disagreed with a staff decision to approve the drug. The agency missed its April 21 goal date to deliver a decision to Sanofi. Such decisions are typically made by career scientists.",
+        "chunk_index": 0,
+        "quality_score": 0.879,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 177
+      },
+      {
+        "text": "approve the drug. The agency missed its April 21 goal date to deliver a decision to Sanofi. Such decisions are typically made by career scientists. It is rare for a center director to become involved in scientific review of a single drug, and particularly a political appointee like Høeg. Makary recently said that he stands behind review teams, and that “disaster” occurs whenever political leaders overrule scientific staff. An experimental drug from Revolution Medicines that nearly ​doubled survival time for patients with advanced pancreas cancer in clinical trials comes with a high rate ‌of mostly low-grade side effects\n\n,\n\nReuters\n\ntells us. A\n\nreport\n\nby researchers from a first-in-human trial of daraxonrasib is the first peer-reviewed paper to show safety data for what analysts say could become the next standard of care for previously treated metastatic pancreatic cancer. Among the 168 patients with previously treated pancreatic ductal adenocarcinoma who received daraxonrasib in the early trial, treatment-related adverse side effects ​of any grade occurred in 96%, while severe or life-threatening events were reported in 30%. Continue to STAT+ to read the full story…",
+        "chunk_index": 1,
+        "quality_score": 0.726,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 182
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.943,
+      "medical_disclaimer_presence": 1.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.598,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 0.8
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "statnews.com"
+      },
+      "recency": {
+        "age_days": 1,
+        "halflife": 90.0,
+        "published": "Thu, 07 May 2026 13:47:21 +0000"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": true
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 334,
+        "ttr": 0.695,
+        "gini": 0.101,
+        "wc_score": 0.167
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 3,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": null
+  },
+  {
+    "record_id": "a45639ce69671314",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:09Z",
+    "source_url": "https://www.sciencedaily.com/releases/2026/05/260506225551.htm",
+    "source_type": "blog",
+    "author": "ScienceDaily",
+    "published_date": "Thu, 07 May 2026 22:07:42 EDT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "research",
+      "cancer / oncology",
+      "healthcare",
+      "neurology",
+      "genomics"
+    ],
+    "trust_score": 0.787,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Science News\n\nfrom research organizations\n\nDoctors warn this popular vitamin may quietly disrupt cancer care\n\nDate:\n\nMay 7, 2026\n\nSource:\n\nOhio State University Wexner Medical Center\n\nSummary:\n\nMany cancer patients turn to biotin supplements hoping to restore hair lost during treatment, but experts warn the popular vitamin may do more harm than good. While biotin is often marketed for stronger hair and nails, thereâs little evidence it actually helps cancer-related hair lossâand it can dangerously interfere with lab tests. Doctors say the supplement can distort key blood markers, potentially masking cancer recurrence or delaying treatment decisions. Share:\n\nFacebook\n\nTwitter\n\nPinterest\n\nLinkedIN\n\nEmail\n\nFULL STORY\n\nHair loss is one of the most upsetting side effects of cancer treatment, and many patients look for ways to bring their hair back. One option that has gained popularity is biotin, a vitamin commonly promoted for stronger hair and nails. But experts say the benefits are uncertain, and the risks may be overlooked. There is little scientific evidence that oral biotin helps hair or nail growth in people undergoing or recovering from cancer treatment.",
+        "chunk_index": 0,
+        "quality_score": 0.855,
+        "has_overlap": false,
+        "total_chunks": 9,
+        "word_count": 179
+      },
+      {
+        "text": "risks may be overlooked. There is little scientific evidence that oral biotin helps hair or nail growth in people undergoing or recovering from cancer treatment. More concerning, it may interfere with medical testing, according to Brittany Dulmage, MD, an oncodermatologist at The Ohio State University Comprehensive Cancer Center -- Arthur G. James Cancer Hospital and Richard J. Solove Research Institute. Biotin, also known as vitamin B7, helps the body produce proteins such as keratin, which supports hair, skin and nails. However, true biotin deficiency is uncommon because the vitamin is widely found in foods like fruits, vegetables, meats, eggs and dairy products. \"People have the misconception that biotin supplements are harmless and there's no reason not to take them. The reality is that the supplements may cause inaccurate lab results, resulting in a delay or change in patients' treatment plans,\" she said. Dulmage also serves as associate director of dermatology at The Ohio State University College of Medicine and leads the Oncodermatology Clinic, where patients receive care for hair, skin and nail side effects caused by treatments such as chemotherapy, immunotherapy or targeted therapy.",
+        "chunk_index": 1,
+        "quality_score": 0.875,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 184
+      },
+      {
+        "text": "leads the Oncodermatology Clinic, where patients receive care for hair, skin and nail side effects caused by treatments such as chemotherapy, immunotherapy or targeted therapy. \"More than half the patients who come to see me with a problem related to hair loss are on a supplement that they've started on their own after learning about it online, by word of mouth and sometimes even at the advice of their doctor,\" she said. To highlight these concerns, Dulmage authored a paper in\n\nJCO Oncology Practice\n\nurging oncologists to discuss hair loss openly with patients and explain how biotin could affect test results. How Biotin Can Distort Cancer Lab Results\n\nBiotin can interfere with certain blood tests used to monitor cancers, including prostate, thyroid, ovarian and breast cancers. Some of these tests rely on chemical reactions that involve biotin, so taking supplements can cause results to appear higher or lower than they truly are. \"Biotin does not actually change the levels of hormones in the body, but it interferes with the way those levels could be checked when blood work is done,\" she said.",
+        "chunk_index": 2,
+        "quality_score": 0.871,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 182
+      },
+      {
+        "text": "the levels of hormones in the body, but it interferes with the way those levels could be checked when blood work is done,\" she said. \"For some of the hormones such as prostate specific antigen, PSA, or thyroid stimulating hormone, TSH, it may falsely suppress or lower those levels, potentially masking cancer recurrence in cancer survivors. For reproductive hormones including estrogen and testosterone, it may falsely elevate levels, resulting in delayed therapy.\"\n\nA Patient's Experience With Biotin and Lab Results\n\nAnna Malagoli of Columbus, like many cancer patients, worried about losing her hair during breast cancer treatment. \"Your hair is very much a part of you. One of the first things you ask is 'Am I going to lose my hair?' It's such an important thing for people -- not everybody looks good with no hair,\" she said. After her cancer went into remission, she wanted to restore her long curly hair and began taking biotin supplements after reading about them online. \"The amount of information on the Internet can lead you in different directions. I was taking so much biotin it's not even funny,\" she said.",
+        "chunk_index": 3,
+        "quality_score": 0.85,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 187
+      },
+      {
+        "text": "\"The amount of information on the Internet can lead you in different directions. I was taking so much biotin it's not even funny,\" she said. \"Nobody mentioned one word that biotin vitamins or minerals or supplements could interfere with your treatment or your testing.\"\n\nInconsistent Test Results Raise Concerns\n\nMalagoli only became aware of the issue during a visit with Dulmage. Looking back, she said the explanation fit her experience. \"My lab results were inconsistent. They just didn't balance out with what I was feeling so that was a red flag. I think it had to do with the supplements I was taking,\" she said. For patients who choose to keep using biotin, Dulmage advises stopping it at least 72 hours before scheduled blood tests. \"The challenge is that not all blood work is planned so you may not be able to hold your biotin. Biotin can also impact the levels of troponin, which is a marker of whether or not someone is having a heart attack,\" she said. \"Obviously, you're not planning to have a heart attack so you can't hold biotin before troponin levels are checked.",
+        "chunk_index": 4,
+        "quality_score": 0.84,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 188
+      },
+      {
+        "text": "having a heart attack,\" she said. \"Obviously, you're not planning to have a heart attack so you can't hold biotin before troponin levels are checked. This is why I recommend to patients -- think about not taking it at all, especially since very few people are biotin deficient.\"\n\nSafer Options for Hair Loss During Cancer Treatment\n\nInstead of biotin, Dulmage suggests using minoxidil to address hair loss. This treatment is FDA approved, widely available over the counter, and comes in topical forms such as lotions and foams. It is considered safe and effective for most people, though it is not recommended during pregnancy or breastfeeding. \"If you have been trying minoxidil for several months and not seeing any improvement or want to know about other options, see a dermatologist. There are many other types of treatments that may be an option,\" she said. Malagoli has tried both approaches and found that minoxidil worked better for her. \"I don't know if my body just doesn't assimilate the supplements as well, but minoxidil is definitely more effective long-term,\" she said.",
+        "chunk_index": 5,
+        "quality_score": 0.868,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 178
+      },
+      {
+        "text": "better for her. \"I don't know if my body just doesn't assimilate the supplements as well, but minoxidil is definitely more effective long-term,\" she said. \"I would say it's super important to listen to your doctors and not just do your thing.\"\n\nRELATED TOPICS\n\nHealth & Medicine\n\nPersonalized Medicine\n\nBreast Cancer\n\nFertility\n\nDiseases and Conditions\n\nThyroid Disease\n\nHeart Disease\n\nHormone Disorders\n\nProstate Cancer\n\nRELATED TERMS\n\nCancer\n\nVitamin E\n\nAllele\n\nLimbic system\n\nHeadache\n\nGeneral fitness training\n\nBlood transfusion\n\nVitamin A\n\nStory Source:\n\nMaterials provided by\n\nOhio State University Wexner Medical Center\n\n. Note: Content may be edited for style and length. Journal Reference\n\n:\n\nLayna Mager, Olivia Ueltschi, Lucy Rose, Brittany Dulmage. Biotin Supplements for Hair and Nail Regrowth: A Caution for Oncologists\n\n. JCO Oncology Practice\n\n, 2025; DOI:\n\n10.1200/OP-25-00693\n\nCite This Page\n\n:\n\nMLA\n\nAPA\n\nChicago\n\nOhio State University Wexner Medical Center. \"Doctors warn this popular vitamin may quietly disrupt cancer care.\" ScienceDaily. ScienceDaily, 7 May 2026. <www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225551.htm>. Ohio State University Wexner Medical Center. (2026, May 7). Doctors warn this popular vitamin may quietly disrupt cancer care. ScienceDaily\n\n.",
+        "chunk_index": 6,
+        "quality_score": 0.867,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 188
+      },
+      {
+        "text": "/ 05 / 260506225551.htm>. Ohio State University Wexner Medical Center. (2026, May 7). Doctors warn this popular vitamin may quietly disrupt cancer care. ScienceDaily . Retrieved May 8, 2026 from www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225551.htm\n\nOhio State University Wexner Medical Center. \"Doctors warn this popular vitamin may quietly disrupt cancer care.\" ScienceDaily. www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225551.htm (accessed May 8, 2026). Explore More\n\nfrom ScienceDaily\n\nRELATED STORIES\n\nThis Missing Vitamin Could Stop Cancer Cells in Their Tracks\n\nApr. 20, 2026 Â\n\nCancer cells are known for their âglutamine addiction,â but many can escape this weakness by switching to alternative fuels. Researchers found that vitamin B7 acts like a metabolic âlicense,â ... The Vitamin D Mistake Weakening Your Immunity\n\nOct. 4, 2025 Â\n\nScientists discovered that vitamin D2 supplements can lower levels of vitamin D3, the form the body uses most effectively. Unlike D2, vitamin D3 enhances the immune systemâs first line of defense ... Taking Vitamin D Could Help Prevent Dementia\n\nMar. 1, 2023 Â\n\nTaking vitamin D supplements may help ward off dementia, according to a new, large-scale study. Researchers explored the relationship between vitamin D supplementation and dementia in more than ...",
+        "chunk_index": 7,
+        "quality_score": 0.609,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 202
+      },
+      {
+        "text": "may help ward off dementia, according to a new, large-scale study. Researchers explored the relationship between vitamin D supplementation and dementia in more than ... Babies Remember Faces Despite Face Masks, Study Suggests\n\nFeb. 1, 2023 Â\n\nBabies learn from looking at human faces, leading many parents and childhood experts to worry about possible developmental harm from widespread face-masking during the pandemic. A new study allays ... Maintaining Masking Requirements at Boston Public Schools Protected Students, Staff, Study Finds\n\nNov. 10, 2022 Â\n\nThe lifting of masking requirements in school districts outside of Boston in February 2022 was associated with an additional 44.9 COVID-19 cases per 1,000 students and staff in the 15 weeks after the ... Researchers Discover a Dependency of Glioblastoma on Biotin Distribution\n\nSep. 15, 2021 Â\n\nResearchers have discovered that the FDA-approved anti-fungal drug, sulconazole, exhibits anti-cancer properties towards glioblastoma cells. An in-depth investigation of this compound revealed that ... TRENDING AT\n\nSCITECHDAILY.com\n\nPhysicists Propose Strange Experiment Where Time Goes Quantum\n\nMagnesium Magic: New Drug Melts Fat Even on a High-Fat, High-Sugar Diet\n\nWeight-Loss Drugs Like Ozempic May Come With an Unexpected Cost\n\nMezcal âWormâ in a Bottle Mystery: DNA Testing Reveals a Surprise",
+        "chunk_index": 8,
+        "quality_score": 0.736,
+        "has_overlap": true,
+        "total_chunks": 9,
+        "word_count": 198
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.95,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.614,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "sciencedaily.com"
+      },
+      "recency": {
+        "age_days": 0,
+        "halflife": 90.0,
+        "published": "Thu, 07 May 2026 22:07:42 EDT"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1486,
+        "ttr": 0.485,
+        "gini": 0.344,
+        "wc_score": 0.743
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.032,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": null
+  },
+  {
+    "record_id": "c4e0a02ac01ad60a",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:09Z",
+    "source_url": "https://www.healthline.com/health-news/ckm-syndrome-higher-cancer-risk",
+    "source_type": "blog",
+    "author": "Healthline Editorial",
+    "published_date": "Unknown",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "cancer / oncology",
+      "healthcare",
+      "research",
+      "cardiovascular",
+      "diabetes"
+    ],
+    "trust_score": 0.697,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "New research indicates that cancer prevention should be part of the treatment protocol for people with CKM syndrome. Sean Locke/Stocksy\n\nResearchers say people with cardiovascular-kidney-metabolic (CKM) syndrome have a higher risk of developing cancer. They note that the cancer risk rises as the severity of CKM syndrome increases, ranging from a 3% higher risk at stage 1 to a 30% higher risk at stage 4. Experts say people can lower their cancer risk by maintaining a healthy diet, getting regular exercise, and avoiding alcohol and tobacco. People with a common metabolic health condition have as much as a 30% higher risk of cancer, a new study reports. Researchers say they have discovered that\n\ncardiovascular-kidney-metabolic (CKM) syndrome\n\nnot only causes higher risks for heart-related and kidney-related diseases but also increases the risks of cancer. In particular, the researchers noted that cancer risks rise along with the stages and severity of CKM syndrome. “These findings suggest that CKM staging may help identify individuals at increased cancer risk, supporting a more holistic approach to risk stratification beyond cardiovascular outcomes,” the researchers wrote.",
+        "chunk_index": 0,
+        "quality_score": 0.793,
+        "has_overlap": false,
+        "total_chunks": 11,
+        "word_count": 179
+      },
+      {
+        "text": "that CKM staging may help identify individuals at increased cancer risk, supporting a more holistic approach to risk stratification beyond cardiovascular outcomes,” the researchers wrote. The results were recently published in\n\nCirculation: Population Health and Outcomes\n\n, a journal of the American Heart Association (AHA). The researchers acknowledged that their research was an observational study, so they weren’t able to establish causality between CKM syndrome and cancer risk. Nonetheless, they said their findings are significant since it’s estimated that\n\n90% of adults\n\nin the United States have at least some components of CKM syndrome. The researchers stated that cancer prevention should be part of the treatment protocol for people with CKM syndrome. “These findings extend the clinical relevance of the CKM framework beyond cardiovascular and kidney outcomes, underscoring the need for integrated risk assessment and prevention in multimorbid individuals,” the researchers wrote. Prioritizing heart health may protect against cancer\n\nExperts not involved in the study said the medical community should take note of this latest research.",
+        "chunk_index": 1,
+        "quality_score": 0.837,
+        "has_overlap": true,
+        "total_chunks": 11,
+        "word_count": 166
+      },
+      {
+        "text": "wrote. Prioritizing heart health may protect against cancer Experts not involved in the study said the medical community should take note of this latest research. “The study does not provide a mechanism, but the existing science has shown that there is a large overlap in risk factors for [cardiovascular disease] and cancer,” said\n\nMichael McConnell\n\n, MD, a clinical professor of cardiovascular medicine at Stanford Medicine. “This study adds to the growing body of literature linking cardiovascular disease,\n\nmetabolic dysfunction\n\n, and chronic kidney disease with cancer risk,” added\n\nChristopher Berg\n\n, MD, a non-interventional cardiologist specializing in cardio-oncology at MemorialCare Heart and Vascular Institute at Orange Coast Medical Center in Fountain Valley, CA. Berg, however, noted that the findings don’t offer significant treatment and prevention strategies. “This study may help identify at-risk patients but is less helpful in pointing toward a solution beyond a general recommendation to work toward better health to reduce the risk of future illness,” Berg told Healthline. “The chief health concerns of people with CKM should be to work to reduce their risk of cardiovascular disease, which will in turn reduce their risk of cancer.",
+        "chunk_index": 2,
+        "quality_score": 0.834,
+        "has_overlap": true,
+        "total_chunks": 11,
+        "word_count": 190
+      },
+      {
+        "text": "concerns of people with CKM should be to work to reduce their risk of cardiovascular disease, which will in turn reduce their risk of cancer. Broadly, if it is good for the heart, it will help reduce your risk of cancer as well,” he added. How CKM syndrome raises cancer risk\n\nIn their study, researchers analyzed insurance claims and health checkup data collected between April 2014 and August 2023 from nearly 1.4 million people in Japan. They tracked the rate of cancer cases based on whether a study participant had CKM syndrome. The researchers reported that during a median follow-up of more than 3 years, they were able to establish cancer risk for different stages of CKM syndrome:\n\nStage 1:\n\n3% increased risk\n\nStage 2:\n\n2% increased risk\n\nStage 3:\n\n25% increased risk\n\nStage 4:\n\n30% increased risk\n\nThe stages were based on how many CKM syndrome components a person had. “These results suggest that, in the context of CKM syndrome, it is important to consider not only [cardiovascular disease] risk but also the elevated risk of cancer,” the researchers wrote.",
+        "chunk_index": 3,
+        "quality_score": 0.618,
+        "has_overlap": true,
+        "total_chunks": 11,
+        "word_count": 181
+      },
+      {
+        "text": "the context of CKM syndrome, it is important to consider not only [cardiovascular disease] risk but also the elevated risk of cancer,” the researchers wrote. The researchers explained that the “interconnected nature of cardiovascular, kidney, and metabolic diseases” can involve “shared pathophysiological mechanisms” that include “systemic\n\ninflammation\n\n,\n\ninsulin resistance\n\n,\n\noxidative stress\n\n, and dysfunctional or excess\n\nadiposity\n\n(the accumulation of fatty tissue in the body).”\n\nThey said these mechanisms can “contribute to disease progression across organ systems.” They noted that cancer and CKM syndrome share certain risk factors. “For example, aging, smoking, alcohol consumption, and poor\n\ndietary habits\n\ncontribute to both CKM progression and cancer risk, highlighting the presence of overlapping risk profiles,” the researchers wrote. Tochi Okwuosa\n\n, DO, the director of cardio-oncology services at Rush University Medical Center in Chicago and an American Heart Association (AHA) volunteer, said the study accurately portrays how medical conditions can cascade on top of one another. Okwuosa wasn’t involved in the study. “A common factor between the CKM syndrome and cancer is inflammation, which is likely a link between both disease processes,” she told Healthline.",
+        "chunk_index": 4,
+        "quality_score": 0.849,
+        "has_overlap": true,
+        "total_chunks": 11,
+        "word_count": 185
+      },
+      {
+        "text": "the study. “A common factor between the CKM syndrome and cancer is inflammation, which is likely a link between both disease processes,” she told Healthline. “We know that obesity increases insulin resistance and diabetes, and both processes increase inflammation, which in turn increases\n\ncardiovascular risk factors\n\nsuch as\n\nhypertension\n\n, which then increases kidney disease. All of these factors eventually lead to\n\nheart disease\n\nand stroke.”\n\nMcConnell said it’s “important to note that the only significant association was for CKM stages 3 and 4.” He also said the follow-up period of 3 years is “relatively short.”\n\n“I think the stronger argument is the shared risk factors not that poor CKM health ‘causes’ cancer,” he told Healthline. “This emphasizes prevention is key to both, particularly as the cancer risk mostly associated with CKM stage 3 and 4, not earlier stages 1 and 2.”\n\nNonetheless, he said the study’s overall message is important. “CKM is a more holistic approach to cardiometabolic and kidney health, so it’s helpful to know earlier that these contribute to risk of both [cardiovascular disease] and cancer,” McConnell said.",
+        "chunk_index": 5,
+        "quality_score": 0.812,
+        "has_overlap": true,
+        "total_chunks": 11,
+        "word_count": 181
+      },
+      {
+        "text": "approach to cardiometabolic and kidney health, so it’s helpful to know earlier that these contribute to risk of both [cardiovascular disease] and cancer,” McConnell said. “For those with more advanced CKM stages, it’s important to manage cardio, metabolic, and kidney issues as we now have very effective therapies, and to be aware of the association with cancer risk, so appropriate cancer screenings [are done].”\n\nWhat to know about CKM syndrome\n\nThe American Heart Association (AHA) first\n\nidentified\n\nCKM syndrome in October 2023. The organization’s announcement addressed the connection between\n\nheart disease\n\n,\n\nkidney disease\n\n, and metabolic disorders. They said these conditions, especially in combination, have connections to\n\nobesity\n\n,\n\ntype 2 diabetes\n\n, and\n\nchronic kidney disease\n\n. AHA officials issued recommendations for prevention, screening, and treatment in their advisory. They suggested that a multidisciplinary approach to the syndrome be utilized. A\n\n2024 study\n\nreported that 90% of U.S. adults may have some form of CKM syndrome. It stated that the risks were greatest among older adults, men, and Black individuals. The researchers noted that risk factors include\n\nhigh blood pressure\n\n,\n\nhigh blood sugar\n\n, and excess body fat.",
+        "chunk_index": 6,
+        "quality_score": 0.838,
+        "has_overlap": true,
+        "total_chunks": 11,
+        "word_count": 191
+      },
+      {
+        "text": "older adults, men, and Black individuals. The researchers noted that risk factors include high blood pressure , high blood sugar , and excess body fat. The researchers evaluated health data from more than 10,000 adults sourced from the\n\nNational Health and Nutrition Examination Survey (NHANES)\n\n. The research team evaluated each individual’s CKM stage by assessing their existing risk factors, including hypertension, excess adiposity,\n\nchronic kidney disease\n\n, or diagnosed CVD, such as\n\ncoronary artery disease\n\n. They found that, between 2011 and 2020:\n\n10% met criteria for stage 0\n\n26% met criteria for stage 1\n\n49% met criteria for stage 2\n\n5% met criteria for stage 3\n\n9% met criteria for stage 4\n\nStage 1 was characterized by excess body fat and higher-than-normal\n\nblood sugar\n\n. Stage 2 was characterized as a person having\n\ntype 2 diabetes\n\n,\n\nhigh cholesterol\n\n, high blood pressure, and moderate-to-high-risk\n\nchronic kidney disease (CKD)\n\n. Stage 3 was characterized as a person having issues with heart and blood vessels but without noticeable symptoms, as well as the presence of very-high-risk CKD and a high-predicted 10-year cardiovascular disease risk.",
+        "chunk_index": 7,
+        "quality_score": 0.795,
+        "has_overlap": true,
+        "total_chunks": 11,
+        "word_count": 185
+      },
+      {
+        "text": "issues with heart and blood vessels but without noticeable symptoms, as well as the presence of very-high-risk CKD and a high-predicted 10-year cardiovascular disease risk. Stage 4 was characterized as a person having CKM risk factors and signs of cardiovascular disease (i.e.,\n\ncoronary heart disease\n\n, angina, heart attack,\n\nheart failure\n\n, and stroke). Stage 4a includes people without\n\nkidney failure\n\n. Stage 4b includes people with kidney failure. The vast majority of the U.S. adult population has risk factors that put them at risk for CKM syndrome. About\n\n73%\n\nlive with\n\noverweight or obesity\n\n, half of adults have\n\nhigh blood pressure\n\n, more than\n\n38 million\n\nhave diabetes, and about 40% of American adults have\n\nprediabetes\n\n. They said the most common risk factors for CKM syndrome include unhealthy lifestyle behaviors, such as inadequate nutrition, lack of\n\nexercise\n\n, and insufficient sleep. A\n\n2026 survey\n\nconcluded that millions of adults in the United States are unaware they have undiagnosed cardiovascular risk factors that begin outside the heart. Lifestyle habits may help lower cancer risk\n\nGenetics plays a role in a\n\nperson’s risk of developing cancer\n\n.",
+        "chunk_index": 8,
+        "quality_score": 0.811,
+        "has_overlap": true,
+        "total_chunks": 11,
+        "word_count": 188
+      },
+      {
+        "text": "factors that begin outside the heart. Lifestyle habits may help lower cancer risk Genetics plays a role in a person’s risk of developing cancer . However, lifestyle habits such as\n\ntobacco use\n\n,\n\nhigh alcohol consumption\n\n, an unhealthy diet, and a lack of physical activity can also contribute to cancer risk. So can exposure to\n\nair pollution\n\nand radiation. Early detection is a key to effectively treating cancer, so regular cancer screenings are recommended. Additionally, lifestyle habits can be adopted to lower the risk of cancer. These include:\n\nEating a diet that focuses mainly on plant-based foods,\n\nlean proteins\n\n, and\n\nhealthy fats\n\n, such as the\n\nMediterranean diet\n\n. Limiting the intake of processed meat. Avoiding tobacco and secondhand smoke. Avoiding alcohol or even\n\ndrinking in moderation\n\n. Doing regular moderate physical activity for\n\n150 minutes to 300 minutes\n\nper week. Okwuosa recommended that people adopt the lifestyle habits detailed in the AHA’s\n\nLife’s Essentials 8\n\nguidelines. “The most important habits are those that reduce inflammation, which appears to be the primary source of the CKM syndrome,” she said. Berg said a person doesn’t need to adopt all these lifestyle habits at once.",
+        "chunk_index": 9,
+        "quality_score": 0.828,
+        "has_overlap": true,
+        "total_chunks": 11,
+        "word_count": 195
+      },
+      {
+        "text": "to be the primary source of the CKM syndrome,” she said. Berg said a person doesn’t need to adopt all these lifestyle habits at once. He said selecting one or two changes is a good way to start. “While this laundry list of goals may seem unwieldy and overwhelming, actionable steps anyone can take immediately would be to focus on\n\nincreasing physical activity\n\nand reducing the amount of ultra-processed food they eat,” said Berg. “These steps in turn can help address multiple domains associated with CKM syndrome, promote overall health, and decrease the risk of cardiovascular disease and cancer.”",
+        "chunk_index": 10,
+        "quality_score": 0.754,
+        "has_overlap": true,
+        "total_chunks": 11,
+        "word_count": 99
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.576,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "healthline.com"
+      },
+      "recency": {
+        "reason": "missing_date",
+        "raw": "Unknown"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1690,
+        "ttr": 0.391,
+        "gini": 0.445,
+        "wc_score": 0.845
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.025,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": null
+  }
+]

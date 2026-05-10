@@ -1,0 +1,119 @@
+[
+  {
+    "record_id": "3bef2a06c8184992",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:42Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/40195079/",
+    "source_type": "pubmed",
+    "author": "Gao S, Wang X, Xia Z, Zhang H, Yu J, Yang F",
+    "published_date": "2025 Apr 8",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "healthcare",
+      "AI / ML",
+      "research"
+    ],
+    "trust_score": 0.838,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Advancements in digital and precision medicine have fostered the rapid development of artificial intelligence (AI) applications, including machine learning, artificial neural networks (ANN), and deep learning, within the field of dentistry, particularly in imaging diagnosis and treatment. This review examines the progress of AI across various domains of dentistry, focusing on its role in enhancing diagnostics and optimizing treatment for oral diseases such as endodontic disease, periodontal disease, oral implantology, orthodontics, prosthodontic treatment, and oral and maxillofacial surgery. Additionally, it discusses the emerging opportunities and challenges associated with these technologies. The findings indicate that AI can be effectively utilized in numerous aspects of oral healthcare, including prevention, early screening, accurate diagnosis, treatment plan design assistance, treatment execution, follow-up monitoring, and prognosis assessment. However, notable challenges persist, including issues related to inaccurate data annotation, limited capability for fine-grained feature expression, a lack of universally applicable models, potential biases in learning algorithms, and legal risks pertaining to medical malpractice and data privacy breaches.",
+        "chunk_index": 0,
+        "quality_score": 0.882,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 161
+      },
+      {
+        "text": "fine-grained feature expression, a lack of universally applicable models, potential biases in learning algorithms, and legal risks pertaining to medical malpractice and data privacy breaches. Looking forward, future research is expected to concentrate on overcoming these challenges to enhance the accuracy and applicability of AI in diagnosing and treating oral diseases. This review aims to provide a comprehensive overview of the current state of AI in dentistry and to identify pathways for its effective integration into clinical practice.",
+        "chunk_index": 1,
+        "quality_score": 0.897,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 78
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 1.0,
+      "domain_authority": 0.95,
+      "recency": 0.701,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.574,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.65,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 6
+      },
+      "citation_count": {
+        "citations": 247
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 395,
+        "halflife": 900.0,
+        "published": "2025 Apr 8"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 214,
+        "ttr": 0.706,
+        "gini": 0.133,
+        "wc_score": 0.107
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.8098,
+    "pmid": "40195079",
+    "doi": "10.12659/MSM.946676",
+    "journal": "Medical science monitor : international medical journal of experimental and clinical research"
+  }
+]

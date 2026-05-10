@@ -1,0 +1,245 @@
+[
+  {
+    "record_id": "055ba3991b6f2344",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:07:29Z",
+    "source_url": "https://www.youtube.com/watch?v=yBvJXMduo8k",
+    "source_type": "youtube",
+    "author": "Doctor Mike",
+    "published_date": "2024-09-18",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "healthcare"
+    ],
+    "trust_score": 0.556,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "I'll teach you how to become the media's go-to expert in your field. Enroll in The Professional's Media Academy now: https://www.professionalsmediaacademy.com/\n\nListen to my podcast, The Checkup with Doctor Mike, here:\nSpotify: https://go.doctormikemedia.com/spotify/CheckUpSpotify\nApple Podcasts: https://go.doctormikemedia.com/applepodcast/ApplePodcasts\n\nHelp us continue the fight against medical misinformation and change the world through charity by becoming a Doctor Mike Resident on Patreon where every month I donate 100% of the proceeds to the charity, organization, or cause of your choice! Residents get access to bonus content, exclusive live streams, and many other perks for just $10 a month Become a Resident today:\n\nhttps://www.patreon.com/doctormike\n\nLet’s connect:\n\nIG: https://go.doctormikemedia.com/instagram/DMinstagram\nTwitter: https://go.doctormikemedia.com/twitter/DMTwitter\nFB: https://go.doctormikemedia.com/facebook/DMFacebook\nTikTok: https://go.doctormikemedia.com/tiktok/DMTikTok\nReddit: https://go.doctormikemedia.com/reddit/DMReddit\n\nContact Email: DoctorMikeMedia@Gmail.com\nExecutive Producer: Doctor Mike\nProduction Director and Editor: Dan Owens\nManaging Editor and Producer: Sam Bowers\nEditor and Designer: Caroline Weigum\nEditor: Juan Carlos Zuniga\n\n* Select photos/videos provided by Getty Images *\n\n** The information in this video is not intended nor implied to be a substitute for professional medical advice, diagnosis or treatment.",
+        "chunk_index": 0,
+        "quality_score": 0.893,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 169
+      },
+      {
+        "text": "Getty Images * ** The information in this video is not intended nor implied to be a substitute for professional medical advice, diagnosis or treatment. All content, including text, graphics, images, and information, contained in this video is for general information purposes only and does not replace a consultation with your own doctor/health professional **",
+        "chunk_index": 1,
+        "quality_score": 0.75,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 55
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 1.0,
+      "domain_authority": 0.62,
+      "recency": 0.06,
+      "medical_disclaimer_presence": 1.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.592,
+      "engagement_authenticity": 0.905,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.65,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.65,
+      "engagement_authenticity": 0.75,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "views": 1658376
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "youtube.com"
+      },
+      "recency": {
+        "age_days": 597,
+        "halflife": 150.0,
+        "published": "2024-09-18"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": true
+      },
+      "metadata_completeness": {
+        "present": 5,
+        "required": 5,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 199,
+        "ttr": 0.744,
+        "gini": 0.118,
+        "wc_score": 0.1
+      },
+      "engagement_authenticity": {
+        "views": 1658376,
+        "likes": 53763,
+        "like_view_ratio": 0.03242,
+        "z_score": -0.286,
+        "manipulation_flags": []
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.005,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.08,
+      "domain_authority": 0.15,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.04,
+      "content_depth": 0.06,
+      "engagement_authenticity": 0.12,
+      "adversarial_risk": 0.07
+    },
+    "abuse_penalty": 0.9,
+    "abuse_reasons": [
+      "anomaly:high_link_density"
+    ],
+    "anomaly_flags": [
+      "high_link_density"
+    ],
+    "prior_used": null,
+    "view_count": 1658376,
+    "like_count": 53763,
+    "duration_sec": 698,
+    "has_transcript": false
+  },
+  {
+    "record_id": "e69332d24c013a0b",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:07:29Z",
+    "source_url": "https://www.youtube.com/watch?v=-vNVG7XJpVE",
+    "source_type": "youtube",
+    "author": "TED-Ed",
+    "published_date": "2016-06-30",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "obesity",
+      "cardiovascular",
+      "diabetes",
+      "cancer / oncology"
+    ],
+    "trust_score": 0.408,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "View full lesson: http://ed.ted.com/lessons/what-is-obesity-mia-nacamulli\n\nObesity is an escalating global epidemic. It substantially raises the probability of diseases like diabetes, heart disease, stroke, high blood pressure, and cancer. But what is the distinction between being overweight and being obese? And how does a person become obese? Mia Nacamulli explores obesity. Lesson by Mia Nacamulli, animation by Kozmonot Animation Studio.",
+        "chunk_index": 0,
+        "quality_score": 0.922,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 58
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 1.0,
+      "domain_authority": 0.62,
+      "recency": 0.05,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.625,
+      "engagement_authenticity": 0.523,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.65,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.4,
+      "engagement_authenticity": 0.75,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "views": 1210129
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "youtube.com"
+      },
+      "recency": {
+        "age_days": 3599,
+        "halflife": 150.0,
+        "published": "2016-06-30"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 5,
+        "required": 5,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 58,
+        "ttr": 0.845,
+        "gini": 0.073,
+        "wc_score": 0.029
+      },
+      "engagement_authenticity": {
+        "views": 1210129,
+        "likes": 15706,
+        "like_view_ratio": 0.01298,
+        "z_score": -1.431,
+        "manipulation_flags": []
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.08,
+      "domain_authority": 0.15,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.04,
+      "content_depth": 0.06,
+      "engagement_authenticity": 0.12,
+      "adversarial_risk": 0.07
+    },
+    "abuse_penalty": 0.82,
+    "abuse_reasons": [
+      "outdated_health_content"
+    ],
+    "anomaly_flags": [],
+    "prior_used": 0.53,
+    "view_count": 1210129,
+    "like_count": 15706,
+    "duration_sec": 311,
+    "has_transcript": false
+  }
+]

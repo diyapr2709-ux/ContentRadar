@@ -1,0 +1,449 @@
+[
+  {
+    "record_id": "7f5658639e11e37e",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:13Z",
+    "source_url": "https://www.healthline.com/health-news/fda-blocks-publication-covid-shingles-vaccine-safety-studies",
+    "source_type": "blog",
+    "author": "Healthline Editorial",
+    "published_date": "Unknown",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "healthcare",
+      "research",
+      "public health"
+    ],
+    "trust_score": 0.801,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "The FDA has blocked the publication of COVID-19 and shingles vaccine safety studies. What does this mean for public health? Image credit: Gerardo Vieyra/NurPhoto via Getty Images\n\nThe Food and Drug Administration (FDA) has blocked the publication of COVID-19 and shingles vaccine safety studies, citing concerns over their conclusions. Experts question the decision to withdraw the studies, since both vaccines have substantial evidence supporting their safety and effectiveness. Some experts say the decision may be influenced by HHS Health Secretary Robert F. Kennedy Jr.’s anti-vaccine agenda. The Food and Drug Administration (FDA) has pulled back the publication of several studies on the safety and efficacy of broadly used COVID-19 and shingles vaccines. The Department of Health and Human Services (HHS), which oversees the FDA, confirmed the decision, which was first reported by\n\nThe New York Times\n\n. The studies, which involved millions of patient records and taxpayer dollars, were conducted by FDA scientists and data contractors before they were blocked from publication.",
+        "chunk_index": 0,
+        "quality_score": 0.821,
+        "has_overlap": false,
+        "total_chunks": 10,
+        "word_count": 162
+      },
+      {
+        "text": "The studies, which involved millions of patient records and taxpayer dollars, were conducted by FDA scientists and data contractors before they were blocked from publication. Two studies on COVID-19 vaccines that were accepted by medical journals were withdrawn in October 2025 before they were published. The FDA also failed to sign off on two safety studies on the shingles vaccine, Shingrex, which required the federal agency’s approval prior to their submission to a drug safety conference. The Department of Health and Human Services couldn’t be reached for comment, but an HHS spokesperson told The New York Times that the studies were blocked due to concerns about their conclusions. “Scientists and physicians aren’t buying that explanation,” said\n\nRobert Glatter\n\n, MD, attending physician in the Department of Emergency Medicine at Lenox Hill Hospital in New York City, and assistant professor of Emergency Medicine at Zucker School of Medicine at Hofstra/ Northwell. “The public health implications of blocking such studies are serious … secrecy can backfire. People who are already distrustful may see suppression where officials see caution,” Glatter told Healthline.",
+        "chunk_index": 1,
+        "quality_score": 0.846,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 179
+      },
+      {
+        "text": "of blocking such studies are serious … secrecy can backfire. People who are already distrustful may see suppression where officials see caution,” Glatter told Healthline. A robust body of evidence supports the safety and effectiveness of both\n\nCOVID-19\n\nand\n\nshingles\n\nvaccines, which has experts concerned about the FDA’s decision to pull the recent studies. Monica Gandhi\n\n, MD, MPH, a professor of medicine at the University of California, San Francisco, echoed Glatter’s remarks. “The COVID-19 vaccine safety studies had been peer reviewed and would have been extremely important to be published for reassurance of the public of the safety of these vaccines,” she said. William Schaffner\n\n, MD, professor of preventive medicine and infectious diseases in the Department of Health Policy at Vanderbilt University Medical Center in Nashville, agreed. “Both vaccines are in widespread use, not only here in the United States, but around the world. Having these data available so that professional people can look at them and make their own assessments when they see the data is very important.”\n\nWe spoke with infectious disease experts unaffiliated with the studies to find out why scientific research might be barred from publication, and why it’s potentially problematic to block it from public view.",
+        "chunk_index": 2,
+        "quality_score": 0.855,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 203
+      },
+      {
+        "text": "with the studies to find out why scientific research might be barred from publication, and why it’s potentially problematic to block it from public view. These interviews have been lightly edited and condensed for clarity and length. The opinions expressed in this article do not necessarily reflect the views of Healthline Media. Why is the FDA’s decision to pull the publication of two studies a concern? Gandhi:\n\nI am extremely concerned about the FDA’s decision to pull publications of well-conducted studies documenting the safety of COVID-19 vaccines, as well as a study showing the effectiveness of the Shingrix vaccine in preventing shingles. The COVID-19 safety studies reviewed side effects of these vaccines among millions of people with data collected by FDA scientists from Medicare and other insurance databases, and found the vaccine to be safe among those who are 65 and older and those between the ages of 6 and 64 years. The FDA’s decision suggests a political rather than a scientific motivation and aligns with the anti-vaccine views of the Secretary of the Department of Health and Human Services, Robert F. Kennedy Jr.",
+        "chunk_index": 3,
+        "quality_score": 0.821,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 184
+      },
+      {
+        "text": "than a scientific motivation and aligns with the anti-vaccine views of the Secretary of the Department of Health and Human Services, Robert F. Kennedy Jr. Glatter:\n\nThe broad reaction from my colleagues and myself is skepticism and outrage toward the decision itself, not because every study is beyond criticism, but more to the point that withholding research is viewed as unethical and irresponsible. In science, disagreement is normally handled through peer review, editorial commentary, replication, and publication of rebuttals, not by stopping publication of a research paper altogether. That is especially true for vaccines, where confidence depends on showing the public both the evidence and the process. Federal health agencies themselves routinely argue that transparency is essential to trust, and the FDA has recently emphasized the importance of making trial results public to avoid distorted perceptions of safety and efficacy. What concerns might warrant blocking the publication of studies like these? Gandhi:\n\nThere are no concerns that I could see which would block these COVID-19 vaccine safety publications given that the design of looking at large datasets of people who receive the vaccine before and after vaccine receipt is a sound one and can be accomplished in millions of people using large insurance-based databases.",
+        "chunk_index": 4,
+        "quality_score": 0.853,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 204
+      },
+      {
+        "text": "who receive the vaccine before and after vaccine receipt is a sound one and can be accomplished in millions of people using large insurance-based databases. FDA scientists conduct such studies after a new vaccine is approved, and these studies are peer reviewed and nearing publication. Their blockage suggests a political, rather than a scientific, motivation. Schaffner:\n\nWe should realize that no single study or method is perfect; it’s the assemblage of many different studies done by different investigators using methods that are sometimes slightly different, but that nonetheless have a long track record of reliability. That’s how we come to a consensus on effectiveness and safety. The studies in question were done by highly experienced investigators using well-established methods. Are they the single and only and perfect answer, no, but they do reflect a real-life experience that goes beyond the constrained experience you get from prospective, controlled clinical trials. The methods used by these investigators are well established and well recognized. They cannot be published unless they are peer-reviewed first, so they undergo careful critical analysis before publication. Glatter:\n\nCould there ever be legitimate reasons to delay publication of a government-funded study? In principle, yes.",
+        "chunk_index": 5,
+        "quality_score": 0.838,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 195
+      },
+      {
+        "text": "so they undergo careful critical analysis before publication. Glatter: Could there ever be legitimate reasons to delay publication of a government-funded study? In principle, yes. Methodological flaws or errors, premature conclusions, or conflicts with stronger evidence are valid grounds for internal review. But such conversations should happen in the open. Scientists revise, resubmit, respond to peer critique and review. What allegedly happened here — leadership halting accepted research without transparent scientific justification — falls well outside normal regulatory conduct. What are the public health implications of blocking studies about vaccine effectiveness? Gandhi:\n\nThe public health implications are to erode trust in vaccines such as those used for COVID-19 and shingles prevention. The public can be reassured by large database-based studies such as these on the safety and effectiveness of vaccines. Schaffner:\n\nOver the last several years, there’s been a great deal of controversy and concern about the effectiveness and the safety of vaccines. Having data from very large real-life experiences assembled, analyzed, and then published is very important. That information goes out to medical care practitioners of all kinds — physicians, nurses, pharmacists — so that they can honestly and clearly represent the effectiveness and safety of vaccines to their patients.",
+        "chunk_index": 6,
+        "quality_score": 0.853,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 201
+      },
+      {
+        "text": "of all kinds — physicians, nurses, pharmacists — so that they can honestly and clearly represent the effectiveness and safety of vaccines to their patients. Not having this information readily available and published in the scientific literature is, therefore, very unfortunate, as it impedes the appreciation of the safety and effectiveness of the vaccines now being recommended for use. Glatter:\n\nCritically, COVID vaccines are among the most studied in history, with large clinical trials and post-market surveillance consistently showing clear and substantial population benefits that outweigh any noted rare risks. Blocking confirmatory safety data doesn’t strengthen the science — it simply removes it from view. The public health stakes are real. Vaccine confidence is not a fixed quantity; it erodes incrementally, and it erodes fastest when people sense that information is being managed rather than shared. Under HHS Secretary Robert F. Kennedy Jr., federal agencies have already softened COVID vaccine recommendations, cut vaccine research funding, and attempted to overhaul the childhood immunization schedule. Each of these steps, individually, might be debated on policy grounds. Together, and now compounded by the suppression of internally favorable safety data, they form a pattern that the public is right to scrutinize.",
+        "chunk_index": 7,
+        "quality_score": 0.86,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 197
+      },
+      {
+        "text": "policy grounds. Together, and now compounded by the suppression of internally favorable safety data, they form a pattern that the public is right to scrutinize. Do you hope the FDA will reverse its decision and publish the studies? Schaffner:\n\nI hope these studies are published as quickly as possible, because the information is important. They both reinforce the effectiveness and the safety of one of the COVID vaccines and also the shingles vaccine. Gandhi:\n\nI very much hope the FDA will reverse its decision and publish the studies. This matters deeply to public perception that the agency is upholding its formerly high standard of scientific integrity and is not compromised by the HHS Secretary’s ideological views. Glatter:\n\nThe bottom line is that these studies should be published. Not because we need more evidence that COVID and shingles vaccines are safe (we already have it), but because the act of suppression is itself the problem. Science earns public trust through transparency, including the willingness to publish findings that challenge assumptions. When the government funds research and then buries its own reassuring conclusions, it doesn’t protect scientific integrity — it damages it.",
+        "chunk_index": 8,
+        "quality_score": 0.816,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 190
+      },
+      {
+        "text": "findings that challenge assumptions. When the government funds research and then buries its own reassuring conclusions, it doesn’t protect scientific integrity — it damages it. And in a moment when vaccine hesitancy is already elevated, that damage doesn’t stay within the walls of a federal agency. It spreads like wildfire in 2026, amplified by social media and influencers. The FDA should reverse course, release these findings through normal peer review, and let the data speak for itself. That is, after all, what the data was intended to do.",
+        "chunk_index": 9,
+        "quality_score": 0.903,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 88
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 1.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.595,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "healthline.com"
+      },
+      "recency": {
+        "reason": "missing_date",
+        "raw": "Unknown"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": true
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1578,
+        "ttr": 0.42,
+        "gini": 0.366,
+        "wc_score": 0.789
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.03,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.765
+  },
+  {
+    "record_id": "7d6b6c5b4bb9175f",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:13Z",
+    "source_url": "https://www.sciencedaily.com/releases/2026/05/260506225217.htm",
+    "source_type": "blog",
+    "author": "ScienceDaily",
+    "published_date": "Thu, 07 May 2026 21:39:59 EDT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "research",
+      "healthcare",
+      "genomics",
+      "cancer / oncology"
+    ],
+    "trust_score": 0.786,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Science News\n\nfrom research organizations\n\nScientists find natural compounds that hit COVID-19 from every angle\n\nA Brazilian treeâs natural compounds may fight COVID-19 on multiple frontsâmaking them a promising new antiviral lead. Date:\n\nMay 7, 2026\n\nSource:\n\nFundaÃ§Ã£o de Amparo Ã  Pesquisa do Estado de SÃ£o Paulo\n\nSummary:\n\nA little-known tree from Brazilâs Atlantic Forest may hold a surprising weapon against COVID-19. Researchers discovered that compounds called galloylquinic acids, extracted from its leaves, can attack SARS-CoV-2 on multiple frontsâblocking the virus from entering cells, disrupting its replication, and even dampening harmful inflammation. Unlike many antivirals that target just one part of the virus, these natural compounds act in several ways at once, potentially making it harder for resistance to develop. Share:\n\nFacebook\n\nTwitter\n\nPinterest\n\nLinkedIN\n\nEmail\n\nFULL STORY\n\nResearchers have identified a group of natural compounds from a Brazilian tree that show promising activity against the virus responsible for COVID-19. The compounds, known as galloylquinic acids, were extracted from the leaves of\n\nCopaifera lucens\n\nDwyer, a species native to Brazil's Atlantic Forest.",
+        "chunk_index": 0,
+        "quality_score": 0.86,
+        "has_overlap": false,
+        "total_chunks": 8,
+        "word_count": 172
+      },
+      {
+        "text": "responsible for COVID-19. The compounds, known as galloylquinic acids, were extracted from the leaves of Copaifera lucens Dwyer, a species native to Brazil's Atlantic Forest. Laboratory findings suggest these molecules can interfere with the virus in several different ways, offering a broader approach than many existing antiviral strategies. The research focused on Copaifera lucens because the team, led by Jairo Kenupp Bastos from the Ribeirão Preto School of Pharmaceutical Sciences at the University of São Paulo (FCFRP-USP), has long studied the chemistry and medicinal properties of plants in the Copaifera genus. Their prior experience helped guide the selection of this species for detailed investigation. Galloylquinic acids are not new to science. Earlier studies have linked them to a range of biological effects, including antifungal and anticancer activity observed both in vitro and in vivo. They have also shown broad antiviral potential. In related research, similar compounds demonstrated strong inhibition of HIV-1 in laboratory and cell-based experiments, while producing lower toxicity compared to other tested substances. Testing Safety and Antiviral Activity\n\nWith support from FAPESP, the researchers first isolated and characterized extracts from the leaves that were rich in galloylquinic acids.",
+        "chunk_index": 1,
+        "quality_score": 0.866,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 190
+      },
+      {
+        "text": "Testing Safety and Antiviral Activity With support from FAPESP, the researchers first isolated and characterized extracts from the leaves that were rich in galloylquinic acids. They then evaluated whether these compounds were safe for cells using cytotoxicity tests, an important step before assessing antiviral effects. To measure how well the compounds could combat the virus, the team used plaque reduction assays. This method evaluates how effectively a substance can neutralize viral particles. The results showed clear activity against SARS-CoV-2. The scientists also examined how the compounds interact with key parts of the virus. These included the receptor-binding domain of the spike protein, which enables the virus to enter human cells, as well as papain-like protease (PLpro), an enzyme that helps the virus evade immune defenses, and RNA polymerase, which is essential for viral replication. In addition, they analyzed the impact on viral protein production. \"This integrated approach allowed us to understand how the compounds work and how they act at the molecular level,\" said Mohamed Abdelsalam, an assistant professor of pharmacognosy and natural product chemistry at the Faculty of Pharmacy at the Delta University of Science and Technology in Egypt.",
+        "chunk_index": 2,
+        "quality_score": 0.85,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 190
+      },
+      {
+        "text": "Abdelsalam, an assistant professor of pharmacognosy and natural product chemistry at the Faculty of Pharmacy at the Delta University of Science and Technology in Egypt. He is also affiliated with the School of Health Sciences at the Pompeu Fabra University TecnoCampus in Barcelona, Spain. Abdelsalam led the biological study jointly with Professor Lamiaa A. Al-Madboly, Head of the Department of Microbiology at the Faculty of Pharmacy at Tanta University in Egypt, and Associate Professor Rasha M. El-Morsi from the Department of Microbiology at the Faculty of Pharmacy at the Delta University of Science and Technology in Egypt. The study was conducted in collaboration with Egyptian researchers from Alexandria University. Multi-Target Effects Against SARS-CoV-2\n\nAccording to findings published in\n\nScientific Reports\n\n, galloylquinic acids act on several stages of the viral life cycle. They can block the virus from entering cells, interfere with its replication process, and reduce the production of viral proteins. The compounds also appear to have anti-inflammatory and immunomodulatory properties, which may help regulate the body's immune response, particularly in more severe cases of COVID-19. \"An important aspect revealed by this information is the multi-target mechanism of the compound, which reduces the likelihood of resistance developing.",
+        "chunk_index": 3,
+        "quality_score": 0.808,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 198
+      },
+      {
+        "text": "severe cases of COVID-19. \"An important aspect revealed by this information is the multi-target mechanism of the compound, which reduces the likelihood of resistance developing. This is because many current antivirals act on only one viral protein, which promotes this effect,\" says Bastos. Next Steps and the Role of Biodiversity\n\nAlthough the results are encouraging, additional research is required before these compounds can be developed into a treatment. Future steps include testing in living organisms and conducting clinical trials in humans. The study highlights the value of exploring natural sources for new medicines. It also reinforces the importance of biodiversity, pointing to Brazilian plant life as a rich and strategic resource for discovering novel therapeutic compounds. RELATED TOPICS\n\nHealth & Medicine\n\nHIV and AIDS\n\nInfectious Diseases\n\nWorkplace Health\n\nPharmaceuticals\n\nPlants & Animals\n\nNew Species\n\nInvasive Species\n\nEndangered Plants\n\nTrees\n\nRELATED TERMS\n\nAntibiotic resistance\n\nAmino acid\n\nSevere acute respiratory syndrome\n\nCancer\n\nMonoclonal antibody therapy\n\nAdult stem cell\n\nEmbryonic stem cell\n\nGene therapy\n\nStory Source:\n\nMaterials\n\nprovided by\n\nFundaÃ§Ã£o de Amparo Ã  Pesquisa do Estado de SÃ£o Paulo\n\n. Note: Content may be edited for style and length. Journal Reference\n\n:\n\nRasha M. El-Morsi, Lamiaa A. Al-Madboly, Jairo K. Bastos, Shaimaa M. Aboukhatwa, Samah A.",
+        "chunk_index": 4,
+        "quality_score": 0.897,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 203
+      },
+      {
+        "text": "Content may be edited for style and length. Journal Reference : Rasha M. El-Morsi, Lamiaa A. Al-Madboly, Jairo K. Bastos, Shaimaa M. Aboukhatwa, Samah A. Nasr, Doaa A. Ghareeb, Heba A. Ramadan, Ivan Kushkevych, Mohamed A. Abd El-Salam. Bioactive galloylquinic acids from Copaifera lucens as dual inhibitors of SARS-CoV-2 Spike and RdRp proteins\n\n. Scientific Reports\n\n, 2026; 16 (1) DOI:\n\n10.1038/s41598-025-25217-8\n\nCite This Page\n\n:\n\nMLA\n\nAPA\n\nChicago\n\nFundaÃ§Ã£o de Amparo Ã  Pesquisa do Estado de SÃ£o Paulo. \"Scientists find natural compounds that hit COVID-19 from every angle.\" ScienceDaily. ScienceDaily, 7 May 2026. <www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225217.htm>. FundaÃ§Ã£o de Amparo Ã  Pesquisa do Estado de SÃ£o Paulo. (2026, May 7). Scientists find natural compounds that hit COVID-19 from every angle. ScienceDaily\n\n. Retrieved May 8, 2026 from www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225217.htm\n\nFundaÃ§Ã£o de Amparo Ã  Pesquisa do Estado de SÃ£o Paulo. \"Scientists find natural compounds that hit COVID-19 from every angle.\" ScienceDaily. www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225217.htm (accessed May 8, 2026).",
+        "chunk_index": 5,
+        "quality_score": 0.787,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 176
+      },
+      {
+        "text": "Paulo. \"Scientists find natural compounds that hit COVID-19 from every angle.\" ScienceDaily. www.sciencedaily.com / releases / 2026 / 05 / 260506225217.htm (accessed May 8, 2026). Explore More\n\nfrom ScienceDaily\n\nRELATED STORIES\n\nFood Allergy Is Associated With Lower Risk of SARS-CoV-2 Infection\n\nJune 1, 2022 Â\n\nA new study has found that people with food allergies are less likely to become infected with SARS-CoV-2, the virus that causes COVID-19, than people without them. In addition, while previous ... SARS-CoV-2 Spike Protein More Stable, Slower Changing Than Earlier Version\n\nMar. 30, 2022 Â\n\nNew computational simulations of the behavior of SARS-CoV-1 and SARS-CoV-2 spike proteins prior to fusion with human cell receptors show that SARS-CoV-2, the virus that causes COVID-19, is more ... Most People With Prior SARS-CoV-2 Infection or Vaccination Have T Cell Immune Responses Against Omicron Variant Despite Low Antibody Responses\n\nFeb. 9, 2022 Â\n\nEven though the Omicron variant of SARS-CoV-2 can escape antibody responses, T cell immune responses are still robust against the variant in most individuals with prior SARS-CoV-2 infection or ... Researchers Identify a New Protein That Enables SARS-CoV-2 Access Into Cells\n\nJan.",
+        "chunk_index": 6,
+        "quality_score": 0.816,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 187
+      },
+      {
+        "text": "robust against the variant in most individuals with prior SARS-CoV-2 infection or ... Researchers Identify a New Protein That Enables SARS-CoV-2 Access Into Cells Jan. 26, 2022 Â\n\nResearchers have identified extracellular vimentin as an attachment factor that facilitates SARS-CoV-2 entry into human cells. Vimentin is a structural protein that is widely expressed in the cells ... Predicting Long COVID at Initial Point of COVID-19 Diagnosis: Study Finds Several Warning Factors\n\nJan. 20, 2022 Â\n\nA study has identified four predictive factors of Post Acute Sequelae of COVID-19 (PASC), often called long COVID. These 'PASC factors' can be identified at the initial point of COVID-19 ... COVID-Causing Coronavirus Following Predictable Mutational Footsteps\n\nJuly 13, 2021 Â\n\nNew research has shown that the mutations arising in the COVID-19-causing SARS-CoV-2 virus seem to run in the family -- or at least the genus of coronaviruses most dangerous to humans. After ... TRENDING AT\n\nSCITECHDAILY.com\n\nPhysicists Propose Strange Experiment Where Time Goes Quantum\n\nMagnesium Magic: New Drug Melts Fat Even on a High-Fat, High-Sugar Diet\n\nWeight-Loss Drugs Like Ozempic May Come With an Unexpected Cost\n\nMezcal âWormâ in a Bottle Mystery: DNA Testing Reveals a Surprise",
+        "chunk_index": 7,
+        "quality_score": 0.7,
+        "has_overlap": true,
+        "total_chunks": 8,
+        "word_count": 193
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.95,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.601,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "sciencedaily.com"
+      },
+      "recency": {
+        "age_days": 0,
+        "halflife": 90.0,
+        "published": "Thu, 07 May 2026 21:39:59 EDT"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1334,
+        "ttr": 0.484,
+        "gini": 0.308,
+        "wc_score": 0.667
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.065,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7853
+  },
+  {
+    "record_id": "40960599c174ea1d",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:13Z",
+    "source_url": "https://www.statnews.com/2026/05/08/hantavirus-outbreak-misinformation-spreads-faster-than-virus/",
+    "source_type": "blog",
+    "author": "Katrine Wallace",
+    "published_date": "Fri, 08 May 2026 15:34:07 +0000",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "general"
+    ],
+    "trust_score": 0.707,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "I learned about hantavirus misinformation this week in the same way I now learn about most public health misinformation: My\n\nfollowers\n\nsent it to me. Within hours of the first headlines about a\n\nhantavirus outbreak linked to the expedition cruise ship MV Hondius\n\n, my DMs started filling with screenshots. One was from the account of a\n\nTexas doctor\n\nwho became well known during Covid for promoting ivermectin. She was already telling followers that ivermectin would work against hantavirus, too. Read the rest…",
+        "chunk_index": 0,
+        "quality_score": 0.766,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 83
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.631,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.4,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "statnews.com"
+      },
+      "recency": {
+        "reason": "future_date",
+        "raw": "Fri, 08 May 2026 15:34:07 +0000",
+        "age_days": -1
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 83,
+        "ttr": 0.831,
+        "gini": 0.045,
+        "wc_score": 0.042
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": null
+  }
+]

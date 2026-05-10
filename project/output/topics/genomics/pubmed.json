@@ -1,0 +1,112 @@
+[
+  {
+    "record_id": "ca513d1aff3ff980",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:59Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41759529/",
+    "source_type": "pubmed",
+    "author": "Cao Z, Yu S, Peng J, Barrett DR, Liu Y, Sussman JH, Chen C, Thadi A, Liu L, Alikarami F, Xu J, Carroll MP, Tan K, Bernt KM, Shi J",
+    "published_date": "2026 Mar 5",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "genomics",
+      "cancer / oncology",
+      "healthcare",
+      "technology"
+    ],
+    "trust_score": 0.862,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Cancer functional genomics enables high-throughput target discovery and mechanistic investigation, yet its application has remained largely confined to mouse models and established human cancer cell lines. Direct functional interrogation of heterogeneous primary tumors offers a powerful opportunity to evaluate therapeutic targets and uncover cancer dependencies or resistance mechanisms. Here, we developed an optimized CRISPR-based platform for functional genomics in patient-derived xenograft and primary acute myeloid leukemia (AML) samples harboring diverse pathogenic mutations. Integrated in vitro and in vivo CRISPR-Cas9 knockout and CRISPR interference (CRISPRi) dropout screens validated known AML-biased targets and identified cis-regulatory elements essential for leukemic growth. Coupling pooled CRISPR perturbations with single-cell RNA sequencing (Perturb-seq) further resolved the perturbation-induced alterations in regulatory networks, cell cycle states, and cellular hierarchies in primary AML samples. Together, these studies establish a general and robust framework for leveraging CRISPR-based functional genomics to directly dissect cancer dependencies and cellular heterogeneity in primary AML patient samples.",
+        "chunk_index": 0,
+        "quality_score": 0.875,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 152
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 1.0,
+      "domain_authority": 0.95,
+      "recency": 0.904,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.574,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.65,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 15
+      },
+      "citation_count": {
+        "citations": 261
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 64,
+        "halflife": 900.0,
+        "published": "2026 Mar 5"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 152,
+        "ttr": 0.75,
+        "gini": 0.162,
+        "wc_score": 0.076
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.8153,
+    "pmid": "41759529",
+    "doi": "10.1016/j.molcel.2026.02.003",
+    "journal": "Molecular cell"
+  }
+]

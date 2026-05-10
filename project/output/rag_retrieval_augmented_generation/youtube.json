@@ -1,0 +1,248 @@
+[
+  {
+    "record_id": "395c45f5017f6039",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:47:19Z",
+    "source_url": "https://www.youtube.com/watch?v=_HQ2H_0Ayy0",
+    "source_type": "youtube",
+    "author": "KodeKloud",
+    "published_date": "2025-08-13",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "RAG / retrieval",
+      "neurology"
+    ],
+    "trust_score": 0.627,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "🧪Try RAG Hands-On Labs for Free - https://kode.wiki/4oANO8s\n\nLearn how RAG (Retrieval Augmented Generation) solves the challenge of connecting AI assistants like ChatGPT to massive document repositories! In this comprehensive video, we'll show you exactly how to make AI search, read, and understand large company documents using vector embeddings and semantic search. Ready to build your own RAG system? Access our FREE interactive labs where you can experiment with real RAG implementations, test different chunking strategies, and see vector databases in action!",
+        "chunk_index": 0,
+        "quality_score": 0.915,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 82
+      },
+      {
+        "text": "RAG system? Access our FREE interactive labs where you can experiment with real RAG implementations, test different chunking strategies, and see vector databases in action! 🧪Try RAG Hands-On Labs for Free - https://kode.wiki/4oANO8s 📚 What You'll Learn: • What is RAG and why it's revolutionary for AI document search • How vector embeddings transform documents into searchable data • The 3-step RAG process: Retrieval, Augmented, Generation • Semantic search vs traditional search methods • Critical chunking strategies for different document types • RAG Demo 🚀Explore Our Top Courses & Special Offers: https://kode.wiki/3CzuOnc ⏱️ Timestamps: 00:00 - Introduction to RAG 00:24 - Why Traditional Search Methods Don't Work 00:55 - The RAG Method Explained 01:54 - Step 1: Retrieval Process 02:25 - Step 2: Augmentation Explained 03:15 - Step 3: Generation Process 03:54 - Strategies for RAG Calibration 05:01 - Practical Lab Demo Introduction 05:27 - Demo - Set up Development Environment 06:10 - Demo - Initialize Vector Database 06:29 - Demo - Chunking Strategy and Embedding 07:19 - Demo - Feed AI Brain 07:50 - Demo - Semantic Search 08:16 - Demo - Launch a Simple Web Interface 09:43 - Conclusion & Free Lab Access 🚨Check out our learning paths at KodeKloud to get started:",
+        "chunk_index": 1,
+        "quality_score": 0.657,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 205
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.955,
+      "domain_authority": 0.62,
+      "recency": 0.569,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.482,
+      "engagement_authenticity": 0.638,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.65,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.6,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.836,
+      "engagement_authenticity": 0.75,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "views": 539362
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "youtube.com"
+      },
+      "recency": {
+        "age_days": 270,
+        "halflife": 365.0,
+        "published": "2025-08-13"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "non_health_content"
+      },
+      "metadata_completeness": {
+        "present": 5,
+        "required": 5,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 262,
+        "ttr": 0.599,
+        "gini": 0.323,
+        "wc_score": 0.131
+      },
+      "engagement_authenticity": {
+        "views": 539362,
+        "likes": 9232,
+        "like_view_ratio": 0.01712,
+        "z_score": -1.085,
+        "manipulation_flags": []
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.019,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.08,
+      "domain_authority": 0.15,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.04,
+      "content_depth": 0.06,
+      "engagement_authenticity": 0.12,
+      "adversarial_risk": 0.07
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.4681,
+    "view_count": 539362,
+    "like_count": 9232,
+    "duration_sec": 609,
+    "has_transcript": false
+  },
+  {
+    "record_id": "b8c31731a1ba9752",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:47:19Z",
+    "source_url": "https://www.youtube.com/watch?v=tLMViADvSNE",
+    "source_type": "youtube",
+    "author": "Cole Medin",
+    "published_date": "2025-11-03",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "RAG / retrieval",
+      "technology"
+    ],
+    "trust_score": 0.551,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "Retrieval Augmented Generation is THE way to give your AI agents the ability to search and leverage your documents and knowledge. But there are a million strategies for RAG out there - how do you know what is ideal for your use case? What even are all of the RAG strategies I can pick from? Should I combine some together? I've got you covered with all of these questions in this video. Beware this is very informationally dense, but it'll get you started thinking about what strategies to apply to your use cases. Also let me know in the comments which RAG strategies you want me to cover more on my channel!",
+        "chunk_index": 0,
+        "quality_score": 0.844,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 112
+      },
+      {
+        "text": "to apply to your use cases. Also let me know in the comments which RAG strategies you want me to cover more on my channel! ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ - If you want to master AI coding assistants and learn how to build systems for reliable and repeatable results, check out the new Agentic Coding Course in Dynamous: https://dynamous.ai/agentic-coding-course - Neon is the Postgres platform I used to showcase real RAG data: check it out here: https://get.neon.com/jR4SxEE - Here is the repo that outlines all the RAG strategies with examples: https://github.com/coleam00/ottomator-agents/tree/main/all-rag-strategies ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 00:00 - Intro: The Importance of RAG 01:08 - RAG Explained in 1 Minute 02:22 - Resources for Each RAG Strategy 02:51 - RAG Strategy #1 - Reranking 03:46 - RAG Strategy #2 - Agentic RAG (includes Hybrid Search) 04:42 - RAG Strategy #3 - Knowledge Graphs 05:33 - RAG Strategy #4 - Contextual Retrieval 06:26 - RAG Strategy #5 - Query Expansion 06:56 - RAG Strategy #6 - Multi-Query RAG 07:22 - RAG Strategy #7 - Context-Aware Chunking 08:20 - RAG Strategy #8 - Late Chunking 09:08 - RAG Strategy #9 - Hierarchical RAG (Using Metadata) 10:15 - RAG Strategy #10 - Self-Reflective RAG 10:51 - RAG Strategy #11 - Fine-tuned Embeddings 12:00 - Final",
+        "chunk_index": 1,
+        "quality_score": 0.445,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 205
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.83,
+      "domain_authority": 0.62,
+      "recency": 0.665,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.459,
+      "engagement_authenticity": 0.977,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.65,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.6,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.871,
+      "engagement_authenticity": 0.75,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "views": 95066
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "youtube.com"
+      },
+      "recency": {
+        "age_days": 188,
+        "halflife": 365.0,
+        "published": "2025-11-03"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "non_health_content"
+      },
+      "metadata_completeness": {
+        "present": 5,
+        "required": 5,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 292,
+        "ttr": 0.562,
+        "gini": 0.365,
+        "wc_score": 0.146
+      },
+      "engagement_authenticity": {
+        "views": 95066,
+        "likes": 4091,
+        "like_view_ratio": 0.04303,
+        "z_score": 0.068,
+        "manipulation_flags": []
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.08,
+      "domain_authority": 0.15,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.04,
+      "content_depth": 0.06,
+      "engagement_authenticity": 0.12,
+      "adversarial_risk": 0.07
+    },
+    "abuse_penalty": 0.8,
+    "abuse_reasons": [
+      "keyword_stuffing:rag:0.192:threshold:0.140"
+    ],
+    "anomaly_flags": [
+      "keyword_stuffing:rag:0.192"
+    ],
+    "prior_used": 0.4813,
+    "view_count": 95066,
+    "like_count": 4091,
+    "duration_sec": 771,
+    "has_transcript": false
+  }
+]

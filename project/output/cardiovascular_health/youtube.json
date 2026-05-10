@@ -1,0 +1,240 @@
+[
+  {
+    "record_id": "ff1edf3024ef9230",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:43:01Z",
+    "source_url": "https://www.youtube.com/watch?v=3_PYnWVoUzM",
+    "source_type": "youtube",
+    "author": "TED-Ed",
+    "published_date": "2017-02-14",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "cardiovascular"
+    ],
+    "trust_score": 0.44,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "View full lesson: http://ed.ted.com/lessons/what-happens-during-a-heart-attack-krishna-sudhir\n\nApproximately seven million people around the world die from heart attacks every year. And cardiovascular disease, which causes heart attacks and other problems like strokes, is the world’s leading killer. So what causes a heart attack? Krishna Sudhir examines the leading causes and treatments of this deadly disease. Lesson by Krishna Sudhir, animation by Chadwick Whitehead.",
+        "chunk_index": 0,
+        "quality_score": 0.9,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 60
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 1.0,
+      "domain_authority": 0.62,
+      "recency": 0.05,
+      "medical_disclaimer_presence": 0.35,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.574,
+      "engagement_authenticity": 0.639,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.65,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.55,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.507,
+      "engagement_authenticity": 0.75,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "views": 8964356
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "youtube.com"
+      },
+      "recency": {
+        "age_days": 3372,
+        "halflife": 365.0,
+        "published": "2017-02-14"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false,
+        "implicit_editorial_review": "partial",
+        "domain": "youtube.com"
+      },
+      "metadata_completeness": {
+        "present": 5,
+        "required": 5,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 60,
+        "ttr": 0.8,
+        "gini": 0.182,
+        "wc_score": 0.03
+      },
+      "engagement_authenticity": {
+        "views": 8964356,
+        "likes": 153825,
+        "like_view_ratio": 0.01716,
+        "z_score": -1.081,
+        "manipulation_flags": []
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.08,
+      "domain_authority": 0.15,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.04,
+      "content_depth": 0.06,
+      "engagement_authenticity": 0.12,
+      "adversarial_risk": 0.07
+    },
+    "abuse_penalty": 0.82,
+    "abuse_reasons": [
+      "outdated_health_content"
+    ],
+    "anomaly_flags": [],
+    "prior_used": 0.4839,
+    "view_count": 8964356,
+    "like_count": 153825,
+    "duration_sec": 294,
+    "has_transcript": false
+  },
+  {
+    "record_id": "30d81cd5930d52bf",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:43:01Z",
+    "source_url": "https://www.youtube.com/watch?v=EATkbpqlxvc",
+    "source_type": "youtube",
+    "author": "khanacademymedicine",
+    "published_date": "2014-10-22",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "cardiovascular",
+      "research"
+    ],
+    "trust_score": 0.377,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "Created by Vishal Punwani. Watch the next lesson: https://www.khanacademy.org/test-prep/nclex-rn/rn-cardiovascular-diseases/rn-coronary-artery-disease/v/risk-factors-for-coronary-artery-disease?utm_source=YT&utm_medium=Desc&utm_campaign=Nclex-rn\n\nMissed the previous lesson? https://www.khanacademy.org/test-prep/nclex-rn/rn-cardiovascular-diseases/hypertension-rn/v/hypertensive-crisis?utm_source=YT&utm_medium=Desc&utm_campaign=Nclex-rn\n\nNCLEX-RN on Khan Academy: A collection of questions from content covered on the NCLEX-RN. These questions are available under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 United States License (available at http://creativecommons.org/licenses/by-nc-sa/3.0/us/). About Khan Academy: Khan Academy offers practice exercises, instructional videos, and a personalized learning dashboard that empower learners to study at their own pace in and outside of the classroom. We tackle math, science, computer programming, history, art history, economics, and more. Our math missions guide learners from kindergarten to calculus using state-of-the-art, adaptive technology that identifies strengths and learning gaps. We've also partnered with institutions like NASA, The Museum of Modern Art, The California Academy of Sciences, and MIT to offer specialized content. For free. For everyone. Forever. #YouCanLearnAnything\n\nSubscribe to Khan Academy’s NCLEX-RN channel: https://www.youtube.com/channel/UCDx5cTeADCvKWgF9x_Qjz3g?sub_confirmation=1\nSubscribe to Khan Academy: https://www.youtube.com/subscription_center?add_user=khanacademy",
+        "chunk_index": 0,
+        "quality_score": 0.727,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 146
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.991,
+      "domain_authority": 0.62,
+      "recency": 0.05,
+      "medical_disclaimer_presence": 0.35,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.583,
+      "engagement_authenticity": 0.319,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.65,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.55,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.703,
+      "engagement_authenticity": 0.75,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "views": 879973
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "youtube.com"
+      },
+      "recency": {
+        "age_days": 4218,
+        "halflife": 365.0,
+        "published": "2014-10-22"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false,
+        "implicit_editorial_review": "partial",
+        "domain": "youtube.com"
+      },
+      "metadata_completeness": {
+        "present": 5,
+        "required": 5,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 146,
+        "ttr": 0.753,
+        "gini": 0.135,
+        "wc_score": 0.073
+      },
+      "engagement_authenticity": {
+        "views": 879973,
+        "likes": 7000,
+        "like_view_ratio": 0.00795,
+        "z_score": -2.042,
+        "manipulation_flags": []
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.08,
+      "domain_authority": 0.15,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.04,
+      "content_depth": 0.06,
+      "engagement_authenticity": 0.12,
+      "adversarial_risk": 0.07
+    },
+    "abuse_penalty": 0.738,
+    "abuse_reasons": [
+      "outdated_health_content",
+      "anomaly:high_link_density"
+    ],
+    "anomaly_flags": [
+      "high_link_density"
+    ],
+    "prior_used": 0.4784,
+    "view_count": 879973,
+    "like_count": 7000,
+    "duration_sec": 819,
+    "has_transcript": false
+  }
+]

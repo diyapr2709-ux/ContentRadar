@@ -1,0 +1,595 @@
+{
+  "meta": {
+    "topic": "nutrition",
+    "generated_at": "2026-05-08T15:08:51",
+    "ingested_at": "2026-05-08T19:08:51Z",
+    "pipeline": "ContentRadar v2",
+    "schema_version": "2.0",
+    "total_records": 4,
+    "avg_trust": 0.754,
+    "trust_tiers": {
+      "AUTHORITATIVE": 2,
+      "CREDIBLE": 2
+    },
+    "sources": {
+      "pubmed": 1,
+      "blog": 3
+    },
+    "sorted_by": "trust_score_desc"
+  },
+  "records": [
+    {
+      "record_id": "ab6fa22c3a0c67d6",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:51Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35959711/",
+      "source_type": "pubmed",
+      "author": "Koeder C, Perez-Cueto FJA",
+      "published_date": "2024",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "general"
+      ],
+      "trust_score": 0.811,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Since the beginning of the 21st century, interest in vegan diets has been rapidly increasing in most countries. Misconceptions about vegan diets are widespread among the general population and health professionals. Vegan diets can be health-promoting and may offer certain important advantages compared to typical Western (and other mainstream) eating patterns. However, adequate dietary sources/supplements of nutrients of focus specific to vegan diets should be identified and communicated. Without supplements/fortified foods, severe vitamin B12 deficiency may occur. Other potential nutrients of focus are calcium, vitamin D, iodine, omega-3 fatty acids, iron, zinc, selenium, vitamin A, and protein. Ensuring adequate nutrient status is particularly important during pregnancy, lactation, infancy, and childhood. Health professionals are often expected to be able to provide advice on the topic of vegan nutrition, but a precise and practical vegan nutrition guide for health professionals is lacking. Consequently, it is important and urgent to provide such a set of dietary recommendations.",
+          "chunk_index": 0,
+          "quality_score": 0.844,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 154
+        },
+        {
+          "text": "precise and practical vegan nutrition guide for health professionals is lacking. Consequently, it is important and urgent to provide such a set of dietary recommendations. It is the aim of this article to provide vegan nutrition guidelines, based on current evidence, which can easily be communicated to vegan patients/clients, with the goal of ensuring adequate nutrient status in vegans.",
+          "chunk_index": 1,
+          "quality_score": 0.69,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 59
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.491,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.502,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 2
+        },
+        "citation_count": {
+          "citations": 233
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 858,
+          "halflife": 900.0,
+          "published": "2024"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 188,
+          "ttr": 0.638,
+          "gini": 0.271,
+          "wc_score": 0.094
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.005,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8126,
+      "pmid": "35959711",
+      "doi": "10.1080/10408398.2022.2107997",
+      "journal": "Critical reviews in food science and nutrition"
+    },
+    {
+      "record_id": "a45639ce69671314",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:51Z",
+      "source_url": "https://www.sciencedaily.com/releases/2026/05/260506225551.htm",
+      "source_type": "blog",
+      "author": "ScienceDaily",
+      "published_date": "Thu, 07 May 2026 22:07:42 EDT",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "research",
+        "cancer / oncology",
+        "healthcare",
+        "neurology",
+        "genomics"
+      ],
+      "trust_score": 0.786,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Science News\n\nfrom research organizations\n\nDoctors warn this popular vitamin may quietly disrupt cancer care\n\nDate:\n\nMay 7, 2026\n\nSource:\n\nOhio State University Wexner Medical Center\n\nSummary:\n\nMany cancer patients turn to biotin supplements hoping to restore hair lost during treatment, but experts warn the popular vitamin may do more harm than good. While biotin is often marketed for stronger hair and nails, thereâs little evidence it actually helps cancer-related hair lossâand it can dangerously interfere with lab tests. Doctors say the supplement can distort key blood markers, potentially masking cancer recurrence or delaying treatment decisions. Share:\n\nFacebook\n\nTwitter\n\nPinterest\n\nLinkedIN\n\nEmail\n\nFULL STORY\n\nHair loss is one of the most upsetting side effects of cancer treatment, and many patients look for ways to bring their hair back. One option that has gained popularity is biotin, a vitamin commonly promoted for stronger hair and nails. But experts say the benefits are uncertain, and the risks may be overlooked. There is little scientific evidence that oral biotin helps hair or nail growth in people undergoing or recovering from cancer treatment.",
+          "chunk_index": 0,
+          "quality_score": 0.855,
+          "has_overlap": false,
+          "total_chunks": 9,
+          "word_count": 179
+        },
+        {
+          "text": "risks may be overlooked. There is little scientific evidence that oral biotin helps hair or nail growth in people undergoing or recovering from cancer treatment. More concerning, it may interfere with medical testing, according to Brittany Dulmage, MD, an oncodermatologist at The Ohio State University Comprehensive Cancer Center -- Arthur G. James Cancer Hospital and Richard J. Solove Research Institute. Biotin, also known as vitamin B7, helps the body produce proteins such as keratin, which supports hair, skin and nails. However, true biotin deficiency is uncommon because the vitamin is widely found in foods like fruits, vegetables, meats, eggs and dairy products. \"People have the misconception that biotin supplements are harmless and there's no reason not to take them. The reality is that the supplements may cause inaccurate lab results, resulting in a delay or change in patients' treatment plans,\" she said. Dulmage also serves as associate director of dermatology at The Ohio State University College of Medicine and leads the Oncodermatology Clinic, where patients receive care for hair, skin and nail side effects caused by treatments such as chemotherapy, immunotherapy or targeted therapy.",
+          "chunk_index": 1,
+          "quality_score": 0.875,
+          "has_overlap": true,
+          "total_chunks": 9,
+          "word_count": 184
+        },
+        {
+          "text": "leads the Oncodermatology Clinic, where patients receive care for hair, skin and nail side effects caused by treatments such as chemotherapy, immunotherapy or targeted therapy. \"More than half the patients who come to see me with a problem related to hair loss are on a supplement that they've started on their own after learning about it online, by word of mouth and sometimes even at the advice of their doctor,\" she said. To highlight these concerns, Dulmage authored a paper in\n\nJCO Oncology Practice\n\nurging oncologists to discuss hair loss openly with patients and explain how biotin could affect test results. How Biotin Can Distort Cancer Lab Results\n\nBiotin can interfere with certain blood tests used to monitor cancers, including prostate, thyroid, ovarian and breast cancers. Some of these tests rely on chemical reactions that involve biotin, so taking supplements can cause results to appear higher or lower than they truly are. \"Biotin does not actually change the levels of hormones in the body, but it interferes with the way those levels could be checked when blood work is done,\" she said.",
+          "chunk_index": 2,
+          "quality_score": 0.871,
+          "has_overlap": true,
+          "total_chunks": 9,
+          "word_count": 182
+        },
+        {
+          "text": "the levels of hormones in the body, but it interferes with the way those levels could be checked when blood work is done,\" she said. \"For some of the hormones such as prostate specific antigen, PSA, or thyroid stimulating hormone, TSH, it may falsely suppress or lower those levels, potentially masking cancer recurrence in cancer survivors. For reproductive hormones including estrogen and testosterone, it may falsely elevate levels, resulting in delayed therapy.\"\n\nA Patient's Experience With Biotin and Lab Results\n\nAnna Malagoli of Columbus, like many cancer patients, worried about losing her hair during breast cancer treatment. \"Your hair is very much a part of you. One of the first things you ask is 'Am I going to lose my hair?' It's such an important thing for people -- not everybody looks good with no hair,\" she said. After her cancer went into remission, she wanted to restore her long curly hair and began taking biotin supplements after reading about them online. \"The amount of information on the Internet can lead you in different directions. I was taking so much biotin it's not even funny,\" she said.",
+          "chunk_index": 3,
+          "quality_score": 0.85,
+          "has_overlap": true,
+          "total_chunks": 9,
+          "word_count": 187
+        },
+        {
+          "text": "\"The amount of information on the Internet can lead you in different directions. I was taking so much biotin it's not even funny,\" she said. \"Nobody mentioned one word that biotin vitamins or minerals or supplements could interfere with your treatment or your testing.\"\n\nInconsistent Test Results Raise Concerns\n\nMalagoli only became aware of the issue during a visit with Dulmage. Looking back, she said the explanation fit her experience. \"My lab results were inconsistent. They just didn't balance out with what I was feeling so that was a red flag. I think it had to do with the supplements I was taking,\" she said. For patients who choose to keep using biotin, Dulmage advises stopping it at least 72 hours before scheduled blood tests. \"The challenge is that not all blood work is planned so you may not be able to hold your biotin. Biotin can also impact the levels of troponin, which is a marker of whether or not someone is having a heart attack,\" she said. \"Obviously, you're not planning to have a heart attack so you can't hold biotin before troponin levels are checked.",
+          "chunk_index": 4,
+          "quality_score": 0.84,
+          "has_overlap": true,
+          "total_chunks": 9,
+          "word_count": 188
+        },
+        {
+          "text": "having a heart attack,\" she said. \"Obviously, you're not planning to have a heart attack so you can't hold biotin before troponin levels are checked. This is why I recommend to patients -- think about not taking it at all, especially since very few people are biotin deficient.\"\n\nSafer Options for Hair Loss During Cancer Treatment\n\nInstead of biotin, Dulmage suggests using minoxidil to address hair loss. This treatment is FDA approved, widely available over the counter, and comes in topical forms such as lotions and foams. It is considered safe and effective for most people, though it is not recommended during pregnancy or breastfeeding. \"If you have been trying minoxidil for several months and not seeing any improvement or want to know about other options, see a dermatologist. There are many other types of treatments that may be an option,\" she said. Malagoli has tried both approaches and found that minoxidil worked better for her. \"I don't know if my body just doesn't assimilate the supplements as well, but minoxidil is definitely more effective long-term,\" she said.",
+          "chunk_index": 5,
+          "quality_score": 0.868,
+          "has_overlap": true,
+          "total_chunks": 9,
+          "word_count": 178
+        },
+        {
+          "text": "better for her. \"I don't know if my body just doesn't assimilate the supplements as well, but minoxidil is definitely more effective long-term,\" she said. \"I would say it's super important to listen to your doctors and not just do your thing.\"\n\nRELATED TOPICS\n\nHealth & Medicine\n\nPersonalized Medicine\n\nBreast Cancer\n\nFertility\n\nDiseases and Conditions\n\nThyroid Disease\n\nHeart Disease\n\nHormone Disorders\n\nProstate Cancer\n\nRELATED TERMS\n\nCancer\n\nVitamin E\n\nAllele\n\nLimbic system\n\nHeadache\n\nGeneral fitness training\n\nBlood transfusion\n\nVitamin A\n\nStory Source:\n\nMaterials provided by\n\nOhio State University Wexner Medical Center\n\n. Note: Content may be edited for style and length. Journal Reference\n\n:\n\nLayna Mager, Olivia Ueltschi, Lucy Rose, Brittany Dulmage. Biotin Supplements for Hair and Nail Regrowth: A Caution for Oncologists\n\n. JCO Oncology Practice\n\n, 2025; DOI:\n\n10.1200/OP-25-00693\n\nCite This Page\n\n:\n\nMLA\n\nAPA\n\nChicago\n\nOhio State University Wexner Medical Center. \"Doctors warn this popular vitamin may quietly disrupt cancer care.\" ScienceDaily. ScienceDaily, 7 May 2026. <www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225551.htm>. Ohio State University Wexner Medical Center. (2026, May 7). Doctors warn this popular vitamin may quietly disrupt cancer care. ScienceDaily\n\n.",
+          "chunk_index": 6,
+          "quality_score": 0.867,
+          "has_overlap": true,
+          "total_chunks": 9,
+          "word_count": 188
+        },
+        {
+          "text": "/ 05 / 260506225551.htm>. Ohio State University Wexner Medical Center. (2026, May 7). Doctors warn this popular vitamin may quietly disrupt cancer care. ScienceDaily . Retrieved May 8, 2026 from www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225551.htm\n\nOhio State University Wexner Medical Center. \"Doctors warn this popular vitamin may quietly disrupt cancer care.\" ScienceDaily. www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225551.htm (accessed May 8, 2026). Explore More\n\nfrom ScienceDaily\n\nRELATED STORIES\n\nThis Missing Vitamin Could Stop Cancer Cells in Their Tracks\n\nApr. 20, 2026 Â\n\nCancer cells are known for their âglutamine addiction,â but many can escape this weakness by switching to alternative fuels. Researchers found that vitamin B7 acts like a metabolic âlicense,â ... The Vitamin D Mistake Weakening Your Immunity\n\nOct. 4, 2025 Â\n\nScientists discovered that vitamin D2 supplements can lower levels of vitamin D3, the form the body uses most effectively. Unlike D2, vitamin D3 enhances the immune systemâs first line of defense ... Taking Vitamin D Could Help Prevent Dementia\n\nMar. 1, 2023 Â\n\nTaking vitamin D supplements may help ward off dementia, according to a new, large-scale study. Researchers explored the relationship between vitamin D supplementation and dementia in more than ...",
+          "chunk_index": 7,
+          "quality_score": 0.609,
+          "has_overlap": true,
+          "total_chunks": 9,
+          "word_count": 202
+        },
+        {
+          "text": "may help ward off dementia, according to a new, large-scale study. Researchers explored the relationship between vitamin D supplementation and dementia in more than ... Babies Remember Faces Despite Face Masks, Study Suggests\n\nFeb. 1, 2023 Â\n\nBabies learn from looking at human faces, leading many parents and childhood experts to worry about possible developmental harm from widespread face-masking during the pandemic. A new study allays ... Maintaining Masking Requirements at Boston Public Schools Protected Students, Staff, Study Finds\n\nNov. 10, 2022 Â\n\nThe lifting of masking requirements in school districts outside of Boston in February 2022 was associated with an additional 44.9 COVID-19 cases per 1,000 students and staff in the 15 weeks after the ... Researchers Discover a Dependency of Glioblastoma on Biotin Distribution\n\nSep. 15, 2021 Â\n\nResearchers have discovered that the FDA-approved anti-fungal drug, sulconazole, exhibits anti-cancer properties towards glioblastoma cells. An in-depth investigation of this compound revealed that ... TRENDING AT\n\nSCITECHDAILY.com\n\nPhysicists Propose Strange Experiment Where Time Goes Quantum\n\nMagnesium Magic: New Drug Melts Fat Even on a High-Fat, High-Sugar Diet\n\nWeight-Loss Drugs Like Ozempic May Come With an Unexpected Cost\n\nMezcal âWormâ in a Bottle Mystery: DNA Testing Reveals a Surprise",
+          "chunk_index": 8,
+          "quality_score": 0.736,
+          "has_overlap": true,
+          "total_chunks": 9,
+          "word_count": 198
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.35,
+        "domain_authority": 0.95,
+        "recency": 0.95,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.614,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": true
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "sciencedaily.com"
+        },
+        "recency": {
+          "age_days": 0,
+          "halflife": 90.0,
+          "published": "Thu, 07 May 2026 22:07:42 EDT"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 1486,
+          "ttr": 0.485,
+          "gini": 0.344,
+          "wc_score": 0.743
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.032,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.782
+    },
+    {
+      "record_id": "af9b799b66d725d9",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:51Z",
+      "source_url": "https://www.statnews.com/2026/05/08/fda-commissioner-marty-makary-exit-controversial-tenure/",
+      "source_type": "blog",
+      "author": "Lizzy Lawrence",
+      "published_date": "Fri, 08 May 2026 18:57:50 +0000",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "healthcare"
+      ],
+      "trust_score": 0.717,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "President Trump has\n\nreportedly\n\nsigned off on a plan to dismiss Food and Drug Administration Commissioner Marty Makary. It would be the latest high-profile departure to hit Robert F. Kennedy Jr.’s health department. Makary has served in the role for a little over a year. His tenure was ambitious, filled with the announcements of dozens of new initiatives, including efforts to shorten drug review timelines, crack down on misleading ads, and pressure the food industry to remove chemical dyes. Read the rest…",
+          "chunk_index": 0,
+          "quality_score": 0.759,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 82
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.35,
+        "domain_authority": 0.95,
+        "recency": 0.3,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.625,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.92,
+        "recency": 0.3,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.4,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": true
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "statnews.com"
+        },
+        "recency": {
+          "reason": "future_date",
+          "raw": "Fri, 08 May 2026 18:57:50 +0000",
+          "age_days": -1
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 82,
+          "ttr": 0.817,
+          "gini": 0.046,
+          "wc_score": 0.041
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.7897
+    },
+    {
+      "record_id": "7f34f33c5448b16c",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:51Z",
+      "source_url": "https://www.healthline.com/health-news/ultra-processed-foods-heart-disease-healthy-swaps",
+      "source_type": "blog",
+      "author": "Healthline Editorial",
+      "published_date": "Unknown",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "healthcare",
+        "cardiovascular",
+        "research",
+        "diabetes",
+        "obesity"
+      ],
+      "trust_score": 0.704,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "European scientists are advocating for more education on the health harms of ultra-processed foods. Trinette Reed/Stocksy\n\nEuropean scientists say ultra-processed foods increase the risks of a variety of health ailments, particularly heart disease. They recommend that medical professionals discuss the health dangers of ultra-processed foods with their patients. Experts agree that doctors should advise their patients on how to identify ultra-processed foods and reduce them in their daily diets. European scientists say that medical professionals aren’t doing enough to warn the public about the health dangers of\n\nultra-processed foods\n\n. The scientists are urging doctors to talk with their patients about the amount of ultra-processed foods they eat and how to reduce them in their daily diets. They said those discussions should include an explanation that many foods marketed as “healthier” are often ultra-processed. The scientists said this guidance is particularly important for people at risk for heart disease. They further noted that most dietary guidelines prioritize nutrient-centered recommendations but don’t address food processing.",
+          "chunk_index": 0,
+          "quality_score": 0.787,
+          "has_overlap": false,
+          "total_chunks": 10,
+          "word_count": 164
+        },
+        {
+          "text": "is particularly important for people at risk for heart disease. They further noted that most dietary guidelines prioritize nutrient-centered recommendations but don’t address food processing. The scientists recommended that medical professionals promote better public understanding of\n\nfood labeling\n\n, food regulation, and updated guidelines. They reached their conclusions by reviewing all published research on ultra-processed foods and cardiovascular health. The findings were published in a\n\nclinical consensus statement\n\nin the European Heart Journal on May 6. The scientists are from the\n\nEuropean Society of Cardiology’s Council for Cardiology Practice\n\nand the\n\nEuropean Association of Preventive Cardiology\n\n, along with a group of topic experts. “[Ultra-processed foods], made from industrial ingredients and additives, have largely replaced traditional diets,”\n\nLuigina Guasti\n\n, MD, an associate professor at the University of Insubria in Italy and a co-author of the statement, said in a\n\npress release\n\n. “Research suggests these foods are linked to several risk factors for cardiovascular disease, such as\n\nobesity\n\n, diabetes, and high blood pressure, and to the risk of developing and dying from\n\nheart disease\n\n. However, this evidence has not yet made its way into the advice we give to patients on healthy eating,” Guasti continued.",
+          "chunk_index": 1,
+          "quality_score": 0.848,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 198
+        },
+        {
+          "text": "from heart disease . However, this evidence has not yet made its way into the advice we give to patients on healthy eating,” Guasti continued. Health dangers of ultra-processed foods\n\nUltra-processed foods\n\nare foods that have been altered from their original form and contain additives such as sugar and salt, as well as substances that aren’t typically used in culinary preparations. Those additional substances add flavor and texture to foods but can also increase the risk of several diseases. A\n\n2023 research review and analysis\n\nreported that there are associations between ultra-processed foods and an increased risk of several diseases. These include:\n\nhypertension\n\ndiabetes\n\nobesity\n\ndyslipidemia\n\nA\n\n2025 study\n\nconcluded that ultra-processed foods are tied to more than 120,000 preventable deaths in the United States every year. Recent\n\nresearch\n\nhas also linked ultra-processed foods to worse muscle health, weakened bones, and fertility issues in females. Further, research has linked ultra-processed foods to an increased risk of\n\ncancer mortality\n\nas well as a higher risk of\n\ncognitive decline\n\n.",
+          "chunk_index": 2,
+          "quality_score": 0.83,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 168
+        },
+        {
+          "text": "in females. Further, research has linked ultra-processed foods to an increased risk of cancer mortality as well as a higher risk of cognitive decline . The European scientists reported that adults with a high consumption of ultra-processed foods have a 19% higher risk of\n\ncoronary artery disease\n\n, a 13% higher risk of\n\natrial fibrillation (AFib)\n\n, and as much as a 65% higher risk of cardiovascular-related death compared with adults with a lower consumption of ultra-processed foods. They added that ultra-processed foods also worsen key risk factors for conditions such as obesity,\n\ntype 2 diabetes\n\n, high blood pressure, and the buildup of unhealthy fats in the bloodstream. They reported that the risk from ultra-processed foods seems to be consistent across large, diverse populations. Cheng-Han Chen\n\n, MD, an interventional cardiologist and medical director of the Structural Heart Program at MemorialCare Saddleback Medical Center in Laguna Hills, CA, wasn’t involved in the study, but agreed with the scientists’ recommendations. “This review of the current evidence regarding the health effects of ultra-processed foods makes it clear that consumption of ultra-processed foods is associated with increased risk of cardiovascular disease,” Chen told Healthline.",
+          "chunk_index": 3,
+          "quality_score": 0.802,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 192
+        },
+        {
+          "text": "the health effects of ultra-processed foods makes it clear that consumption of ultra-processed foods is associated with increased risk of cardiovascular disease,” Chen told Healthline. “We need to better educate the public on the risks of these foods and on the need to prioritize eating whole foods.”\n\nJennifer Wong\n\n, MD, a cardiologist and medical director of Non-Invasive Cardiology at MemorialCare Heart and Vascular Institute at Orange Coast Medical Center in Fountain Valley, CA, echoed this sentiment. Wong wasn’t involved in the study. “This [paper] highlights an important and increasingly relevant issue — the impact of ultra-processed foods on cardiovascular health,” she told Healthline. “Bringing attention to this topic is critical given how prevalent these foods are in modern diets.”\n\nHow ultra-processed foods affect the body\n\nConsuming ultra-processed foods may harm the body in several ways. “We think that ultra-processed foods increase risk of cardiovascular disease through many mechanisms,” Chen said.",
+          "chunk_index": 4,
+          "quality_score": 0.628,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 151
+        },
+        {
+          "text": "Consuming ultra-processed foods may harm the body in several ways. “We think that ultra-processed foods increase risk of cardiovascular disease through many mechanisms,” Chen said. “[These foods] are typically\n\nhigh in added sugars\n\n,\n\nunhealthy fats\n\n, and\n\nsodium\n\n, all of which lead to increased inflammation and increased risk of many cardiovascular risk factors such as high blood pressure,\n\nhigh cholesterol\n\n, and diabetes.”\n\n“These foods also seem to disrupt our natural gut bacteria, further worsening\n\nsystemic inflammation\n\n,” Chen added. “Also, increased intake of [ultra-processed foods] leads to less intake of heart-healthy foods such as fruits, vegetables, and whole grains.”\n\nAmit Khera\n\n, MD, director of preventive cardiology at UT Southwestern Medical Center, lists other ways ultra-processed food consumption contributes to health issues:\n\nmay lead to excess calorie intake\n\nmay contain high levels of saturated fat, added sugars, or sodium\n\nmay trigger the brain to stay hungry even after eating\n\nmay cause potential disruptions to blood sugar levels\n\n“Most [ultra-processed foods] are foods with poor nutritional quality, contributing to excessive calories, and are typically\n\nhigh in saturated fats\n\n, added sugars, and sodium,” Khera told Healthline.",
+          "chunk_index": 5,
+          "quality_score": 0.819,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 188
+        },
+        {
+          "text": "are foods with poor nutritional quality, contributing to excessive calories, and are typically high in saturated fats , added sugars, and sodium,” Khera told Healthline. Ultra-processed food consumption is widespread\n\nA\n\nFebruary review\n\nstated that ultra-processed foods may be as addictive as tobacco. The European scientists reported that\n\nconsumption of ultra-processed foods\n\nis increasing across Europe. They noted that the percentage of calories from ultra-processed foods ranges from 61% in the Netherlands to 57% in the United Kingdom, 25% in Spain, 22% in Portugal, and 18% in Italy. It’s estimated that\n\nover 50%\n\nof the adult diet in the United States comes from ultra-processed foods. A\n\n2025 review\n\non the rise of ultra-processed foods notes that the increase in consumption may be attributed to their convenience, lower cost, longer shelf life, and aggressive marketing. An\n\nexecutive summary\n\nof a three-paper series on ultra-processed foods notes that societal changes are needed to reverse these trends. “This rise in ultra-processed foods is driven by powerful global corporations who employ sophisticated political tactics to protect and maximize profits,” the authors wrote. “Education and relying on behavior change by individuals is insufficient.",
+          "chunk_index": 6,
+          "quality_score": 0.819,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 188
+        },
+        {
+          "text": "global corporations who employ sophisticated political tactics to protect and maximize profits,” the authors wrote. “Education and relying on behavior change by individuals is insufficient. Deteriorating diets are an urgent public health threat that requires coordinated policies and advocacy to regulate and reduce ultra-processed foods and improve access to fresh and minimally processed foods.”\n\nChristopher Gardner\n\n, PhD, a professor at Stanford Medicine, said the uncertainty about exactly what an ultra-processed food is can also add to the challenges. Gardner wasn’t involved in these studies. “If it were easy to point out exactly what an ultra-processed food was, that is different than junk food, or unhealthy food, it could be helpful,” Gardner told Healthline. “But the overlap is significant. And there are hundreds of cosmetic additives to be on the lookout for. And we don’t actually have great data or great science on each and every one of the cosmetic additives.”\n\nReducing your intake of ultra-processed foods\n\nEating fewer ultra-processed foods may start with better knowledge of unhealthy foods. “The first step is for people to better understand the types of foods they eat and which foods in their diet would be considered ultra-processed,” Chen said.",
+          "chunk_index": 7,
+          "quality_score": 0.852,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 196
+        },
+        {
+          "text": "step is for people to better understand the types of foods they eat and which foods in their diet would be considered ultra-processed,” Chen said. “They can then better replace those types of foods with healthier alternatives such as fruits and vegetables.”\n\nWong agreed. “Clear and informative food labeling can improve public awareness and help individuals make healthier dietary choices,” she said. “Individuals can reduce intake by reading ingredient labels carefully, choosing minimally processed or whole-food alternatives, and preparing meals at home using fresh, healthy ingredients.”\n\nKhera, who is also volunteer vice-chair of the\n\nAmerican Heart Association’s 2026 dietary guidance\n\nwriting committee, has a checklist for people to reduce consumption of ultra-processed foods. His advice includes:\n\nPrepare more foods at home. Be deliberate in food purchases at the grocery store. Make smart choices when ordering out. Snack smarter. Khera added that some “simple swaps” can also help. “Make your own simple vinaigrette instead of buying bottled salad dressing,” he said. “Add fruit to plain\n\noatmeal\n\n, cereal, and\n\nyogurt\n\ninstead of buying the sweetened or flavored kind.",
+          "chunk_index": 8,
+          "quality_score": 0.884,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 177
+        },
+        {
+          "text": "instead of buying bottled salad dressing,” he said. “Add fruit to plain oatmeal , cereal, and yogurt instead of buying the sweetened or flavored kind. Slice up leftover roasted chicken or make a light tuna salad for sandwiches instead of using processed deli meat.”\n\nGardner agreed that focusing on foods that we know are healthy is a simple way to eat more healthy. “Shift the approach to consuming more unprocessed or minimally processed foods,” he said. “Whole foods: Veggies, fruits, legumes, nuts, seeds, [and] whole grains. Those are easier to define. Eat more of the good foods and, hopefully, by the time you have eaten those, you will be full and satiated and no longer in the mood for eating the junk, unhealthy, ultra-processed foods.”",
+          "chunk_index": 9,
+          "quality_score": 0.726,
+          "has_overlap": true,
+          "total_chunks": 10,
+          "word_count": 125
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.35,
+        "domain_authority": 0.95,
+        "recency": 0.3,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.592,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.92,
+        "recency": 0.3,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": true
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "healthline.com"
+        },
+        "recency": {
+          "reason": "missing_date",
+          "raw": "Unknown"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 1522,
+          "ttr": 0.432,
+          "gini": 0.363,
+          "wc_score": 0.761
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.018,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.7389
+    }
+  ]
+}

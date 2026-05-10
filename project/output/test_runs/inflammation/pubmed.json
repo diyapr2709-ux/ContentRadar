@@ -1,0 +1,120 @@
+[
+  {
+    "record_id": "9d60c2f7a720e75c",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T23:37:40Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/40406124/",
+    "source_type": "pubmed",
+    "author": "Hollis R, Tenet M, Aziz M, Wang P",
+    "published_date": "2025",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "public health",
+      "healthcare",
+      "genomics",
+      "mental health"
+    ],
+    "trust_score": 0.712,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "Shock, affecting a third of intensive care patients, remains a highly fatal condition despite advances in critical care, irrespective of its etiology. Cellular injury, central to shock pathophysiology, triggers the release of damage-associated molecular patterns (DAMPs), such as extracellular cold-inducible RNA-binding protein (eCIRP), high-mobility group box 1 (HMGB1), histones 3 and 4, and adenosine triphosphate (ATP). These molecules are confined within cells under normal conditions and perform essential physiological functions. However, upon their extracellular release during cellular injury, they act as alarmins, engaging pattern recognition receptors (PRRs) on immune cells. This interaction triggers a robust inflammatory response, propagating systemic inflammation and exacerbating tissue damage. Excessive DAMP-mediated inflammation is increasingly recognized as a major contributor to morbidity and mortality in a wide range of critical illnesses, including trauma, hemorrhagic shock, sepsis, and organ ischemia/reperfusion (I/R) injury. These pathologies are characterized by uncontrolled inflammatory cascades driven by the deleterious effects of DAMPs, underscoring the urgent need for targeted therapeutic interventions.",
+        "chunk_index": 0,
+        "quality_score": 0.902,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 158
+      },
+      {
+        "text": "(I/R) injury. These pathologies are characterized by uncontrolled inflammatory cascades driven by the deleterious effects of DAMPs, underscoring the urgent need for targeted therapeutic interventions. This review explores the pivotal role of DAMPs in the pathogenesis of acute inflammation and shock, highlighting cutting-edge therapeutic strategies aimed at mitigating their effects. Emerging approaches include monoclonal antibodies, decoy receptors, small molecule inhibitors, and scavengers designed to neutralize or inhibit DAMP activity. The discussion also delves into the potential clinical applications of these interventions, offering insights into how targeting DAMPs could transform the management of shock and improve patient outcomes.",
+        "chunk_index": 1,
+        "quality_score": 0.912,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 97
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.55,
+      "domain_authority": 0.95,
+      "recency": 0.649,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.615,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.799,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 4
+      },
+      "citation_count": {
+        "citations": 110
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 494,
+        "halflife": 900.0,
+        "published": "2025"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 230,
+        "ttr": 0.765,
+        "gini": 0.084,
+        "wc_score": 0.115
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7303,
+    "pmid": "40406124",
+    "doi": "10.3389/fimmu.2025.1579954",
+    "journal": "Frontiers in immunology"
+  }
+]

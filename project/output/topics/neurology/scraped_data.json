@@ -1,0 +1,572 @@
+{
+  "meta": {
+    "topic": "neurology",
+    "generated_at": "2026-05-08T15:08:55",
+    "ingested_at": "2026-05-08T19:08:55Z",
+    "pipeline": "ContentRadar v2",
+    "schema_version": "2.0",
+    "total_records": 4,
+    "avg_trust": 0.756,
+    "trust_tiers": {
+      "AUTHORITATIVE": 2,
+      "CREDIBLE": 2
+    },
+    "sources": {
+      "pubmed": 1,
+      "blog": 3
+    },
+    "sorted_by": "trust_score_desc"
+  },
+  "records": [
+    {
+      "record_id": "f05e1194ee9bc1ba",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:55Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40536983/",
+      "source_type": "pubmed",
+      "author": "Shi FD, Yong VW",
+      "published_date": "2025 Jun 19",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "neurology",
+        "cardiovascular"
+      ],
+      "trust_score": 0.849,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "The brain's response to injury includes the activation of intrinsic microglia and the influx of leukocytes, collectively constituting neuroinflammation, the \"flame\" of the brain. Although details differ and matter, neuroinflammation exacerbating neurodegeneration has similarities across multiple sclerosis and other neurological disorders, such as stroke and neurodegenerative diseases. Thus, lessons from successful disease-modifying therapies in multiple sclerosis may provide insights into strategies for modulating neuroinflammation and reducing neural injury in other neurological conditions. In this Review, we discuss these lessons and potential strategies for counteracting neuroinflammation, including taming the microglia-orchestrated brain immune responses that contribute to progressing neuropathology.",
+          "chunk_index": 0,
+          "quality_score": 0.871,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 97
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.741,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.575,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.4,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 2
+        },
+        "citation_count": {
+          "citations": 247
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 323,
+          "halflife": 900.0,
+          "published": "2025 Jun 19"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 97,
+          "ttr": 0.742,
+          "gini": 0.121,
+          "wc_score": 0.049
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8125,
+      "pmid": "40536983",
+      "doi": "10.1126/science.adx0043",
+      "journal": "Science (New York, N.Y.)"
+    },
+    {
+      "record_id": "ef0ac540f7d518af",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:55Z",
+      "source_url": "https://www.sciencedaily.com/releases/2026/05/260506225214.htm",
+      "source_type": "blog",
+      "author": "ScienceDaily",
+      "published_date": "Thu, 07 May 2026 18:22:41 EDT",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "research",
+        "neurology",
+        "mental health",
+        "public health",
+        "obesity"
+      ],
+      "trust_score": 0.782,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Science News\n\nfrom research organizations\n\nEating eggs could cut Alzheimerâs risk by 27%\n\nA simple habit like eating eggs could be quietly helping protect your brain from Alzheimerâs. Date:\n\nMay 7, 2026\n\nSource:\n\nLoma Linda University Adventist Health Sciences Center\n\nSummary:\n\nEating eggs might do more than just start your dayâit could help protect your brain. Researchers found that people 65 and older who eat eggs regularly have a significantly lower risk of developing Alzheimerâs disease, with daily or near-daily consumption linked to up to a 27% reduction. Even modest egg intake showed benefits, suggesting that small dietary changes could make a meaningful difference over time. Share:\n\nFacebook\n\nTwitter\n\nPinterest\n\nLinkedIN\n\nEmail\n\nFULL STORY\n\nResearchers at Loma Linda University Health report that eating eggs may be linked to a lower risk of developing Alzheimer's disease in adults age 65 and older. Their findings suggest that regular egg consumption could play a role in supporting long-term brain health.",
+          "chunk_index": 0,
+          "quality_score": 0.854,
+          "has_overlap": false,
+          "total_chunks": 8,
+          "word_count": 157
+        },
+        {
+          "text": "developing Alzheimer's disease in adults age 65 and older. Their findings suggest that regular egg consumption could play a role in supporting long-term brain health. The study found that people who ate at least one egg per day for five or more days each week had up to a 27% lower risk of being diagnosed with Alzheimer's disease. \"Compared to never eating eggs, eating at least five eggs per week can decrease risk of Alzheimer's,\" said Joan Sabaté, MD, DrPH, a professor at Loma Linda University School of Public Health and the study's principal investigator. Even smaller amounts of egg consumption were associated with benefits. Eating eggs just 1 to 3 times per month was linked to a 17% reduction in risk, while those who ate eggs 2 to 4 times per week saw about a 20% lower risk, Sabaté said. The research, titled Egg intake and the incidence of Alzheimer's disease in the Adventist Health Study-2 cohort linked with Medicare data, was published in the\n\nJournal of Nutrition\n\n. Scientists conducted the study to better understand how diet, a factor people can change, might influence the likelihood of developing Alzheimer's disease.",
+          "chunk_index": 1,
+          "quality_score": 0.826,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 192
+        },
+        {
+          "text": "of Nutrition . Scientists conducted the study to better understand how diet, a factor people can change, might influence the likelihood of developing Alzheimer's disease. Nutrients in Eggs May Support Brain Health\n\nEggs contain several nutrients that are important for the brain, Sabaté said. They are a rich source of choline, which the body uses to produce compounds such as acetylcholine and phosphatidylcholine that are essential for memory and communication between brain cells. Eggs also provide lutein and zeaxanthin, which are carotenoids that build up in brain tissue and have been linked to better cognitive performance and lower levels of oxidative stress. In addition, eggs contain omega-3 fatty acids, and the yolk is especially high in phospholipids, making up nearly 30% of total egg lipids. These compounds play a key role in how neurotransmitter receptors function. Large Study Tracks Egg Intake and Alzheimer's Diagnoses\n\nTo assess egg consumption, researchers considered both direct and indirect sources. This included eggs eaten on their own in forms such as scrambled, fried, or boiled, as well as eggs found in foods like baked goods and packaged products. The study followed about 40,000 participants in the Adventist Health Study 2 cohort.",
+          "chunk_index": 2,
+          "quality_score": 0.844,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 196
+        },
+        {
+          "text": "well as eggs found in foods like baked goods and packaged products. The study followed about 40,000 participants in the Adventist Health Study 2 cohort. Alzheimer's cases were identified through physician diagnoses recorded in Medicare data. Eligibility was determined using the Medicare Master Beneficiary Summary Files, and participants were followed for an average of 15.3 years. Balanced Diet Still Key, Researchers Say\n\nThe research team stressed that eggs should be part of an overall healthy eating pattern rather than viewed in isolation. \"Research supports eggs as part of a healthy diet,\" said Jisoo Oh, DrPH, MPH, an associate professor of epidemiology at Loma Linda University School of Public Health and the study's lead author. \"Seventh-day Adventists do eat a healthier diet than the general public, and we want people to focus on overall health along with this knowledge about the benefit of eggs.\"\n\nSome funding for the study came from the American Egg Board. Support for establishing the original cohort and its data was provided by the National Institutes of Health.",
+          "chunk_index": 3,
+          "quality_score": 0.865,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 171
+        },
+        {
+          "text": "the study came from the American Egg Board. Support for establishing the original cohort and its data was provided by the National Institutes of Health. RELATED TOPICS\n\nHealth & Medicine\n\nDiet and Weight Loss\n\nCholesterol\n\nNutrition\n\nHealthy Aging\n\nMind & Brain\n\nDieting and Weight Control\n\nIntelligence\n\nNutrition Research\n\nInfant and Preschool Learning\n\nRELATED TERMS\n\nAlzheimer's disease\n\nNutrition\n\nHuman brain\n\nSomatic cell nuclear transfer\n\nLimbic system\n\nEncephalopathy\n\nAntibiotic resistance\n\nCalorie restricted diet\n\nStory Source:\n\nMaterials\n\nprovided by\n\nLoma Linda University Adventist Health Sciences Center\n\n. Note: Content may be edited for style and length. Journal Reference\n\n:\n\nJisoo Oh, Keiji Oda, Gabriela Chiriac, Gary E Fraser, Rawiwan Sirirat, Joan SabatÃ©. Egg Intake and the Incidence of Alzheimerâs Disease in the Adventist Health Study-2 Cohort Linked with Medicare Data\n\n. The Journal of Nutrition\n\n, 2026; 101541 DOI:\n\n10.1016/j.tjnut.2026.101541\n\nCite This Page\n\n:\n\nMLA\n\nAPA\n\nChicago\n\nLoma Linda University Adventist Health Sciences Center. \"Eating eggs could cut Alzheimerâs risk by 27%.\" ScienceDaily. ScienceDaily, 7 May 2026. <www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225214.htm>. Loma Linda University Adventist Health Sciences Center. (2026, May 7). Eating eggs could cut Alzheimerâs risk by 27%. ScienceDaily\n\n.",
+          "chunk_index": 4,
+          "quality_score": 0.842,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 193
+        },
+        {
+          "text": "2026 / 05 / 260506225214.htm>. Loma Linda University Adventist Health Sciences Center. (2026, May 7). Eating eggs could cut Alzheimerâs risk by 27%. ScienceDaily . Retrieved May 8, 2026 from www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225214.htm\n\nLoma Linda University Adventist Health Sciences Center. \"Eating eggs could cut Alzheimerâs risk by 27%.\" ScienceDaily. www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260506225214.htm (accessed May 8, 2026). Explore More\n\nfrom ScienceDaily\n\nRELATED STORIES\n\nWhat Teens Eat Could Be Affecting Their Mental Health More Than We Thought\n\nMar. 29, 2026 Â\n\nWhat teens eat might matter more for their mental health than previously thought. A sweeping review of nearly 20 studies found that healthier diets are often linked to fewer depressive symptoms, ... Tea May Strengthen Bones in Older Women While Heavy Coffee Weakens Them\n\nDec. 13, 2025 Â\n\nA decade-long study of older women found that tea drinkers had slightly stronger bones, while moderate coffee drinking caused no harm. Heavy coffee intakeâover five cups a dayâwas linked to lower ... Could a Genetic Flaw Be the Key to Stopping People Craving Sugary Treats? Nov.",
+          "chunk_index": 5,
+          "quality_score": 0.816,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 185
+        },
+        {
+          "text": "Heavy coffee intakeâover five cups a dayâwas linked to lower ... Could a Genetic Flaw Be the Key to Stopping People Craving Sugary Treats? Nov. 12, 2024 Â\n\nNew research has found that people with a genetic defect in their ability to digest sucrose eat less cake, sweets and chocolate, which could hold the key to helping the wider population to eat less ... Extreme Dietary Habits for Carbohydrates and Fats Affect Life Expectancy\n\nAug. 30, 2023 Â\n\nA new study suggests that extreme dietary habits involving carbohydrates and fats affect life expectancy. Researchers found that a low carbohydrate intake in men and a high carbohydrate intake in ... Why a High Fat Diet Could Reduce the Brain's Ability to Regulate Food Intake\n\nJan. 26, 2023 Â\n\nRegularly eating a high fat/calorie diet could reduce the brain's ability to regulate calorie intake. New research in rats found that after short periods of being fed a high fat/high calorie ... Large Study Challenges the Theory That Light Alcohol Consumption Benefits Heart Health\n\nMar. 25, 2022 Â\n\nIn an observational analysis of UK Biobank participants, light to moderate drinkers had the lowest heart disease risk, followed by people who abstained from drinking; however, light to moderate ...",
+          "chunk_index": 6,
+          "quality_score": 0.802,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 205
+        },
+        {
+          "text": "UK Biobank participants, light to moderate drinkers had the lowest heart disease risk, followed by people who abstained from drinking; however, light to moderate ... TRENDING AT\n\nSCITECHDAILY.com\n\nPhysicists Propose Strange Experiment Where Time Goes Quantum\n\nMagnesium Magic: New Drug Melts Fat Even on a High-Fat, High-Sugar Diet\n\nWeight-Loss Drugs Like Ozempic May Come With an Unexpected Cost\n\nMezcal âWormâ in a Bottle Mystery: DNA Testing Reveals a Surprise",
+          "chunk_index": 7,
+          "quality_score": 0.814,
+          "has_overlap": true,
+          "total_chunks": 8,
+          "word_count": 69
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.35,
+        "domain_authority": 0.95,
+        "recency": 0.95,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.557,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": true
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "sciencedaily.com"
+        },
+        "recency": {
+          "age_days": 0,
+          "halflife": 90.0,
+          "published": "Thu, 07 May 2026 18:22:41 EDT"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 1193,
+          "ttr": 0.474,
+          "gini": 0.372,
+          "wc_score": 0.597
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.06,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.7824
+    },
+    {
+      "record_id": "f5e94f62a7323d6e",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:55Z",
+      "source_url": "https://www.healthline.com/health-news/coffee-reshapes-gut-brain-reduce-stress",
+      "source_type": "blog",
+      "author": "Healthline Editorial",
+      "published_date": "Unknown",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "neurology",
+        "mental health",
+        "gut health",
+        "research",
+        "healthcare"
+      ],
+      "trust_score": 0.699,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "Coffee, even without caffeine, can reduce stress, improve learning, and boost mood by influencing your gut-brain axis. Oleg Breslavtsev/Getty Images\n\nNew research suggests both caffeinated and decaffeinated coffee can improve mood and reduce stress by influencing the gut–brain axis. Coffee may alter the gut microbiome, increasing bacteria linked to digestion, immunity, and emotional regulation. Decaf coffee was associated with improved learning and memory, while caffeinated coffee enhanced attention and reduced anxiety and inflammation. Experts say coffee’s polyphenols and other compounds may support mental well-being by lowering inflammation and strengthening communication between the gut and brain. Your morning cup of coffee may be more than just an energizing ritual. New\n\nresearch\n\nfrom APC Microbiome Ireland suggests that both caffeinated and decaffeinated coffee can improve mood and reduce stress by acting on the gut–brain axis. Researchers analyzed 62 adults, including 31 regular coffee drinkers and 31 non-drinkers, using psychological assessments, diet tracking, and stool and urine samples to examine changes in the gut microbiome and mood.",
+          "chunk_index": 0,
+          "quality_score": 0.829,
+          "has_overlap": false,
+          "total_chunks": 6,
+          "word_count": 164
+        },
+        {
+          "text": "regular coffee drinkers and 31 non-drinkers, using psychological assessments, diet tracking, and stool and urine samples to examine changes in the gut microbiome and mood. Coffee drinkers, defined as those consuming 3 to 5 cups daily, first abstained for two weeks, which led to notable shifts in gut metabolite profiles. When coffee was reintroduced in a blinded trial, half consumed caffeinated and half decaffeinated. Both groups reported reduced stress, depression, and impulsivity, suggesting benefits beyond caffeine. Researchers also observed increases in specific gut bacteria linked to\n\ndigestion\n\nand immune function. Decaffeinated coffee was associated with improved learning and memory, while caffeinated coffee was linked to reduced anxiety, better attention, and lower inflammation, highlighting distinct but complementary effects. How coffee affects the gut-brain axis\n\nCoco Pierrel\n\n, is a certified integrative nutritionist and founder of Eat Shed Glow, who was not involved in the research. She told Healthline that this study is the first to confirm what\n\ngut health\n\nspecialists have seen in clinical practice for years: that coffee is a functional beverage. “Coffee feeds your gut microbes through plant compounds called\n\npolyphenols\n\nand fiber-like molecules called melanoidins,” Pierrel explained.",
+          "chunk_index": 1,
+          "quality_score": 0.87,
+          "has_overlap": true,
+          "total_chunks": 6,
+          "word_count": 189
+        },
+        {
+          "text": "for years: that coffee is a functional beverage. “Coffee feeds your gut microbes through plant compounds called polyphenols and fiber-like molecules called melanoidins,” Pierrel explained. “Your\n\ngut bacteria\n\nferment these into short-chain fatty acids, which send signals directly to the brain through the vagus nerve.”\n\nPierrel recommended thinking of your gut as a second brain that is in constant communication with your first brain, and coffee is one of the loudest messages you send it every morning. “Caffeine blocks adenosine receptors in the brain to sharpen alertness, while stimulating gastric acid and motility in the gut,” she explained. “Coffee is one of the few daily habits that synchronizes your metabolism with your mental clarity, which is exactly what makes it such a powerful player on the gut-brain axis.”\n\nCaffeinated and decaffeinated coffee have health benefits\n\nPeople often associate the mental benefits of coffee with caffeine. However, this study shows that when it comes to lowering stress, boosting learning, and improving memory,\n\ndecaf coffee\n\nhas merit too. “The polyphenols in coffee, whether caffeinated or decaffeinated, lower inflammation, and chronic low-grade inflammation is one of the most underrated drivers of low mood and\n\nanxiety\n\n,” Pierrel pointed out.",
+          "chunk_index": 2,
+          "quality_score": 0.837,
+          "has_overlap": true,
+          "total_chunks": 6,
+          "word_count": 196
+        },
+        {
+          "text": "caffeinated or decaffeinated, lower inflammation, and chronic low-grade inflammation is one of the most underrated drivers of low mood and anxiety ,” Pierrel pointed out. “Those same polyphenols get fermented by gut bacteria into short-chain fatty acids like butyrate, which strengthens the gut barrier and quiets inflammatory signaling to the brain.”\n\nCoffee polyphenols also help regulate the HPA axis, the body’s central stress response system, which is likely why both caffeinated and decaf drinkers in this study reported feeling less stressed. “A healthy brain is often the byproduct of\n\na healthy gut\n\n,” Pierrel said. Caffeine can boost mental health\n\nStill, the study noted some differences between caffeinated and decaffeinated coffee. Caffeinated coffee, in particular, was associated with reduced anxiety and improved vigilance and attention. Why is this the case? “Caffeine blocks adenosine, the molecule that tells your brain it is tired, which is why you feel sharper within 30 minutes of your first cup,” Pierrel explained. “What most people miss is that habitual coffee drinkers develop a blunted\n\ncortisol\n\nresponse over time, meaning daily coffee may actually train your nervous system to handle pressure with less reactivity,” she noted. The study also found caffeine specifically reduced inflammation.",
+          "chunk_index": 3,
+          "quality_score": 0.851,
+          "has_overlap": true,
+          "total_chunks": 6,
+          "word_count": 198
+        },
+        {
+          "text": "meaning daily coffee may actually train your nervous system to handle pressure with less reactivity,” she noted. The study also found caffeine specifically reduced inflammation. “When you lower the noise of inflammation in the brain, you naturally raise the signal of focus and vigilance. That is why moderate daily coffee tends to leave habitual drinkers composed rather than just jittery,” Pierrel pointed out. Ways to optimize your coffee intake\n\nOf course, you can have too much of a good thing, and how you take your coffee matters, too. “Two to three cups a day is the sweet spot for gut and brain benefits, while more can disrupt sleep and undo the very benefits you are drinking it for,” Pierrel warned. “Sensitivity varies widely based on genetics and metabolism, so some people do best with one cup while others handle three comfortably. I generally recommend a caffeine curfew by 2 pm to protect\n\nsleep quality\n\n, too.”\n\nThe real problem is rarely the coffee itself; it is what most people pour into it. Pierrel warned against routinely using flavored syrups,\n\nartificial sweeteners\n\n, and conventional creamers and milks loaded with seed oils and gut-disrupting gums or additives like carrageenan.",
+          "chunk_index": 4,
+          "quality_score": 0.874,
+          "has_overlap": true,
+          "total_chunks": 6,
+          "word_count": 198
+        },
+        {
+          "text": "warned against routinely using flavored syrups, artificial sweeteners , and conventional creamers and milks loaded with seed oils and gut-disrupting gums or additives like carrageenan. “These can compromise the gut lining and cancel the anti-inflammatory benefits the study just demonstrated,” she noted. “The simplest path is\n\nblack coffee\n\n, ideally organic to avoid pesticides and mold. If you take milk, go for grass-fed whole milk or an unsweetened\n\nplant milk\n\nwith a short ingredient list, like Malk or Elmhurst,” Pierrel advised. And if you like sweetness? “Reach for unprocessed\n\nmaple syrup\n\n, raw honey, or zero-calorie natural options like pure stevia or\n\nmonk fruit extract\n\n,” she recommended.",
+          "chunk_index": 5,
+          "quality_score": 0.898,
+          "has_overlap": true,
+          "total_chunks": 6,
+          "word_count": 108
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.35,
+        "domain_authority": 0.95,
+        "recency": 0.3,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.544,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.92,
+        "recency": 0.3,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": true
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "healthline.com"
+        },
+        "recency": {
+          "reason": "missing_date",
+          "raw": "Unknown"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 928,
+          "ttr": 0.505,
+          "gini": 0.325,
+          "wc_score": 0.464
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.022,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.735
+    },
+    {
+      "record_id": "b2ca438f6b69095f",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:55Z",
+      "source_url": "https://medium.com/@nawaf.a.sudairy/graduation-goggles-are-real-and-need-to-be-discussed-9cdf126f0449",
+      "source_type": "blog",
+      "author": "Nawaf Alsudayri",
+      "published_date": "Thu, 07 May 2026 17:09:15 GMT",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "neurology",
+        "research"
+      ],
+      "trust_score": 0.696,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "Graduation Goggles Are Real and Need to Be Discussed\n\nThe fascinating way your brain puts a positive spin on memories! Nawaf Alsudayri\n\n3 min read\n\n·\n\n1 day ago\n\n--\n\nOn a scorching Thursday afternoon, I had some time to spare for myself and decided to use it to revisit one of my favorite shows, How I Met Your Mother. Despite it starting off as an innocent and mindless viewing of the sixth season, my interest was piqued when the show half-heartedly brought up the topic of “Graduation Goggles”. It was at that point when I came to the pretty unfortunate realization that one of psychology’s most interesting theories is best represented in a 2000s sitcom. Now, what exactly are “Graduation Goggles”? At first glance you’d think of them as an accessory to celebrate a person’s big day, but in reality they’re what said person sees when graduating.",
+          "chunk_index": 0,
+          "quality_score": 0.875,
+          "has_overlap": false,
+          "total_chunks": 4,
+          "word_count": 148
+        },
+        {
+          "text": "first glance you’d think of them as an accessory to celebrate a person’s big day, but in reality they’re what said person sees when graduating. All the people you’ve dreaded waking up to see, the ones you’ve never spoken to, and the professors that have tormented you, all suddenly seem like they’ve been such a huge part of your life, and the thought of that cycle ending, and never seeing any of them again has added a melancholic twist to an otherwise happy day! This point of view is applicable to many scenarios in life – moving apartments, jobs, or even rooms – which is why it has been given its name, however modern psychology attributes it to being applicable to your relationships with others as well, which is why this is the perfect opportunity to raise awareness about Graduation Goggles. A study conducted by Florida State University\n\nhas found that in an abusive – or otherwise unhealthy – relationship, the victim mostly returns to their abuser out of love. The belief that the person they have fallen in love with is still there, and is a source of safety to them, making it hard to leave.",
+          "chunk_index": 1,
+          "quality_score": 0.835,
+          "has_overlap": true,
+          "total_chunks": 4,
+          "word_count": 197
+        },
+        {
+          "text": "that the person they have fallen in love with is still there, and is a source of safety to them, making it hard to leave. This can be linked to a multitude of factors, but I believe there are two key reasons that abusive relationships and friendships can be related to and are shared by Graduation Goggles. The human mind’s love for a routine, and refusal to come to terms with moving on. For so long, we’ve taken this topic as comedy, or a simple metaphor, but I believe Graduation Goggles are a large explanation of many of our problems, and a frequent occurrence that deserves to have a new light shed on it. I can link my experience involving Graduation Goggles with many of my past friendships. In an age in which manipulation has way too many forms, it’s more important now than ever to take off those glasses. The thought of leaving these so-called “friends” who have used me for their own good was a logical thing to do, yet every time I came close to clicking the block button, a rose-tinted splash of all the good memories is the first thing that my mind can formulate.",
+          "chunk_index": 2,
+          "quality_score": 0.832,
+          "has_overlap": true,
+          "total_chunks": 4,
+          "word_count": 199
+        },
+        {
+          "text": "I came close to clicking the block button, a rose-tinted splash of all the good memories is the first thing that my mind can formulate. It’s a neurological phenomenon, which is why it makes it all the weirder when it happens in situations where you and I both know the logical thing to do by a landslide is start a new chapter. It does have an upside to it though! After all, it’s good to leave situations with a high opinion of everything you learned experiencing them, and Graduation Goggles does help massively in doing that, as well as providing emotional closure before inevitably moving on. The fine line people – myself included – cross way too often, is refusing to take them off. It’s nice to look back on an era of your life and look at it with maturity and gratitude as opposed to fear and disdain. The lesson I hope our society learns is that when looking back, we make sure our eyesight is good enough not to need these goggles.",
+          "chunk_index": 3,
+          "quality_score": 0.845,
+          "has_overlap": true,
+          "total_chunks": 4,
+          "word_count": 174
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.52,
+        "citation_count": 0.35,
+        "domain_authority": 0.62,
+        "recency": 0.95,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.566,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.6,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": false
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "medium.com"
+        },
+        "recency": {
+          "age_days": 0,
+          "halflife": 90.0,
+          "published": "Thu, 07 May 2026 17:09:15 GMT"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "non_health_content"
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 643,
+          "ttr": 0.544,
+          "gini": 0.159,
+          "wc_score": 0.322
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.002,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.6342
+    }
+  ]
+}

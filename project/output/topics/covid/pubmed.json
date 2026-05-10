@@ -1,0 +1,118 @@
+[
+  {
+    "record_id": "d9dc8efbe7fa9569",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:13Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/33494237/",
+    "source_type": "pubmed",
+    "author": "Chilamakuri R, Agarwal S",
+    "published_date": "2021 Jan 21",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "healthcare",
+      "public health"
+    ],
+    "trust_score": 0.77,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Novel coronavirus (COVID-19 or 2019-nCoV or SARS-CoV-2), which suddenly emerged in December 2019 is still haunting the entire human race and has affected not only the healthcare system but also the global socioeconomic balances. COVID-19 was quickly designated as a global pandemic by the World Health Organization as there have been about 98.0 million confirmed cases and about 2.0 million confirmed deaths, as of January 2021. Although, our understanding of COVID-19 has significantly increased since its outbreak, and multiple treatment approaches and pharmacological interventions have been tested or are currently under development to mitigate its risk-factors. Recently, some vaccine candidates showed around 95% clinical efficacy, and now receiving emergency use approvals in different countries. US FDA recently approved BNT162 and mRNA-1273 vaccines developed by Pfizer/BioNTech and Moderna Inc. for emergency use and vaccination in the USA. In this review, we present a succinct overview of the SARS-CoV-2 virus structure, molecular mechanisms of infection, COVID-19 epidemiology, diagnosis, and clinical manifestations. We also systematize different treatment strategies and clinical trials initiated after the pandemic outbreak, based on viral infection and replication mechanisms.",
+        "chunk_index": 0,
+        "quality_score": 0.867,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 180
+      },
+      {
+        "text": "diagnosis, and clinical manifestations. We also systematize different treatment strategies and clinical trials initiated after the pandemic outbreak, based on viral infection and replication mechanisms. Additionally, we reviewed the novel pharmacological intervention approaches and vaccine development strategies against COVID-19. We speculate that the current pandemic emergency will trigger detailed studies of coronaviruses, their mechanism of infection, development of systematic drug repurposing approaches, and novel drug discoveries for current and future pandemic outbreaks.",
+        "chunk_index": 1,
+        "quality_score": 0.868,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 72
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.96,
+      "domain_authority": 0.95,
+      "recency": 0.214,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.552,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.65,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 2
+      },
+      "citation_count": {
+        "citations": 192
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 1933,
+        "halflife": 900.0,
+        "published": "2021 Jan 21"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 227,
+        "ttr": 0.678,
+        "gini": 0.177,
+        "wc_score": 0.114
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.8007,
+    "pmid": "33494237",
+    "doi": "10.3390/cells10020206",
+    "journal": "Cells"
+  }
+]

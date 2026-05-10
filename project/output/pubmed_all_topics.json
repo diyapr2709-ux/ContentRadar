@@ -1,0 +1,1941 @@
+{
+  "meta": {
+    "type": "pubmed",
+    "schema_version": "2.0",
+    "total_records": 17,
+    "avg_trust": 0.816,
+    "trust_tiers": {
+      "AUTHORITATIVE": 15,
+      "CREDIBLE": 2
+    },
+    "topics_covered": [
+      "ai",
+      "alzheimer",
+      "cancer",
+      "cancer_immunotherapy",
+      "cardiovascular",
+      "covid",
+      "diabetes",
+      "genomics",
+      "gut_health",
+      "heart_disease",
+      "hypertension",
+      "mental_health",
+      "neurology",
+      "nutrition",
+      "obesity",
+      "public_health",
+      "rag"
+    ],
+    "sorted_by": "trust_score_desc"
+  },
+  "records": [
+    {
+      "record_id": "ca513d1aff3ff980",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:59Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41759529/",
+      "source_type": "pubmed",
+      "author": "Cao Z, Yu S, Peng J, Barrett DR, Liu Y, Sussman JH, Chen C, Thadi A, Liu L, Alikarami F, Xu J, Carroll MP, Tan K, Bernt KM, Shi J",
+      "published_date": "2026 Mar 5",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "genomics",
+        "cancer / oncology",
+        "healthcare",
+        "technology"
+      ],
+      "trust_score": 0.862,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Cancer functional genomics enables high-throughput target discovery and mechanistic investigation, yet its application has remained largely confined to mouse models and established human cancer cell lines. Direct functional interrogation of heterogeneous primary tumors offers a powerful opportunity to evaluate therapeutic targets and uncover cancer dependencies or resistance mechanisms. Here, we developed an optimized CRISPR-based platform for functional genomics in patient-derived xenograft and primary acute myeloid leukemia (AML) samples harboring diverse pathogenic mutations. Integrated in vitro and in vivo CRISPR-Cas9 knockout and CRISPR interference (CRISPRi) dropout screens validated known AML-biased targets and identified cis-regulatory elements essential for leukemic growth. Coupling pooled CRISPR perturbations with single-cell RNA sequencing (Perturb-seq) further resolved the perturbation-induced alterations in regulatory networks, cell cycle states, and cellular hierarchies in primary AML samples. Together, these studies establish a general and robust framework for leveraging CRISPR-based functional genomics to directly dissect cancer dependencies and cellular heterogeneity in primary AML patient samples.",
+          "chunk_index": 0,
+          "quality_score": 0.875,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 152
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.904,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.574,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 15
+        },
+        "citation_count": {
+          "citations": 261
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 64,
+          "halflife": 900.0,
+          "published": "2026 Mar 5"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 152,
+          "ttr": 0.75,
+          "gini": 0.162,
+          "wc_score": 0.076
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8153,
+      "pmid": "41759529",
+      "doi": "10.1016/j.molcel.2026.02.003",
+      "journal": "Molecular cell"
+    },
+    {
+      "record_id": "ea28bf0810b7d249",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:09Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40680722/",
+      "source_type": "pubmed",
+      "author": "Dai C, Tang Y, Yang H, Zheng J",
+      "published_date": "2025 Jul 17",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "cancer / oncology"
+      ],
+      "trust_score": 0.857,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "The hypoxic and lactate-enriched microenvironment of renal cell carcinoma (RCC) provides favorable conditions for aberrant lysine lactylation (Kla). However, the functional role and mechanistic basis of Kla in RCC progression remain elusive. Here, we showed an elevated global Kla level in human RCC tissues and cells, which promoted RCC malignancy. Through lactylome analysis of human RCC cells under hypoxia-mimicking conditions, we found that the m6A reader YT521-B homology (YTH) domain-containing 1 (YTHDC1) is modified by Kla at K82. YTHDC1",
+          "chunk_index": 0,
+          "quality_score": 0.761,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 79
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.757,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.598,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.4,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 4
+        },
+        "citation_count": {
+          "citations": 247
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 295,
+          "halflife": 900.0,
+          "published": "2025 Jul 17"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 79,
+          "ttr": 0.823,
+          "gini": 0.143,
+          "wc_score": 0.04
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": null,
+      "pmid": "40680722",
+      "doi": "10.1016/j.molcel.2025.06.017",
+      "journal": "Molecular cell"
+    },
+    {
+      "record_id": "f05e1194ee9bc1ba",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:55Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40536983/",
+      "source_type": "pubmed",
+      "author": "Shi FD, Yong VW",
+      "published_date": "2025 Jun 19",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "neurology",
+        "cardiovascular"
+      ],
+      "trust_score": 0.849,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "The brain's response to injury includes the activation of intrinsic microglia and the influx of leukocytes, collectively constituting neuroinflammation, the \"flame\" of the brain. Although details differ and matter, neuroinflammation exacerbating neurodegeneration has similarities across multiple sclerosis and other neurological disorders, such as stroke and neurodegenerative diseases. Thus, lessons from successful disease-modifying therapies in multiple sclerosis may provide insights into strategies for modulating neuroinflammation and reducing neural injury in other neurological conditions. In this Review, we discuss these lessons and potential strategies for counteracting neuroinflammation, including taming the microglia-orchestrated brain immune responses that contribute to progressing neuropathology.",
+          "chunk_index": 0,
+          "quality_score": 0.871,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 97
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.741,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.575,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.4,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 2
+        },
+        "citation_count": {
+          "citations": 247
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 323,
+          "halflife": 900.0,
+          "published": "2025 Jun 19"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 97,
+          "ttr": 0.742,
+          "gini": 0.121,
+          "wc_score": 0.049
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8125,
+      "pmid": "40536983",
+      "doi": "10.1126/science.adx0043",
+      "journal": "Science (New York, N.Y.)"
+    },
+    {
+      "record_id": "d858093c39bb6def",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:09:04Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40036569/",
+      "source_type": "pubmed",
+      "author": "Soehnlein O, Lutgens E, Döring Y",
+      "published_date": "2025 Sep 2",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "cardiovascular",
+        "healthcare",
+        "diabetes",
+        "public health"
+      ],
+      "trust_score": 0.847,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Studies suggest varying atherosclerotic cardiovascular disease (ASCVD) prevalence across arterial beds. Factors such as smoking expedite ASCVD progression in the abdominal aorta, while diabetes accelerates plaque development in lower limb arteries, and hypertension plays a significant role in ASCVD development in the coronary and carotid arteries. Moreover, superficial femoral atherosclerosis advances slower compared with atherosclerosis in coronary and carotid arteries. Furthermore, femoral atherosclerosis exhibits higher levels of ossification and calcification, but lower cholesterol concentrations compared with atherosclerotic lesions of other vascular beds. Such disparities exemplify the diverse progression of ASCVD across arterial beds, pointing towards differential mechanistic pathways in each vascular bed. Hence, this review summarizes current literature on immune-inflammatory mechanisms in various arterial beds in ASCVD to advance our understanding of this disease in an aging society with increased need of vascular bed and patient-specific treatment options.",
+          "chunk_index": 0,
+          "quality_score": 0.844,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 138
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.785,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.539,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 3
+        },
+        "citation_count": {
+          "citations": 247
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 248,
+          "halflife": 900.0,
+          "published": "2025 Sep 2"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 138,
+          "ttr": 0.688,
+          "gini": 0.189,
+          "wc_score": 0.069
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.007,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8186,
+      "pmid": "40036569",
+      "doi": "10.1093/eurheartj/ehaf054",
+      "journal": "European heart journal"
+    },
+    {
+      "record_id": "b1c842e508bcb60e",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:35Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40663373/",
+      "source_type": "pubmed",
+      "author": "Kelters IR, Koop Y, Young ME, Daiber A, van Laake LW",
+      "published_date": "2025 Sep 22",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "cardiovascular",
+        "public health"
+      ],
+      "trust_score": 0.845,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Circadian rhythms, controlled by the suprachiasmatic nucleus and peripheral clocks, regulate 24-h cycles in biological processes such as the cardiovascular system. Circadian rhythms influence autonomic balance, with parasympathetic dominance during sleep supporting cardiac recovery and sympathetic activation during the day supporting circulatory demand. Congruent with systemic and cellular circadian rhythmicity, 24-h patterns arise in the pathophysiology of cardiovascular diseases, including ischaemic heart disease, heart failure, and arrhythmias. Daily variations influence the timing and outcome of myocardial infarction, with studies reporting patterns in infarct size depending on the time of onset. Similar daily patterns are observed in cardio- and cerebrovascular complications. In heart failure, circadian rhythms are dampened but remain intact, suggesting the potential for incorporating timing in diagnostics and therapies. Sudden cardiac death follows a distinct pattern, with a higher incidence in the morning. Atrial fibrillation onset, on the other hand, occurs more frequently at night. Risk factors and modifiers, such as physiological, psychological, lifestyle, and environmental factors and comorbidities interact with circadian rhythms, thereby impacting cellular pathomechanisms and development of cardiovascular health and disease.",
+          "chunk_index": 0,
+          "quality_score": 0.831,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 175
+        },
+        {
+          "text": "such as physiological, psychological, lifestyle, and environmental factors and comorbidities interact with circadian rhythms, thereby impacting cellular pathomechanisms and development of cardiovascular health and disease. Chronotherapy, which aligns treatments with circadian rhythms, has demonstrated potential for improving the efficacy of cardiovascular therapies. This review examines the influence of circadian rhythms on cardiovascular health in the context of specific cardiac diseases and risk factors, and it highlights the therapeutic opportunities informed by circadian patterns.",
+          "chunk_index": 1,
+          "quality_score": 0.67,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 73
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.797,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.512,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 5
+        },
+        "citation_count": {
+          "citations": 247
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 228,
+          "halflife": 900.0,
+          "published": "2025 Sep 22"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 223,
+          "ttr": 0.614,
+          "gini": 0.223,
+          "wc_score": 0.112
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8054,
+      "pmid": "40663373",
+      "doi": "10.1093/eurheartj/ehaf367",
+      "journal": "European heart journal"
+    },
+    {
+      "record_id": "3bef2a06c8184992",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:42Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40195079/",
+      "source_type": "pubmed",
+      "author": "Gao S, Wang X, Xia Z, Zhang H, Yu J, Yang F",
+      "published_date": "2025 Apr 8",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "healthcare",
+        "AI / ML",
+        "research"
+      ],
+      "trust_score": 0.838,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Advancements in digital and precision medicine have fostered the rapid development of artificial intelligence (AI) applications, including machine learning, artificial neural networks (ANN), and deep learning, within the field of dentistry, particularly in imaging diagnosis and treatment. This review examines the progress of AI across various domains of dentistry, focusing on its role in enhancing diagnostics and optimizing treatment for oral diseases such as endodontic disease, periodontal disease, oral implantology, orthodontics, prosthodontic treatment, and oral and maxillofacial surgery. Additionally, it discusses the emerging opportunities and challenges associated with these technologies. The findings indicate that AI can be effectively utilized in numerous aspects of oral healthcare, including prevention, early screening, accurate diagnosis, treatment plan design assistance, treatment execution, follow-up monitoring, and prognosis assessment. However, notable challenges persist, including issues related to inaccurate data annotation, limited capability for fine-grained feature expression, a lack of universally applicable models, potential biases in learning algorithms, and legal risks pertaining to medical malpractice and data privacy breaches.",
+          "chunk_index": 0,
+          "quality_score": 0.882,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 161
+        },
+        {
+          "text": "fine-grained feature expression, a lack of universally applicable models, potential biases in learning algorithms, and legal risks pertaining to medical malpractice and data privacy breaches. Looking forward, future research is expected to concentrate on overcoming these challenges to enhance the accuracy and applicability of AI in diagnosing and treating oral diseases. This review aims to provide a comprehensive overview of the current state of AI in dentistry and to identify pathways for its effective integration into clinical practice.",
+          "chunk_index": 1,
+          "quality_score": 0.897,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 78
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.701,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.574,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 6
+        },
+        "citation_count": {
+          "citations": 247
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 395,
+          "halflife": 900.0,
+          "published": "2025 Apr 8"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 214,
+          "ttr": 0.706,
+          "gini": 0.133,
+          "wc_score": 0.107
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8098,
+      "pmid": "40195079",
+      "doi": "10.12659/MSM.946676",
+      "journal": "Medical science monitor : international medical journal of experimental and clinical research"
+    },
+    {
+      "record_id": "c428d7550f09cdc9",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:07:29Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39841962/",
+      "source_type": "pubmed",
+      "author": "Wong HJ, Sim B, Teo YH, Teo YN, Chan MY, Yeo LLL, Eng PC, Tan BYQ, Sattar N, Dalakoti M, Sia CH",
+      "published_date": "2025 Feb 1",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "obesity",
+        "diabetes",
+        "research",
+        "healthcare"
+      ],
+      "trust_score": 0.836,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "OBJECTIVE: To provide an updated synthesis on effects of glucagon-like peptide 1 receptor agonists (GLP-1 RAs) on weight, BMI, and waist circumference incorporating newer randomized controlled trials (RCTs), particularly in individuals with overweight or obesity. RESEARCH DESIGN AND METHODS: We systematically searched PubMed, Embase, and Cochrane Central Register of Controlled Trials (CENTRAL) for RCTs published from inception to 4 October 2024. The search was limited to RCTs evaluating the use of GLP-1 RAs for mean differences from baseline in weight, BMI, and waist circumference in adults with obesity or overweight with or without diabetes. Two independent reviewers performed the literature search and data extraction, resolving disagreements via consensus or third-reviewer consultation. RESULTS: Forty-seven RCTs were included, with a combined cohort of 23,244 patients. GLP-1 RAs demonstrated a mean weight reduction of -4.57 kg (95% CI -5.35 to -3.78), mean BMI reduction of -2.07 kg/m2 (95% CI -2.53 to -1.62), and mean waist circumference reduction of -4.55 cm (95% CI -5.72 to -3.38) compared with placebo. This effect was consistent across diabetes status, GLP-1 RA used, and route of administration.",
+          "chunk_index": 0,
+          "quality_score": 0.838,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 179
+        },
+        {
+          "text": "of -4.55 cm (95% CI -5.72 to -3.38) compared with placebo. This effect was consistent across diabetes status, GLP-1 RA used, and route of administration. The greatest treatment benefit appeared to favor patients who were younger, female, without diabetes, with higher baseline weight and BMI but lower baseline HbA1c, and treated over a longer duration. Limitations include substantial statistical heterogeneity, in part due to broad inclusion criteria. However, this heterogeneity may improve generalizability by reflecting a wide range of study designs and patient populations. CONCLUSIONS: GLP-1 RAs demonstrated significant weight, BMI, and waist circumference reduction benefits in this meta-analysis.",
+          "chunk_index": 1,
+          "quality_score": 0.924,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 99
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.666,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.54,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 11
+        },
+        "citation_count": {
+          "citations": 247
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 461,
+          "halflife": 900.0,
+          "published": "2025 Feb 1"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 253,
+          "ttr": 0.656,
+          "gini": 0.2,
+          "wc_score": 0.127
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.016,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": null,
+      "pmid": "39841962",
+      "doi": "10.2337/dc24-1678",
+      "journal": "Diabetes care"
+    },
+    {
+      "record_id": "4c3a1d80a20347bc",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:22Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39795981/",
+      "source_type": "pubmed",
+      "author": "Goorani S, Zangene S, Imig JD",
+      "published_date": "2024 Dec 26",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "cardiovascular",
+        "public health",
+        "obesity",
+        "mental health",
+        "research"
+      ],
+      "trust_score": 0.83,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Hypertension is a cardiovascular disease defined by an elevated systemic blood pressure. This devastating disease afflicts 30-40% of the adult population worldwide. The disease burden for hypertension is great, and it greatly increases the risk of cardiovascular morbidity and mortality. Unfortunately, there are a myriad of factors that result in an elevated blood pressure. These include genetic factors, a sedentary lifestyle, obesity, salt intake, aging, and stress. Although lifestyle modifications have had limited success, anti-hypertensive drugs have been moderately effective in lowering blood pressure. New approaches to control and treat hypertension include digital health tools and compounds that activate the angiotensin receptor type 2 (AT2), which can promote cardiovascular health. Nonetheless, research on hypertension and its management is vital for lessening the significant health and economic burden of this condition.",
+          "chunk_index": 0,
+          "quality_score": 0.854,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 130
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.647,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.548,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 3
+        },
+        "citation_count": {
+          "citations": 233
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 498,
+          "halflife": 900.0,
+          "published": "2024 Dec 26"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 130,
+          "ttr": 0.708,
+          "gini": 0.181,
+          "wc_score": 0.065
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.7998,
+      "pmid": "39795981",
+      "doi": "10.3390/ijms26010123",
+      "journal": "International journal of molecular sciences"
+    },
+    {
+      "record_id": "cd5734b2666be96b",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:09:07Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38926611/",
+      "source_type": "pubmed",
+      "author": "Khan MS, Shahid I, Bennis A, Rakisheva A, Metra M, Butler J",
+      "published_date": "2024 Oct",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "public health",
+        "healthcare",
+        "cardiovascular"
+      ],
+      "trust_score": 0.827,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Heart failure (HF) is a heterogeneous clinical syndrome marked by substantial morbidity and mortality. The natural history of HF is well established; however, epidemiological data are continually evolving owing to demographic shifts, advances in treatment and variations in access to health care. Although the incidence of HF has stabilized or declined in high-income countries over the past decade, its prevalence continues to increase, driven by an ageing population, an increase in risk factors, the effectiveness of novel therapies and improved survival. This rise in prevalence is increasingly noted among younger adults and is accompanied by a shift towards HF with preserved ejection fraction. However, disparities exist in our epidemiological understanding of HF burden and progression in low-income and middle-income countries owing to the lack of comprehensive data in these regions. Therefore, the current epidemiological landscape of HF highlights the need for periodic surveillance and resource allocation tailored to geographically vulnerable areas. In this Review, we highlight global trends in the burden of HF, focusing on the variations across the spectrum of left ventricular ejection fraction.",
+          "chunk_index": 0,
+          "quality_score": 0.834,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 175
+        },
+        {
+          "text": "areas. In this Review, we highlight global trends in the burden of HF, focusing on the variations across the spectrum of left ventricular ejection fraction. We also discuss evolving population-based estimates of HF incidence and prevalence, the risk factors for and aetiologies of this disease, and outcomes in different geographical regions and populations.",
+          "chunk_index": 1,
+          "quality_score": 0.877,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 53
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.606,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.541,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 6
+        },
+        "citation_count": {
+          "citations": 233
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 584,
+          "halflife": 900.0,
+          "published": "2024 Oct"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 203,
+          "ttr": 0.64,
+          "gini": 0.151,
+          "wc_score": 0.102
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8205,
+      "pmid": "38926611",
+      "doi": "10.1038/s41569-024-01046-6",
+      "journal": "Nature reviews. Cardiology"
+    },
+    {
+      "record_id": "fe51af50f8aab5e6",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:17Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39485649/",
+      "source_type": "pubmed",
+      "author": "Testo AA, Roundy G, Dumas JA",
+      "published_date": "2025",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "neurology",
+        "mental health"
+      ],
+      "trust_score": 0.827,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Deficits in memory, language, and other cognitive domains that impact an individual's ability to perform necessary tasks of daily living are symptoms of dementia, which is a major cause of death and disability in older adults. As the global population continues to age, deepening our understanding of dementia is crucial. Alzheimer's disease is the leading cause of dementia and accounts for between 60% and 80% of total dementia cases. Declines in episodic memory are considered a hallmark of Alzheimer's disease and occur early in disease progression. The cognitive effects of Alzheimer's disease differ from the cognitive changes expected in nonpathological or normal aging. While some cognitive changes are expected as a part of the aging processes, the declines in cognition associated with Alzheimer's disease are to a degree that the individual diagnosed with the disease is unable to function independently in activities of daily living. In this review, we will discuss how cognition is impacted by both normal and pathological aging, with a focus on Alzheimer's disease.",
+          "chunk_index": 0,
+          "quality_score": 0.799,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 167
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.65,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.502,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 3
+        },
+        "citation_count": {
+          "citations": 247
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 492,
+          "halflife": 900.0,
+          "published": "2025"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 167,
+          "ttr": 0.599,
+          "gini": 0.207,
+          "wc_score": 0.084
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.793,
+      "pmid": "39485649",
+      "doi": "10.1007/7854_2024_527",
+      "journal": "Current topics in behavioral neurosciences"
+    },
+    {
+      "record_id": "97a75cf917e34224",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:27Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38629051/",
+      "source_type": "pubmed",
+      "author": "Weber KT, Varian BJ, Erdman SE",
+      "published_date": "2024",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "gut health",
+        "research",
+        "neurology",
+        "healthcare"
+      ],
+      "trust_score": 0.813,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "The human gut microbiome plays an important role in the maturation of the neural, immune, and endocrine systems. Research data from animal models shows that gut microbiota communicate with the host's brain in an elaborate network of signaling pathways, including the vagus nerve. Part of the microbiome's influence extends to the behavioral and social development of its host. As a social species, a human's ability to communicate with others is imperative to their survival and quality of life. Current research explores the gut microbiota's developmental influence as well as how these gut-brain pathways can be leveraged to alleviate the social symptoms associated with various neurodevelopmental and psychiatric diseases. One intriguing vein of research in animal models centers on probiotic treatment, which leads to downstream increased circulation of endogenous oxytocin, a neuropeptide hormone relevant to sociability. Further research may lead to therapeutic applications in humans, particularly in the early stages of their lives.",
+          "chunk_index": 0,
+          "quality_score": 0.842,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 152
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.491,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.556,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 3
+        },
+        "citation_count": {
+          "citations": 233
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 858,
+          "halflife": 900.0,
+          "published": "2024"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 152,
+          "ttr": 0.684,
+          "gini": 0.134,
+          "wc_score": 0.076
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8048,
+      "pmid": "38629051",
+      "doi": "10.3389/fnins.2024.1372274",
+      "journal": "Frontiers in neuroscience"
+    },
+    {
+      "record_id": "2872c8ffb10bf835",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:47Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39250472/",
+      "source_type": "pubmed",
+      "author": "Lee D, Kim W",
+      "published_date": "2024",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "RAG / retrieval",
+        "research",
+        "technology"
+      ],
+      "trust_score": 0.813,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Conditional image retrieval (CIR), which involves retrieving images by a query image along with user-specified conditions, is essential in computer vision research for efficient image search and automated image analysis. The existing approaches, such as composed image retrieval (CoIR) methods, have been actively studied. However, these methods face challenges as they require either a triplet dataset or richly annotated image-text pairs, which are expensive to obtain. In this work, we demonstrate that CIR at the image-level concept can be achieved using an inverse mapping approach that explores the model's inductive knowledge. Our proposed CIR method, called Backward Search, updates the query embedding to conform to the condition. Specifically, the embedding of the query image is updated by predicting the probability of the label and minimizing the difference from the condition label. This enables CIR with image-level concepts while preserving the context of the query. In this paper, we introduce the Backward Search method that enables single and multi-conditional image retrieval. Moreover, we efficiently reduce the computation time by distilling the knowledge.",
+          "chunk_index": 0,
+          "quality_score": 0.845,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 171
+        },
+        {
+          "text": "paper, we introduce the Backward Search method that enables single and multi-conditional image retrieval. Moreover, we efficiently reduce the computation time by distilling the knowledge. We conduct experiments using the WikiArt, aPY, and CUB benchmark datasets. The proposed method achieves an average mAP@10 of 0.541 on the datasets, demonstrating a marked improvement compared to the CoIR methods in our comparative experiments. Furthermore, by employing knowledge distillation with the Backward Search model as the teacher, the student model achieves a significant reduction in computation time, up to 160 times faster with only a slight decrease in performance. The implementation of our method is available at the following URL: https://github.com/dhlee-work/BackwardSearch.",
+          "chunk_index": 1,
+          "quality_score": 0.861,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 108
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.491,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.533,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 2
+        },
+        "citation_count": {
+          "citations": 233
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 858,
+          "halflife": 900.0,
+          "published": "2024"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 254,
+          "ttr": 0.634,
+          "gini": 0.195,
+          "wc_score": 0.127
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8126,
+      "pmid": "39250472",
+      "doi": "10.1371/journal.pone.0310098",
+      "journal": "PloS one"
+    },
+    {
+      "record_id": "ab6fa22c3a0c67d6",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:51Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/35959711/",
+      "source_type": "pubmed",
+      "author": "Koeder C, Perez-Cueto FJA",
+      "published_date": "2024",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "general"
+      ],
+      "trust_score": 0.811,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Since the beginning of the 21st century, interest in vegan diets has been rapidly increasing in most countries. Misconceptions about vegan diets are widespread among the general population and health professionals. Vegan diets can be health-promoting and may offer certain important advantages compared to typical Western (and other mainstream) eating patterns. However, adequate dietary sources/supplements of nutrients of focus specific to vegan diets should be identified and communicated. Without supplements/fortified foods, severe vitamin B12 deficiency may occur. Other potential nutrients of focus are calcium, vitamin D, iodine, omega-3 fatty acids, iron, zinc, selenium, vitamin A, and protein. Ensuring adequate nutrient status is particularly important during pregnancy, lactation, infancy, and childhood. Health professionals are often expected to be able to provide advice on the topic of vegan nutrition, but a precise and practical vegan nutrition guide for health professionals is lacking. Consequently, it is important and urgent to provide such a set of dietary recommendations.",
+          "chunk_index": 0,
+          "quality_score": 0.844,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 154
+        },
+        {
+          "text": "precise and practical vegan nutrition guide for health professionals is lacking. Consequently, it is important and urgent to provide such a set of dietary recommendations. It is the aim of this article to provide vegan nutrition guidelines, based on current evidence, which can easily be communicated to vegan patients/clients, with the goal of ensuring adequate nutrient status in vegans.",
+          "chunk_index": 1,
+          "quality_score": 0.69,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 59
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.491,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.502,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 2
+        },
+        "citation_count": {
+          "citations": 233
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 858,
+          "halflife": 900.0,
+          "published": "2024"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 188,
+          "ttr": 0.638,
+          "gini": 0.271,
+          "wc_score": 0.094
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.005,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8126,
+      "pmid": "35959711",
+      "doi": "10.1080/10408398.2022.2107997",
+      "journal": "Critical reviews in food science and nutrition"
+    },
+    {
+      "record_id": "18327315d6fad3f5",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:32Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41903960/",
+      "source_type": "pubmed",
+      "author": "Albuquerque RP, Dores H, Gonçalves-Pereira M",
+      "published_date": "2026 May",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "mental health",
+        "cardiovascular",
+        "RAG / retrieval",
+        "neurology",
+        "healthcare"
+      ],
+      "trust_score": 0.801,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Mental health conditions (eg, depression, anxiety) are highly prevalent in cardiovascular populations, impacting treatment adherence, functional recovery, quality of life, and long-term outcomes. Mechanisms underpinning the heart-brain-mind axis are multifactorial, involving behavioral, cognitive, neuroendocrine, autonomic, and systemic inflammatory processes. Integrating pharmacological and non-pharmacological interventions into cardiac rehabilitation enhances both psychological well-being and cardiovascular prognosis. Nonetheless, the implementation of such interventions remains inconsistent, underscoring cardiac rehabilitation as an underused yet strategic framework for embedding mental health care into secondary prevention.",
+          "chunk_index": 0,
+          "quality_score": 0.918,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 79
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.755,
+        "domain_authority": 0.95,
+        "recency": 0.945,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.608,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.4,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 3
+        },
+        "citation_count": {
+          "citations": 151
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 7,
+          "halflife": 900.0,
+          "published": "2026 May"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 79,
+          "ttr": 0.835,
+          "gini": 0.128,
+          "wc_score": 0.04
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.806,
+      "pmid": "41903960",
+      "doi": "10.1016/j.ccl.2025.11.001",
+      "journal": "Cardiology clinics"
+    },
+    {
+      "record_id": "d9dc8efbe7fa9569",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:13Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33494237/",
+      "source_type": "pubmed",
+      "author": "Chilamakuri R, Agarwal S",
+      "published_date": "2021 Jan 21",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "healthcare",
+        "public health"
+      ],
+      "trust_score": 0.77,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Novel coronavirus (COVID-19 or 2019-nCoV or SARS-CoV-2), which suddenly emerged in December 2019 is still haunting the entire human race and has affected not only the healthcare system but also the global socioeconomic balances. COVID-19 was quickly designated as a global pandemic by the World Health Organization as there have been about 98.0 million confirmed cases and about 2.0 million confirmed deaths, as of January 2021. Although, our understanding of COVID-19 has significantly increased since its outbreak, and multiple treatment approaches and pharmacological interventions have been tested or are currently under development to mitigate its risk-factors. Recently, some vaccine candidates showed around 95% clinical efficacy, and now receiving emergency use approvals in different countries. US FDA recently approved BNT162 and mRNA-1273 vaccines developed by Pfizer/BioNTech and Moderna Inc. for emergency use and vaccination in the USA. In this review, we present a succinct overview of the SARS-CoV-2 virus structure, molecular mechanisms of infection, COVID-19 epidemiology, diagnosis, and clinical manifestations. We also systematize different treatment strategies and clinical trials initiated after the pandemic outbreak, based on viral infection and replication mechanisms.",
+          "chunk_index": 0,
+          "quality_score": 0.867,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 180
+        },
+        {
+          "text": "diagnosis, and clinical manifestations. We also systematize different treatment strategies and clinical trials initiated after the pandemic outbreak, based on viral infection and replication mechanisms. Additionally, we reviewed the novel pharmacological intervention approaches and vaccine development strategies against COVID-19. We speculate that the current pandemic emergency will trigger detailed studies of coronaviruses, their mechanism of infection, development of systematic drug repurposing approaches, and novel drug discoveries for current and future pandemic outbreaks.",
+          "chunk_index": 1,
+          "quality_score": 0.868,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 72
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.96,
+        "domain_authority": 0.95,
+        "recency": 0.214,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.552,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 2
+        },
+        "citation_count": {
+          "citations": 192
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 1933,
+          "halflife": 900.0,
+          "published": "2021 Jan 21"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 227,
+          "ttr": 0.678,
+          "gini": 0.177,
+          "wc_score": 0.114
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8007,
+      "pmid": "33494237",
+      "doi": "10.3390/cells10020206",
+      "journal": "Cells"
+    },
+    {
+      "record_id": "98e5615c088ad57b",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-10T16:17:36Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40780215/",
+      "source_type": "pubmed",
+      "author": "Shi T, Liu W, Luo Y, Liang K, Ren S, Song X, Liu F, Lu C, Hirschhorn D, Wang H, Zhang Y, Cai Y, Wang Y, Pan Y, Liu W, Nie Y, Zhang Z, Yu L, Ding S, Liu B, Merghoub T, Li Y, Wei J",
+      "published_date": "2025 Oct 13",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "cancer / oncology",
+        "healthcare"
+      ],
+      "trust_score": 0.742,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "Bone metastases remain incurable and respond poorly to immune checkpoint blockade (ICB) therapy. The impact of neutrophil maturation in cancer, particularly in refractory tumors including bone metastases, is not well understood. Here, we observed the predominance of immature neutrophils in the bone metastasis microenvironment of both mouse models and cancer patients. Dickkopf1 (DKK1) induces an immature-like functional state in neutrophils, which exhibit robust immunosuppressive capabilities to inhibit anti-tumor response of CD8",
+          "chunk_index": 0,
+          "quality_score": 0.765,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 71
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.55,
+        "domain_authority": 0.95,
+        "recency": 0.809,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.627,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.546,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 23
+        },
+        "citation_count": {
+          "citations": 110
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 209,
+          "halflife": 900.0,
+          "published": "2025 Oct 13"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 71,
+          "ttr": 0.831,
+          "gini": 0.053,
+          "wc_score": 0.035
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.7911,
+      "pmid": "40780215",
+      "doi": "10.1016/j.ccell.2025.07.007",
+      "journal": "Cancer cell"
+    },
+    {
+      "record_id": "3a434fbfc64b9938",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:06:38Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/30370538/",
+      "source_type": "pubmed",
+      "author": "Swe MT, Pongchaidecha A, Chatsudthipong V, Chattipakorn N, Lungkaphin A",
+      "published_date": "2019 Jun",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "diabetes",
+        "mental health"
+      ],
+      "trust_score": 0.709,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "The kidneys are as involved as the liver in gluconeogenesis which can significantly contribute to hyperglycemia in the diabetic condition. Substantial evidence has demonstrated the overexpression of rate-limiting gluconeogenic enzymes, especially phosphoenolpyruvate carboxykinase and glucose 6 phosphatase, and the accelerated glucose release both in the isolated proximal tubular cells and in the kidneys of diabetic animal models and diabetic patients. The aim of this review is to provide an insight into the mechanisms that accelerate renal gluconeogenesis in the diabetic conditions and the therapeutic approaches that could affect this process in the kidney. Increase in gluconeogenic substrates, reduced insulin concentration or insulin resistance, downregulation of insulin receptors and insulin signaling, oxidative stress, and inappropriate activation of the renin-angiotensin system are likely to participate in enhancing renal gluconeogenesis in the diabetic milieu. Several studies have suggested that controlling glucose metabolism at the renal level favors effective overall glycemic control in both type 1 and type 2 diabetes. Therefore, renal gluconeogenesis may be a promising target for effective glycemic control as a therapeutic strategy in diabetes.",
+          "chunk_index": 0,
+          "quality_score": 0.805,
+          "has_overlap": false,
+          "total_chunks": 1,
+          "word_count": 174
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.825,
+        "domain_authority": 0.95,
+        "recency": 0.135,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.504,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 5
+        },
+        "citation_count": {
+          "citations": 165
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 2533,
+          "halflife": 900.0,
+          "published": "2019 Jun"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 174,
+          "ttr": 0.609,
+          "gini": 0.22,
+          "wc_score": 0.087
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.012,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": null,
+      "pmid": "30370538",
+      "doi": "10.1002/jcp.27598",
+      "journal": "Journal of cellular physiology"
+    }
+  ]
+}

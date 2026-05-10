@@ -1,0 +1,113 @@
+[
+  {
+    "record_id": "4c3a1d80a20347bc",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:22Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39795981/",
+    "source_type": "pubmed",
+    "author": "Goorani S, Zangene S, Imig JD",
+    "published_date": "2024 Dec 26",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "cardiovascular",
+      "public health",
+      "obesity",
+      "mental health",
+      "research"
+    ],
+    "trust_score": 0.83,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Hypertension is a cardiovascular disease defined by an elevated systemic blood pressure. This devastating disease afflicts 30-40% of the adult population worldwide. The disease burden for hypertension is great, and it greatly increases the risk of cardiovascular morbidity and mortality. Unfortunately, there are a myriad of factors that result in an elevated blood pressure. These include genetic factors, a sedentary lifestyle, obesity, salt intake, aging, and stress. Although lifestyle modifications have had limited success, anti-hypertensive drugs have been moderately effective in lowering blood pressure. New approaches to control and treat hypertension include digital health tools and compounds that activate the angiotensin receptor type 2 (AT2), which can promote cardiovascular health. Nonetheless, research on hypertension and its management is vital for lessening the significant health and economic burden of this condition.",
+        "chunk_index": 0,
+        "quality_score": 0.854,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 130
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 1.0,
+      "domain_authority": 0.95,
+      "recency": 0.647,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.548,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.65,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 3
+      },
+      "citation_count": {
+        "citations": 233
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 498,
+        "halflife": 900.0,
+        "published": "2024 Dec 26"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 130,
+        "ttr": 0.708,
+        "gini": 0.181,
+        "wc_score": 0.065
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7998,
+    "pmid": "39795981",
+    "doi": "10.3390/ijms26010123",
+    "journal": "International journal of molecular sciences"
+  }
+]

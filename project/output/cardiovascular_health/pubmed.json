@@ -1,0 +1,121 @@
+[
+  {
+    "record_id": "9b56e42a0a79b650",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:43:01Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39210706/",
+    "source_type": "pubmed",
+    "author": "Koskinas KC, Van Craenenbroeck EM, Antoniades C, Blüher M, Gorter TM, Hanssen H, Marx N, McDonagh TA, Mingrone G, Rosengren A, Prescott EB, ESC Scientific Document Group",
+    "published_date": "2024 Oct 7",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "obesity",
+      "cardiovascular",
+      "public health",
+      "healthcare",
+      "research"
+    ],
+    "trust_score": 0.709,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "The global prevalence of obesity has more than doubled over the past four decades, currently affecting more than a billion individuals. Beyond its recognition as a high-risk condition that is causally linked to many chronic illnesses, obesity has been declared a disease per se that results in impaired quality of life and reduced life expectancy. Notably, two-thirds of obesity-related excess mortality is attributable to cardiovascular disease. Despite the increasingly appreciated link between obesity and a broad range of cardiovascular disease manifestations including atherosclerotic disease, heart failure, thromboembolic disease, arrhythmias, and sudden cardiac death, obesity has been underrecognized and sub-optimally addressed compared with other modifiable cardiovascular risk factors. In the view of major repercussions of the obesity epidemic on public health, attention has focused on population-based and personalized approaches to prevent excess weight gain and maintain a healthy body weight from early childhood and throughout adult life, as well as on comprehensive weight loss interventions for persons with established obesity.",
+        "chunk_index": 0,
+        "quality_score": 0.852,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 159
+      },
+      {
+        "text": "maintain a healthy body weight from early childhood and throughout adult life, as well as on comprehensive weight loss interventions for persons with established obesity. This clinical consensus statement by the European Society of Cardiology discusses current evidence on the epidemiology and aetiology of obesity; the interplay between obesity, cardiovascular risk factors and cardiac conditions; the clinical management of patients with cardiac disease and obesity; and weight loss strategies including lifestyle changes, interventional procedures, and anti-obesity medications with particular focus on their impact on cardiometabolic risk and cardiac outcomes. The document aims to raise awareness on obesity as a major risk factor and provide guidance for implementing evidence-based practices for its prevention and optimal management within the context of primary and secondary cardiovascular disease prevention.",
+        "chunk_index": 1,
+        "quality_score": 0.84,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 125
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.55,
+      "domain_authority": 0.95,
+      "recency": 0.608,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.533,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.833,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 12
+      },
+      "citation_count": {
+        "citations": 110
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 580,
+        "halflife": 900.0,
+        "published": "2024 Oct 7"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 259,
+        "ttr": 0.625,
+        "gini": 0.187,
+        "wc_score": 0.13
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.8056,
+    "pmid": "39210706",
+    "doi": "10.1093/eurheartj/ehae508",
+    "journal": "European heart journal"
+  }
+]

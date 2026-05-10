@@ -1,0 +1,399 @@
+{
+  "meta": {
+    "pipeline": "ContentRadar v2",
+    "schema_version": "2.0",
+    "total_topics": 17,
+    "total_records": 73,
+    "breakdown": {
+      "blog": 48,
+      "youtube": 8,
+      "pubmed": 17
+    },
+    "consolidated_files": {
+      "blog": "blogs_all_topics.json",
+      "youtube": "youtube_all_topics.json",
+      "pubmed": "pubmed_all_topics.json"
+    },
+    "note": "Start with index.json to navigate. Each topic folder has scraped_data.json (combined + manifest) plus blogs.json / youtube.json / pubmed.json. All records carry record_id (stable hash), ingested_at, schema_version."
+  },
+  "topics": [
+    {
+      "topic": "ai",
+      "total": 4,
+      "avg_trust": 0.728,
+      "trust_tiers": {
+        "AUTHORITATIVE": 2,
+        "CREDIBLE": 2
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 0,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:08:42",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/ai/scraped_data.json",
+        "blogs": "topics/ai/blogs.json",
+        "youtube": "topics/ai/youtube.json",
+        "pubmed": "topics/ai/pubmed.json"
+      }
+    },
+    {
+      "topic": "alzheimer",
+      "total": 4,
+      "avg_trust": 0.727,
+      "trust_tiers": {
+        "AUTHORITATIVE": 2,
+        "CREDIBLE": 2
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 0,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:08:17",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/alzheimer/scraped_data.json",
+        "blogs": "topics/alzheimer/blogs.json",
+        "youtube": "topics/alzheimer/youtube.json",
+        "pubmed": "topics/alzheimer/pubmed.json"
+      }
+    },
+    {
+      "topic": "cancer",
+      "total": 6,
+      "avg_trust": 0.665,
+      "trust_tiers": {
+        "AUTHORITATIVE": 3,
+        "CREDIBLE": 1,
+        "UNCERTAIN": 2
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 2,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:08:09",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/cancer/scraped_data.json",
+        "blogs": "topics/cancer/blogs.json",
+        "youtube": "topics/cancer/youtube.json",
+        "pubmed": "topics/cancer/pubmed.json"
+      }
+    },
+    {
+      "topic": "cancer_immunotherapy",
+      "total": 3,
+      "avg_trust": 0.534,
+      "trust_tiers": {
+        "CREDIBLE": 1,
+        "UNCERTAIN": 2
+      },
+      "sources": {
+        "blog": 0,
+        "youtube": 2,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-10T16:17:36Z",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/cancer_immunotherapy/scraped_data.json",
+        "blogs": "topics/cancer_immunotherapy/blogs.json",
+        "youtube": "topics/cancer_immunotherapy/youtube.json",
+        "pubmed": "topics/cancer_immunotherapy/pubmed.json"
+      }
+    },
+    {
+      "topic": "cardiovascular",
+      "total": 4,
+      "avg_trust": 0.742,
+      "trust_tiers": {
+        "AUTHORITATIVE": 2,
+        "CREDIBLE": 2
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 0,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:09:04",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/cardiovascular/scraped_data.json",
+        "blogs": "topics/cardiovascular/blogs.json",
+        "youtube": "topics/cardiovascular/youtube.json",
+        "pubmed": "topics/cardiovascular/pubmed.json"
+      }
+    },
+    {
+      "topic": "covid",
+      "total": 4,
+      "avg_trust": 0.766,
+      "trust_tiers": {
+        "AUTHORITATIVE": 3,
+        "CREDIBLE": 1
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 0,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:08:13",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/covid/scraped_data.json",
+        "blogs": "topics/covid/blogs.json",
+        "youtube": "topics/covid/youtube.json",
+        "pubmed": "topics/covid/pubmed.json"
+      }
+    },
+    {
+      "topic": "diabetes",
+      "total": 6,
+      "avg_trust": 0.642,
+      "trust_tiers": {
+        "AUTHORITATIVE": 2,
+        "CREDIBLE": 2,
+        "UNCERTAIN": 2
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 2,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:06:38",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/diabetes/scraped_data.json",
+        "blogs": "topics/diabetes/blogs.json",
+        "youtube": "topics/diabetes/youtube.json",
+        "pubmed": "topics/diabetes/pubmed.json"
+      }
+    },
+    {
+      "topic": "genomics",
+      "total": 4,
+      "avg_trust": 0.799,
+      "trust_tiers": {
+        "AUTHORITATIVE": 3,
+        "CREDIBLE": 1
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 0,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:08:59",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/genomics/scraped_data.json",
+        "blogs": "topics/genomics/blogs.json",
+        "youtube": "topics/genomics/youtube.json",
+        "pubmed": "topics/genomics/pubmed.json"
+      }
+    },
+    {
+      "topic": "gut_health",
+      "total": 4,
+      "avg_trust": 0.737,
+      "trust_tiers": {
+        "AUTHORITATIVE": 2,
+        "CREDIBLE": 2
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 0,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:08:27",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/gut_health/scraped_data.json",
+        "blogs": "topics/gut_health/blogs.json",
+        "youtube": "topics/gut_health/youtube.json",
+        "pubmed": "topics/gut_health/pubmed.json"
+      }
+    },
+    {
+      "topic": "heart_disease",
+      "total": 4,
+      "avg_trust": 0.746,
+      "trust_tiers": {
+        "AUTHORITATIVE": 2,
+        "CREDIBLE": 2
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 0,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:08:35",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/heart_disease/scraped_data.json",
+        "blogs": "topics/heart_disease/blogs.json",
+        "youtube": "topics/heart_disease/youtube.json",
+        "pubmed": "topics/heart_disease/pubmed.json"
+      }
+    },
+    {
+      "topic": "hypertension",
+      "total": 4,
+      "avg_trust": 0.761,
+      "trust_tiers": {
+        "AUTHORITATIVE": 2,
+        "CREDIBLE": 2
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 0,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:08:22",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/hypertension/scraped_data.json",
+        "blogs": "topics/hypertension/blogs.json",
+        "youtube": "topics/hypertension/youtube.json",
+        "pubmed": "topics/hypertension/pubmed.json"
+      }
+    },
+    {
+      "topic": "mental_health",
+      "total": 4,
+      "avg_trust": 0.708,
+      "trust_tiers": {
+        "AUTHORITATIVE": 2,
+        "CREDIBLE": 1,
+        "UNCERTAIN": 1
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 0,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:08:32",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/mental_health/scraped_data.json",
+        "blogs": "topics/mental_health/blogs.json",
+        "youtube": "topics/mental_health/youtube.json",
+        "pubmed": "topics/mental_health/pubmed.json"
+      }
+    },
+    {
+      "topic": "neurology",
+      "total": 4,
+      "avg_trust": 0.756,
+      "trust_tiers": {
+        "AUTHORITATIVE": 2,
+        "CREDIBLE": 2
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 0,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:08:55",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/neurology/scraped_data.json",
+        "blogs": "topics/neurology/blogs.json",
+        "youtube": "topics/neurology/youtube.json",
+        "pubmed": "topics/neurology/pubmed.json"
+      }
+    },
+    {
+      "topic": "nutrition",
+      "total": 4,
+      "avg_trust": 0.754,
+      "trust_tiers": {
+        "AUTHORITATIVE": 2,
+        "CREDIBLE": 2
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 0,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:08:51",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/nutrition/scraped_data.json",
+        "blogs": "topics/nutrition/blogs.json",
+        "youtube": "topics/nutrition/youtube.json",
+        "pubmed": "topics/nutrition/pubmed.json"
+      }
+    },
+    {
+      "topic": "obesity",
+      "total": 6,
+      "avg_trust": 0.697,
+      "trust_tiers": {
+        "AUTHORITATIVE": 4,
+        "CREDIBLE": 1,
+        "UNCERTAIN": 1
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 2,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:07:29",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/obesity/scraped_data.json",
+        "blogs": "topics/obesity/blogs.json",
+        "youtube": "topics/obesity/youtube.json",
+        "pubmed": "topics/obesity/pubmed.json"
+      }
+    },
+    {
+      "topic": "public_health",
+      "total": 4,
+      "avg_trust": 0.779,
+      "trust_tiers": {
+        "AUTHORITATIVE": 3,
+        "CREDIBLE": 1
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 0,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:09:07",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/public_health/scraped_data.json",
+        "blogs": "topics/public_health/blogs.json",
+        "youtube": "topics/public_health/youtube.json",
+        "pubmed": "topics/public_health/pubmed.json"
+      }
+    },
+    {
+      "topic": "rag",
+      "total": 4,
+      "avg_trust": 0.698,
+      "trust_tiers": {
+        "AUTHORITATIVE": 1,
+        "CREDIBLE": 3
+      },
+      "sources": {
+        "blog": 3,
+        "youtube": 0,
+        "pubmed": 1
+      },
+      "generated_at": "2026-05-08T15:08:47",
+      "schema_version": "2.0",
+      "files": {
+        "combined": "topics/rag/scraped_data.json",
+        "blogs": "topics/rag/blogs.json",
+        "youtube": "topics/rag/youtube.json",
+        "pubmed": "topics/rag/pubmed.json"
+      }
+    }
+  ]
+}

@@ -1,0 +1,300 @@
+{
+  "meta": {
+    "topic": "inflammation",
+    "generated_at": "2026-05-10T23:37:40Z",
+    "ingested_at": "2026-05-10T23:37:40Z",
+    "pipeline": "ContentRadar v2",
+    "schema_version": "2.0",
+    "total_records": 2,
+    "avg_trust": 0.787,
+    "trust_tiers": {
+      "AUTHORITATIVE": 1,
+      "CREDIBLE": 1
+    },
+    "sources": {
+      "blog": 1,
+      "pubmed": 1
+    },
+    "sorted_by": "trust_score_desc"
+  },
+  "records": [
+    {
+      "record_id": "0dd2e9d0a8758b2f",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-10T23:37:40Z",
+      "source_url": "https://www.sciencedaily.com/releases/2026/05/260508003127.htm",
+      "source_type": "blog",
+      "author": "ScienceDaily",
+      "published_date": "Sat, 09 May 2026 20:58:55 EDT",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "gut health",
+        "research",
+        "cardiovascular",
+        "healthcare",
+        "cancer / oncology"
+      ],
+      "trust_score": 0.863,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Science News\n\nfrom research organizations\n\nBlack licorice compound shows promise against inflammatory bowel disease\n\nDate:\n\nMay 9, 2026\n\nSource:\n\nInternational Society for Stem Cell Research\n\nSummary:\n\nResearchers have developed a stem cell-based model of the human intestine that may transform how new IBD treatments are discovered. After testing thousands of compounds, they identified glycyrrhizin â a natural substance found in black licorice â as a promising anti-inflammatory candidate. In both lab-grown tissue and mice, the compound reduced intestinal damage and cell death linked to IBD. Share:\n\nFacebook\n\nTwitter\n\nPinterest\n\nLinkedIN\n\nEmail\n\nFULL STORY\n\nInflammatory bowel disease (IBD) affects millions of people worldwide, and current treatments often fail to provide lasting relief. Now, researchers have developed a new stem cell-based model of the human intestine that could help scientists discover more effective therapies. Their findings, published in\n\nStem Cell Reports\n\n, point to glycyrrhizin, a natural compound found in black licorice, as a promising candidate for reducing intestinal inflammation and preventing cell death. IBD is a chronic condition marked by ongoing inflammation in the digestive tract.",
+          "chunk_index": 0,
+          "quality_score": 0.84,
+          "has_overlap": false,
+          "total_chunks": 7,
+          "word_count": 175
+        },
+        {
+          "text": "as a promising candidate for reducing intestinal inflammation and preventing cell death. IBD is a chronic condition marked by ongoing inflammation in the digestive tract. Common symptoms include persistent diarrhea, abdominal pain, fatigue, and other complications that can significantly affect daily life. Researchers estimate that around 4 million people around the world are living with the disease, and the number continues to rise. Although treatments such as anti-inflammatory medications and immune-targeting drugs are available, many patients do not respond well enough or continue to experience symptoms despite therapy. Stem Cell Model Mimics Human Intestinal Disease\n\nOne challenge in developing new IBD treatments is finding a laboratory model that accurately reflects the human intestinal wall. High-throughput screening (HTS), which allows scientists to rapidly test thousands of potential drug compounds, depends on having a reliable system for studying the disease. To tackle this problem, a research team led by Yu Takahashi at the University of Tokyo in Japan created a human intestine model using stem cells. The scientists then triggered an IBD-like condition by exposing the tissue to a major inflammatory protein linked to the disease in patients. The team confirmed that the protein caused inflammation and cell death in the lab-grown intestinal tissue.",
+          "chunk_index": 1,
+          "quality_score": 0.847,
+          "has_overlap": true,
+          "total_chunks": 7,
+          "word_count": 202
+        },
+        {
+          "text": "major inflammatory protein linked to the disease in patients. The team confirmed that the protein caused inflammation and cell death in the lab-grown intestinal tissue. With the model established, the researchers screened roughly 3,500 compounds to search for substances that could protect the cells. Black Licorice Compound Emerges as a Top Candidate\n\nAmong the strongest performers was glycyrrhizin, a naturally occurring ingredient in black licorice. Earlier studies had already suggested that the compound could help in cellular and animal models of IBD, and the new research provided additional support for its potential benefits. In the stem cell-derived intestinal model, glycyrrhizin significantly reduced intestinal cell death. Similar effects were also seen in mice with IBD, where the compound lowered inflammation levels and reduced damage to intestinal cells. Potential for Future IBD Treatments\n\nThe researchers say the findings demonstrate how stem cell-derived intestinal models could become valuable tools for discovering new drugs for inflammatory bowel disease. While the early results are encouraging, additional clinical studies will be needed to determine whether glycyrrhizin can safely and effectively treat IBD in people without causing harmful side effects.",
+          "chunk_index": 2,
+          "quality_score": 0.833,
+          "has_overlap": true,
+          "total_chunks": 7,
+          "word_count": 183
+        },
+        {
+          "text": "are encouraging, additional clinical studies will be needed to determine whether glycyrrhizin can safely and effectively treat IBD in people without causing harmful side effects. RELATED TOPICS\n\nHealth & Medicine\n\nGastrointestinal Problems\n\nPharmacology\n\nImmune System\n\nColitis\n\nPain Control\n\nPharmaceuticals\n\nCold and Flu\n\nDiseases and Conditions\n\nRELATED TERMS\n\nAdult stem cell\n\nEmbryonic stem cell\n\nStem cell\n\nStem cell treatments\n\nAntibiotic resistance\n\nCancer\n\nMouse\n\nNecrosis\n\nStory Source:\n\nMaterials provided by\n\nInternational Society for Stem Cell Research\n\n. Note: Content may be edited for style and length. Journal Reference\n\n:\n\nYu Takahashi, Zhongwei Zhang, Izumi Tanaka, I-Ting Lee, Jincheng He, Yurina Koura, Shintaro Sato, Hirotatsu Kojima, Takayoshi Okabe, Hiroshi Kiyono, Takashi Sasaki, Yoshio Yamauchi, Yosuke Kurashima, Ryuichiro Sato. Organoid phenotypic screening identified glycyrrhizin that confers protection against tumor necrosis factor-induced cell death\n\n. Stem Cell Reports\n\n, 2026; 102891 DOI:\n\n10.1016/j.stemcr.2026.102891\n\nCite This Page\n\n:\n\nMLA\n\nAPA\n\nChicago\n\nInternational Society for Stem Cell Research. \"Black licorice compound shows promise against inflammatory bowel disease.\" ScienceDaily. ScienceDaily, 9 May 2026. <www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260508003127.htm>. International Society for Stem Cell Research. (2026, May 9). Black licorice compound shows promise against inflammatory bowel disease. ScienceDaily\n\n.",
+          "chunk_index": 3,
+          "quality_score": 0.881,
+          "has_overlap": true,
+          "total_chunks": 7,
+          "word_count": 194
+        },
+        {
+          "text": "2026 / 05 / 260508003127.htm>. International Society for Stem Cell Research. (2026, May 9). Black licorice compound shows promise against inflammatory bowel disease. ScienceDaily . Retrieved May 10, 2026 from www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260508003127.htm\n\nInternational Society for Stem Cell Research. \"Black licorice compound shows promise against inflammatory bowel disease.\" ScienceDaily. www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260508003127.htm (accessed May 10, 2026). Explore More\n\nfrom ScienceDaily\n\nRELATED STORIES\n\nFocus on the Gut-Liver Axis: Semisynthetic Bile Acid Has Anti-Inflammatory Effects on the Gut\n\nMar. 13, 2025 Â\n\nA research team has made further progress in the treatment of intestinal inflammation. A study shows that the semi-synthetic bile acid NorUDCA inhibits in the intestine the formation of ... A Potential Pathway May Guide New Therapies for Inflammatory Bowel Disease and Other Inflammatory Diseases\n\nAug. 22, 2024 Â\n\nThere is a critical unmet need to help tighten and maintain a healthy intestinal barrier and treat a leaky gut. Researchers have now found that a unique strain of probiotic bacteria, Bifidobacterium ...",
+          "chunk_index": 4,
+          "quality_score": 0.813,
+          "has_overlap": true,
+          "total_chunks": 7,
+          "word_count": 174
+        },
+        {
+          "text": "tighten and maintain a healthy intestinal barrier and treat a leaky gut. Researchers have now found that a unique strain of probiotic bacteria, Bifidobacterium ... Study Identifies Genetic Link Between Inflammatory Bowel Disease and Parkinson's Disease\n\nMay 13, 2024 Â\n\nResearchers have made a significant discovery, identifying genetic connections between inflammatory bowel disease (IBD) and Parkinson's disease (PD). Their study highlights the potential for ... Small Amounts of Licorice Raise Blood Pressure, Study Finds\n\nMar. 14, 2024 Â\n\nIt is known that large amounts of licorice cause high blood pressure. A new study now shows that even small amounts of licorice raise blood pressure. The individuals who react most strongly also show ... New Study Shows Bidirectional Link Between Inflammatory Bowel Disease and Depression\n\nJune 2, 2022 Â\n\nA new study shows that patients diagnosed with IBD were nine times as likely to develop depression than the general population. In addition, their siblings who did not suffer from IBD were almost two ... Researchers Look to Licorice for Promising Cancer Treatments\n\nApr. 6, 2022 Â\n\nA research review into molecular insights of a licorice-derived substance called glycyrrhizin for preventing or treating cancer suggests further research could lead to specific agents for clinical ...",
+          "chunk_index": 5,
+          "quality_score": 0.81,
+          "has_overlap": true,
+          "total_chunks": 7,
+          "word_count": 203
+        },
+        {
+          "text": "into molecular insights of a licorice-derived substance called glycyrrhizin for preventing or treating cancer suggests further research could lead to specific agents for clinical ... TRENDING AT\n\nSCITECHDAILY.com\n\nScientists Think the Real Fountain of Youth May Be Hiding in Your Gut\n\nThis Common Knee Surgery May Be Doing More Harm Than Good\n\nNew Pill Lowers Stubborn Blood Pressure and Protects the Kidneys\n\nHumans May Have Hidden Regenerative Powers, New Study Suggests",
+          "chunk_index": 6,
+          "quality_score": 0.794,
+          "has_overlap": true,
+          "total_chunks": 7,
+          "word_count": 71
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.943,
+        "medical_disclaimer_presence": 0.7,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.54,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.55,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.75,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": true
+        },
+        "citation_count": {
+          "reason": "blog_evidence_proxy",
+          "evidence_phrases": 42
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "sciencedaily.com"
+        },
+        "recency": {
+          "age_days": 1,
+          "halflife": 90.0,
+          "published": "Sat, 09 May 2026 20:58:55 EDT"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false,
+          "implicit_editorial_review": true,
+          "domain": "sciencedaily.com"
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 1052,
+          "ttr": 0.489,
+          "gini": 0.377,
+          "wc_score": 0.526
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.054,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8274
+    },
+    {
+      "record_id": "9d60c2f7a720e75c",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-10T23:37:40Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40406124/",
+      "source_type": "pubmed",
+      "author": "Hollis R, Tenet M, Aziz M, Wang P",
+      "published_date": "2025",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "public health",
+        "healthcare",
+        "genomics",
+        "mental health"
+      ],
+      "trust_score": 0.712,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "Shock, affecting a third of intensive care patients, remains a highly fatal condition despite advances in critical care, irrespective of its etiology. Cellular injury, central to shock pathophysiology, triggers the release of damage-associated molecular patterns (DAMPs), such as extracellular cold-inducible RNA-binding protein (eCIRP), high-mobility group box 1 (HMGB1), histones 3 and 4, and adenosine triphosphate (ATP). These molecules are confined within cells under normal conditions and perform essential physiological functions. However, upon their extracellular release during cellular injury, they act as alarmins, engaging pattern recognition receptors (PRRs) on immune cells. This interaction triggers a robust inflammatory response, propagating systemic inflammation and exacerbating tissue damage. Excessive DAMP-mediated inflammation is increasingly recognized as a major contributor to morbidity and mortality in a wide range of critical illnesses, including trauma, hemorrhagic shock, sepsis, and organ ischemia/reperfusion (I/R) injury. These pathologies are characterized by uncontrolled inflammatory cascades driven by the deleterious effects of DAMPs, underscoring the urgent need for targeted therapeutic interventions.",
+          "chunk_index": 0,
+          "quality_score": 0.902,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 158
+        },
+        {
+          "text": "(I/R) injury. These pathologies are characterized by uncontrolled inflammatory cascades driven by the deleterious effects of DAMPs, underscoring the urgent need for targeted therapeutic interventions. This review explores the pivotal role of DAMPs in the pathogenesis of acute inflammation and shock, highlighting cutting-edge therapeutic strategies aimed at mitigating their effects. Emerging approaches include monoclonal antibodies, decoy receptors, small molecule inhibitors, and scavengers designed to neutralize or inhibit DAMP activity. The discussion also delves into the potential clinical applications of these interventions, offering insights into how targeting DAMPs could transform the management of shock and improve patient outcomes.",
+          "chunk_index": 1,
+          "quality_score": 0.912,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 97
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.55,
+        "domain_authority": 0.95,
+        "recency": 0.649,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.615,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.799,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 4
+        },
+        "citation_count": {
+          "citations": 110
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 494,
+          "halflife": 900.0,
+          "published": "2025"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 230,
+          "ttr": 0.765,
+          "gini": 0.084,
+          "wc_score": 0.115
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.7303,
+      "pmid": "40406124",
+      "doi": "10.3389/fimmu.2025.1579954",
+      "journal": "Frontiers in immunology"
+    }
+  ]
+}

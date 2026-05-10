@@ -1,0 +1,119 @@
+[
+  {
+    "record_id": "cca9797baaf35c6c",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T23:37:35Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39338710/",
+    "source_type": "pubmed",
+    "author": "Marković D, Stamenković Z, Đorđević B, Ranđić S",
+    "published_date": "2024 Sep 14",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "technology",
+      "climate / environment",
+      "AI / ML"
+    ],
+    "trust_score": 0.539,
+    "trust_tier": "UNCERTAIN",
+    "content_chunks": [
+      {
+        "text": "The widespread use of IoT devices has led to the generation of a huge amount of data and driven the need for analytical solutions in many areas of human activities, such as the field of smart agriculture. Continuous monitoring of crop growth stages enables timely interventions, such as control of weeds and plant diseases, as well as pest control, ensuring optimal development. Decision-making systems in smart agriculture involve image analysis with the potential to increase productivity, efficiency and sustainability. By applying Convolutional Neural Networks (CNNs), state recognition and classification can be performed based on images from specific locations. Thus, we have developed a solution for early problem detection and resource management optimization. The main concept of the proposed solution relies on a direct connection between Cloud and Edge devices, which is achieved through Fog computing. The goal of our work is creation of a deep learning model for image classification that can be optimized and adapted for implementation on devices with limited hardware resources at the level of Fog computing.",
+        "chunk_index": 0,
+        "quality_score": 0.856,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 170
+      },
+      {
+        "text": "learning model for image classification that can be optimized and adapted for implementation on devices with limited hardware resources at the level of Fog computing. This could increase the importance of image processing in the reduction of agricultural operating costs and manual labor. As a result of the off-load data processing at Edge and Fog devices, the system responsiveness can be improved, the costs associated with data transmission and storage can be reduced, and the overall system reliability and security can be increased. The proposed solution can choose classification algorithms to find a trade-off between size and accuracy of the model optimized for devices with limited hardware resources. After testing our model for tomato disease classification compiled for execution on FPGA, it was found that the decrease in test accuracy is as small as 0.83% (from 96.29% to 95.46%).",
+        "chunk_index": 1,
+        "quality_score": 0.802,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 139
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.025,
+      "domain_authority": 0.95,
+      "recency": 0.597,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.53,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.862,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 4
+      },
+      "citation_count": {
+        "citations": 5
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 603,
+        "halflife": 900.0,
+        "published": "2024 Sep 14"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 284,
+        "ttr": 0.592,
+        "gini": 0.165,
+        "wc_score": 0.142
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.004,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7343,
+    "pmid": "39338710",
+    "doi": "10.3390/s24185965",
+    "journal": "Sensors (Basel, Switzerland)"
+  }
+]

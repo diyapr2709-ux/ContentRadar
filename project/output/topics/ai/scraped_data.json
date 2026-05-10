@@ -1,0 +1,674 @@
+{
+  "meta": {
+    "topic": "ai",
+    "generated_at": "2026-05-08T15:08:42",
+    "ingested_at": "2026-05-08T19:08:42Z",
+    "pipeline": "ContentRadar v2",
+    "schema_version": "2.0",
+    "total_records": 4,
+    "avg_trust": 0.728,
+    "trust_tiers": {
+      "AUTHORITATIVE": 2,
+      "CREDIBLE": 2
+    },
+    "sources": {
+      "pubmed": 1,
+      "blog": 3
+    },
+    "sorted_by": "trust_score_desc"
+  },
+  "records": [
+    {
+      "record_id": "3bef2a06c8184992",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:42Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40195079/",
+      "source_type": "pubmed",
+      "author": "Gao S, Wang X, Xia Z, Zhang H, Yu J, Yang F",
+      "published_date": "2025 Apr 8",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "healthcare",
+        "AI / ML",
+        "research"
+      ],
+      "trust_score": 0.838,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Advancements in digital and precision medicine have fostered the rapid development of artificial intelligence (AI) applications, including machine learning, artificial neural networks (ANN), and deep learning, within the field of dentistry, particularly in imaging diagnosis and treatment. This review examines the progress of AI across various domains of dentistry, focusing on its role in enhancing diagnostics and optimizing treatment for oral diseases such as endodontic disease, periodontal disease, oral implantology, orthodontics, prosthodontic treatment, and oral and maxillofacial surgery. Additionally, it discusses the emerging opportunities and challenges associated with these technologies. The findings indicate that AI can be effectively utilized in numerous aspects of oral healthcare, including prevention, early screening, accurate diagnosis, treatment plan design assistance, treatment execution, follow-up monitoring, and prognosis assessment. However, notable challenges persist, including issues related to inaccurate data annotation, limited capability for fine-grained feature expression, a lack of universally applicable models, potential biases in learning algorithms, and legal risks pertaining to medical malpractice and data privacy breaches.",
+          "chunk_index": 0,
+          "quality_score": 0.882,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 161
+        },
+        {
+          "text": "fine-grained feature expression, a lack of universally applicable models, potential biases in learning algorithms, and legal risks pertaining to medical malpractice and data privacy breaches. Looking forward, future research is expected to concentrate on overcoming these challenges to enhance the accuracy and applicability of AI in diagnosing and treating oral diseases. This review aims to provide a comprehensive overview of the current state of AI in dentistry and to identify pathways for its effective integration into clinical practice.",
+          "chunk_index": 1,
+          "quality_score": 0.897,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 78
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 1.0,
+        "domain_authority": 0.95,
+        "recency": 0.701,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.574,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 6
+        },
+        "citation_count": {
+          "citations": 247
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 395,
+          "halflife": 900.0,
+          "published": "2025 Apr 8"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 214,
+          "ttr": 0.706,
+          "gini": 0.133,
+          "wc_score": 0.107
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8098,
+      "pmid": "40195079",
+      "doi": "10.12659/MSM.946676",
+      "journal": "Medical science monitor : international medical journal of experimental and clinical research"
+    },
+    {
+      "record_id": "4856d4f61555abdb",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:42Z",
+      "source_url": "https://www.sciencedaily.com/releases/2026/04/260422044635.htm",
+      "source_type": "blog",
+      "author": "ScienceDaily",
+      "published_date": "Thu, 23 Apr 2026 09:38:47 EDT",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "research",
+        "AI / ML",
+        "cancer / oncology",
+        "healthcare",
+        "genomics"
+      ],
+      "trust_score": 0.771,
+      "trust_tier": "AUTHORITATIVE",
+      "content_chunks": [
+        {
+          "text": "Science News\n\nfrom research organizations\n\nAI just discovered new physics in the fourth state of matter\n\nAI just helped physicists spot new laws of nature hiding in a chaotic particle systemâand it might work everywhere. Date:\n\nApril 23, 2026\n\nSource:\n\nEmory University\n\nSummary:\n\nPhysicists have taken a major step toward using AI not just to analyze data, but to uncover entirely new laws of nature. By combining a specially designed neural network with precise 3D tracking of particles in a dusty plasmaâa strange âfourth state of matterâ found from space to wildfiresâthe team revealed hidden patterns in how particles interact. Their model captured complex, one-way (non-reciprocal) forces with over 99% accuracy and even overturned long-held assumptions about how these forces behave. Share:\n\nFacebook\n\nTwitter\n\nPinterest\n\nLinkedIN\n\nEmail\n\nFULL STORY\n\nPhysicists have used a machine learning approach to reveal unexpected details about how particles interact in complex systems. Their work focuses on non-reciprocal forces, where one particle influences another differently than it is influenced in return.",
+          "chunk_index": 0,
+          "quality_score": 0.882,
+          "has_overlap": false,
+          "total_chunks": 12,
+          "word_count": 165
+        },
+        {
+          "text": "about how particles interact in complex systems. Their work focuses on non-reciprocal forces, where one particle influences another differently than it is influenced in return. The findings, published in\n\nPNAS\n\n, come from a collaboration between experimental and theoretical physicists at Emory University. By combining a custom neural network with laboratory data from a dusty plasma, the team showed that artificial intelligence can do more than analyze data or make predictions. It can help uncover entirely new physical laws. \"We showed that we can use AI to discover new physics,\" says Justin Burton, an Emory professor of experimental physics and senior co-author of the paper. \"Our AI method is not a black box: we understand how and why it works. The framework it provides is also universal. It could potentially be applied to other many-body systems to open new routes to discovery.\"\n\nHigh-Precision Insights Into Dusty Plasma Forces\n\nThe study offers one of the most detailed descriptions to date of the physics governing dusty plasma. This system consists of ionized gas filled with interacting charged particles, including tiny grains of dust. Using their AI model, the researchers were able to describe non-reciprocal forces with more than 99% accuracy.",
+          "chunk_index": 1,
+          "quality_score": 0.859,
+          "has_overlap": true,
+          "total_chunks": 12,
+          "word_count": 198
+        },
+        {
+          "text": "interacting charged particles, including tiny grains of dust. Using their AI model, the researchers were able to describe non-reciprocal forces with more than 99% accuracy. These forces are notoriously difficult to measure and model. \"We can describe these forces with an accuracy of more than 99%,\" says Ilya Nemenman, an Emory professor of theoretical physics and co-senior author of the paper. \"What's even more interesting is that we show that some common theoretical assumptions about these forces are not quite accurate. We're able to correct these inaccuracies because we can now see what's occurring in such exquisite detail.\"\n\nThe team believes this method could be applied broadly to systems made up of many interacting components. These range from industrial materials such as paint and ink to groups of living cells. The study's first author is Wentao Yu, who worked on the project as an Emory PhD student and is now a postdoctoral fellow at the California Institute of Technology. Co-author Eslam Abdelaleem also contributed as an Emory graduate student and is now a postdoctoral fellow at Georgia Tech. The research was primarily supported by the National Science Foundation, with additional funding from the Simons Foundation.",
+          "chunk_index": 2,
+          "quality_score": 0.841,
+          "has_overlap": true,
+          "total_chunks": 12,
+          "word_count": 195
+        },
+        {
+          "text": "is now a postdoctoral fellow at Georgia Tech. The research was primarily supported by the National Science Foundation, with additional funding from the Simons Foundation. \"This project serves as a great example of an interdisciplinary collaboration where the development of new knowledge in plasma physics and AI may lead to further advances in the study of living systems,\" says Vyacheslav (Slava) Lukin, program director for the NSF Plasma Physics program. \"The dynamics of these complex systems is dominated by collective interactions that emerging AI techniques may help us to better describe, recognize, understand and even control.\"\n\nThe Fourth State of Matter Explained\n\nPlasma is often called the fourth state of matter. In this state, gas becomes ionized, meaning electrons and ions move freely and create unique properties such as electrical conductivity. Plasma makes up about 99.9% of the visible universe, from the solar wind streaming from the Sun to lightning strikes on Earth. Dusty plasma includes additional charged dust particles and appears in many environments, from the rings of Saturn to the Earth's ionosphere. On the Moon, weak gravity allows charged dust to hover above the surface. \"That's why when astronauts walk on the moon their suits get covered in dust,\" Burton explains.",
+          "chunk_index": 3,
+          "quality_score": 0.862,
+          "has_overlap": true,
+          "total_chunks": 12,
+          "word_count": 203
+        },
+        {
+          "text": "gravity allows charged dust to hover above the surface. \"That's why when astronauts walk on the moon their suits get covered in dust,\" Burton explains. On Earth, dusty plasma can form during wildfires when soot mixes with smoke. These charged particles can disrupt radio signals, making communication more difficult for firefighters. Tracking Particle Motion in 3D\n\nBurton's lab studies dusty plasma and similar materials by recreating them in controlled experiments. Researchers suspend tiny plastic particles in a plasma-filled vacuum chamber to simulate more complex systems. By adjusting gas pressure, they can mimic real-world conditions and observe how particles respond to different forces. For this project, Burton and Yu developed a tomographic imaging method to capture the three dimensional (3D) motion of particles. A laser sheet moves through the chamber while a high speed camera records images. These snapshots are then combined to reconstruct the positions of dozens of particles over time, allowing researchers to track their motion in detail. Using AI To Understand Collective Motion\n\nNemenman, a theoretical biophysicist, studies how complex systems emerge from simple interactions. He is especially interested in collective motion, such as how cells move within the human body.",
+          "chunk_index": 4,
+          "quality_score": 0.87,
+          "has_overlap": true,
+          "total_chunks": 12,
+          "word_count": 193
+        },
+        {
+          "text": "biophysicist, studies how complex systems emerge from simple interactions. He is especially interested in collective motion, such as how cells move within the human body. \"General questions of how a whole system arises from interactions of tiny parts are very important,\" Nemenman explains. \"In cancer, for instance, you want to understand how the interaction of cells may relate to some of them breaking away from a tumor and moving to a new place, becoming metastatic.\"\n\nCompared to living systems, dusty plasma offers a simpler environment for testing new ideas. This made it an ideal case for exploring whether AI could uncover new physical principles. \"For all the talk about how AI is revolutionizing science, there are very few examples where something fundamentally new has been found directly by an AI system,\" Nemenman says. Designing a Neural Network for Discovery\n\nBuilding the AI model required careful planning. Unlike systems trained on massive datasets, this project had limited experimental data. \"When you're probing something new, you don't have a lot of data to train AI,\" Nemenman explains.",
+          "chunk_index": 5,
+          "quality_score": 0.877,
+          "has_overlap": true,
+          "total_chunks": 12,
+          "word_count": 175
+        },
+        {
+          "text": "massive datasets, this project had limited experimental data. \"When you're probing something new, you don't have a lot of data to train AI,\" Nemenman explains. \"That meant we would have to design a neural network that could be trained with a small amount of data and still learn something new.\"\n\nThe team spent more than a year refining the design through weekly meetings. \"We needed to structure the network to follow the necessary rules while still allowing it to explore and infer unknown physics,\" Burton explains. \"It took us more than a year of back-and-forth discussions in these weekly meetings,\" Nemenman adds. \"Once we came up with the correct structure of the network to train, it turned out to be fairly simple.\"\n\nThe final model separated particle motion into three main influences: drag from velocity, environmental forces such as gravity, and forces between particles. Surprising Results and New Insights\n\nAfter training on 3D particle trajectories, the AI successfully captured complex interactions, including asymmetrical forces between particles. The researchers compare this behavior to two boats moving across a lake. Each boat creates waves that affect the other. Depending on their positions, these waves can push or pull the boats differently.",
+          "chunk_index": 6,
+          "quality_score": 0.857,
+          "has_overlap": true,
+          "total_chunks": 12,
+          "word_count": 199
+        },
+        {
+          "text": "moving across a lake. Each boat creates waves that affect the other. Depending on their positions, these waves can push or pull the boats differently. \"In a dusty plasma, we described how a leading particle attracts the trailing particle, but the trailing particle always repels the leading one,\" Nemenman explains. \"This phenomenon was expected by some but now we have a precise approximation for it which didn't exist previously.\"\n\nThe results also challenge earlier theories. One long standing idea suggested that a particle's electric charge increases in direct proportion to its size. The new findings show that while larger particles do carry more charge, the relationship is more complex and depends on factors such as plasma density and temperature. Another assumption held that forces between particles decrease exponentially with distance in a way that does not depend on particle size. The AI model revealed that particle size does affect how quickly these forces weaken. The team confirmed these conclusions through additional experiments. A New Tool for Exploring Complex Systems\n\nThe researchers developed a physics based neural network that can run on a standard desktop computer. They believe it offers a flexible framework for studying many-body systems across different fields.",
+          "chunk_index": 7,
+          "quality_score": 0.862,
+          "has_overlap": true,
+          "total_chunks": 12,
+          "word_count": 199
+        },
+        {
+          "text": "based neural network that can run on a standard desktop computer. They believe it offers a flexible framework for studying many-body systems across different fields. Nemenman will soon teach at the Konstanz School of Collective Behavior in Germany, where scientists study systems ranging from flocks of birds to human crowds. \"I'll be teaching students from all over the world how to use AI to infer the physics of collective motion -- not within a dusty plasma but within a living system,\" he says. Even with these advances, human expertise remains essential. Scientists must design the models carefully and interpret the results. \"It takes critical thinking to develop and use AI tools in ways that make real advances in science, technology and the humanities,\" Burton says. He remains optimistic about the future. \"I think of it like the Star Trek motto, to boldly go where no one has before,\" Burton says.",
+          "chunk_index": 8,
+          "quality_score": 0.877,
+          "has_overlap": true,
+          "total_chunks": 12,
+          "word_count": 150
+        },
+        {
+          "text": "He remains optimistic about the future. \"I think of it like the Star Trek motto, to boldly go where no one has before,\" Burton says. \"Used properly, AI can open doors to whole new realms to explore.\"\n\nRELATED TOPICS\n\nMatter & Energy\n\nNature of Water\n\nEngineering and Construction\n\nPhysics\n\nMedical Technology\n\nComputers & Math\n\nComputer Modeling\n\nNeural Interfaces\n\nArtificial Intelligence\n\nEducational Technology\n\nRELATED TERMS\n\nIntroduction to quantum mechanics\n\nParticle physics\n\nPhysics\n\nNeural network\n\nMathematical model\n\nGlobal climate model\n\nSolar power\n\nScience\n\nStory Source:\n\nMaterials\n\nprovided by\n\nEmory University\n\n. Note: Content may be edited for style and length. Journal Reference\n\n:\n\nWentao Yu, Eslam Abdelaleem, Ilya Nemenman, Justin C. Burton. Physics-tailored machine learning reveals unexpected physics in dusty plasmas\n\n. Proceedings of the National Academy of Sciences\n\n, 2025; 122 (31) DOI:\n\n10.1073/pnas.2505725122\n\nCite This Page\n\n:\n\nMLA\n\nAPA\n\nChicago\n\nEmory University. \"AI just discovered new physics in the fourth state of matter.\" ScienceDaily. ScienceDaily, 23 April 2026. <www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n04\n\n/\n\n260422044635.htm>. Emory University. (2026, April 23). AI just discovered new physics in the fourth state of matter. ScienceDaily\n\n. Retrieved May 8, 2026 from www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n04\n\n/\n\n260422044635.htm\n\nEmory University.",
+          "chunk_index": 9,
+          "quality_score": 0.868,
+          "has_overlap": true,
+          "total_chunks": 12,
+          "word_count": 201
+        },
+        {
+          "text": "physics in the fourth state of matter. ScienceDaily . Retrieved May 8, 2026 from www.sciencedaily.com / releases / 2026 / 04 / 260422044635.htm Emory University. \"AI just discovered new physics in the fourth state of matter.\" ScienceDaily. www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n04\n\n/\n\n260422044635.htm (accessed May 8, 2026). Explore More\n\nfrom ScienceDaily\n\nRELATED STORIES\n\nWeak Magnetism Causes Big Changes in a Strange State of Matter\n\nJan. 31, 2026 Â\n\nA strange, glowing form of matter called dusty plasma turns out to be incredibly sensitive to magnetic fields. Researchers found that even weak fields can change how tiny particles grow, simply by ... Physicists Capture Trillion Degree Heat from the Big Bangâs Primordial Plasma\n\nOct. 29, 2025 Â\n\nRice University researchers have captured the temperature profile of quark-gluon plasma, the ultra-hot state of matter from the dawn of the universe. By analyzing rare electron-positron emissions ... Photons Collide in the Void: Quantum Simulation Creates Light out of Nothing\n\nJune 8, 2025 Â\n\nPhysicists have managed to simulate a strange quantum phenomenon where light appears to arise from empty space a concept that until now has only existed in theory. Using cutting-edge simulations, ... Molecules Exhibit Non-Reciprocal Interactions Without External Forces\n\nDec.",
+          "chunk_index": 10,
+          "quality_score": 0.827,
+          "has_overlap": true,
+          "total_chunks": 12,
+          "word_count": 202
+        },
+        {
+          "text": "from empty space a concept that until now has only existed in theory. Using cutting-edge simulations, ... Molecules Exhibit Non-Reciprocal Interactions Without External Forces Dec. 29, 2023 Â\n\nResearchers have discovered that molecules experience non-reciprocal interactions without external forces. Fundamental forces such as gravity and electromagnetism are reciprocal, where two objects ... Can Plasma Instability in Fact Be the Savior for Magnetic Nozzle Plasma Thrusters\n\nDec. 7, 2022 Â\n\nMagnetic nozzle plasma thrusters are thought of as the future of space travel. But one problem has hampered their development -- plasma detachment. A recent study has shown that spontaneously excited ... City Digital Twins Help Train Deep Learning Models to Separate Building Facades\n\nSep. 8, 2022 Â\n\nTo automatically generate data for training deep convolutional neural network models to segment building facades, researchers used a three-dimensional model and game engine to generate digital city ... TRENDING AT\n\nSCITECHDAILY.com\n\nPhysicists Propose Strange Experiment Where Time Goes Quantum\n\nMagnesium Magic: New Drug Melts Fat Even on a High-Fat, High-Sugar Diet\n\nWeight-Loss Drugs Like Ozempic May Come With an Unexpected Cost\n\nMezcal âWormâ in a Bottle Mystery: DNA Testing Reveals a Surprise",
+          "chunk_index": 11,
+          "quality_score": 0.723,
+          "has_overlap": true,
+          "total_chunks": 12,
+          "word_count": 189
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.35,
+        "domain_authority": 0.95,
+        "recency": 0.846,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.672,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.9,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": true
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "sciencedaily.com"
+        },
+        "recency": {
+          "age_days": 15,
+          "halflife": 90.0,
+          "published": "Thu, 23 Apr 2026 09:38:47 EDT"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 1994,
+          "ttr": 0.451,
+          "gini": 0.357,
+          "wc_score": 0.997
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.024,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.7832
+    },
+    {
+      "record_id": "7fe16687bda3691e",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:42Z",
+      "source_url": "https://towardsdatascience.com/timer-xl-a-long-context-foundation-model-for-time-series-forecasting/",
+      "source_type": "blog",
+      "author": "Nikos Kafritsas",
+      "published_date": "Wed, 06 May 2026 15:00:00 +0000",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "AI / ML",
+        "large language models",
+        "research"
+      ],
+      "trust_score": 0.708,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "Deep Learning\n\nTimer-XL: A Long-Context Foundation Model for Time-Series Forecasting\n\nExploring the inner workings of a decoder-only Transformer foundation model\n\nNikos Kafritsas\n\nMay 6, 2026\n\n14 min read\n\nLately, there\n\nhas been a shift in how foundation models operate. After establishing that pretraining a large deep learning model on a vast corpus of temporal data grants generalizable properties, pretrained TS models now aim to be even more versatile. For time series, this means supporting exogenous variables and allowing variable context and prediction lengths. This article discusses\n\nTimer-XL[1]\n\n, an upgraded time series model based on\n\nTimer[2]\n\n. Timer-XL is built for generalization, with a focus on long-context forecasting. Let’s get started! What is Timer-XL\n\nTimer-XL is a decoder-only Transformer foundation model for forecasting. The model emphasizes generalizability and long-context predictions — offering unified, long-range forecasting. Key features of Timer-XL:\n\nVarying input/output lengths:\n\nUnlike models such as Tiny-Time-Mixers that have various versions for different input or output lengths, Timer-XL uses a single model for all cases, without making assumptions about context or prediction length. Long-context forecasting:\n\nHandles longer lookback windows effectively.",
+          "chunk_index": 0,
+          "quality_score": 0.858,
+          "has_overlap": false,
+          "total_chunks": 16,
+          "word_count": 180
+        },
+        {
+          "text": "output lengths, Timer-XL uses a single model for all cases, without making assumptions about context or prediction length. Long-context forecasting: Handles longer lookback windows effectively. Rich features:\n\nForecasts non-stationary univariate series, complex multivariate dynamics, and covariate-informed contexts with exogenous variables — all in a unified setup. Versatile:\n\nCan be trained from scratch or pretrained on large datasets. Further finetuning is optional for improved performance. Timer-XL enhances forecasting accuracy by introducing\n\nTimeAttention\n\n— an elegant attention mechanism that we’ll discuss in detail below. The team behind Timer-XL (THUML lab at Tsinghua University[3]) has deep expertise in time-series modeling. They’ve released milestone models like\n\niTransfomer\n\n, TimesNet, and Timer — Timer-XL’s predecessor. Encoder vs Decoder vs Encoder-Decoder models\n\nBefore discussing Timer-XL, we’ll explore the related work and recap the state of foundation TS models — this will help us understand what led to Timer-XL’s breakthrough. NLP Applications\n\nIn the early days of the Transformer, there was debate over which architecture was most effective. The original Transformer was an\n\nEncoder-Decoder\n\nmodel.",
+          "chunk_index": 1,
+          "quality_score": 0.914,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 168
+        },
+        {
+          "text": "NLP Applications In the early days of the Transformer, there was debate over which architecture was most effective. The original Transformer was an Encoder-Decoder model. Later, the Transformer research split into 2 branches: Encoder-only, like BERT (led by Google), and decoder-only, like GPT (led by OpenAI):\n\nEncoder-Decoder\n\nmodels use a bidirectional encoder to understand input and a causal decoder to generate output one token at a time. They excel at sequence-to-sequence tasks such as translation and summarization. Encoder-only models\n\nuse bidirectional attention (look for context in both ways) to understand a sentence and predict masked words within a sentence. They excel at NLU (natural language understanding) tasks. Decoder-only\n\nmodels use causal attention (the model only looks back for context) and learn to predict the next word. They excel at NLG (natural language generation) tasks. In NLP,\n\ndecoder-only\n\nmodels dominate generation tasks. Encoder-only models are used in classification, regression, and NER (Named Entity Recognition). Time-Series Applications\n\nBy late 2024 and early 2025, numerous foundation models were published, providing ample evidence of what works best. All these foundation models have come in many flavours.",
+          "chunk_index": 2,
+          "quality_score": 0.835,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 182
+        },
+        {
+          "text": "2024 and early 2025, numerous foundation models were published, providing ample evidence of what works best. All these foundation models have come in many flavours. Examples are:\n\nDecoder models:\n\nTimesFM\n\n(Google),\n\nTime-MOE\n\nEncoder models:\n\nMOIRAI\n\n(Salesforce),\n\nMOMENT\n\nEncoder-Decoder: Chronos (Amazon)\n\nSo far,\n\ndecoder\n\nand\n\nencoder-decoder\n\nmodels outperform\n\nencoders\n\nin forecasting. Timer-XL’s authors back this up with extensive experiments — their results support the same conclusion. There is also a category of multi-purpose models — used for forecasting, classification, imputation, etc. MOMENT and UNITS belong here and are encoder-only models. Timer, also multi-purpose, is a\n\ndecoder-only\n\nmodel. Its successor,\n\nTimer-XL\n\n, outperforms Timer in forecasting, but specializes in that task alone. Therefore:\n\nFor tasks that require general time-series understanding (e.g., imputation, anomaly detection),\n\nencoder\n\nmodels may be more suitable. However, for time-series forecasting, decoders currently hold the lead. This is why the authors shifted from Timer’s generalist design to Timer-XL’s specialization in forecasting. Both models are decoders, but the decoder architecture benefits the forecasting task! Long-Context Forecasting\n\nThe primary advantage of Transformer models is their ability to handle a large context length. Modern LLMs such as Gemini support up to 1M tokens. They’re not flawless at this scale, but generally reliable up to 100k tokens.",
+          "chunk_index": 3,
+          "quality_score": 0.86,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 204
+        },
+        {
+          "text": "context length. Modern LLMs such as Gemini support up to 1M tokens. They’re not flawless at this scale, but generally reliable up to 100k tokens. Time-series models are far behind — Transformer and DL forecasting models often struggle beyond 1K tokens. Recent foundation models such as MOIRAI support up to 4K. There are 2 issues to examine here:\n\nThe maximum supported context length. How the model handles the increased context length, in terms of performance. Figure 2\n\nshows that Timer-XL handles increasing context better than other models. For daily datasets such as Traffic, we can use up to a year’s data (~8760 datapoints). This makes Timer-XL ideal for high-frequency forecasting — a configuration where foundation models often underperform, as discussed earlier. Since we previously discussed Encoder-vs-Decoder models, let’s mention how this paper explored how each architecture affects the efficiency of Long-Context Forecasting. In Figure 3,\n\nthey analyzed where the model focuses during prediction using attention maps:\n\nLet’s interpret the above plots:\n\nEncoder:\n\nExhibits broad and diffuse attention across most of the sequence. Each token attends to many other tokens — this suggests less focus. Occasionally, they focus on irrelevant parts, completely missing the most recent datapoints. Decoder\n\n: Sparse, triangular structure.",
+          "chunk_index": 4,
+          "quality_score": 0.846,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 201
+        },
+        {
+          "text": "many other tokens — this suggests less focus. Occasionally, they focus on irrelevant parts, completely missing the most recent datapoints. Decoder : Sparse, triangular structure. Attention is mostly local and causal (as expected), but selective peaks suggest it occasionally “reaches back” further when useful. Encoder\n\nmodels scatter their attention across the sequence. Decoder\n\nmodels focus on\n\nrecent tokens\n\nbut adaptively zoom in on\n\nuseful earlier ones\n\n. TimeAttention: The “Secret Sauce” of Timer-XL\n\nThe attention mechanism powers the Transformer (a breakthrough in NLP), but in time series, it’s a double-edged sword. We discussed this extensively\n\nhere\n\n. In short:\n\nTransformer Time Series models are prone to overfitting. We cannot use raw attention as in NLP because self-attention is permutation-invariant (the order of tokens doesn’t matter, which it should when we have temporal information). Let’s first examine how deep learning models address time series, focusing on SOTA methods from each year. Preliminaries\n\nIn DL time series, a single data point or a patch (a group of consecutive data points) is referred to as a\n\ntoken\n\n. Imagine a dataset of 3 time series, where\n\ny\n\nis the target variable and\n\nx\n\n,\n\nz\n\nare observed covariates.",
+          "chunk_index": 5,
+          "quality_score": 0.854,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 195
+        },
+        {
+          "text": "to as a token . Imagine a dataset of 3 time series, where y is the target variable and x , z are observed covariates. For an input size\n\nT\n\n, the sequences are formatted as:\n\ny1, y2, y3 … yT\n\nx1, x2, x3 … xT\n\nz1, z2, z3 … zT\n\nEarly Transformer models like PatchTST applied attention across the\n\ntime dimension\n\n, e.g., between <y1, x1, z1>, <y2, x2, z2> … <yN, xN, zN>. This approach has a few disadvantages — e.g., misses lagged information across the feature dimension. Later models, such as iTransformer, addressed this by applying attention across the\n\nfeature\n\n/variate dimension,\n\nbetween\n\n<y1,y2,y3, … yN >, <x1,x2,x3, … xN >, <z1,z2,z3, … zN>. You can see the difference between the 2 approaches in\n\nFigure 4\n\nbelow:\n\nAs you might have guessed, we can further improve performance by combining both approaches. For instance, CARD (an encoder-only model) employs a sequential 2-stage attention mechanism for cross-time, cross-feature dependencies (\n\nFigure 5\n\n):\n\nHowever, this method is slow — due to its sequential 2-stage design. MOIRAI took things to the next level by introducing\n\nAny-Variate Attention\n\n, a novel attention mechanism adapted for pretrained models.",
+          "chunk_index": 6,
+          "quality_score": 0.86,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 196
+        },
+        {
+          "text": "to its sequential 2-stage design. MOIRAI took things to the next level by introducing Any-Variate Attention , a novel attention mechanism adapted for pretrained models. Any-Variate captures temporal relationships among datapoints while preserving permutation invariance across covariates. We discussed this mechanism in detail\n\nhere\n\n. Next, we dive into Timer-XL’s\n\nTimeAttention\n\n. Enter TimeAttention\n\nMOIRAI is a masked encoder model, so Any-Variate Attention can’t be used as-is in decoder-only models like Timer-XL. Decoder-only models use\n\ncausal self-attention\n\n— attending only to previous tokens. In contrast, vanilla quadratic self-attention is bidirectional. To address this, Timer-XL introduces a causal variant of MOIRAI’s attention called\n\nTimeAttention\n\n. Specifically, TimeAttention introduces:\n\nRotary positional embeddings (\n\nROPE)\n\nto capture time dependencies\n\nBinary biases (ALIBI)\n\nto capture dependencies among variates. Causal self-attention. The goal of TimeAttention is:\n\nNo permutation invariance for temporal information\n\n— the ordering of datapoints/temporal tokens should matter. Permutation invariance between the variates/features\n\n—\n\no\n\nrdering of the variates should not matter (e.g., if we have 2 covariates\n\nX1\n\nand\n\nX2\n\n, it does not matter which is first, just the relationship between them). This achieves\n\npermutation equivalence.",
+          "chunk_index": 7,
+          "quality_score": 0.846,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 185
+        },
+        {
+          "text": "if we have 2 covariates X1 and X2 , it does not matter which is first, just the relationship between them). This achieves permutation equivalence. The attention score between the\n\n(m,i)\n\n-th query and the\n\n(n,j)\n\n-th key, where\n\ni\n\n,\n\nj\n\nrepresent the time indexes and (\n\nm\n\n,\n\nn\n\n) the variate indexes, is calculated as follows:\n\nTimeAttention enables Timer-XL to handle univariate, multivariate, and context-informed forecasting. Given N variables for a dataset, the model flattens the 2D input [\n\nobservations\n\n,\n\nN\n\n] into 1D indices and calculates the attention-score by respecting permutation invariance in the time dimension and permutation equivariance in the variate dimension. Standard self-attention is pairwise, resulting in quadratic cost. A key difference from MOIRAI is the use of\n\ncausal attention\n\n, where each patch attends to previous points of its own signal, or to other time signals. In\n\nFigure 7’s\n\nexample, say we have 2 time series, A and B, each consisting of 3 tokens.",
+          "chunk_index": 8,
+          "quality_score": 0.849,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 162
+        },
+        {
+          "text": "own signal, or to other time signals. In Figure 7’s example, say we have 2 time series, A and B, each consisting of 3 tokens. The interactions are shown more clearly in\n\nFigure 8:\n\nTime Series A consists of tokens 1, 2, and 3\n\nTime Series A consists of tokens 4, 5, and 6\n\nFor Token 2 of Time Series A, the following attention scores are calculated:\n\ntoken2 ←→ token2 (to itself)\n\ntoken2 ←→ token1\n\ntoken2 ←→ token4\n\ntoken2 ←→ token5\n\nThe first 2 attention scores are within time series A, while the last 2 are within time series B. The TimeAttention formula can distinguish different time series and preserve permutation-equivalence. While TimeAttention may seem complex and somewhat arbitrary, ablation studies performed by the authors show it offers optimal performance in this setup. Note\n\n: When we mention tokens, we don’t mean individual datapoints. Timer-XL uses\n\npatches\n\nas tokens — so attention scores are computed between patches, not individual datapoints. Enter Timer-XL\n\nThe full architecture of Timer-XL is shown below:\n\nTimer-XL focuses on long-context and long-term forecasting using TimeAttention.",
+          "chunk_index": 9,
+          "quality_score": 0.616,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 179
+        },
+        {
+          "text": "computed between patches, not individual datapoints. Enter Timer-XL The full architecture of Timer-XL is shown below: Timer-XL focuses on long-context and long-term forecasting using TimeAttention. Moreover, Timer-XL uses the latest perks of advanced LLMs like FlashAttention:\n\nFlashAttention speeds up Transformer attention and reduces memory use by optimizing matrix operations and eliminating redundant steps. Interestingly, Timer-XL does\n\nnot\n\nbenefit from\n\nReversible Instance Normalization\n\n(RevIN) — a technique often used to handle distribution shifts in time-series data. The authors attribute this to the window-centric structure of Timer-XL, which operates across different variates (likely due to the flattening process). Let’s now check some interesting benchmarks! Last year, I published a tutorial for Timer-based applications in my newsletter:\n\nTimer-XL Revisited: A Hands-On Guide to Zero-Shot Forecasting\n\nMultivariate Forecasting Benchmark\n\nTimer-XL is primarily a zero-shot foundation model, but it can also be trained from scratch on specific datasets. In\n\nTable 1,\n\nTimer-XL is benchmarked against popular DL models across well-known datasets. For each dataset, average MAE and MSE are reported using a\n\nrolling-forecast\n\nevaluation across the test set. Rolling Forecasting:\n\nIn this approach, each model is trained with 672 input steps to produce N = (96, 192, 336, or 720) output steps.",
+          "chunk_index": 10,
+          "quality_score": 0.883,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 197
+        },
+        {
+          "text": "set. Rolling Forecasting: In this approach, each model is trained with 672 input steps to produce N = (96, 192, 336, or 720) output steps. The previous window slice of real observations is then recursively fed back as input until the target forecast length N is reached. Table 1\n\nshows the average score across all prediction lengths. Key takeaways:\n\nTimer-XL achieves the best average scores. Previous SOTA models like PatchTST and iTransformer ranked among the top 2 in a few cases. Timer-XL and Timer — the only decoder-only models — perform the best. The benchmark is further extended to include time-series models from other domains. Below are results from the\n\nGTWSF dataset\n\n(a wind speed forecasting challenge):\n\nWe observe:\n\nTimer-XL achieves the top overall score. Most DL models perform well, though some fail spectacularly! GDBT is not a statistics-based method, probably refers to Boosted Trees — in fact, it would be nice if the popular GDBT models like LightGBM were present here. A\n\nSeasonal Naive\n\nbaseline would’ve been a useful inclusion as well. Covariate-Informed Time Series Forecasting\n\nIn multivariate forecasting, each time series is treated as a separate channel. The model captures their inter-dependencies and jointly forecasts all time series.",
+          "chunk_index": 11,
+          "quality_score": 0.865,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 200
+        },
+        {
+          "text": "Series Forecasting In multivariate forecasting, each time series is treated as a separate channel. The model captures their inter-dependencies and jointly forecasts all time series. In covariate-informed forecasting, we predict a target series using others as covariates. These may be past-observed, future-known, or static. That’s the setup discussed here. An example of covariate-informed forecasting is shown in\n\nFigure 7\n\n(right). In that case we predict variable A based on its dependency (green arrow) from B. Table 2\n\nshows results on the\n\nEPF dataset\n\n(electricity price forecasting task, Lago et al., 2021). The authors include both the current Timer-XL and an encoder Timer-XL variant (the one with the non-causal tag). Observe that:\n\nTimer-XL achieves the best results. The decoder version (Timer-XL) outperforms the encoder-based Timer-XL. TimerXer is an encoder-based Transformer that uses cross-attention to model dependencies with exogenous variables, each treated as a separate token. This was a previous SOTA DL model — now outperformed by Timer-XL. Zero-Shot Forecasting Benchmark\n\nFinally, the authors also evaluate Timer-XL as a foundation model, comparing it with other top time series models. They perform univariate pretraining on the LOTSA dataset (used to pretrain MOIRAI) and UTSD. The latter was curated by the THUML research group and used to pretrain Timer.",
+          "chunk_index": 12,
+          "quality_score": 0.844,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 205
+        },
+        {
+          "text": "pretraining on the LOTSA dataset (used to pretrain MOIRAI) and UTSD. The latter was curated by the THUML research group and used to pretrain Timer. It contains\n\n1B datapoints\n\n. The same metrics and configurations as before are used (e.g., scores averaged across prediction_lengths ={96, 192, 336, 720}). This time, none of the models were trained on the below datasets (zero-shot forecasting). We notice the following:\n\nTimer-XL-base (the zero-shot version) scores the most wins. Time-MOE-ultra ranks 2nd, followed by the MOIRAI models. Interestingly, MOIRAI-Base takes some wins from\n\nMOIRAI-Large\n\n— a pattern seen in other benchmarks. Despite having fewer parameters, MOIRAI-Base often matches or outperforms MOIRAI-Large. Unfortunately, the SOTA versions of existing pretrained models are not included. For example, newer versions like TimesFM-2.0, Chronos-Bolt, MOIRAI-MOE, and other popular models, such as Tiny-Time-Mixers (TTM) and TabPFN-TS, are missing. The authors have included the complete benchmark of foundation models in\n\nTable 13\n\nof the paper. Feel free to read the paper for more details. In those results, I noticed that Timer-XL performs slightly better with longer prediction lengths compared to the other models. Interpretability\n\nFew time-series models explore interpretability, especially the DL models.",
+          "chunk_index": 13,
+          "quality_score": 0.882,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 191
+        },
+        {
+          "text": "noticed that Timer-XL performs slightly better with longer prediction lengths compared to the other models. Interpretability Few time-series models explore interpretability, especially the DL models. Timer-XL authors demonstrate the benefits of attention by showing how it captures interdependencies among time series variables. Figure 11\n\nshows the average attention score across all attention matrices. The matrix is 10×10, which corresponds to the attention score pairs among 10 variables. The 2 tiles in the figure show the relationship between attention and correlation. The pair of variables <6,7> has a higher attention score than <6,2> — which correctly translates to the pair <6,7> having a higher correlation. Hence, we conclude:\n\nThe Transformer’s attention mechanism learns to interpret the inner dependencies between the different variables. This isn’t a new pattern — we have seen many Transformer forecasting models using this trick. In this case, it means Timer-XL’s attention mechanism works as expected and correctly captures the variate dependencies. Univariate Forecasting Tutorial\n\nAt the time of writing this article, the authors have released the univariate pretrained version of Timer-XL. Thus, I used this version for now to evaluate Timer-XL on the ETTh2 dataset and the latest month of the SP&500 index. The results are quite promising.",
+          "chunk_index": 14,
+          "quality_score": 0.818,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 201
+        },
+        {
+          "text": "used this version for now to evaluate Timer-XL on the ETTh2 dataset and the latest month of the SP&500 index. The results are quite promising. Figure 12\n\nshows Timer-XL’s predictions on the ETTh2 dataset:\n\nI don’t want to make this article very long, so we’ll go through the tutorials on Part 2. You can also find them in the\n\nAI Projects Folder\n\n(Project 18 and Project 19). Stay tuned! Thank you for reading! References\n\n[1] Liu et al. Timer-XL: Long-context Transformers For Unified Time Series Forecasting\n\n(March 2025)\n\n[2] Liu et al. Timer:\n\nGenerative Pre-trained Transformers Are Large Time Series Models\n\n(October 2024)\n\n[3]\n\nTHUML @ Tsinghua University\n\n[4]\n\nLiu et al. Timer-XL ICRL2025 Presentation Slides\n\nWritten By\n\nNikos Kafritsas\n\nSee all from Nikos Kafritsas\n\nArtificial Intelligence\n\n,\n\nDeep Dives\n\n,\n\nFoundation Models\n\n,\n\nMachine Learning\n\n,\n\nTime Series\n\nShare This Article\n\nShare on Facebook\n\nShare on LinkedIn\n\nShare on X\n\nTowards Data Science is a community publication. Submit your insights to reach our global audience and earn through the TDS Author Payment Program. Write for TDS",
+          "chunk_index": 15,
+          "quality_score": 0.714,
+          "has_overlap": true,
+          "total_chunks": 16,
+          "word_count": 177
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.52,
+        "citation_count": 0.35,
+        "domain_authority": 0.62,
+        "recency": 0.935,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.642,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.6,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": false
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "towardsdatascience.com"
+        },
+        "recency": {
+          "age_days": 2,
+          "halflife": 90.0,
+          "published": "Wed, 06 May 2026 15:00:00 +0000"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "non_health_content"
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 2648,
+          "ttr": 0.415,
+          "gini": 0.414,
+          "wc_score": 1.0
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.004,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": null
+    },
+    {
+      "record_id": "f6ba405660483538",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-08T19:08:42Z",
+      "source_url": "https://medium.com/@AIGorilla/seedance-2-0-the-neural-network-that-made-hollywood-nervous-ffcc88b7b673",
+      "source_type": "blog",
+      "author": "AI Gorilla",
+      "published_date": "Fri, 08 May 2026 18:50:01 GMT",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "AI / ML"
+      ],
+      "trust_score": 0.597,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "Seedance 2.0: The Neural Network That Made Hollywood Nervous\n\nAI Gorilla\n\n1 min read\n\n·\n\nJust now\n\n--\n\nA video of Brad Pitt fighting Tom Cruise — and Wolverine getting slapped by Thanos — goes viral on social media. The frames look like fragments of an expensive blockbuster movie: natural facial expressions, cinematic light, correct motion physics, and a live camera. But these are not leaks from filming or fan editing — the scenes are completely created in Seedance 2.0, a new video generation system from ByteDance, the owner of TikTok. The main difference between Seedance 2.0 and previous video models is the stability of the image. There are almost no “plasticine” faces, broken anatomy, or shaky backgrounds. The characters retain their features, emotions, and proportions even in dynamic scenes. This is why the videos have become so popular: it is increasingly difficult for viewers to distinguish between real footage and neural networks.​\n\nThe industry’s reaction was swift. Rhett Reese, the writer of “Deadpool,” wrote that “it looks like it’s over for Hollywood” after seeing these videos.",
+          "chunk_index": 0,
+          "quality_score": 0.89,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 177
+        },
+        {
+          "text": "networks.​ The industry’s reaction was swift. Rhett Reese, the writer of “Deadpool,” wrote that “it looks like it’s over for Hollywood” after seeing these videos. While this may be an emotional hyperbole rather than a definitive prediction, it serves as a wake-up call. Now, complex action scenes can be created without the need for a film crew, a studio, or a multimillion-dollar budget.​",
+          "chunk_index": 1,
+          "quality_score": 0.787,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 63
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.52,
+        "citation_count": 0.35,
+        "domain_authority": 0.62,
+        "recency": 0.3,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.61,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 0.867
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.3,
+        "domain_authority": 0.8,
+        "recency": 0.3,
+        "medical_disclaimer_presence": 0.6,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.65,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": false
+        },
+        "citation_count": {
+          "reason": "no_engagement_data"
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "medium.com"
+        },
+        "recency": {
+          "reason": "future_date",
+          "raw": "Fri, 08 May 2026 18:50:01 GMT",
+          "age_days": -1
+        },
+        "medical_disclaimer_presence": {
+          "reason": "non_health_content"
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 215,
+          "ttr": 0.753,
+          "gini": 0.08,
+          "wc_score": 0.107
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 2,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.6287
+    }
+  ]
+}

@@ -1,0 +1,481 @@
+[
+  {
+    "record_id": "fb06766693ce4589",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:47Z",
+    "source_url": "https://medium.com/@msidrm455/day-4-ingestion-document-selection-and-preprocessing-in-rag-systems-386120f5f336",
+    "source_type": "blog",
+    "author": "Siddharamayya m",
+    "published_date": "Fri, 08 May 2026 10:36:45 GMT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "RAG / retrieval",
+      "large language models",
+      "research"
+    ],
+    "trust_score": 0.694,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "📘 Day 4: Ingestion, Document Selection, and Preprocessing in RAG Systems\n\nSiddharamayya m\n\n4 min read\n\n·\n\n6 hours ago\n\n--\n\n🚀 Hook: Why Most RAG Systems Fail Before Retrieval Even Starts\n\nMost engineers think RAG quality depends mainly on:\n\nThe LLM\n\nThe vector database\n\nThe embeddings\n\nBut in reality? Many RAG systems fail long before retrieval happens. Why? Because the data entering the pipeline is:\n\nMessy\n\nDuplicated\n\nNoisy\n\nUnstructured\n\nPoorly selected\n\nAnd here’s the dangerous part:\n\nGarbage in → hallucinations out. Even the best retrieval pipeline cannot save low-quality ingestion. This is why ingestion is one of the most important — and most ignored — parts of production RAG systems. 🧠 Basic Intuition: What is Ingestion? At a high level:\n\nIngestion is the process of preparing raw data for AI retrieval systems. Think of it like preparing ingredients before cooking. You don’t throw:\n\nPlastic wrappers\n\nRotten vegetables\n\nEntire boxes\n\ninto a recipe. You:\n\nClean\n\nCut\n\nOrganize\n\nPrepare\n\nRAG ingestion works the same way. 📦 What Counts as “Documents” in RAG?",
+        "chunk_index": 0,
+        "quality_score": 0.86,
+        "has_overlap": false,
+        "total_chunks": 6,
+        "word_count": 171
+      },
+      {
+        "text": "Rotten vegetables Entire boxes into a recipe. You: Clean Cut Organize Prepare RAG ingestion works the same way. 📦 What Counts as “Documents” in RAG? In production systems, data comes from everywhere:\n\nPDFs\n\nWord files\n\nHTML pages\n\nNotion docs\n\nConfluence\n\nSlack exports\n\nEmails\n\nAPIs\n\nDatabases\n\nLogs\n\nCSV files\n\nMarkdown repositories\n\n⚠️ Important Reality\n\nRaw enterprise data is usually:\n\nInconsistent\n\nDuplicated\n\nPoorly formatted\n\nFilled with noise\n\nYour job is to transform it into:\n\nClean, searchable knowledge. 🔄 The Ingestion Pipeline (Big Picture)\n\nA production ingestion pipeline usually looks like this:\n\nData Collection\n\nDocument Selection\n\nParsing\n\nCleaning\n\nMetadata Extraction\n\nDeduplication\n\nStructuring\n\nStorage for Chunking\n\n🧩 Step 1: Data Collection\n\nThis is where you connect your sources. 📌 Common Sources\n\nInternal Sources\n\nCompany documents\n\nDatabases\n\nWikis\n\nSupport tickets\n\nExternal Sources\n\nWebsites\n\nAPIs\n\nResearch papers\n\n⚠️ Key Insight\n\nNot all data should enter your RAG system. Bad data creates:\n\nBad retrieval\n\nBad context\n\nBad answers\n\n🎯 Step 2: Document Selection\n\nThis is where experienced engineers make huge gains. Most beginners:\n\nIngest everything. Production engineers:\n\nCurate carefully.",
+        "chunk_index": 1,
+        "quality_score": 0.901,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 172
+      },
+      {
+        "text": "Bad context Bad answers 🎯 Step 2: Document Selection This is where experienced engineers make huge gains. Most beginners: Ingest everything. Production engineers: Curate carefully. ✅ Good Documents\n\nGood documents are:\n\nRelevant\n\nUpdated\n\nTrusted\n\nStructured\n\nInformation-dense\n\n❌ Bad Documents\n\nAvoid:\n\nDuplicate pages\n\nOutdated docs\n\nEmpty templates\n\nNavigation-heavy HTML\n\nBroken OCR text\n\n📌 Golden Rule\n\nRetrieval quality depends heavily on document quality. 🧹 Step 3: Parsing Documents\n\nRaw files cannot be directly used. They must be converted into readable text. 📄 Example\n\nA PDF may contain:\n\nHeaders\n\nFooters\n\nTables\n\nImages\n\nNoise\n\nFormatting artifacts\n\nParser extracts:\n\nOnly meaningful content. 🔍 Common Parsing Approaches\n\nTypeChallengePDFBroken layoutsHTMLNavigation noiseOCRText errorsTablesStructure loss\n\n⚠️ Production Reality\n\nPDF parsing is one of the hardest problems in enterprise RAG. Especially:\n\nMulti-column layouts\n\nScanned documents\n\nComplex tables\n\n🧼 Step 4: Cleaning & Normalization\n\nNow we clean the extracted text. ✅ Common Cleaning Tasks\n\nRemove extra whitespace\n\nRemove repeated headers\n\nFix encoding issues\n\nNormalize formatting\n\nRemove irrelevant symbols\n\n📌 Example\n\nBefore:\n\nPage 4 | Confidential Company Internal Use Only\n\nAfter:\n\n[Removed]\n\n🎯 Why Cleaning Matters\n\nNoise hurts:\n\nEmbeddings\n\nSearch quality\n\nChunking accuracy\n\nSmall cleanup improvements can massively improve retrieval. 🧠 Step 5: Metadata Extraction\n\nMetadata is critical in modern RAG systems.",
+        "chunk_index": 2,
+        "quality_score": 0.907,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 200
+      },
+      {
+        "text": "hurts: Embeddings Search quality Chunking accuracy Small cleanup improvements can massively improve retrieval. 🧠 Step 5: Metadata Extraction Metadata is critical in modern RAG systems. 📌 Metadata Examples\n\nSource document\n\nDepartment\n\nCreation date\n\nAuthor\n\nDocument type\n\nAccess permissions\n\n🔥 Why Metadata Matters\n\nMetadata enables:\n\nFiltering\n\nPermission-aware retrieval\n\nHybrid search\n\nFaster retrieval\n\nExample\n\nInstead of searching:\n\nEntire knowledge base\n\nYou can search:\n\nOnly HR policies updated after Jan 2025\n\nHuge difference. 🔁 Step 6: Deduplication\n\nEnterprise systems contain enormous duplication. Examples:\n\nSame policy in 5 locations\n\nRepeated email threads\n\nCopied documentation\n\n❌ Why Duplication is Dangerous\n\nIt causes:\n\nRedundant retrieval\n\nContext waste\n\nRetrieval confusion\n\n✅ Solution\n\nUse:\n\nHash matching\n\nSemantic similarity\n\nVersion tracking\n\nto remove duplicates. 🏗️ Step 7: Structuring Documents\n\nNow documents are prepared into:\n\nLogical sections\n\nClean paragraphs\n\nSemantic units\n\nThis stage is crucial for:\n\nChunking (Day 5)\n\n⚠️ Important Insight\n\nRAG systems retrieve:\n\nChunks, not documents. Poor document structure creates poor chunks later. 🔀 Different Ingestion Strategies\n\n🟢 Batch Ingestion\n\nProcess all documents together. ✅ Easy\n\n❌ Slow updates\n\n🟡 Incremental Ingestion\n\nOnly process changed documents. ✅ Efficient\n\n✅ Production-friendly\n\n🔴 Real-Time Ingestion\n\nContinuously ingest live updates.",
+        "chunk_index": 3,
+        "quality_score": 0.91,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 189
+      },
+      {
+        "text": "documents together. ✅ Easy ❌ Slow updates 🟡 Incremental Ingestion Only process changed documents. ✅ Efficient ✅ Production-friendly 🔴 Real-Time Ingestion Continuously ingest live updates. Used for:\n\nNews systems\n\nLive dashboards\n\nMonitoring systems\n\n⚖️ Trade-offs\n\nStrategyProsConsBatchSimpleStale dataIncrementalEfficientMore complexReal-TimeFresh dataExpensive\n\n🧠 What Advanced Teams Do\n\nProduction-grade RAG systems often include:\n\nVersioning\n\nAccess control\n\nDocument lineage\n\nFreshness tracking\n\nAutomated validation\n\nRe-indexing pipelines\n\n❌ Common Mistakes\n\n❌ Ingesting Everything\n\nMore data ≠ better retrieval. ❌ Ignoring Document Quality\n\nMessy docs destroy retrieval precision. ❌ No Metadata\n\nWithout metadata:\n\nFiltering becomes difficult\n\nRetrieval becomes noisy\n\n❌ No Deduplication\n\nCauses repeated retrieval results. ❌ Treating Parsing as “Solved”\n\nParsing quality heavily impacts downstream accuracy. ✅ Best Practices\n\nCurate documents carefully\n\nClean aggressively\n\nPreserve semantic structure\n\nTrack metadata\n\nRemove duplicates\n\nMonitor ingestion quality continuously\n\n📌 Golden Production Rule\n\nYour RAG system is only as good as the quality of data entering it.",
+        "chunk_index": 4,
+        "quality_score": 0.894,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 146
+      },
+      {
+        "text": "metadata Remove duplicates Monitor ingestion quality continuously 📌 Golden Production Rule Your RAG system is only as good as the quality of data entering it. 🧪 Mini Use Case: Enterprise HR Assistant\n\nImagine building:\n\nAn internal HR assistant\n\nWithout Proper Ingestion\n\nSystem retrieves:\n\nOld policies\n\nDuplicate PDFs\n\nBroken OCR text\n\nResult: ❌ Wrong answers\n\nWith Proper Ingestion\n\nSystem retrieves:\n\nLatest approved policy\n\nClean chunks\n\nMetadata-filtered documents\n\nResult: ✅ Accurate responses\n\n📌 Summary\n\nIngestion is the foundation of RAG\n\nRetrieval quality starts with document quality\n\nKey ingestion stages:\n\nCollection\n\nSelection\n\nParsing\n\nCleaning\n\nMetadata extraction\n\nDeduplication\n\nStructuring\n\nBad ingestion creates downstream failures\n\nProduction systems invest heavily in ingestion pipelines\n\n🔜 Next Post (Day 5)\n\nNow that your documents are clean and structured…\n\nnext we tackle one of the most important concepts in all of RAG:\n\n🔥 Chunking and Chunking Strategies\n\nBecause retrieval systems don’t search entire documents — they search chunks. And chunking quality can completely change retrieval accuracy.",
+        "chunk_index": 5,
+        "quality_score": 0.863,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 157
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.35,
+      "domain_authority": 0.62,
+      "recency": 0.95,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.545,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.6,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "medium.com"
+      },
+      "recency": {
+        "age_days": 0,
+        "halflife": 90.0,
+        "published": "Fri, 08 May 2026 10:36:45 GMT"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "non_health_content"
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 910,
+        "ttr": 0.551,
+        "gini": 0.373,
+        "wc_score": 0.455
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.009,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.6323
+  },
+  {
+    "record_id": "f4f88ec9af3eca49",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:47Z",
+    "source_url": "https://medium.com/@janvinaikwork/rag-retrieval-augmented-generation-the-complete-guide-9dd7d741d473",
+    "source_type": "blog",
+    "author": "Janvinaikwork",
+    "published_date": "Fri, 08 May 2026 14:28:38 GMT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "RAG / retrieval",
+      "large language models",
+      "agents",
+      "technology"
+    ],
+    "trust_score": 0.693,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "RAG: Retrieval Augmented Generation — The Complete Guide\n\nJanvinaikwork\n\n8 min read\n\n·\n\nJust now\n\n--\n\nFrom zero to interview ready, everything in one place. No prerequisites. What is RAG? RAG stands for\n\nRetrieval Augmented Generation\n\n. It is not a new model or a completely new technology. It is a technique used to make Large Language Models smarter by giving them access to external data while generating answers. A standard LLM like GPT or Gemini is trained on data available up to a certain point in time. After that, it does not automatically learn anything new. It also has no awareness of private information such as company documents, internal databases, product manuals, or FAQs. RAG solves this problem. In simple terms, RAG works in three steps:\n\nRetrieve relevant information from a knowledge base\n\nProvide that information to the LLM\n\nGenerate an answer using the retrieved context\n\nA good real world example is\n\nNotebookLM by Google\n\n. You upload a PDF, ask questions, and it responds while pointing to the exact paragraph it used.",
+        "chunk_index": 0,
+        "quality_score": 0.871,
+        "has_overlap": false,
+        "total_chunks": 12,
+        "word_count": 174
+      },
+      {
+        "text": "real world example is NotebookLM by Google . You upload a PDF, ask questions, and it responds while pointing to the exact paragraph it used. The model does not memorise your document. Instead, it retrieves the relevant information first and then generates the response. That is RAG in practice. The Problem RAG Solves\n\nA standard LLM behaves like a student preparing for a\n\nclosed book exam\n\n. It can only answer based on what it memorised during training. If you ask something outside that knowledge, it may either say “I don’t know” or confidently generate an incorrect answer. This behaviour is known as\n\nhallucination\n\n. Imagine building a customer support chatbot for a fintech company. Users may ask:\n\n“What is the current interest rate on my savings account?”\n\n“Was there a policy update last week?”\n\nThe information required to answer these questions is private and changes frequently. Without RAG, you are left with two poor options:\n\nDo nothing\n\n— The LLM hallucinates or says it does not know. Users lose trust. Retrain the model\n\n— Expensive, time consuming, and must be repeated whenever data changes. Neither solution is practical.",
+        "chunk_index": 1,
+        "quality_score": 0.873,
+        "has_overlap": true,
+        "total_chunks": 12,
+        "word_count": 189
+      },
+      {
+        "text": "it does not know. Users lose trust. Retrain the model — Expensive, time consuming, and must be repeated whenever data changes. Neither solution is practical. RAG fills this gap by allowing the model to access updated and private information\n\nduring inference\n\n. Three Ways to Give LLMs Knowledge\n\nBefore understanding RAG deeply, it helps to compare it with the other common approaches. Fine Tuning\n\nretrains the model on custom data. It gives fast inference and specialised behaviour, but it is expensive, difficult to update, and can still hallucinate. Prompt Stuffing\n\nplaces large amounts of information directly into the prompt. It is simple to get started with, but is limited by the context window and becomes costly at scale. RAG\n\nretrieves relevant chunks during query time. It is cheap, scalable, and easy to update — though slightly slower and dependent on retrieval quality. Think about it like this:\n\nFine tuning is like sending an employee for six months of training so they memorise the handbook. Prompt stuffing is like handing them a 500 page handbook five minutes before a meeting. RAG is like giving them access to a\n\nwell organised filing cabinet\n\nwhere they can instantly find the exact information they need.",
+        "chunk_index": 2,
+        "quality_score": 0.843,
+        "has_overlap": true,
+        "total_chunks": 12,
+        "word_count": 201
+      },
+      {
+        "text": "before a meeting. RAG is like giving them access to a well organised filing cabinet where they can instantly find the exact information they need. Key Benefits of RAG\n\n1. Reduces Hallucinations\n\nLLMs hallucinate when they attempt to answer without reliable information. RAG grounds the response in retrieved documents, making answers more accurate and trustworthy. 2. Keeps Knowledge Up to Date\n\nEvery LLM has a knowledge cutoff date. With RAG, the knowledge base is separate from the model itself. Updating the database automatically updates what the model can access. 3. Cost Effective\n\nFine tuning can cost thousands of dollars and require weeks of compute time. RAG is comparatively inexpensive because you only maintain and query a document database. 4. Better Data Privacy\n\nWith fine tuning, private data becomes part of the model weights. With RAG, the data stays inside your own systems and only the relevant chunks are shared during query time. This is especially important in healthcare, finance, and legal domains. The RAG Pipeline\n\nRAG systems operate in two phases:\n\nIngestion Pipeline\n\n— runs once or whenever data changes; processes and stores documents\n\nRetrieval Pipeline\n\n— runs for every user query; retrieves relevant chunks and generates responses\n\nA.",
+        "chunk_index": 3,
+        "quality_score": 0.849,
+        "has_overlap": true,
+        "total_chunks": 12,
+        "word_count": 199
+      },
+      {
+        "text": "runs once or whenever data changes; processes and stores documents Retrieval Pipeline — runs for every user query; retrieves relevant chunks and generates responses A. Ingestion Pipeline (Data Preparation)\n\nStep 1: Data Extraction\n\nThe first step is collecting raw data from different sources such as PDFs, websites, Word documents, Excel sheets, databases, Notion pages, and Slack conversations. Frameworks like LangChain, LlamaIndex, and Haystack provide built-in document loaders for many of these formats. Step 2: Chunking\n\nAfter extracting the text, the content is split into smaller sections called\n\nchunks\n\n. Chunking is necessary because LLMs have context window limits. Passing an entire 200 page document into a prompt would be expensive, inefficient, and often impossible. More importantly, users usually need only a small portion of the document. If someone asks about a refund policy, you only need the relevant paragraphs rather than the entire handbook. Poor chunking strategies can significantly reduce RAG quality. Chunks that cut sentences in half, mix unrelated topics, or lose context produce weak retrieval results. Here are the common chunking strategies:\n\nSize-based chunking with overlap\n\n— Splits text after a fixed number of tokens while sharing overlapping content. Reliable production default. Sentence-based chunking\n\n— Splits content using sentence boundaries.",
+        "chunk_index": 4,
+        "quality_score": 0.889,
+        "has_overlap": true,
+        "total_chunks": 12,
+        "word_count": 202
+      },
+      {
+        "text": "overlap — Splits text after a fixed number of tokens while sharing overlapping content. Reliable production default. Sentence-based chunking — Splits content using sentence boundaries. Best for general text documents. Structure-based chunking\n\n— Splits by headings, sections, or paragraphs. Best for reports and structured documentation. Semantic chunking\n\n— Splits based on topic changes detected using embeddings. Higher quality retrieval but slower. In production systems,\n\nsize-based chunking with overlap\n\nis the most commonly used strategy because it works consistently across different document types. Step 3: Embeddings\n\nComputers cannot directly understand meaning in language — they work with numbers. Each chunk is converted into a\n\nvector embedding\n\n, which is a numerical representation of semantic meaning. For example, the text\n\n“The refund policy allows 30 day returns”\n\nbecomes a vector like\n\n[0.23, -0.45, 0.67, 0.12, -0.89, ...]\n\n. Texts with similar meanings generate vectors that are close to each other mathematically. This enables\n\nsemantic similarity search\n\n. Some popular embedding models:\n\nsentence-transformers/all-MiniLM-L6-v2\n\n— 384 dimensions, free\n\nOpenAI text-embedding-3-small\n\n— 1536 dimensions, paid\n\nGoogle Gemini Embeddings\n\n— 768 dimensions, paid\n\nStep 4: Storing in a Vector Database\n\nThe chunk text and its embedding are stored in a\n\nvector database\n\ndesigned specifically for similarity search.",
+        "chunk_index": 5,
+        "quality_score": 0.858,
+        "has_overlap": true,
+        "total_chunks": 12,
+        "word_count": 201
+      },
+      {
+        "text": "paid Step 4: Storing in a Vector Database The chunk text and its embedding are stored in a vector database designed specifically for similarity search. Similarity between vectors is commonly measured using\n\ncosine similarity\n\n:\n\ncos(θ) = (A · B) / (|A| × |B|)\n\nThe closer the angle is to zero, the more semantically similar the two vectors are. Popular vector databases:\n\nFAISS\n\n— Open source and local projects\n\nChromaDB\n\n— Lightweight and beginner friendly\n\nPinecone\n\n— Managed cloud deployments\n\nElasticsearch\n\n— Combines keyword and vector search\n\nA note on Hybrid Search\n\nSemantic search is excellent for understanding meaning, but it may fail with exact identifiers such as order IDs, invoice numbers, or product codes. Keyword search methods like BM25 are better for exact matches. Combining both approaches is called\n\nhybrid search\n\n, and it consistently performs better in production systems. B.",
+        "chunk_index": 6,
+        "quality_score": 0.87,
+        "has_overlap": true,
+        "total_chunks": 12,
+        "word_count": 142
+      },
+      {
+        "text": "methods like BM25 are better for exact matches. Combining both approaches is called hybrid search , and it consistently performs better in production systems. B. Retrieval Pipeline (Query Processing)\n\nWhen a user asks a question, the system:\n\nConverts the query into an embedding\n\nusing the same embedding model used during ingestion\n\nFetches the top K most relevant chunks\n\nfrom the vector database\n\nAugments the prompt\n\nby adding the retrieved chunks as context\n\nGenerates a grounded response\n\nusing the LLM\n\nOne critical rule: the\n\nsame embedding model must be used during both ingestion and retrieval\n\n. Different embedding models generate vectors in different numerical spaces. If the models do not match, similarity comparisons become meaningless and retrieval quality breaks completely. Here is what an augmented prompt looks like in practice:\n\nSystem:\n\nYou are a helpful assistant. Answer using only the provided context. Context:\n\nChunk 1: Electronics can be returned within 15 days of purchase. Chunk 2: Items must be returned in their original packaging with all accessories. Question:\n\nWhat is the return policy for electronics? Advanced RAG Architectures\n\nAs RAG systems mature, several specialised architectures have emerged:\n\nNaive RAG\n\n— Basic retrieve-and-generate flow. Best for simple question answering. Hybrid RAG\n\n— Combines semantic and keyword search.",
+        "chunk_index": 7,
+        "quality_score": 0.856,
+        "has_overlap": true,
+        "total_chunks": 12,
+        "word_count": 205
+      },
+      {
+        "text": "mature, several specialised architectures have emerged: Naive RAG — Basic retrieve-and-generate flow. Best for simple question answering. Hybrid RAG — Combines semantic and keyword search. Best for product codes, IDs, and exact terms. RAG with Memory\n\n— Maintains conversational context. Best for multi-turn chatbots. Graph RAG\n\n— Uses graph relationships between entities. Best for legal, compliance, and fraud analysis. Agentic RAG\n\n— Agent decides whether to search, call APIs, or reason further. Best for complex multi-step tasks. Multimodal RAG\n\n— Handles text, images, audio, and video. Best for multimedia knowledge bases. Self RAG\n\n— Model critiques and improves its own response. Best for high accuracy applications. Interview Questions\n\nQ1. What is RAG and why was it introduced? RAG is a technique that connects an LLM to an external knowledge base during query time. It was introduced to solve hallucinations, knowledge cutoff limitations, and lack of access to private data — without requiring expensive retraining. Q2. Do we still need the raw document after it has been vectorised? Yes. The embedding vector is only used to locate relevant chunks. The LLM still requires the original text to generate responses. Q3. What is a vector embedding and why do we convert text into numbers?",
+        "chunk_index": 8,
+        "quality_score": 0.847,
+        "has_overlap": true,
+        "total_chunks": 12,
+        "word_count": 202
+      },
+      {
+        "text": "chunks. The LLM still requires the original text to generate responses. Q3. What is a vector embedding and why do we convert text into numbers? A vector embedding is a numerical representation of semantic meaning. Computers cannot compare language directly, but they can compare numerical vectors. Similar texts generate similar vectors, enabling semantic retrieval. Q4. What is cosine similarity and why is it used in RAG? Cosine similarity measures how similar two vectors are by comparing the angle between them. If the vectors point in similar directions, the texts are semantically related. This is why cosine similarity is commonly used in vector search systems. Q5. Why do we chunk documents instead of passing the entire document to the LLM? LLMs have context window limitations. Large documents may not fit into the prompt, and including unnecessary information increases both cost and response noise. Chunking helps retrieve only the most relevant information. Q6. Which chunking strategy is commonly used in production? Size-based chunking with overlap is the most common production choice because it is simple, reliable, and effective across many document types. Overlap also prevents loss of context between chunks. Q7. What is the difference between semantic search and lexical search?",
+        "chunk_index": 9,
+        "quality_score": 0.814,
+        "has_overlap": true,
+        "total_chunks": 12,
+        "word_count": 199
+      },
+      {
+        "text": "and effective across many document types. Overlap also prevents loss of context between chunks. Q7. What is the difference between semantic search and lexical search? Semantic search retrieves conceptually related content using embeddings. Lexical search focuses on exact keyword matching. Semantic search may miss exact identifiers, while lexical search may fail to understand paraphrased meaning. Hybrid search combines the strengths of both. Q8. Why must the same embedding model be used during ingestion and retrieval? Each embedding model creates vectors in its own numerical space. Similarity calculations only work correctly when both stored chunks and queries are generated using the same model. Q9. What is the difference between Fine Tuning, Prompt Stuffing, and RAG? Fine Tuning\n\nstores knowledge inside model weights. Expensive and difficult to update. Prompt Stuffing\n\nadds knowledge directly into prompts. Low cost but limited by the context window. RAG\n\nretrieves knowledge during query time. Low cost and easily updated. Q10. What is Agentic RAG and how is it different from standard RAG? Standard RAG performs one retrieval step followed by generation. Agentic RAG adds reasoning and decision making.",
+        "chunk_index": 10,
+        "quality_score": 0.845,
+        "has_overlap": true,
+        "total_chunks": 12,
+        "word_count": 181
+      },
+      {
+        "text": "RAG and how is it different from standard RAG? Standard RAG performs one retrieval step followed by generation. Agentic RAG adds reasoning and decision making. The agent can decide whether to search a database, call an API, search the web, or break the query into smaller tasks — before generating the final response. It is useful for complex workflows where a single retrieval step is not enough.",
+        "chunk_index": 11,
+        "quality_score": 0.896,
+        "has_overlap": true,
+        "total_chunks": 12,
+        "word_count": 67
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.35,
+      "domain_authority": 0.62,
+      "recency": 0.95,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.626,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 0.833
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.6,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "medium.com"
+      },
+      "recency": {
+        "age_days": 0,
+        "halflife": 90.0,
+        "published": "Fri, 08 May 2026 14:28:38 GMT"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "non_health_content"
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1887,
+        "ttr": 0.422,
+        "gini": 0.417,
+        "wc_score": 0.944
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 1,
+        "repetition_ratio": 0.01,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.6247
+  },
+  {
+    "record_id": "d58d5f6d48fd0a71",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:47Z",
+    "source_url": "https://medium.com/@nerdapplabs/vector-search-vs-keyword-search-bm25-d1b96eb46c4b",
+    "source_type": "blog",
+    "author": "nerdAppLabs Software Solutions Pvt. Ltd.",
+    "published_date": "Fri, 08 May 2026 16:16:03 GMT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "technology",
+      "RAG / retrieval",
+      "large language models"
+    ],
+    "trust_score": 0.591,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "Vector Search vs Keyword Search (BM25)\n\nnerdAppLabs Software Solutions Pvt. Ltd. 3 min read\n\n·\n\n2 hours ago\n\n--\n\nWhy neither is enough on its own\n\nPart of the series:\n\nHow Search Understands Meaning\n\nIn the\n\nlast post\n\n, we used this mental model:\n\nsimilarity search = engine\n\nsemantic search = full car\n\nBut that raises another question:\n\nWhat powers the car itself? Because semantic systems don’t rely on a single retrieval method. They usually combine:\n\nvector search (meaning)\n\nkeyword search (exact matching)\n\nAnd both solve different problems. What\n\nModern search systems generally use two approaches:\n\nKeyword search\n\n→ exact term matching\n\nVector search\n\n→ semantic similarity\n\nMost production systems use both. Because each one fails differently. Why\n\nUsers don’t always search using exact words. Example:\n\n“affordable notebook”\n\nA user probably means:\n\n“cheap laptop”\n\nKeyword search may miss that entirely. But vector search can understand the semantic similarity. Now reverse it. Query:\n\n“iPhone 13 Pro”\n\nHere, exact words matter. And keyword search often performs better than vectors. That’s the core tradeoff. Now, how it actually works 👇\n\n1.",
+        "chunk_index": 0,
+        "quality_score": 0.671,
+        "has_overlap": false,
+        "total_chunks": 5,
+        "word_count": 178
+      },
+      {
+        "text": "13 Pro” Here, exact words matter. And keyword search often performs better than vectors. That’s the core tradeoff. Now, how it actually works 👇 1. Keyword search (BM25)\n\nTraditional search engines use approaches like BM25. The idea is simple:\n\nmatch exact terms\n\nscore documents based on relevance\n\nrank results accordingly\n\nKeyword search cares about:\n\nwhich words appear\n\nhow often they appear\n\nhow rare they are across documents\n\n(Inverse Document Frequency / IDF)\n\nRare terms like: “PostgreSQL” carry more ranking weight than common words like: “database”\n\n2. What keyword search is good at\n\nKeyword search is excellent for:\n\nexact names\n\nproduct IDs\n\nerror codes\n\ntechnical terms\n\nprecise queries\n\nExample:\n\nQuery:\n\n“iPhone 13 Pro”\n\nKeyword search understands:\n\nexact words matter\n\nexact ordering matters\n\nThat gives it very high precision. 3. Where keyword search fails\n\nIt does not understand meaning. Example:\n\nQuery:\n\n“affordable notebook”\n\nDocument:\n\n“cheap laptop for students”\n\nThe meaning matches. The words don’t. So keyword systems may rank it poorly or miss it entirely. 4. Vector search (semantic retrieval)\n\nVector search works differently. Instead of matching exact words:\n\ntext\n\n↓\n\nembedding model\n\n↓\n\nembedding vector\n\n↓\n\nsimilarity comparison\n\nAn embedding model converts text into vectors that capture semantic meaning.",
+        "chunk_index": 1,
+        "quality_score": 0.846,
+        "has_overlap": true,
+        "total_chunks": 5,
+        "word_count": 198
+      },
+      {
+        "text": "of matching exact words: text ↓ embedding model ↓ embedding vector ↓ similarity comparison An embedding model converts text into vectors that capture semantic meaning. Example embedding models:\n\nOpenAI text-embedding-3-small\n\nGoogle Gemini text embeddings\n\nCohere Embed v3\n\nExample:\n\n\"cheap laptop\"\n\n↓\n\n[0.12, -0.98, 0.44, ...]\n\nNow the system can compare:\n\nmeaning\n\nintent\n\nsemantic similarity\n\ninstead of exact keywords. At scale, systems usually use Approximate Nearest Neighbor (ANN) indexes like HNSW or FAISS to make similarity search fast enough for millions of vectors. 5. What vector search is good at\n\nVector search is strong when:\n\nwording changes\n\nqueries are conversational\n\nusers describe intent naturally\n\nExample:\n\n“how to fix wifi”\n\ncan match:\n\n“troubleshooting internet connectivity”\n\nEven though almost none of the keywords overlap. That’s the power of semantic similarity. 6. Where vector search fails\n\nVector search can lose precision. Example:\n\nQuery:\n\n“iPhone 13 Pro”\n\nVector search might retrieve:\n\niPhone 14\n\nApple accessories\n\nother premium phones\n\nBecause semantically:\n\nthey are related\n\nBut the user wanted:\n\nexact match\n\nThis is where keyword search wins. 7.",
+        "chunk_index": 2,
+        "quality_score": 0.871,
+        "has_overlap": true,
+        "total_chunks": 5,
+        "word_count": 171
+      },
+      {
+        "text": "iPhone 14 Apple accessories other premium phones Because semantically: they are related But the user wanted: exact match This is where keyword search wins. 7. Side-by-side comparison\n\n| Problem | Keyword Search | Vector Search |\n\n|---|---|---|\n\n| Exact match | ✅ Strong | ❌ Weaker |\n\n| Synonyms | ❌ Weak | ✅ Strong |\n\n| Semantic understanding | ⚠️ Limited | ✅ Strong |\n\n| Precision | ✅ High | ⚠️ Variable |\n\n| Conversational queries | ❌ Weak | ✅ Strong |\n\n8. The real insight\n\nThese systems fail in opposite ways. Keyword search:\n\nunderstands exact words\n\nmisses meaning\n\nVector search:\n\nunderstands meaning\n\nmisses exact precision\n\nThat’s why modern retrieval systems rarely rely on only one. 9. Mental model\n\nThink of it like this:\n\nkeyword search = literal matching\n\nvector search = meaning matching\n\nOne matches what you said. The other matches what you meant. Final takeaway\n\nKeyword search and vector search solve different problems. And the key idea:\n\nPrecision and meaning are separate signals. Modern systems combine both. What’s next\n\nIn the next post, we’ll combine these ideas:\n\nHybrid search: combining sparse and dense signals into one retrieval system. That’s where modern search systems start to get really powerful.",
+        "chunk_index": 3,
+        "quality_score": 0.783,
+        "has_overlap": true,
+        "total_chunks": 5,
+        "word_count": 203
+      },
+      {
+        "text": "we’ll combine these ideas: Hybrid search: combining sparse and dense signals into one retrieval system. That’s where modern search systems start to get really powerful. Series\n\nPart 1 — How Machines Measure Meaning\n\nPart 2 — Semantic Search vs Similarity Search\n\nPart 3 (this)— Vector Search vs Keyword Search (BM25)\n\nPart 4 (next)— Why Hybrid Search Wins",
+        "chunk_index": 4,
+        "quality_score": 0.554,
+        "has_overlap": true,
+        "total_chunks": 5,
+        "word_count": 57
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.35,
+      "domain_authority": 0.62,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.472,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.8,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.6,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "medium.com"
+      },
+      "recency": {
+        "reason": "future_date",
+        "raw": "Fri, 08 May 2026 16:16:03 GMT",
+        "age_days": -1
+      },
+      "medical_disclaimer_presence": {
+        "reason": "non_health_content"
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 707,
+        "ttr": 0.499,
+        "gini": 0.446,
+        "wc_score": 0.353
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.02,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.6385
+  }
+]

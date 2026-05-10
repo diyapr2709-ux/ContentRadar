@@ -1,0 +1,113 @@
+[
+  {
+    "record_id": "18327315d6fad3f5",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:32Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/41903960/",
+    "source_type": "pubmed",
+    "author": "Albuquerque RP, Dores H, Gonçalves-Pereira M",
+    "published_date": "2026 May",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "mental health",
+      "cardiovascular",
+      "RAG / retrieval",
+      "neurology",
+      "healthcare"
+    ],
+    "trust_score": 0.801,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Mental health conditions (eg, depression, anxiety) are highly prevalent in cardiovascular populations, impacting treatment adherence, functional recovery, quality of life, and long-term outcomes. Mechanisms underpinning the heart-brain-mind axis are multifactorial, involving behavioral, cognitive, neuroendocrine, autonomic, and systemic inflammatory processes. Integrating pharmacological and non-pharmacological interventions into cardiac rehabilitation enhances both psychological well-being and cardiovascular prognosis. Nonetheless, the implementation of such interventions remains inconsistent, underscoring cardiac rehabilitation as an underused yet strategic framework for embedding mental health care into secondary prevention.",
+        "chunk_index": 0,
+        "quality_score": 0.918,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 79
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.755,
+      "domain_authority": 0.95,
+      "recency": 0.945,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.608,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.4,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 3
+      },
+      "citation_count": {
+        "citations": 151
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 7,
+        "halflife": 900.0,
+        "published": "2026 May"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 79,
+        "ttr": 0.835,
+        "gini": 0.128,
+        "wc_score": 0.04
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.806,
+    "pmid": "41903960",
+    "doi": "10.1016/j.ccl.2025.11.001",
+    "journal": "Cardiology clinics"
+  }
+]

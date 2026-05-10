@@ -1,0 +1,119 @@
+[
+  {
+    "record_id": "cd5734b2666be96b",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:09:07Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/38926611/",
+    "source_type": "pubmed",
+    "author": "Khan MS, Shahid I, Bennis A, Rakisheva A, Metra M, Butler J",
+    "published_date": "2024 Oct",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "public health",
+      "healthcare",
+      "cardiovascular"
+    ],
+    "trust_score": 0.827,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Heart failure (HF) is a heterogeneous clinical syndrome marked by substantial morbidity and mortality. The natural history of HF is well established; however, epidemiological data are continually evolving owing to demographic shifts, advances in treatment and variations in access to health care. Although the incidence of HF has stabilized or declined in high-income countries over the past decade, its prevalence continues to increase, driven by an ageing population, an increase in risk factors, the effectiveness of novel therapies and improved survival. This rise in prevalence is increasingly noted among younger adults and is accompanied by a shift towards HF with preserved ejection fraction. However, disparities exist in our epidemiological understanding of HF burden and progression in low-income and middle-income countries owing to the lack of comprehensive data in these regions. Therefore, the current epidemiological landscape of HF highlights the need for periodic surveillance and resource allocation tailored to geographically vulnerable areas. In this Review, we highlight global trends in the burden of HF, focusing on the variations across the spectrum of left ventricular ejection fraction.",
+        "chunk_index": 0,
+        "quality_score": 0.834,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 175
+      },
+      {
+        "text": "areas. In this Review, we highlight global trends in the burden of HF, focusing on the variations across the spectrum of left ventricular ejection fraction. We also discuss evolving population-based estimates of HF incidence and prevalence, the risk factors for and aetiologies of this disease, and outcomes in different geographical regions and populations.",
+        "chunk_index": 1,
+        "quality_score": 0.877,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 53
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 1.0,
+      "domain_authority": 0.95,
+      "recency": 0.606,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.541,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.65,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 6
+      },
+      "citation_count": {
+        "citations": 233
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 584,
+        "halflife": 900.0,
+        "published": "2024 Oct"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 203,
+        "ttr": 0.64,
+        "gini": 0.151,
+        "wc_score": 0.102
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.8205,
+    "pmid": "38926611",
+    "doi": "10.1038/s41569-024-01046-6",
+    "journal": "Nature reviews. Cardiology"
+  }
+]

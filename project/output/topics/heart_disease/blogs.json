@@ -1,0 +1,436 @@
+[
+  {
+    "record_id": "74740659d73df6b9",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:35Z",
+    "source_url": "https://www.sciencedaily.com/releases/2026/05/260504154026.htm",
+    "source_type": "blog",
+    "author": "ScienceDaily",
+    "published_date": "Tue, 05 May 2026 23:32:10 EDT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "research",
+      "cardiovascular",
+      "healthcare",
+      "mental health",
+      "genomics"
+    ],
+    "trust_score": 0.779,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "Science News\n\nfrom research organizations\n\nThis common sleep habit could double your risk of heart attack\n\nA messy bedtime routine could quietly double your risk of serious heart problems. Date:\n\nMay 5, 2026\n\nSource:\n\nUniversity of Oulu, Finland\n\nSummary:\n\nA chaotic sleep schedule in your 40s might be quietly setting the stage for heart trouble later. Researchers tracking thousands of people for over a decade found that those with highly inconsistent bedtimesâespecially when they slept less than eight hoursâfaced about double the risk of serious cardiovascular events like heart attacks or strokes. Interestingly, it wasnât when people woke up that mattered most, but how erratic their bedtime was. Share:\n\nFacebook\n\nTwitter\n\nPinterest\n\nLinkedIN\n\nEmail\n\nFULL STORY\n\nGoing to bed at different times each night during midlife could be a warning sign for future heart problems. New research from the University of Oulu suggests that wide swings in bedtime may significantly raise the risk of serious cardiovascular events, especially for people who spend less than eight hours in bed.",
+        "chunk_index": 0,
+        "quality_score": 0.848,
+        "has_overlap": false,
+        "total_chunks": 6,
+        "word_count": 168
+      },
+      {
+        "text": "that wide swings in bedtime may significantly raise the risk of serious cardiovascular events, especially for people who spend less than eight hours in bed. The study found a strong connection between irregular bedtimes and an increased likelihood of major heart-related events. People whose time in bed was under eight hours and whose sleep schedules varied widely faced about twice the risk compared to those with more consistent routines. In contrast, irregular wake-up times did not show a clear association with heart issues. Major cardiovascular events in this research included conditions that require specialized medical care, such as myocardial infarction or cerebral infarction. \"Previous research has linked irregular sleep patterns to heart health risks, but this is the first time we've looked separately at variability in bedtime, wake-up time and the midpoint of the sleep period -- and their independent associations with major cardiac events,\" says postdoctoral researcher Laura Nauha from the University of Oulu. Tracking Sleep Patterns and Long-Term Health\n\nResearchers measured sleep duration and timing using activity monitors, which recorded how long participants stayed in bed. The results pointed to bedtime consistency as a particularly important factor. \"Our findings suggest that the regularity of bedtime, in particular, may be important for heart health.",
+        "chunk_index": 1,
+        "quality_score": 0.849,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 205
+      },
+      {
+        "text": "pointed to bedtime consistency as a particularly important factor. \"Our findings suggest that the regularity of bedtime, in particular, may be important for heart health. It reflects the rhythms of everyday life -- and how much they fluctuate,\" Nauha says. Long-Term Study Reveals Lasting Impact\n\nThe research followed 3,231 individuals born in Northern Finland in 1966. Their sleep habits were tracked over a one-week period at age 46, and their health outcomes were monitored for more than ten years using healthcare register data. According to Nauha, everyday routines play a major role in shaping heart health over time. \"Maintaining a regular sleep schedule is one factor that most of us can influence.\"\n\nRELATED TOPICS\n\nHealth & Medicine\n\nToday's Healthcare\n\nHeart Disease\n\nStroke Prevention\n\nMedical Devices\n\nHealthy Aging\n\nInsomnia Research\n\nPersonalized Medicine\n\nDiseases and Conditions\n\nRELATED TERMS\n\nSleep apnea\n\nSleep\n\nObstructive sleep apnea\n\nSleep disorder\n\nCircadian rhythm sleep disorder\n\nDecade Volcanoes\n\nHeart\n\nPanic attack\n\nStory Source:\n\nMaterials\n\nprovided by\n\nUniversity of Oulu, Finland\n\n. Note: Content may be edited for style and length. Journal Reference\n\n:\n\nLaura Nauha, Maisa NiemelÃ¤, Saeid Azadifar, Raija Korpelainen, Vahid Farrahi.",
+        "chunk_index": 2,
+        "quality_score": 0.881,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 185
+      },
+      {
+        "text": "Oulu, Finland . Note: Content may be edited for style and length. Journal Reference : Laura Nauha, Maisa NiemelÃ¤, Saeid Azadifar, Raija Korpelainen, Vahid Farrahi. Sleep timing irregularity in midlife: association with incident major adverse cardiac events and cardiovascular disease mortality over a 10-year follow-up\n\n. BMC Cardiovascular Disorders\n\n, 2026; 26 (1) DOI:\n\n10.1186/s12872-026-05762-4\n\nCite This Page\n\n:\n\nMLA\n\nAPA\n\nChicago\n\nUniversity of Oulu, Finland. \"This common sleep habit could double your risk of heart attack.\" ScienceDaily. ScienceDaily, 5 May 2026. <www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260504154026.htm>. University of Oulu, Finland. (2026, May 5). This common sleep habit could double your risk of heart attack. ScienceDaily\n\n. Retrieved May 8, 2026 from www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260504154026.htm\n\nUniversity of Oulu, Finland. \"This common sleep habit could double your risk of heart attack.\" ScienceDaily. www.sciencedaily.com\n\n/\n\nreleases\n\n/\n\n2026\n\n/\n\n05\n\n/\n\n260504154026.htm (accessed May 8, 2026). Explore More\n\nfrom ScienceDaily\n\nRELATED STORIES\n\nLess Sleep and Later Bedtime in Childhood Linked to Future Substance Use\n\nAug.",
+        "chunk_index": 3,
+        "quality_score": 0.803,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 173
+      },
+      {
+        "text": "/ 260504154026.htm (accessed May 8, 2026). Explore More from ScienceDaily RELATED STORIES Less Sleep and Later Bedtime in Childhood Linked to Future Substance Use Aug. 13, 2024 Â\n\nAdolescents were more likely to have consumed alcohol or tried marijuana by age 15 if they had later bedtimes and slept fewer hours during the night during childhood and adolescence, according to a ... Wake-Up Call for Us All to Establish Regular Healthy Sleeping Patterns\n\nFeb. 22, 2024 Â\n\nIt's official. Getting the recommended 7-9 hours of sleep a night is currently out of reach for almost one-third of the population as experts found 31% of adults had average sleep durations ... Getting a Good Night's Sleep Could Boost Your Response to Vaccination\n\nMar. 13, 2023 Â\n\nWe all know how important sleep is for mental health, but a meta-analysis found that getting good shut-eye also helps our immune systems respond to vaccination. The authors found that people who ... Trouble Falling Asleep at Bedtime or in the Middle of the Night? It Could Impact Your Risk for Developing Dementia\n\nMar.",
+        "chunk_index": 4,
+        "quality_score": 0.852,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 179
+      },
+      {
+        "text": "that people who ... Trouble Falling Asleep at Bedtime or in the Middle of the Night? It Could Impact Your Risk for Developing Dementia Mar. 6, 2023 Â\n\nAdding to the growing body of evidence on sleep disturbances and cognitive impairment, new research finds significant links between three measures of sleep disturbance and the risk for developing ... Trouble Falling Asleep at Night? Chase That Daytime Light, Study Shows\n\nDec. 12, 2022 Â\n\nA study measuring the sleep patterns of students found that students fell asleep later in the evening and woke up later in the morning during winter. Students also received less natural light ... Diet Change May Make Biggest Impact on Reducing Heart Risk in People With Hypertension\n\nSep. 7, 2022 Â\n\nIn a simulation study using the latest U.S. statistics for stage 1 hypertension, researchers found that lifestyle changes to reduce systolic blood pressure to below 130 mm Hg may prevent 26,000 heart ... TRENDING AT\n\nSCITECHDAILY.com\n\nPhysicists Propose Strange Experiment Where Time Goes Quantum\n\nMagnesium Magic: New Drug Melts Fat Even on a High-Fat, High-Sugar Diet\n\nWeight-Loss Drugs Like Ozempic May Come With an Unexpected Cost\n\nMezcal âWormâ in a Bottle Mystery: DNA Testing Reveals a Surprise",
+        "chunk_index": 5,
+        "quality_score": 0.696,
+        "has_overlap": true,
+        "total_chunks": 6,
+        "word_count": 201
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.935,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.55,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "sciencedaily.com"
+      },
+      "recency": {
+        "age_days": 2,
+        "halflife": 90.0,
+        "published": "Tue, 05 May 2026 23:32:10 EDT"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 986,
+        "ttr": 0.507,
+        "gini": 0.334,
+        "wc_score": 0.493
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.045,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7837
+  },
+  {
+    "record_id": "7f34f33c5448b16c",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:35Z",
+    "source_url": "https://www.healthline.com/health-news/ultra-processed-foods-heart-disease-healthy-swaps",
+    "source_type": "blog",
+    "author": "Healthline Editorial",
+    "published_date": "Unknown",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "healthcare",
+      "cardiovascular",
+      "research",
+      "diabetes",
+      "obesity"
+    ],
+    "trust_score": 0.704,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "European scientists are advocating for more education on the health harms of ultra-processed foods. Trinette Reed/Stocksy\n\nEuropean scientists say ultra-processed foods increase the risks of a variety of health ailments, particularly heart disease. They recommend that medical professionals discuss the health dangers of ultra-processed foods with their patients. Experts agree that doctors should advise their patients on how to identify ultra-processed foods and reduce them in their daily diets. European scientists say that medical professionals aren’t doing enough to warn the public about the health dangers of\n\nultra-processed foods\n\n. The scientists are urging doctors to talk with their patients about the amount of ultra-processed foods they eat and how to reduce them in their daily diets. They said those discussions should include an explanation that many foods marketed as “healthier” are often ultra-processed. The scientists said this guidance is particularly important for people at risk for heart disease. They further noted that most dietary guidelines prioritize nutrient-centered recommendations but don’t address food processing.",
+        "chunk_index": 0,
+        "quality_score": 0.787,
+        "has_overlap": false,
+        "total_chunks": 10,
+        "word_count": 164
+      },
+      {
+        "text": "is particularly important for people at risk for heart disease. They further noted that most dietary guidelines prioritize nutrient-centered recommendations but don’t address food processing. The scientists recommended that medical professionals promote better public understanding of\n\nfood labeling\n\n, food regulation, and updated guidelines. They reached their conclusions by reviewing all published research on ultra-processed foods and cardiovascular health. The findings were published in a\n\nclinical consensus statement\n\nin the European Heart Journal on May 6. The scientists are from the\n\nEuropean Society of Cardiology’s Council for Cardiology Practice\n\nand the\n\nEuropean Association of Preventive Cardiology\n\n, along with a group of topic experts. “[Ultra-processed foods], made from industrial ingredients and additives, have largely replaced traditional diets,”\n\nLuigina Guasti\n\n, MD, an associate professor at the University of Insubria in Italy and a co-author of the statement, said in a\n\npress release\n\n. “Research suggests these foods are linked to several risk factors for cardiovascular disease, such as\n\nobesity\n\n, diabetes, and high blood pressure, and to the risk of developing and dying from\n\nheart disease\n\n. However, this evidence has not yet made its way into the advice we give to patients on healthy eating,” Guasti continued.",
+        "chunk_index": 1,
+        "quality_score": 0.848,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 198
+      },
+      {
+        "text": "from heart disease . However, this evidence has not yet made its way into the advice we give to patients on healthy eating,” Guasti continued. Health dangers of ultra-processed foods\n\nUltra-processed foods\n\nare foods that have been altered from their original form and contain additives such as sugar and salt, as well as substances that aren’t typically used in culinary preparations. Those additional substances add flavor and texture to foods but can also increase the risk of several diseases. A\n\n2023 research review and analysis\n\nreported that there are associations between ultra-processed foods and an increased risk of several diseases. These include:\n\nhypertension\n\ndiabetes\n\nobesity\n\ndyslipidemia\n\nA\n\n2025 study\n\nconcluded that ultra-processed foods are tied to more than 120,000 preventable deaths in the United States every year. Recent\n\nresearch\n\nhas also linked ultra-processed foods to worse muscle health, weakened bones, and fertility issues in females. Further, research has linked ultra-processed foods to an increased risk of\n\ncancer mortality\n\nas well as a higher risk of\n\ncognitive decline\n\n.",
+        "chunk_index": 2,
+        "quality_score": 0.83,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 168
+      },
+      {
+        "text": "in females. Further, research has linked ultra-processed foods to an increased risk of cancer mortality as well as a higher risk of cognitive decline . The European scientists reported that adults with a high consumption of ultra-processed foods have a 19% higher risk of\n\ncoronary artery disease\n\n, a 13% higher risk of\n\natrial fibrillation (AFib)\n\n, and as much as a 65% higher risk of cardiovascular-related death compared with adults with a lower consumption of ultra-processed foods. They added that ultra-processed foods also worsen key risk factors for conditions such as obesity,\n\ntype 2 diabetes\n\n, high blood pressure, and the buildup of unhealthy fats in the bloodstream. They reported that the risk from ultra-processed foods seems to be consistent across large, diverse populations. Cheng-Han Chen\n\n, MD, an interventional cardiologist and medical director of the Structural Heart Program at MemorialCare Saddleback Medical Center in Laguna Hills, CA, wasn’t involved in the study, but agreed with the scientists’ recommendations. “This review of the current evidence regarding the health effects of ultra-processed foods makes it clear that consumption of ultra-processed foods is associated with increased risk of cardiovascular disease,” Chen told Healthline.",
+        "chunk_index": 3,
+        "quality_score": 0.802,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 192
+      },
+      {
+        "text": "the health effects of ultra-processed foods makes it clear that consumption of ultra-processed foods is associated with increased risk of cardiovascular disease,” Chen told Healthline. “We need to better educate the public on the risks of these foods and on the need to prioritize eating whole foods.”\n\nJennifer Wong\n\n, MD, a cardiologist and medical director of Non-Invasive Cardiology at MemorialCare Heart and Vascular Institute at Orange Coast Medical Center in Fountain Valley, CA, echoed this sentiment. Wong wasn’t involved in the study. “This [paper] highlights an important and increasingly relevant issue — the impact of ultra-processed foods on cardiovascular health,” she told Healthline. “Bringing attention to this topic is critical given how prevalent these foods are in modern diets.”\n\nHow ultra-processed foods affect the body\n\nConsuming ultra-processed foods may harm the body in several ways. “We think that ultra-processed foods increase risk of cardiovascular disease through many mechanisms,” Chen said.",
+        "chunk_index": 4,
+        "quality_score": 0.628,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 151
+      },
+      {
+        "text": "Consuming ultra-processed foods may harm the body in several ways. “We think that ultra-processed foods increase risk of cardiovascular disease through many mechanisms,” Chen said. “[These foods] are typically\n\nhigh in added sugars\n\n,\n\nunhealthy fats\n\n, and\n\nsodium\n\n, all of which lead to increased inflammation and increased risk of many cardiovascular risk factors such as high blood pressure,\n\nhigh cholesterol\n\n, and diabetes.”\n\n“These foods also seem to disrupt our natural gut bacteria, further worsening\n\nsystemic inflammation\n\n,” Chen added. “Also, increased intake of [ultra-processed foods] leads to less intake of heart-healthy foods such as fruits, vegetables, and whole grains.”\n\nAmit Khera\n\n, MD, director of preventive cardiology at UT Southwestern Medical Center, lists other ways ultra-processed food consumption contributes to health issues:\n\nmay lead to excess calorie intake\n\nmay contain high levels of saturated fat, added sugars, or sodium\n\nmay trigger the brain to stay hungry even after eating\n\nmay cause potential disruptions to blood sugar levels\n\n“Most [ultra-processed foods] are foods with poor nutritional quality, contributing to excessive calories, and are typically\n\nhigh in saturated fats\n\n, added sugars, and sodium,” Khera told Healthline.",
+        "chunk_index": 5,
+        "quality_score": 0.819,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 188
+      },
+      {
+        "text": "are foods with poor nutritional quality, contributing to excessive calories, and are typically high in saturated fats , added sugars, and sodium,” Khera told Healthline. Ultra-processed food consumption is widespread\n\nA\n\nFebruary review\n\nstated that ultra-processed foods may be as addictive as tobacco. The European scientists reported that\n\nconsumption of ultra-processed foods\n\nis increasing across Europe. They noted that the percentage of calories from ultra-processed foods ranges from 61% in the Netherlands to 57% in the United Kingdom, 25% in Spain, 22% in Portugal, and 18% in Italy. It’s estimated that\n\nover 50%\n\nof the adult diet in the United States comes from ultra-processed foods. A\n\n2025 review\n\non the rise of ultra-processed foods notes that the increase in consumption may be attributed to their convenience, lower cost, longer shelf life, and aggressive marketing. An\n\nexecutive summary\n\nof a three-paper series on ultra-processed foods notes that societal changes are needed to reverse these trends. “This rise in ultra-processed foods is driven by powerful global corporations who employ sophisticated political tactics to protect and maximize profits,” the authors wrote. “Education and relying on behavior change by individuals is insufficient.",
+        "chunk_index": 6,
+        "quality_score": 0.819,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 188
+      },
+      {
+        "text": "global corporations who employ sophisticated political tactics to protect and maximize profits,” the authors wrote. “Education and relying on behavior change by individuals is insufficient. Deteriorating diets are an urgent public health threat that requires coordinated policies and advocacy to regulate and reduce ultra-processed foods and improve access to fresh and minimally processed foods.”\n\nChristopher Gardner\n\n, PhD, a professor at Stanford Medicine, said the uncertainty about exactly what an ultra-processed food is can also add to the challenges. Gardner wasn’t involved in these studies. “If it were easy to point out exactly what an ultra-processed food was, that is different than junk food, or unhealthy food, it could be helpful,” Gardner told Healthline. “But the overlap is significant. And there are hundreds of cosmetic additives to be on the lookout for. And we don’t actually have great data or great science on each and every one of the cosmetic additives.”\n\nReducing your intake of ultra-processed foods\n\nEating fewer ultra-processed foods may start with better knowledge of unhealthy foods. “The first step is for people to better understand the types of foods they eat and which foods in their diet would be considered ultra-processed,” Chen said.",
+        "chunk_index": 7,
+        "quality_score": 0.852,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 196
+      },
+      {
+        "text": "step is for people to better understand the types of foods they eat and which foods in their diet would be considered ultra-processed,” Chen said. “They can then better replace those types of foods with healthier alternatives such as fruits and vegetables.”\n\nWong agreed. “Clear and informative food labeling can improve public awareness and help individuals make healthier dietary choices,” she said. “Individuals can reduce intake by reading ingredient labels carefully, choosing minimally processed or whole-food alternatives, and preparing meals at home using fresh, healthy ingredients.”\n\nKhera, who is also volunteer vice-chair of the\n\nAmerican Heart Association’s 2026 dietary guidance\n\nwriting committee, has a checklist for people to reduce consumption of ultra-processed foods. His advice includes:\n\nPrepare more foods at home. Be deliberate in food purchases at the grocery store. Make smart choices when ordering out. Snack smarter. Khera added that some “simple swaps” can also help. “Make your own simple vinaigrette instead of buying bottled salad dressing,” he said. “Add fruit to plain\n\noatmeal\n\n, cereal, and\n\nyogurt\n\ninstead of buying the sweetened or flavored kind.",
+        "chunk_index": 8,
+        "quality_score": 0.884,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 177
+      },
+      {
+        "text": "instead of buying bottled salad dressing,” he said. “Add fruit to plain oatmeal , cereal, and yogurt instead of buying the sweetened or flavored kind. Slice up leftover roasted chicken or make a light tuna salad for sandwiches instead of using processed deli meat.”\n\nGardner agreed that focusing on foods that we know are healthy is a simple way to eat more healthy. “Shift the approach to consuming more unprocessed or minimally processed foods,” he said. “Whole foods: Veggies, fruits, legumes, nuts, seeds, [and] whole grains. Those are easier to define. Eat more of the good foods and, hopefully, by the time you have eaten those, you will be full and satiated and no longer in the mood for eating the junk, unhealthy, ultra-processed foods.”",
+        "chunk_index": 9,
+        "quality_score": 0.726,
+        "has_overlap": true,
+        "total_chunks": 10,
+        "word_count": 125
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.35,
+      "domain_authority": 0.95,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.592,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.92,
+      "recency": 0.3,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.88,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": true
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "healthline.com"
+      },
+      "recency": {
+        "reason": "missing_date",
+        "raw": "Unknown"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 1522,
+        "ttr": 0.432,
+        "gini": 0.363,
+        "wc_score": 0.761
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.018,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.7439
+  },
+  {
+    "record_id": "fc24421c8bc3a4a0",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:08:35Z",
+    "source_url": "https://medium.com/@suaveconciergelife/preventive-cardiology-beefb43fd7a2",
+    "source_type": "blog",
+    "author": "Suave Concierge",
+    "published_date": "Fri, 08 May 2026 13:29:28 GMT",
+    "language": "en",
+    "region": "Unknown",
+    "topic_tags": [
+      "cardiovascular"
+    ],
+    "trust_score": 0.654,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "Preventive Cardiology\n\nSuave Concierge\n\n3 hours ago\n\n--\n\n💙 What It Means\n\nFocus on preventing heart disease early\n\nManage risks before problems begin\n\nBuild long-term heart health\n\n📊 Key Facts\n\nUp to 80% of heart disease is preventable\n\n~33% adults have high blood pressure\n\nEarly care reduces long-term risks",
+        "chunk_index": 0,
+        "quality_score": 0.789,
+        "has_overlap": false,
+        "total_chunks": 1,
+        "word_count": 49
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.52,
+      "citation_count": 0.35,
+      "domain_authority": 0.62,
+      "recency": 0.95,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.617,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.3,
+      "domain_authority": 0.8,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.4,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "named_author",
+        "high_domain": false
+      },
+      "citation_count": {
+        "reason": "no_engagement_data"
+      },
+      "domain_authority": {
+        "tier": "medium",
+        "domain": "medium.com"
+      },
+      "recency": {
+        "age_days": 0,
+        "halflife": 90.0,
+        "published": "Fri, 08 May 2026 13:29:28 GMT"
+      },
+      "medical_disclaimer_presence": {
+        "health_content": true,
+        "disclaimer_found": false
+      },
+      "metadata_completeness": {
+        "present": 3,
+        "required": 3,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 49,
+        "ttr": 0.878,
+        "gini": 0.137,
+        "wc_score": 0.025
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.18,
+      "citation_count": 0.08,
+      "domain_authority": 0.27,
+      "recency": 0.2,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.05,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.02,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.6245
+  }
+]

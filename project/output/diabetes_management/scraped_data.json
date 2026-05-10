@@ -1,0 +1,400 @@
+{
+  "meta": {
+    "topic": "diabetes management",
+    "generated_at": "2026-05-10T00:34:55Z",
+    "ingested_at": "2026-05-10T00:34:55Z",
+    "pipeline": "ContentRadar v2",
+    "schema_version": "2.0",
+    "total_records": 3,
+    "avg_trust": 0.571,
+    "trust_tiers": {
+      "CREDIBLE": 2,
+      "UNCERTAIN": 1
+    },
+    "sources": {
+      "youtube": 1,
+      "pubmed": 1,
+      "blog": 1
+    },
+    "sorted_by": "trust_score_desc"
+  },
+  "records": [
+    {
+      "record_id": "861c42de9a12fdd6",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-10T00:34:55Z",
+      "source_url": "https://www.youtube.com/watch?v=Q_epStvzGyc",
+      "source_type": "youtube",
+      "author": "Stanford CME",
+      "published_date": "2024-05-17",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "diabetes",
+        "healthcare"
+      ],
+      "trust_score": 0.608,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "Explore the world of diabetes with our educational animated video, \"Understanding Diabetes: Type 1 vs Type 2 Explained,\" designed for Continuing Medical Education (CME). This animation clearly differentiates between Type 1 and Type 2 diabetes, starting from the autoimmune aspects of Type 1 to the insulin resistance seen in Type 2. It also covers treatment strategies for each type, such as insulin therapy and glucose monitoring, alongside preventive measures like lifestyle modifications. This video seamlessly integrates scientific explanations with practical guidance, making it an ideal resource for healthcare professionals seeking to enhance their understanding of diabetes management and patient education.",
+          "chunk_index": 0,
+          "quality_score": 0.69,
+          "has_overlap": false,
+          "total_chunks": 3,
+          "word_count": 100
+        },
+        {
+          "text": "integrates scientific explanations with practical guidance, making it an ideal resource for healthcare professionals seeking to enhance their understanding of diabetes management and patient education. diabetes is a chronic health condition that is characterized by sustained high blood sugar levels currently around 38 million adults in the United States are living with diabetes and one out of five of them don't know they have it it is important to understand the distinction between type 1 and type 2 diabetes as their causes and treatments differ significantly type 1 diabetes is an autoimmune condition where the immune system attacks the beta cells in the pancreas which leads to the pancreas being unable to produce insulin because the body lacks insulin glucose is unable to enter the body cells resulting in high blood sugar levels treatment for type 1 diabetes involves monitoring blood sugar and administering insulin therapy type 2 diabetes occurs when the body develops insulin resistance and cannot use insulin efficiently insulin resistance is often related to increased weight those who show increased blood glucose as a result of insulin resistance can develop pre-diabetes a condition where blood sugar is high but not enough to be classified as diabetes however unlike type 1 type 2",
+          "chunk_index": 1,
+          "quality_score": 0.64,
+          "has_overlap": true,
+          "total_chunks": 3,
+          "word_count": 205
+        },
+        {
+          "text": "resistance can develop pre-diabetes a condition where blood sugar is high but not enough to be classified as diabetes however unlike type 1 type 2 diabetes can sometimes be managed or even prevented with Lifestyle Changes managing type 2 diabetes IES may involve diet exercise and avoiding smoking which can prevent progression if initiated early understanding the difference between type 1 and type 2 diabetes encourages individuals to take control of their health by understanding the onset and treatment of these two types of diabetes people can make informed decisions about their Health Management and medical care and can Implement preventive measures tailored to their Lifest style recognizing the distinction between diabetes types can help decrease stigmas around diabetics it can help promote understanding and awareness of the disease within communities affected by diabetes",
+          "chunk_index": 2,
+          "quality_score": 0.693,
+          "has_overlap": true,
+          "total_chunks": 3,
+          "word_count": 134
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 1.0,
+        "citation_count": 0.87,
+        "domain_authority": 0.62,
+        "recency": 0.241,
+        "medical_disclaimer_presence": 0.35,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.479,
+        "engagement_authenticity": 0.282,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.95,
+        "citation_count": 0.65,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.55,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.75,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "credible_org_match",
+          "author": "Stanford CME"
+        },
+        "citation_count": {
+          "views": 165990
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "youtube.com"
+        },
+        "recency": {
+          "age_days": 723,
+          "halflife": 365.0,
+          "published": "2024-05-17"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false,
+          "implicit_editorial_review": "partial",
+          "domain": "youtube.com"
+        },
+        "metadata_completeness": {
+          "present": 5,
+          "required": 5,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 389,
+          "ttr": 0.535,
+          "gini": 0.311,
+          "wc_score": 0.195
+        },
+        "engagement_authenticity": {
+          "views": 165990,
+          "likes": 1207,
+          "like_view_ratio": 0.00727,
+          "z_score": -2.155,
+          "manipulation_flags": []
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.021,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.08,
+        "domain_authority": 0.15,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.04,
+        "content_depth": 0.06,
+        "engagement_authenticity": 0.12,
+        "adversarial_risk": 0.07
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.4632,
+      "view_count": 165990,
+      "like_count": 1207,
+      "duration_sec": 136,
+      "has_transcript": true
+    },
+    {
+      "record_id": "08dcc2bc062f4284",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-10T00:34:55Z",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40860544/",
+      "source_type": "pubmed",
+      "author": "Sun J, Fan Z, Kou M, Wang X, Yue Z, Zhang M",
+      "published_date": "2025",
+      "language": "en",
+      "region": "US",
+      "topic_tags": [
+        "diabetes",
+        "research",
+        "healthcare"
+      ],
+      "trust_score": 0.56,
+      "trust_tier": "CREDIBLE",
+      "content_chunks": [
+        {
+          "text": "BACKGROUND: Diabetes Self-Management Education (DSME) is a cornerstone strategy for improving glycemic control, yet its clinical effectiveness is often limited by suboptimal adherence. The aim of this study is to evaluate through meta-analysis the impact of nurse-led DSME on glycemic control, lipid profiles, and self-efficacy in adults with type 2 diabetes mellitus (T2DM). METHODS: Following PRISMA 2020 guidelines, we systematically searched PubMed, EMBASE, and Web of Science databases (up to February 28, 2025). Inclusion criteria comprised: randomized controlled trials (RCTs) comparing nurse-led DSME (≥3 structured sessions) vs. usual care or other non-nurse-led interventions. Risk of bias was assessed using Cochrane RoB 2.0. Effect sizes [mean difference (MD) or standardized mean difference (SMD)] were pooled using R meta package with random-effects models (\n\nRESULTS: Eight RCTs (reporting HbA1c outcomes) were included.",
+          "chunk_index": 0,
+          "quality_score": 0.931,
+          "has_overlap": false,
+          "total_chunks": 2,
+          "word_count": 130
+        },
+        {
+          "text": "difference (MD) or standardized mean difference (SMD)] were pooled using R meta package with random-effects models ( RESULTS: Eight RCTs (reporting HbA1c outcomes) were included. Meta-analysis demonstrated: (1) Glycemic control: nurse-led DSME significantly reduced HbA1c at 4-6 months (MD = -0.92, 95% CI: -1.44 to -0.41) and >6 months (MD = -0.54, 95% CI: -0.86 to -0.23;\n\nCONCLUSION: Nurse-led DSME effectively improves long-term glycemic control and self-efficacy while elevating HDL levels in T2DM patients, though standardization of intervention protocols is needed to reduce heterogeneity. This study supports integrating nurse-led models into diabetes management guidelines and recommends future research focus on long-term follow-up and cost-effectiveness analyses. SYSTEMATIC REVIEW REGISTRATION: https://doi.org/10.37766/inplasy2025.7.0114, identifier: NPLASY202570114.",
+          "chunk_index": 1,
+          "quality_score": 0.914,
+          "has_overlap": true,
+          "total_chunks": 2,
+          "word_count": 111
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.72,
+        "citation_count": 0.025,
+        "domain_authority": 0.95,
+        "recency": 0.649,
+        "medical_disclaimer_presence": 0.5,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.603,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.9,
+        "domain_authority": 0.92,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.0,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.783,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "multi_author_average",
+          "count": 6
+        },
+        "citation_count": {
+          "citations": 5
+        },
+        "domain_authority": {
+          "tier": "high",
+          "domain": "pubmed.ncbi.nlm.nih.gov"
+        },
+        "recency": {
+          "age_days": 494,
+          "halflife": 900.0,
+          "published": "2025"
+        },
+        "medical_disclaimer_presence": {
+          "reason": "pubmed_peer_reviewed"
+        },
+        "metadata_completeness": {
+          "present": 6,
+          "required": 6,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 216,
+          "ttr": 0.773,
+          "gini": 0.129,
+          "wc_score": 0.108
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.2,
+        "citation_count": 0.3,
+        "domain_authority": 0.12,
+        "recency": 0.12,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.06,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.8209,
+      "pmid": "40860544",
+      "doi": "10.3389/fpubh.2025.1622988",
+      "journal": "Frontiers in public health"
+    },
+    {
+      "record_id": "5f7e806b674ef8f6",
+      "schema_version": "2.0",
+      "ingested_at": "2026-05-10T00:34:55Z",
+      "source_url": "https://medium.com/@arockiyaclinic717/how-specialist-diabetes-care-improves-blood-sugar-control-in-chennai-125733cfb06e",
+      "source_type": "blog",
+      "author": "Arockiya Clinic",
+      "published_date": "Thu, 08 Jan 2026 15:16:24 GMT",
+      "language": "en",
+      "region": "Unknown",
+      "topic_tags": [
+        "diabetes",
+        "healthcare",
+        "cardiovascular",
+        "mental health",
+        "neurology"
+      ],
+      "trust_score": 0.544,
+      "trust_tier": "UNCERTAIN",
+      "content_chunks": [
+        {
+          "text": "Diabetes management has evolved significantly over the past decade, especially in urban healthcare settings like Chennai. While general medical care plays an important role, specialist-led diabetes care has proven to be far more effective in achieving stable blood sugar control and preventing long-term complications. With rising cases of Type 2 diabetes, pre-diabetes, and lifestyle-related metabolic disorders, the role of experienced diabetes specialists has become increasingly critical. One of the key reasons specialist care leads to better outcomes is precision in diagnosis. Diabetes specialists do more than confirm elevated blood sugar levels they assess HbA1c trends, insulin resistance, weight patterns, lipid profiles, blood pressure, and family history. This detailed evaluation helps identify the exact nature and stage of diabetes, allowing for targeted treatment rather than a one-size-fits-all approach. Medication optimisation is another major advantage of specialist care. Many patients struggle with fluctuating sugar levels despite being on treatment for years. Diabetes specialists regularly review medications, adjust dosages, introduce newer drug classes such as GLP-1 receptor agonists when appropriate, and reduce unnecessary combinations that may cause side effects or weight gain.",
+          "chunk_index": 0,
+          "quality_score": 0.894,
+          "has_overlap": false,
+          "total_chunks": 3,
+          "word_count": 179
+        },
+        {
+          "text": "adjust dosages, introduce newer drug classes such as GLP-1 receptor agonists when appropriate, and reduce unnecessary combinations that may cause side effects or weight gain. This careful balancing improves glucose control while supporting overall metabolic health. Lifestyle integration is where specialist diabetes care truly makes a difference. Instead of generic advice, patients receive practical guidance tailored to their daily routines. This includes realistic meal planning aligned with South Indian food habits, work-friendly exercise recommendations, and stress management strategies. When lifestyle changes are achievable, patients are more likely to follow them consistently, leading to sustained improvements in blood sugar levels. Education is another cornerstone of effective diabetes management. Specialists ensure patients understand how their condition works, how medications or insulin affect blood sugar, and how to recognise warning signs like hypoglycaemia. Patients are also trained in proper glucose monitoring techniques and interpretation of readings, which empowers them to actively participate in their own care rather than relying solely on periodic consultations. Early detection and prevention of complications further distinguish specialist-led care. Regular screening for nerve damage, kidney function changes, eye health issues, and cardiovascular risk allows problems to be addressed before they become severe.",
+          "chunk_index": 1,
+          "quality_score": 0.912,
+          "has_overlap": true,
+          "total_chunks": 3,
+          "word_count": 193
+        },
+        {
+          "text": "specialist-led care. Regular screening for nerve damage, kidney function changes, eye health issues, and cardiovascular risk allows problems to be addressed before they become severe. This proactive approach not only improves quality of life but also reduces hospitalisation and long-term healthcare costs. For individuals seeking structured and expert-guided\n\nDiabetes Treatment\n\nin Chennai, specialist clinics such as Arockiya Clinic provide comprehensive care that focuses on both immediate sugar control and long-term health outcomes. Their approach combines medical expertise, patient education, and continuous follow-up to support lasting improvements. In summary, specialist diabetes care offers measurable benefits over general treatment alone. Through accurate diagnosis, personalised therapy, patient education, and preventive screening, diabetes specialists help patients achieve better blood sugar stability and reduce future health risks. Early specialist involvement remains one of the most effective steps toward long-term diabetes control.",
+          "chunk_index": 2,
+          "quality_score": 0.908,
+          "has_overlap": true,
+          "total_chunks": 3,
+          "word_count": 136
+        }
+      ],
+      "sub_scores": {
+        "author_credibility": 0.52,
+        "citation_count": 0.0,
+        "domain_authority": 0.62,
+        "recency": 0.374,
+        "medical_disclaimer_presence": 0.35,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.557,
+        "engagement_authenticity": 0.5,
+        "adversarial_risk": 1.0
+      },
+      "confidence": {
+        "author_credibility": 0.65,
+        "citation_count": 0.55,
+        "domain_authority": 0.8,
+        "recency": 0.88,
+        "medical_disclaimer_presence": 0.55,
+        "metadata_completeness": 1.0,
+        "content_depth": 0.88,
+        "engagement_authenticity": 0.0,
+        "adversarial_risk": 0.85
+      },
+      "evidence": {
+        "author_credibility": {
+          "reason": "named_author",
+          "high_domain": false
+        },
+        "citation_count": {
+          "reason": "blog_evidence_proxy",
+          "evidence_phrases": 0
+        },
+        "domain_authority": {
+          "tier": "medium",
+          "domain": "medium.com"
+        },
+        "recency": {
+          "age_days": 121,
+          "halflife": 90.0,
+          "published": "Thu, 08 Jan 2026 15:16:24 GMT"
+        },
+        "medical_disclaimer_presence": {
+          "health_content": true,
+          "disclaimer_found": false,
+          "implicit_editorial_review": "partial",
+          "domain": "medium.com"
+        },
+        "metadata_completeness": {
+          "present": 3,
+          "required": 3,
+          "missing_fields": []
+        },
+        "content_depth": {
+          "word_count": 458,
+          "ttr": 0.653,
+          "gini": 0.241,
+          "wc_score": 0.229
+        },
+        "engagement_authenticity": {
+          "reason": "not_youtube"
+        },
+        "adversarial_risk": {
+          "bidi_chars_found": 0,
+          "injection_patterns_hit": 0,
+          "repetition_ratio": 0.0,
+          "ngram_size": 4
+        }
+      },
+      "weights": {
+        "author_credibility": 0.18,
+        "citation_count": 0.08,
+        "domain_authority": 0.27,
+        "recency": 0.2,
+        "medical_disclaimer_presence": 0.08,
+        "metadata_completeness": 0.05,
+        "content_depth": 0.08,
+        "engagement_authenticity": 0.02,
+        "adversarial_risk": 0.04
+      },
+      "abuse_penalty": 1.0,
+      "abuse_reasons": [],
+      "anomaly_flags": [],
+      "prior_used": 0.6387
+    }
+  ]
+}

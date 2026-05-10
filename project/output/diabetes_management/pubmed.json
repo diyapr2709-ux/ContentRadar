@@ -1,0 +1,119 @@
+[
+  {
+    "record_id": "08dcc2bc062f4284",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-10T00:34:55Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/40860544/",
+    "source_type": "pubmed",
+    "author": "Sun J, Fan Z, Kou M, Wang X, Yue Z, Zhang M",
+    "published_date": "2025",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "diabetes",
+      "research",
+      "healthcare"
+    ],
+    "trust_score": 0.56,
+    "trust_tier": "CREDIBLE",
+    "content_chunks": [
+      {
+        "text": "BACKGROUND: Diabetes Self-Management Education (DSME) is a cornerstone strategy for improving glycemic control, yet its clinical effectiveness is often limited by suboptimal adherence. The aim of this study is to evaluate through meta-analysis the impact of nurse-led DSME on glycemic control, lipid profiles, and self-efficacy in adults with type 2 diabetes mellitus (T2DM). METHODS: Following PRISMA 2020 guidelines, we systematically searched PubMed, EMBASE, and Web of Science databases (up to February 28, 2025). Inclusion criteria comprised: randomized controlled trials (RCTs) comparing nurse-led DSME (≥3 structured sessions) vs. usual care or other non-nurse-led interventions. Risk of bias was assessed using Cochrane RoB 2.0. Effect sizes [mean difference (MD) or standardized mean difference (SMD)] were pooled using R meta package with random-effects models (\n\nRESULTS: Eight RCTs (reporting HbA1c outcomes) were included.",
+        "chunk_index": 0,
+        "quality_score": 0.931,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 130
+      },
+      {
+        "text": "difference (MD) or standardized mean difference (SMD)] were pooled using R meta package with random-effects models ( RESULTS: Eight RCTs (reporting HbA1c outcomes) were included. Meta-analysis demonstrated: (1) Glycemic control: nurse-led DSME significantly reduced HbA1c at 4-6 months (MD = -0.92, 95% CI: -1.44 to -0.41) and >6 months (MD = -0.54, 95% CI: -0.86 to -0.23;\n\nCONCLUSION: Nurse-led DSME effectively improves long-term glycemic control and self-efficacy while elevating HDL levels in T2DM patients, though standardization of intervention protocols is needed to reduce heterogeneity. This study supports integrating nurse-led models into diabetes management guidelines and recommends future research focus on long-term follow-up and cost-effectiveness analyses. SYSTEMATIC REVIEW REGISTRATION: https://doi.org/10.37766/inplasy2025.7.0114, identifier: NPLASY202570114.",
+        "chunk_index": 1,
+        "quality_score": 0.914,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 111
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 0.025,
+      "domain_authority": 0.95,
+      "recency": 0.649,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.603,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.0,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.783,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 6
+      },
+      "citation_count": {
+        "citations": 5
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 494,
+        "halflife": 900.0,
+        "published": "2025"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 216,
+        "ttr": 0.773,
+        "gini": 0.129,
+        "wc_score": 0.108
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.0,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": 0.8209,
+    "pmid": "40860544",
+    "doi": "10.3389/fpubh.2025.1622988",
+    "journal": "Frontiers in public health"
+  }
+]

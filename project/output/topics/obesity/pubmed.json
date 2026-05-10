@@ -1,0 +1,120 @@
+[
+  {
+    "record_id": "c428d7550f09cdc9",
+    "schema_version": "2.0",
+    "ingested_at": "2026-05-08T19:07:29Z",
+    "source_url": "https://pubmed.ncbi.nlm.nih.gov/39841962/",
+    "source_type": "pubmed",
+    "author": "Wong HJ, Sim B, Teo YH, Teo YN, Chan MY, Yeo LLL, Eng PC, Tan BYQ, Sattar N, Dalakoti M, Sia CH",
+    "published_date": "2025 Feb 1",
+    "language": "en",
+    "region": "US",
+    "topic_tags": [
+      "obesity",
+      "diabetes",
+      "research",
+      "healthcare"
+    ],
+    "trust_score": 0.836,
+    "trust_tier": "AUTHORITATIVE",
+    "content_chunks": [
+      {
+        "text": "OBJECTIVE: To provide an updated synthesis on effects of glucagon-like peptide 1 receptor agonists (GLP-1 RAs) on weight, BMI, and waist circumference incorporating newer randomized controlled trials (RCTs), particularly in individuals with overweight or obesity. RESEARCH DESIGN AND METHODS: We systematically searched PubMed, Embase, and Cochrane Central Register of Controlled Trials (CENTRAL) for RCTs published from inception to 4 October 2024. The search was limited to RCTs evaluating the use of GLP-1 RAs for mean differences from baseline in weight, BMI, and waist circumference in adults with obesity or overweight with or without diabetes. Two independent reviewers performed the literature search and data extraction, resolving disagreements via consensus or third-reviewer consultation. RESULTS: Forty-seven RCTs were included, with a combined cohort of 23,244 patients. GLP-1 RAs demonstrated a mean weight reduction of -4.57 kg (95% CI -5.35 to -3.78), mean BMI reduction of -2.07 kg/m2 (95% CI -2.53 to -1.62), and mean waist circumference reduction of -4.55 cm (95% CI -5.72 to -3.38) compared with placebo. This effect was consistent across diabetes status, GLP-1 RA used, and route of administration.",
+        "chunk_index": 0,
+        "quality_score": 0.838,
+        "has_overlap": false,
+        "total_chunks": 2,
+        "word_count": 179
+      },
+      {
+        "text": "of -4.55 cm (95% CI -5.72 to -3.38) compared with placebo. This effect was consistent across diabetes status, GLP-1 RA used, and route of administration. The greatest treatment benefit appeared to favor patients who were younger, female, without diabetes, with higher baseline weight and BMI but lower baseline HbA1c, and treated over a longer duration. Limitations include substantial statistical heterogeneity, in part due to broad inclusion criteria. However, this heterogeneity may improve generalizability by reflecting a wide range of study designs and patient populations. CONCLUSIONS: GLP-1 RAs demonstrated significant weight, BMI, and waist circumference reduction benefits in this meta-analysis.",
+        "chunk_index": 1,
+        "quality_score": 0.924,
+        "has_overlap": true,
+        "total_chunks": 2,
+        "word_count": 99
+      }
+    ],
+    "sub_scores": {
+      "author_credibility": 0.72,
+      "citation_count": 1.0,
+      "domain_authority": 0.95,
+      "recency": 0.666,
+      "medical_disclaimer_presence": 0.5,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.54,
+      "engagement_authenticity": 0.5,
+      "adversarial_risk": 1.0
+    },
+    "confidence": {
+      "author_credibility": 0.65,
+      "citation_count": 0.9,
+      "domain_authority": 0.92,
+      "recency": 0.88,
+      "medical_disclaimer_presence": 0.9,
+      "metadata_completeness": 1.0,
+      "content_depth": 0.65,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.85
+    },
+    "evidence": {
+      "author_credibility": {
+        "reason": "multi_author_average",
+        "count": 11
+      },
+      "citation_count": {
+        "citations": 247
+      },
+      "domain_authority": {
+        "tier": "high",
+        "domain": "pubmed.ncbi.nlm.nih.gov"
+      },
+      "recency": {
+        "age_days": 461,
+        "halflife": 900.0,
+        "published": "2025 Feb 1"
+      },
+      "medical_disclaimer_presence": {
+        "reason": "pubmed_peer_reviewed"
+      },
+      "metadata_completeness": {
+        "present": 6,
+        "required": 6,
+        "missing_fields": []
+      },
+      "content_depth": {
+        "word_count": 253,
+        "ttr": 0.656,
+        "gini": 0.2,
+        "wc_score": 0.127
+      },
+      "engagement_authenticity": {
+        "reason": "not_youtube"
+      },
+      "adversarial_risk": {
+        "bidi_chars_found": 0,
+        "injection_patterns_hit": 0,
+        "repetition_ratio": 0.016,
+        "ngram_size": 4
+      }
+    },
+    "weights": {
+      "author_credibility": 0.2,
+      "citation_count": 0.3,
+      "domain_authority": 0.12,
+      "recency": 0.12,
+      "medical_disclaimer_presence": 0.08,
+      "metadata_completeness": 0.06,
+      "content_depth": 0.08,
+      "engagement_authenticity": 0.0,
+      "adversarial_risk": 0.04
+    },
+    "abuse_penalty": 1.0,
+    "abuse_reasons": [],
+    "anomaly_flags": [],
+    "prior_used": null,
+    "pmid": "39841962",
+    "doi": "10.2337/dc24-1678",
+    "journal": "Diabetes care"
+  }
+]
